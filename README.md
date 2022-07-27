@@ -38,7 +38,6 @@ Add this to your `tsconfig.json` or `jsconfig.json`:
 ## Adding a new file
 
 1. Add it to [./index.d.ts](./index.d.ts)
-2. Add it to [./paths.txt](./paths.txt)
 
 ## How to generate types.d.ts
 

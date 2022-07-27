@@ -1,6 +1,9 @@
+/// <reference path="../index.d.ts" />
+
 import { file, write } from "bun";
-import { mkdirSync, unlinkSync } from "fs";
+import { mkdirSync } from "fs";
 import { join, resolve } from "path";
+import { getDotTsFiles } from "./utils/getDotTsFiles";
 
 // Combine all the .d.ts files into a single .d.ts file
 // so that your editor loads the types faster
@@ -17,10 +20,8 @@ try {
   mkdirSync(folder, { recursive: true });
 } catch {}
 
-const header = await file(join(import.meta.dir, "header.txt")).text();
-const filesToCat = (
-  await file(join(import.meta.dir, "paths.txt")).text()
-).split("\n");
+const header = await file(join(import.meta.dir, "..", "header.txt")).text();
+const filesToCat =(await getDotTsFiles('./')).filter(f => f !== './index.d.ts');
 
 const fileContents: string[] = [];
 
@@ -30,12 +31,12 @@ for (let i = 0; i < filesToCat.length; i++) {
     "// " +
       name +
       "\n\n" +
-      (await file(resolve(import.meta.dir, name)).text()) +
+      (await file(resolve(import.meta.dir, "..", name)).text()) +
       "\n"
   );
 }
 
-const text = header + fileContents.join("\n");
+const text = header.replace('{version}', BUN_VERSION) + fileContents.join("\n");
 
 const destination = resolve(folder, "types.d.ts");
 await write(destination, text);
@@ -59,4 +60,4 @@ await write(
 
 export {};
 
-import "./index";
+import "../index";

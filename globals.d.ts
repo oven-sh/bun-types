@@ -1875,6 +1875,7 @@ interface UnderlyingSource<R = any> {
   type?: undefined;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface DirectUnderlyingSource<R = any> {
   cancel?: UnderlyingSourceCancelCallback;
   pull: (

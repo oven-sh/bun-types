@@ -2478,9 +2478,13 @@ declare module "crypto" {
     publicKey: KeyObject;
     privateKey: KeyObject;
   }
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface ED25519KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface ED448KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface X25519KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface X448KeyPairKeyObjectOptions {}
   interface ECKeyPairKeyObjectOptions {
     /**

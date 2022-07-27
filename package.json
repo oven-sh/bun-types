@@ -4,11 +4,20 @@
   "private": true,
   "repository": "https://github.com/oven-sh/bun-types",
   "scripts": {
-    "generate": "rm -rf ./dist && bun bundle.ts ./dist && prettier --write ./dist/types.d.ts",
-    "prepublishOnly": "bun generate",
-    "fmt": "prettier --write *.d.ts"
+    "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && prettier --write ./dist/types.d.ts",
+    "generate:githubstuff": "bun scripts/generate.ts",
+    "prepublishOnly": "bun generate:package",
+    "fmt": "prettier --write *.d.ts",
+    "test": "tsc --noEmit --project tsconfig.tests.json",
+    "lint": "eslint ./*.d.ts",
+    "lint:fix": "eslint ./*.d.ts --fix"
   },
   "devDependencies": {
-    "prettier": "latest"
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "latest",
+    "typescript": "^4.7.4"
   }
 }
