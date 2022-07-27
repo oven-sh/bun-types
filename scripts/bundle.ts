@@ -17,9 +17,9 @@ try {
   mkdirSync(folder, { recursive: true });
 } catch {}
 
-const header = await file(join(import.meta.dir, "header.txt")).text();
+const header = await file(join(import.meta.dir, "..", "header.txt")).text();
 const filesToCat = (
-  await file(join(import.meta.dir, "paths.txt")).text()
+  await file(join(import.meta.dir, "..", "paths.txt")).text()
 ).split("\n");
 
 const fileContents: string[] = [];
@@ -30,7 +30,7 @@ for (let i = 0; i < filesToCat.length; i++) {
     "// " +
       name +
       "\n\n" +
-      (await file(resolve(import.meta.dir, name)).text()) +
+      (await file(resolve(import.meta.dir, "..", name)).text()) +
       "\n"
   );
 }
@@ -59,4 +59,4 @@ await write(
 
 export {};
 
-import "./index";
+import "../index";

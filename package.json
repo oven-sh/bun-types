@@ -4,8 +4,9 @@
   "private": true,
   "repository": "https://github.com/oven-sh/bun-types",
   "scripts": {
-    "generate": "rm -rf ./dist && bun bundle.ts ./dist && prettier --write ./dist/types.d.ts",
-    "prepublishOnly": "bun generate",
+    "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && prettier --write ./dist/types.d.ts",
+    "generate:githubstuff": "bun scripts/generate.ts",
+    "prepublishOnly": "bun generate:package",
     "fmt": "prettier --write *.d.ts",
     "test": "tsc --noEmit --project tsconfig.tests.json",
     "lint": "eslint ./*.d.ts",
