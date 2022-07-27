@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Type definitions for bun 0.0
 // Project: https://github.com/oven-sh/bun
 // Definitions by: Jarred Sumner <https://github.com/Jarred-Sumner>

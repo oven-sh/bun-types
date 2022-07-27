@@ -8,7 +8,6 @@
  * @see [source](https://github.com/nodejs/node/blob/v18.0.0/lib/url.js)
  */
 declare module "url" {
-  import { ClientRequestArgs } from "node:http";
   import { ParsedUrlQuery, ParsedUrlQueryInput } from "node:querystring";
   // Input to `url.format`
   interface UrlObject {

@@ -1,4 +1,4 @@
-// Type definitions for bun 0.0
+// Type definitions for bun 0.1.5
 // Project: https://github.com/oven-sh/bun
 // Definitions by: Jarred Sumner <https://github.com/Jarred-Sumner>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -10445,6 +10445,7 @@ interface UnderlyingSource<R = any> {
   type?: undefined;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface DirectUnderlyingSource<R = any> {
   cancel?: UnderlyingSourceCancelCallback;
   pull: (
@@ -18497,9 +18498,13 @@ declare module "crypto" {
     publicKey: KeyObject;
     privateKey: KeyObject;
   }
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface ED25519KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface ED448KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface X25519KeyPairKeyObjectOptions {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface X448KeyPairKeyObjectOptions {}
   interface ECKeyPairKeyObjectOptions {
     /**
@@ -19837,7 +19842,6 @@ declare module "node:constants" {
  * @see [source](https://github.com/nodejs/node/blob/v18.0.0/lib/url.js)
  */
 declare module "url" {
-  import { ClientRequestArgs } from "node:http";
   import { ParsedUrlQuery, ParsedUrlQueryInput } from "node:querystring";
   // Input to `url.format`
   interface UrlObject {

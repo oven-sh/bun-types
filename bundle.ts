@@ -1,5 +1,5 @@
 import { file, write } from "bun";
-import { mkdirSync, unlinkSync } from "fs";
+import { mkdirSync } from "fs";
 import { join, resolve } from "path";
 
 // Combine all the .d.ts files into a single .d.ts file
@@ -35,7 +35,7 @@ for (let i = 0; i < filesToCat.length; i++) {
   );
 }
 
-const text = header + fileContents.join("\n");
+const text = header.replace('{version}', BUN_VERSION) + fileContents.join("\n");
 
 const destination = resolve(folder, "types.d.ts");
 await write(destination, text);
