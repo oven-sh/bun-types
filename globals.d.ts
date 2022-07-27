@@ -1,5 +1,5 @@
 type BinaryType = "arraybuffer" | "blob";
-type Transferable = ArrayBuffer | ImageBitmap;
+type Transferable = ArrayBuffer;
 type MessageEventSource = undefined;
 type Encoding = "utf-8" | "windows-1252" | "utf-16";
 type Platform =
