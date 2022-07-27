@@ -50,3 +50,5 @@ bun generate:package
 ```
 
 # Generated docs
+
+**[📚 See here for docs](./api-docs/modules.md#bun-types)**
