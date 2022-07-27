@@ -33,7 +33,7 @@ Add this to your `tsconfig.json` or `jsconfig.json`:
 
 # Contributing
 
-`bun-types` is generated via [./bundle.ts](./bundle.ts).
+`bun-types` is generated via [./bundle.ts](./scripts/bundle.ts).
 
 ## Adding a new file
 
