@@ -1,0 +1,14 @@
+{
+  "name": "bun-types",
+  "types": "index.d.ts",
+  "private": true,
+  "repository": "https://github.com/oven-sh/bun-types",
+  "scripts": {
+    "generate": "rm -rf ./dist && bun bundle.ts ./dist && prettier --write ./dist/types.d.ts",
+    "prepublishOnly": "bun generate",
+    "fmt": "prettier --write *.d.ts"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
+}
