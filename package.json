@@ -8,7 +8,7 @@
     "generate:githubstuff": "bun scripts/generate.ts",
     "prepublishOnly": "bun generate:package",
     "fmt": "prettier --write *.d.ts",
-    "test": "tsc --noEmit --project tsconfig.tests.json",
+    "test": "tsd",
     "lint": "eslint ./*.d.ts",
     "lint:fix": "eslint ./*.d.ts --fix"
   },
@@ -18,6 +18,10 @@
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "latest",
+    "tsd": "^0.22.0",
     "typescript": "^4.7.4"
+  },
+  "tsd": {
+    "directory": "tests"
   }
 }

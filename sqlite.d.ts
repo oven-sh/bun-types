@@ -293,7 +293,7 @@ declare module "bun:sqlite" {
      * @param extension name/path of the extension to load
      * @param entryPoint optional entry point of the extension
      */
-    loadExtension(extension, entryPoint?: string): void;
+    loadExtension(extension: string, entryPoint?: string): void;
 
     /**
      * Change the dynamic library path to SQLite
