@@ -16,7 +16,7 @@ const generateLabels = async() => {
         ].join('\n') + "\n";
     }
     
-    Bun.write(labelsFilePath, labels);
+    await Bun.write(labelsFilePath, labels);
 }
 
 const generateLabeler = async() => {
@@ -41,8 +41,8 @@ const generateLabeler = async() => {
         ].join('\n') + "\n\n";
     }
 
-    Bun.write(labelerFilePath, labeler);
+    await Bun.write(labelerFilePath, labeler);
 }
 
-generateLabels();
-generateLabeler();
+await generateLabels();
+await generateLabeler();
