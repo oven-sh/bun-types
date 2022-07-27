@@ -1,3 +1,4 @@
+/// <reference path="../index.d.ts" />
 // Generate stuff for .github/labels.yml && .github/labeler.yml
 
 import { join } from "node:path";

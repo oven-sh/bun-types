@@ -1,3 +1,5 @@
+/// <reference path="../../index.d.ts" />
+
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 

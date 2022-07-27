@@ -1,3 +1,5 @@
+/// <reference path="../index.d.ts" />
+
 import { file, write } from "bun";
 import { mkdirSync } from "fs";
 import { join, resolve } from "path";
