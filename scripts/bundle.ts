@@ -1,6 +1,7 @@
 import { file, write } from "bun";
 import { mkdirSync } from "fs";
 import { join, resolve } from "path";
+import { getDotTsFiles } from "./utils/getDotTsFiles";
 
 // Combine all the .d.ts files into a single .d.ts file
 // so that your editor loads the types faster
@@ -18,9 +19,7 @@ try {
 } catch {}
 
 const header = await file(join(import.meta.dir, "..", "header.txt")).text();
-const filesToCat = (
-  await file(join(import.meta.dir, "..", "paths.txt")).text()
-).split("\n");
+const filesToCat =(await getDotTsFiles('./')).filter(f => f !== './index.d.ts');
 
 const fileContents: string[] = [];
 

@@ -1,11 +1,7 @@
 // Generate stuff for .github/labels.yml && .github/labeler.yml
 
-import { readdir } from "node:fs/promises";
 import { join } from "node:path";
-
-const getDotTsFiles = async() => {
-    return (await readdir(join(import.meta.dir, '..'))).filter(file => file.endsWith('.d.ts'));
-};
+import { getDotTsFiles } from "./utils/getDotTsFiles";
 
 const generateLabels = async() => {
     const labelsFilePath = join(import.meta.dir, "..", ".github", "labels.yml");
