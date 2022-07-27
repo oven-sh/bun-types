@@ -4,7 +4,7 @@ on:
     - cron: '0 0 * * *'
   push:
     branches:
-      - main
+      - master
     paths:
       - '.github/labels.yml'
   workflow_dispatch:
