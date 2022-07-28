@@ -54,10 +54,11 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v3
         with:
+          name: bun-types
           path: dist
 
       - name: Publish on NPM
-        run: npm publish --access public
+        run: cd dist/ && npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -86,13 +87,14 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v3
         with:
+          name: bun-types
           path: dist
 
       - name: Add scope to name
         run: bun scripts/gpr.ts
 
       - name: Publish on GPR
-        run: npm publish --access public
+        run: cd dist/ && npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -107,16 +109,17 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v3
         with:
+          name: bun-types
           path: dist
 
       - name: Set version
-        run: echo "version=$(jq --raw-output '.version' dist/package.json)" >> $GITHUB_ENV
+        run: echo "version=$(jq --raw-output '.version' dist/bun-types/package.json)" >> $GITHUB_ENV
 
       - name: Create Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          tag_name: "bun-types-v${{ env.version }}"
+          tag_name: "v${{ env.version }}"
           body: "This is the release of bun-types that corresponds to the commit [${{ github.sha }}]"
           token: ${{ secrets.GITHUB_TOKEN }}
           files: |
-            dist/*
+            dist/bun-types/*
