@@ -9,15 +9,10 @@
  */
  declare module "fs/promises" {
     import { Abortable } from "node:events";
-    import { Stream } from "node:stream";
     import {
         Stats,
         BigIntStats,
         StatOptions,
-        WriteVResult,
-        ReadVResult,
-        RmDirOptions,
-        RmOptions,
         MakeDirectoryOptions,
         Dirent,
         ObjectEncodingOptions,
@@ -28,15 +23,16 @@
         WriteFileOptions,
         SimlinkType,
     } from "node:fs";
+    
     interface FlagAndOpenMode {
         mode?: Mode | undefined;
         flag?: OpenMode | undefined;
     }
-    interface FileReadResult<T extends NodeJS.ArrayBufferView> {
+    interface FileReadResult<T extends ArrayBufferView> {
         bytesRead: number;
         buffer: T;
     }
-    interface FileReadOptions<T extends NodeJS.ArrayBufferView = Buffer> {
+    interface FileReadOptions<T extends ArrayBufferView = Buffer> {
         /**
          * @default `Buffer.alloc(0xffff)`
          */
@@ -133,7 +129,7 @@
      * @param [mode=0o666] Sets the file mode (permission and sticky bits) if the file is created.
      * @return Fulfills with a {FileHandle} object.
      */
-    function open(path: PathLike, flags?: OpenMode, mode?: Mode): Promise<FileHandle>;
+    function open(path: PathLike, flags?: OpenMode, mode?: Mode): Promise<number>;
     /**
      * Renames `oldPath` to `newPath`.
      * @since v0.0.67
@@ -619,5 +615,6 @@
 }
 
 declare module "node:fs/promises" {
-    export * from "fs/promises";
+    import * as fs from "fs/promises";
+    export = fs;
 }

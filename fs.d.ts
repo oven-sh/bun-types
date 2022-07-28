@@ -20,17 +20,17 @@
 declare module "fs" {
   import type { SystemError } from "bun";
 
-  interface ObjectEncodingOptions {
+  export interface ObjectEncodingOptions {
     encoding?: BufferEncoding | null | undefined;
   }
-  type EncodingOption =
+  export type EncodingOption =
     | ObjectEncodingOptions
     | BufferEncoding
     | undefined
     | null;
-  type OpenMode = number | string;
-  type Mode = number | string;
-  type SimlinkType = "symlink" | "junction" | undefined | null;
+  export type OpenMode = number | string;
+  export type Mode = number | string;
+  export type SimlinkType = "symlink" | "junction" | undefined | null;
   interface StatsBase<T> {
     isFile(): boolean;
     isDirectory(): boolean;
@@ -1346,7 +1346,7 @@ declare module "fs" {
      */
     retryDelay?: number | undefined;
   }
-  interface MakeDirectoryOptions {
+  export interface MakeDirectoryOptions {
     /**
      * Indicates whether parent folders should be created.
      * If a folder was created, the path to the first created folder will be returned.
@@ -2576,7 +2576,7 @@ declare module "fs" {
       | BufferEncoding
       | null
   ): string | Buffer;
-  type WriteFileOptions =
+  export type WriteFileOptions =
     | (ObjectEncodingOptions &
         Abortable & {
           mode?: Mode | undefined;
@@ -3547,7 +3547,7 @@ declare module "fs" {
     bufferSize?: number | undefined;
   }
 
-  interface BigIntStats extends StatsBase<bigint> {
+  export interface BigIntStats extends StatsBase<bigint> {
     atimeNs: bigint;
     mtimeNs: bigint;
     ctimeNs: bigint;
@@ -3556,13 +3556,13 @@ declare module "fs" {
   interface BigIntOptions {
     bigint: true;
   }
-  interface StatOptions {
+  export interface StatOptions {
     bigint?: boolean | undefined;
   }
   interface StatSyncOptions extends StatOptions {
     throwIfNoEntry?: boolean | undefined;
   }
-  interface CopyOptions {
+  export interface CopyOptions {
     /**
      * Dereference symlinks
      * @default false

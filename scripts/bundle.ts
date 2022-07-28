@@ -21,7 +21,7 @@ try {
 } catch {}
 
 const header = await file(join(import.meta.dir, "..", "header.txt")).text();
-const filesToCat = (await getDotTsFiles('./')).filter(f => f !== './index.d.ts');
+const filesToCat = (await getDotTsFiles('./')).filter(f => !['./index.d.ts'].some(tf => f === tf));
 console.log(filesToCat);
 
 const fileContents: string[] = [];
