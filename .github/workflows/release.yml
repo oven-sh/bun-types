@@ -76,7 +76,6 @@ jobs:
           node-version: latest
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@oven-sh'
-          cache: npm
 
       - name: Install bun
         uses: xhyrom/setup-bun@v0.1.6
