@@ -10,6 +10,7 @@
 /// <reference path="./sqlite.d.ts" />
 /// <reference path="./ffi.d.ts" />
 /// <reference path="./fs.d.ts" />
+/// <reference path="./fs/promises.d.ts" />
 /// <reference path="./html-rewriter.d.ts" />
 /// <reference path="./globals.d.ts" />
 /// <reference path="./path.d.ts" />

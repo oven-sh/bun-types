@@ -2,10 +2,18 @@
  * The `fs` module enables interacting with the file system in a
  * way modeled on standard POSIX functions.
  *
+ * To use the promise-based APIs:
+ * 
+ * ```js
+ * import * as fs from 'fs/promises';
+ * ```
+ *
+ * To use the callback and sync APIs:
+ * 
  * ```js
  * import * as fs from 'fs';
  * ```
- *
+ * 
  * All file system operations have synchronous and callback
  * forms, and are accessible using both CommonJS syntax and ES6 Modules (ESM).
  */
@@ -22,6 +30,7 @@ declare module "fs" {
     | null;
   type OpenMode = number | string;
   type Mode = number | string;
+  type SimlinkType = "symlink" | "junction" | undefined | null;
   interface StatsBase<T> {
     isFile(): boolean;
     isDirectory(): boolean;
@@ -910,7 +919,7 @@ declare module "fs" {
   function symlink(
     target: PathLike,
     path: PathLike,
-    type: "symlink" | "junction" | undefined | null,
+    type: SimlinkType,
     callback: NoParamCallback
   ): void;
   /**
@@ -948,7 +957,7 @@ declare module "fs" {
   function symlinkSync(
     target: PathLike,
     path: PathLike,
-    type?: "symlink" | "junction" | null
+    type?: SimlinkType
   ): void;
   /**
    * Reads the contents of the symbolic link referred to by `path`. The callback gets

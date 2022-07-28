@@ -10,7 +10,7 @@
     "target": "esnext",
     "disableSolutionSearching": true
   },
-  "include": ["./*.d.ts"],
+  "include": ["./*.d.ts", "./**/*.d.ts"],
   "exclude": [
     "node_modules",
     "./node_modules",
