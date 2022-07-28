@@ -17,20 +17,20 @@
  * All file system operations have synchronous and callback
  * forms, and are accessible using both CommonJS syntax and ES6 Modules (ESM).
  */
-declare module "fs" {
+ declare module "fs" {
   import type { SystemError } from "bun";
 
-  export interface ObjectEncodingOptions {
+  interface ObjectEncodingOptions {
     encoding?: BufferEncoding | null | undefined;
   }
-  export type EncodingOption =
+  type EncodingOption =
     | ObjectEncodingOptions
     | BufferEncoding
     | undefined
     | null;
-  export type OpenMode = number | string;
-  export type Mode = number | string;
-  export type SimlinkType = "symlink" | "junction" | undefined | null;
+  type OpenMode = number | string;
+  type Mode = number | string;
+  type SimlinkType = "symlink" | "junction" | undefined | null;
   interface StatsBase<T> {
     isFile(): boolean;
     isDirectory(): boolean;
@@ -957,7 +957,7 @@ declare module "fs" {
   function symlinkSync(
     target: PathLike,
     path: PathLike,
-    type?: "symlink" | "junction" | null
+    type?: SimlinkType
   ): void;
   /**
    * Reads the contents of the symbolic link referred to by `path`. The callback gets
@@ -1346,7 +1346,7 @@ declare module "fs" {
      */
     retryDelay?: number | undefined;
   }
-  export interface MakeDirectoryOptions {
+  interface MakeDirectoryOptions {
     /**
      * Indicates whether parent folders should be created.
      * If a folder was created, the path to the first created folder will be returned.
@@ -2576,7 +2576,7 @@ declare module "fs" {
       | BufferEncoding
       | null
   ): string | Buffer;
-  export type WriteFileOptions =
+  type WriteFileOptions =
     | (ObjectEncodingOptions &
         Abortable & {
           mode?: Mode | undefined;
@@ -3547,7 +3547,7 @@ declare module "fs" {
     bufferSize?: number | undefined;
   }
 
-  export interface BigIntStats extends StatsBase<bigint> {
+  interface BigIntStats extends StatsBase<bigint> {
     atimeNs: bigint;
     mtimeNs: bigint;
     ctimeNs: bigint;
@@ -3556,13 +3556,13 @@ declare module "fs" {
   interface BigIntOptions {
     bigint: true;
   }
-  export interface StatOptions {
+  interface StatOptions {
     bigint?: boolean | undefined;
   }
   interface StatSyncOptions extends StatOptions {
     throwIfNoEntry?: boolean | undefined;
   }
-  export interface CopyOptions {
+  interface CopyOptions {
     /**
      * Dereference symlinks
      * @default false

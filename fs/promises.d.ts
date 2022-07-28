@@ -7,8 +7,7 @@
  * synchronized or threadsafe. Care must be taken when performing multiple
  * concurrent modifications on the same file or data corruption may occur.
  */
- declare module "fs/promises" {
-    import { Abortable } from "node:events";
+ declare module "fs/promises" {   
     import {
         Stats,
         BigIntStats,
@@ -22,8 +21,9 @@
         EncodingOption,
         WriteFileOptions,
         SimlinkType,
+        Abortable,
     } from "node:fs";
-    
+
     interface FlagAndOpenMode {
         mode?: Mode | undefined;
         flag?: OpenMode | undefined;
@@ -615,6 +615,6 @@
 }
 
 declare module "node:fs/promises" {
-    import * as fs from "fs/promises";
-    export = fs;
+    import * as fsPromises from "fs/promises";
+    export = fsPromises;
 }
