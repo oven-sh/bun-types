@@ -4,7 +4,7 @@
   "private": true,
   "repository": "https://github.com/oven-sh/bun-types",
   "scripts": {
-    "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && npm run fmt",
+    "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && bun run fmt",
     "generate:githubstuff": "bun scripts/generate.ts",
     "fmt": "prettier --write *.d.ts",
     "test": "tsd",
