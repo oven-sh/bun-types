@@ -12,7 +12,7 @@ expectType<Promise<string>>(Bun.file("index.test-d.ts").text());
 expectType<number>(Bun.file("index.test-d.ts").size);
 expectType<string>(Bun.file("index.test-d.ts").type);
 
-// - Hash 
+// Hash 
 expectType<string>(new Bun.MD4().update("test").digest("hex"));
 expectType<string>(new Bun.MD5().update("test").digest("hex"));
 expectType<string>(new Bun.SHA1().update("test").digest("hex"));
