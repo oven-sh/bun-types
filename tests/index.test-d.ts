@@ -26,3 +26,5 @@ expectType<string>(new Bun.SHA512_256().update("test").digest("hex"));
 expectType<Promise<number>>(Bun.write("test.json", "lol"));
 expectType<URL>(Bun.pathToFileURL("/foo/bar.txt"));
 expectType<string>(Bun.fileURLToPath(new URL("file:///foo/bar.txt")));
+
+// Testing ../fs.d.ts
