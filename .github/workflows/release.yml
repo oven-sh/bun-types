@@ -60,6 +60,7 @@ jobs:
       - name: Publish on NPM
         run: cd dist/ && npm publish --access public
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-gpr:
@@ -95,7 +96,7 @@ jobs:
       - name: Publish on GPR
         run: cd dist/ && npm publish --access public
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   create-release:
     name: Create Release
