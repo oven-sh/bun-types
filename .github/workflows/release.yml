@@ -115,7 +115,7 @@ jobs:
           path: dist
 
       - name: Set version
-        run: echo "version=$(jq --raw-output '.version' dist/bun-types/package.json)" >> $GITHUB_ENV
+        run: echo "version=$(jq --raw-output '.version' dist/package.json)" >> $GITHUB_ENV
 
       - name: Create Release
         uses: softprops/action-gh-release@v0.1.14
@@ -124,4 +124,4 @@ jobs:
           body: "This is the release of bun-types that corresponds to the commit [${{ github.sha }}]"
           token: ${{ secrets.GITHUB_TOKEN }}
           files: |
-            dist/bun-types/*
+            dist/*
