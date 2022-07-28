@@ -1224,7 +1224,8 @@ type BufferEncoding =
   | "ucs2"
   | "ucs-2"
   | "latin1"
-  | "binary";
+  | "binary"
+  | "hex";
 
 interface BufferEncodingOption {
   encoding?: BufferEncoding;
