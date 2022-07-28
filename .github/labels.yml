@@ -60,6 +60,8 @@
   color: 'FBCA04'
 - name: 'types:events'
   color: 'FBCA04'
+- name: 'types:fs/promises'
+  color: 'FBCA04'
 - name: 'types:constants'
   color: 'FBCA04'
 - name: 'types:punycode'
