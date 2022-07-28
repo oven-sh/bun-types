@@ -228,6 +228,7 @@ interface Process {
   setgid(id: number | string): void;
   getuid(): number;
   setuid(id: number | string): void;
+  dlopen(module: { exports: any }, filename: string, flags?: number): void;
 }
 
 declare var process: Process;
