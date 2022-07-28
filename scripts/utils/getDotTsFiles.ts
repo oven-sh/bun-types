@@ -10,7 +10,7 @@ export const getDotTsFiles = async(prefix: string = '', folder: string = join(im
         if (file.isDirectory() && file.name === 'node_modules') continue;
         
         if (file.isDirectory()) await getDotTsFiles(prefix, join(folder, file.name), file.name)
-        else if (file.name.endsWith('.d.ts')) allDotTsFiles.push(join(folderName || '', file.name));
+        else if (file.name.endsWith('.d.ts')) allDotTsFiles.push(prefix + join(folderName || '', file.name));
     }
 
     return allDotTsFiles;
