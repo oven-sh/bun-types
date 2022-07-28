@@ -17,7 +17,7 @@
  * All file system operations have synchronous and callback
  * forms, and are accessible using both CommonJS syntax and ES6 Modules (ESM).
  */
- declare module "fs" {
+declare module "fs" {
   import type { SystemError } from "bun";
 
   interface ObjectEncodingOptions {
