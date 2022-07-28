@@ -6,7 +6,6 @@
   "scripts": {
     "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && prettier --write ./dist/types.d.ts",
     "generate:githubstuff": "bun scripts/generate.ts",
-    "prepublishOnly": "bun generate:package",
     "fmt": "prettier --write *.d.ts",
     "test": "tsd",
     "lint": "eslint ./*.d.ts",
