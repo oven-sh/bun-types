@@ -115,7 +115,7 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          tag_name: "bun-types v${{ env.version }}"
+          tag_name: "bun-types-v${{ env.version }}"
           body: "This is the release of bun-types that corresponds to the commit [${{ github.sha }}]"
           token: ${{ secrets.GITHUB_TOKEN }}
           files: |
