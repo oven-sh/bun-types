@@ -58,9 +58,10 @@ jobs:
           path: dist
 
       - name: Publish on NPM
-        run: cd dist/ && npm publish --access public
+        run: |
+          cd dist/
+          npm publish --access public
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-gpr:
@@ -90,13 +91,15 @@ jobs:
           path: dist
 
       - name: Add scope to name
-        run: bun scripts/gpr.ts
+        run: |
+          ls
+          ls scripts/
+          bun scripts/gpr.ts
 
       - name: Publish on GPR
         run: cd dist/ && npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   create-release:
     name: Create Release
