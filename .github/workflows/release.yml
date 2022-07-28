@@ -9,8 +9,7 @@ jobs:
     if: github.repository_owner == 'oven-sh'
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Install bun
         uses: xhyrom/setup-bun@v0.1.6
@@ -46,6 +45,7 @@ jobs:
     if: github.repository_owner == 'oven-sh'
 
     steps:
+      - uses: actions/checkout@v3
       - name: Install node
         uses: actions/setup-node@v3
         with:
@@ -58,9 +58,7 @@ jobs:
           path: dist
 
       - name: Publish on NPM
-        run: |
-          cd dist/
-          npm publish --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -71,6 +69,7 @@ jobs:
     if: github.repository_owner == 'oven-sh'
 
     steps:
+      - uses: actions/checkout@v3
       - name: Install node
         uses: actions/setup-node@v3
         with:
@@ -91,10 +90,7 @@ jobs:
           path: dist
 
       - name: Add scope to name
-        run: |
-          ls
-          ls scripts/
-          bun scripts/gpr.ts
+        run: bun scripts/gpr.ts
 
       - name: Publish on GPR
         run: cd dist/ && npm publish --access public
