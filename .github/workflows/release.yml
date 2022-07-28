@@ -40,82 +40,82 @@ jobs:
           path: dist/*
           if-no-files-found: error
 
-    publish-npm:
-      name: Publish on NPM
-      runs-on: ubuntu-latest
-      if: github.repository_owner == 'oven-sh'
+  publish-npm:
+    name: Publish on NPM
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'oven-sh'
 
-      steps:
-        - name: Install node
-          uses: actions/setup-node@v3
-          with:
-            node-version: latest
-            cache: npm
+    steps:
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+          cache: npm
 
-        - name: Download all artifacts
-          uses: actions/download-artifact@v3
-          with:
-            path: dist
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: dist
 
-        - name: Publish on NPM
-          run: npm publish --access public
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish on NPM
+        run: npm publish --access public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-    publish-gpr:
-      name: Publish on GPR
-      runs-on: ubuntu-latest
-      if: github.repository_owner == 'oven-sh'
+  publish-gpr:
+    name: Publish on GPR
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'oven-sh'
 
-      steps:
-        - name: Install node
-          uses: actions/setup-node@v3
-          with:
-            node-version: latest
-            registry-url: 'https://npm.pkg.github.com/'
-            scope: '@oven-sh'
-            cache: npm
+    steps:
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@oven-sh'
+          cache: npm
 
-        - name: Install bun
-          uses: xhyrom/setup-bun@v0.1.6
-          with:
-            bun-version: latest
-            github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install bun
+        uses: xhyrom/setup-bun@v0.1.6
+        with:
+          bun-version: latest
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-        - name: Download all artifacts
-          uses: actions/download-artifact@v3
-          with:
-            path: dist
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: dist
 
-        - name: Add scope to name
-          run: bun scripts/gpr.ts
+      - name: Add scope to name
+        run: bun scripts/gpr.ts
 
-        - name: Publish on GPR
-          run: npm publish --access public
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish on GPR
+        run: npm publish --access public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-    create-release:
-      name: Create Release
-      runs-on: ubuntu-latest
-      if: github.repository_owner == 'oven-sh'
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'oven-sh'
 
-      steps:
-        - name: Download all artifacts
-          uses: actions/download-artifact@v3
-          with:
-            path: dist
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: dist
 
-        - name: Set version
-          run: echo "version=$(jq --raw-output '.version' dist/package.json)" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "version=$(jq --raw-output '.version' dist/package.json)" >> $GITHUB_ENV
 
-        - name: Create Release
-          uses: softprops/action-gh-release@v0.1.14
-          with:
-            tag_name: "bun-types v${{ env.version }}"
-            body: "This is the release of bun-types that corresponds to the commit [${{ github.sha }}]"
-            token: ${{ secrets.GITHUB_TOKEN }}
-            files: |
-              dist/*
+      - name: Create Release
+        uses: softprops/action-gh-release@v0.1.14
+        with:
+          tag_name: "bun-types v${{ env.version }}"
+          body: "This is the release of bun-types that corresponds to the commit [${{ github.sha }}]"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: |
+            dist/*
