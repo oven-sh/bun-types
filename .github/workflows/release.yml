@@ -58,7 +58,7 @@ jobs:
           path: dist
 
       - name: Publish on NPM
-        run: npm publish --access public
+        run: cd dist/ && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -76,6 +76,12 @@ jobs:
           node-version: latest
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@oven-sh'
+
+      - name: Install bun
+        uses: xhyrom/setup-bun@v0.1.6
+        with:
+          bun-version: latest
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download all artifacts
         uses: actions/download-artifact@v3
