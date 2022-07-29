@@ -49,7 +49,7 @@ const packageJSON = {
   files: ["types.d.ts"],
   private: false,
   keywords: ["bun", "bun.js", "types"],
-  repository: "https://github.com/oven-sh/bun",
+  repository: "https://github.com/oven-sh/bun-types",
   homepage: "https://bun.sh",
 };
 
