@@ -89,7 +89,7 @@ declare module "bun" {
   // tslint:disable-next-line:unified-signatures
   export function write(
     destination: FileBlob | PathLike,
-    input: Blob | TypedArray | string | BlobPart[]
+    input: Blob | TypedArray | ArrayBufferLike | string | BlobPart[]
   ): Promise<number>;
 
   /**
