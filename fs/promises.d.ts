@@ -563,7 +563,7 @@ declare module "fs/promises" {
    */
   function writeFile(
     file: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     options?: WriteFileOptions
   ): Promise<void>;
   /**
