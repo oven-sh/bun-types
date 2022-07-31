@@ -1,4 +1,5 @@
-import { expectType } from "tsd";
+import { ZlibCompressionOptions } from "bun";
+import { expectAssignable, expectType } from "tsd";
 import Bun, { fs, fsPromises } from ".";
 
 // Testing ../bun.d.ts
@@ -22,8 +23,18 @@ expectType<string>(new Bun.SHA384().update("test").digest("hex"));
 expectType<string>(new Bun.SHA512().update("test").digest("hex"));
 expectType<string>(new Bun.SHA512_256().update("test").digest("hex"));
 
+// Zlib Functions
+expectType<Uint8Array>(Bun.deflateSync(new Uint8Array(128)));
+expectType<Uint8Array>(Bun.gzipSync(new Uint8Array(128)));
+expectType<Uint8Array>(Bun.deflateSync(new Uint8Array(128), { level: -1, memLevel: 8, strategy: 0, windowBits: 15 }));
+expectType<Uint8Array>(Bun.gzipSync(new Uint8Array(128), { level: 9, memLevel: 6, windowBits: 27 }));
+expectType<Uint8Array>(Bun.inflateSync(new Uint8Array(64))); // Pretend this is DEFLATE compressed data
+expectType<Uint8Array>(Bun.gunzipSync(new Uint8Array(64))); // Pretend this is GZIP compressed data
+expectAssignable<ZlibCompressionOptions>({ windowBits: -11 });
+
 // Other
 expectType<Promise<number>>(Bun.write("test.json", "lol"));
+expectType<Promise<number>>(Bun.write("test.json", new ArrayBuffer(32)));
 expectType<URL>(Bun.pathToFileURL("/foo/bar.txt"));
 expectType<string>(Bun.fileURLToPath(new URL("file:///foo/bar.txt")));
 
