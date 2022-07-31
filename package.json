@@ -6,10 +6,10 @@
   "scripts": {
     "generate:package": "rm -rf ./dist && bun scripts/bundle.ts ./dist && bun run fmt",
     "generate:githubstuff": "bun scripts/generate.ts",
-    "fmt": "prettier --write *.d.ts",
+    "fmt": "prettier --write './**/*.d.ts'",
     "test": "tsd",
-    "lint": "eslint ./*.d.ts",
-    "lint:fix": "eslint ./*.d.ts --fix"
+    "lint": "eslint './**/*.d.ts'",
+    "lint:fix": "eslint './**/*.d.ts' --fix"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.31.0",

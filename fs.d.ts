@@ -3,17 +3,17 @@
  * way modeled on standard POSIX functions.
  *
  * To use the promise-based APIs:
- * 
+ *
  * ```js
  * import * as fs from 'fs/promises';
  * ```
  *
  * To use the callback and sync APIs:
- * 
+ *
  * ```js
  * import * as fs from 'fs';
  * ```
- * 
+ *
  * All file system operations have synchronous and callback
  * forms, and are accessible using both CommonJS syntax and ES6 Modules (ESM).
  */
@@ -2647,7 +2647,7 @@ declare module "fs" {
    */
   function writeFile(
     file: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     options: WriteFileOptions,
     callback: NoParamCallback
   ): void;
@@ -2659,7 +2659,7 @@ declare module "fs" {
    */
   function writeFile(
     path: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     callback: NoParamCallback
   ): void;
   // namespace writeFile {
@@ -2695,7 +2695,7 @@ declare module "fs" {
    */
   function writeFileSync(
     file: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     options?: WriteFileOptions
   ): void;
   /**

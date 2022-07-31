@@ -89,7 +89,7 @@ declare module "bun" {
   // tslint:disable-next-line:unified-signatures
   export function write(
     destination: FileBlob | PathLike,
-    input: Blob | TypedArray | string | BlobPart[]
+    input: Blob | TypedArray | ArrayBufferLike | string | BlobPart[]
   ): Promise<number>;
 
   /**
@@ -1198,6 +1198,109 @@ declare module "bun" {
      */
     static readonly byteLength: 32;
   }
+
+  /** Compression options for `Bun.deflateSync` and `Bun.gzipSync` */
+  export type ZlibCompressionOptions = {
+    /**
+     * The compression level to use. Must be between `-1` and `9`.
+     * - A value of `-1` uses the default compression level (Currently `6`)
+     * - A value of `0` gives no compression
+     * - A value of `1` gives least compression, fastest speed
+     * - A value of `9` gives best compression, slowest speed
+     */
+    level?: -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+    /**
+     * How much memory should be allocated for the internal compression state.
+     *
+     * A value of `1` uses minimum memory but is slow and reduces compression ratio.
+     *
+     * A value of `9` uses maximum memory for optimal speed. The default is `8`.
+     */
+    memLevel?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+    /**
+     * The base 2 logarithm of the window size (the size of the history buffer).
+     *
+     * Larger values of this parameter result in better compression at the expense of memory usage.
+     *
+     * The following value ranges are supported:
+     * - `9..15`: The output will have a zlib header and footer (Deflate)
+     * - `-9..-15`: The output will **not** have a zlib header or footer (Raw Deflate)
+     * - `25..31` (16+`9..15`): The output will have a gzip header and footer (gzip)
+     *
+     * The gzip header will have no file name, no extra data, no comment, no modification time (set to zero) and no header CRC.
+     */
+    windowBits?:
+      | -9
+      | -10
+      | -11
+      | -12
+      | -13
+      | -14
+      | -15
+      | 9
+      | 10
+      | 11
+      | 12
+      | 13
+      | 14
+      | 15
+      | 25
+      | 26
+      | 27
+      | 28
+      | 29
+      | 30
+      | 31;
+    /**
+     * Tunes the compression algorithm.
+     *
+     * - `Z_DEFAULT_STRATEGY`: For normal data **(Default)**
+     * - `Z_FILTERED`: For data produced by a filter or predictor
+     * - `Z_HUFFMAN_ONLY`: Force Huffman encoding only (no string match)
+     * - `Z_RLE`: Limit match distances to one (run-length encoding)
+     * - `Z_FIXED` prevents the use of dynamic Huffman codes
+     *
+     * `Z_RLE` is designed to be almost as fast as `Z_HUFFMAN_ONLY`, but give better compression for PNG image data.
+     *
+     * `Z_FILTERED` forces more Huffman coding and less string matching, it is
+     * somewhat intermediate between `Z_DEFAULT_STRATEGY` and `Z_HUFFMAN_ONLY`.
+     * Filtered data consists mostly of small values with a somewhat random distribution.
+     */
+    strategy?: number;
+  };
+
+  /**
+   * Compresses a chunk of data with `zlib` DEFLATE algorithm.
+   * @param data The buffer of data to compress
+   * @param options Compression options to use
+   * @returns The output buffer with the compressed data
+   */
+  export function deflateSync(
+    data: Uint8Array,
+    options?: ZlibCompressionOptions
+  ): Uint8Array;
+  /**
+   * Compresses a chunk of data with `zlib` GZIP algorithm.
+   * @param data The buffer of data to compress
+   * @param options Compression options to use
+   * @returns The output buffer with the compressed data
+   */
+  export function gzipSync(
+    data: Uint8Array,
+    options?: ZlibCompressionOptions
+  ): Uint8Array;
+  /**
+   * Decompresses a chunk of data with `zlib` INFLATE algorithm.
+   * @param data The buffer of data to decompress
+   * @returns The output buffer with the decompressed data
+   */
+  export function inflateSync(data: Uint8Array): Uint8Array;
+  /**
+   * Decompresses a chunk of data with `zlib` GUNZIP algorithm.
+   * @param data The buffer of data to decompress
+   * @returns The output buffer with the decompressed data
+   */
+  export function gunzipSync(data: Uint8Array): Uint8Array;
 }
 
 type TypedArray =
