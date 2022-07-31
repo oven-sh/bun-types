@@ -2647,7 +2647,7 @@ declare module "fs" {
    */
   function writeFile(
     file: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     options: WriteFileOptions,
     callback: NoParamCallback
   ): void;
@@ -2659,7 +2659,7 @@ declare module "fs" {
    */
   function writeFile(
     path: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     callback: NoParamCallback
   ): void;
   // namespace writeFile {
@@ -2695,7 +2695,7 @@ declare module "fs" {
    */
   function writeFileSync(
     file: PathOrFileDescriptor,
-    data: string | ArrayBufferView,
+    data: string | ArrayBufferView | ArrayBufferLike,
     options?: WriteFileOptions
   ): void;
   /**
