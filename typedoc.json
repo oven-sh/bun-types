@@ -3,7 +3,7 @@
   "media": "images",
   "tsconfig": "./tsconfig.docs.json",
   "entryPoints": ["./dist/types.d.ts"],
-  "out": "api-docs",
+  "out": "docs",
   "plugin": ["typedoc-plugin-markdown"],
   "exclude": ["**/node_modules/**"],
   "disableSources": true
