@@ -1,11 +1,8 @@
 {
-  "publicPath": "https://oven-sh.github.io/bun-types/",
   "media": "images",
   "tsconfig": "./tsconfig.docs.json",
   "entryPoints": ["./dist/types.d.ts"],
   "out": "docs",
-  "plugin": ["typedoc-plugin-markdown"],
   "exclude": ["**/node_modules/**"],
-  "disableSources": true,
-  "githubPages": false,
+  "disableSources": true
 }
