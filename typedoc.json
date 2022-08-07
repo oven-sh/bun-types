@@ -1,5 +1,5 @@
 {
-  "publicPath": "https://github.com/oven-sh/bun-types/blob/master/api-docs/",
+  "publicPath": "https://oven-sh.github.io/bun-types/",
   "media": "images",
   "tsconfig": "./tsconfig.docs.json",
   "entryPoints": ["./dist/types.d.ts"],
