@@ -1,0 +1,10 @@
+{
+  "publicPath": "https://github.com/oven-sh/bun-types/blob/master/api-docs/",
+  "media": "images",
+  "tsconfig": "./tsconfig.docs.json",
+  "entryPoints": ["./dist/types.d.ts"],
+  "out": "api-docs",
+  "plugin": ["typedoc-plugin-markdown"],
+  "exclude": ["**/node_modules/**"],
+  "disableSources": true
+}
