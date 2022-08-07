@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Dict
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Dict
 
 # Interface: Dict<T\>
 
@@ -12,29 +12,29 @@
 
 - **`Dict`**
 
-  ↳ [`IncomingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.IncomingHttpHeaders.md)
+  ↳ [`IncomingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/http_.IncomingHttpHeaders.md)
 
-  ↳ [`OutgoingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.OutgoingHttpHeaders.md)
+  ↳ [`OutgoingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/http_.OutgoingHttpHeaders.md)
 
-  ↳ [`IncomingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.IncomingHttpHeaders.md)
+  ↳ [`IncomingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/node_http_.IncomingHttpHeaders.md)
 
-  ↳ [`OutgoingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.OutgoingHttpHeaders.md)
+  ↳ [`OutgoingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/node_http_.OutgoingHttpHeaders.md)
 
-  ↳ [`IncomingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/https_.IncomingHttpHeaders.md)
+  ↳ [`IncomingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/https_.IncomingHttpHeaders.md)
 
-  ↳ [`OutgoingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/https_.OutgoingHttpHeaders.md)
+  ↳ [`OutgoingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/https_.OutgoingHttpHeaders.md)
 
-  ↳ [`IncomingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.IncomingHttpHeaders.md)
+  ↳ [`IncomingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/node_https_.IncomingHttpHeaders.md)
 
-  ↳ [`OutgoingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.OutgoingHttpHeaders.md)
+  ↳ [`OutgoingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/node_https_.OutgoingHttpHeaders.md)
 
-  ↳ [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+  ↳ [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
-  ↳ [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md)
+  ↳ [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md)
 
-  ↳ [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.ParsedUrlQuery.md)
+  ↳ [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.ParsedUrlQuery.md)
 
-  ↳ [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.ParsedUrlQueryInput.md)
+  ↳ [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.ParsedUrlQueryInput.md)
 
 ## Indexable
 

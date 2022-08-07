@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / QueuingStrategy
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / QueuingStrategy
 
 # Interface: QueuingStrategy<T\>
 
@@ -12,16 +12,16 @@
 
 - **`QueuingStrategy`**
 
-  ↳ [`ByteLengthQueuingStrategy`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ByteLengthQueuingStrategy.md)
+  ↳ [`ByteLengthQueuingStrategy`](https://oven-sh.github.io/bun-types/interfaces/ByteLengthQueuingStrategy.md)
 
-  ↳ [`CountQueuingStrategy`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/CountQueuingStrategy.md)
+  ↳ [`CountQueuingStrategy`](https://oven-sh.github.io/bun-types/interfaces/CountQueuingStrategy.md)
 
 ## Table of contents
 
 ### Properties
 
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md#highwatermark)
-- [size](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md#size)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md#highwatermark)
+- [size](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md#size)
 
 ## Properties
 
@@ -33,4 +33,4 @@ ___
 
 ### size
 
-• `Optional` **size**: [`QueuingStrategySize`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategySize.md)<`T`\>
+• `Optional` **size**: [`QueuingStrategySize`](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategySize.md)<`T`\>

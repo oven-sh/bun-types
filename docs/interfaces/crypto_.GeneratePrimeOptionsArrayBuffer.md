@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / GeneratePrimeOptionsArrayBuffer
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / GeneratePrimeOptionsArrayBuffer
 
 # Interface: GeneratePrimeOptionsArrayBuffer
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).GeneratePrimeOptionsArrayBuffer
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).GeneratePrimeOptionsArrayBuffer
 
 ## Hierarchy
 
-- [`GeneratePrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md)
+- [`GeneratePrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md)
 
   ↳ **`GeneratePrimeOptionsArrayBuffer`**
 
@@ -14,20 +14,20 @@
 
 ### Properties
 
-- [add](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#add)
-- [bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#bigint)
-- [rem](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#rem)
-- [safe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#safe)
+- [add](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#add)
+- [bigint](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#bigint)
+- [rem](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#rem)
+- [safe](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md#safe)
 
 ## Properties
 
 ### add
 
-• `Optional` **add**: [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike)
+• `Optional` **add**: [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike)
 
 #### Inherited from
 
-[GeneratePrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md).[add](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md#add)
+[GeneratePrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md).[add](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md#add)
 
 ___
 
@@ -37,17 +37,17 @@ ___
 
 #### Inherited from
 
-[GeneratePrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md).[bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md#bigint)
+[GeneratePrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md).[bigint](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md#bigint)
 
 ___
 
 ### rem
 
-• `Optional` **rem**: [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike)
+• `Optional` **rem**: [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike)
 
 #### Inherited from
 
-[GeneratePrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md).[rem](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md#rem)
+[GeneratePrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md).[rem](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md#rem)
 
 ___
 
@@ -61,4 +61,4 @@ false
 
 #### Inherited from
 
-[GeneratePrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md).[safe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md#safe)
+[GeneratePrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md).[safe](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md#safe)

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / TransformStreamDefaultController
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / TransformStreamDefaultController
 
 # Interface: TransformStreamDefaultController<O\>
 
@@ -12,13 +12,13 @@
 
 ### Properties
 
-- [desiredSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStreamDefaultController.md#desiredsize)
+- [desiredSize](https://oven-sh.github.io/bun-types/interfaces/TransformStreamDefaultController.md#desiredsize)
 
 ### Methods
 
-- [enqueue](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStreamDefaultController.md#enqueue)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStreamDefaultController.md#error)
-- [terminate](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStreamDefaultController.md#terminate)
+- [enqueue](https://oven-sh.github.io/bun-types/interfaces/TransformStreamDefaultController.md#enqueue)
+- [error](https://oven-sh.github.io/bun-types/interfaces/TransformStreamDefaultController.md#error)
+- [terminate](https://oven-sh.github.io/bun-types/interfaces/TransformStreamDefaultController.md#terminate)
 
 ## Properties
 

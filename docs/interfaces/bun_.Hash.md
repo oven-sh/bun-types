@@ -1,20 +1,20 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / Hash
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / Hash
 
 # Interface: Hash
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).Hash
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).Hash
 
 ## Table of contents
 
 ### Properties
 
-- [adler32](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#adler32)
-- [cityHash32](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#cityhash32)
-- [cityHash64](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#cityhash64)
-- [crc32](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#crc32)
-- [murmur32v3](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#murmur32v3)
-- [murmur64v2](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#murmur64v2)
-- [wyhash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md#wyhash)
+- [adler32](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#adler32)
+- [cityHash32](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#cityhash32)
+- [cityHash64](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#cityhash64)
+- [crc32](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#crc32)
+- [murmur32v3](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#murmur32v3)
+- [murmur64v2](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#murmur64v2)
+- [wyhash](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md#wyhash)
 
 ## Properties
 

@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md) / Dirent
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md) / Dirent
 
 # Class: Dirent
 
-["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md).Dirent
+["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md).Dirent
 
 A representation of a directory entry, which can be a file or a subdirectory
 within the directory, as returned by reading from an `fs.Dir`. The
 directory entry is a combination of the file name and file type pairs.
 
-Additionally, when [readdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#readdir) or [readdirSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#readdirsync) is called with
+Additionally, when [readdir](https://oven-sh.github.io/bun-types/modules/fs_.md#readdir) or [readdirSync](https://oven-sh.github.io/bun-types/modules/fs_.md#readdirsync) is called with
 the `withFileTypes` option set to `true`, the resulting array is filled with `fs.Dirent` objects, rather than strings or `Buffer` s.
 
 **`Since`**
@@ -19,21 +19,21 @@ v0.0.67
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#constructor)
 
 ### Properties
 
-- [name](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#name)
+- [name](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#name)
 
 ### Methods
 
-- [isBlockDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#isblockdevice)
-- [isCharacterDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#ischaracterdevice)
-- [isDirectory](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#isdirectory)
-- [isFIFO](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#isfifo)
-- [isFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#isfile)
-- [isSocket](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#issocket)
-- [isSymbolicLink](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md#issymboliclink)
+- [isBlockDevice](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#isblockdevice)
+- [isCharacterDevice](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#ischaracterdevice)
+- [isDirectory](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#isdirectory)
+- [isFIFO](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#isfifo)
+- [isFile](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#isfile)
+- [isSocket](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#issocket)
+- [isSymbolicLink](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md#issymboliclink)
 
 ## Constructors
 
@@ -48,7 +48,7 @@ v0.0.67
 • **name**: `string`
 
 The file name that this `fs.Dirent` object refers to. The type of this
-value is determined by the `options.encoding` passed to [readdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#readdir) or [readdirSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#readdirsync).
+value is determined by the `options.encoding` passed to [readdir](https://oven-sh.github.io/bun-types/modules/fs_.md#readdir) or [readdirSync](https://oven-sh.github.io/bun-types/modules/fs_.md#readdirsync).
 
 **`Since`**
 

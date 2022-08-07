@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / ECKeyPairKeyObjectOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / ECKeyPairKeyObjectOptions
 
 # Interface: ECKeyPairKeyObjectOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).ECKeyPairKeyObjectOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).ECKeyPairKeyObjectOptions
 
 ## Table of contents
 
 ### Properties
 
-- [namedCurve](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.ECKeyPairKeyObjectOptions.md#namedcurve)
+- [namedCurve](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.ECKeyPairKeyObjectOptions.md#namedcurve)
 
 ## Properties
 

@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md) / OpenDirOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md) / OpenDirOptions
 
 # Interface: OpenDirOptions
 
-["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md).OpenDirOptions
+["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md).OpenDirOptions
 
 ## Table of contents
 
 ### Properties
 
-- [bufferSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.OpenDirOptions.md#buffersize)
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.OpenDirOptions.md#encoding)
+- [bufferSize](https://oven-sh.github.io/bun-types/interfaces/fs_.OpenDirOptions.md#buffersize)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/fs_.OpenDirOptions.md#encoding)
 
 ## Properties
 

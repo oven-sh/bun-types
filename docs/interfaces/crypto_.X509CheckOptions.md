@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / X509CheckOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / X509CheckOptions
 
 # Interface: X509CheckOptions
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).X509CheckOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).X509CheckOptions
 
 ## Table of contents
 
 ### Properties
 
-- [multiLabelWildcards](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md#multilabelwildcards)
-- [partialWildcards](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md#partialwildcards)
-- [singleLabelSubdomains](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md#singlelabelsubdomains)
-- [subject](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md#subject)
-- [wildcards](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md#wildcards)
+- [multiLabelWildcards](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md#multilabelwildcards)
+- [partialWildcards](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md#partialwildcards)
+- [singleLabelSubdomains](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md#singlelabelsubdomains)
+- [subject](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md#subject)
+- [wildcards](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md#wildcards)
 
 ## Properties
 

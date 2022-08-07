@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventSourceInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventSourceInit
 
 # Interface: EventSourceInit
 
@@ -6,7 +6,7 @@
 
 ### Properties
 
-- [withCredentials](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventSourceInit.md#withcredentials)
+- [withCredentials](https://oven-sh.github.io/bun-types/interfaces/EventSourceInit.md#withcredentials)
 
 ## Properties
 

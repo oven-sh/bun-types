@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / AbortSignalEventMap
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / AbortSignalEventMap
 
 # Interface: AbortSignalEventMap
 
@@ -6,10 +6,10 @@
 
 ### Properties
 
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignalEventMap.md#abort)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/AbortSignalEventMap.md#abort)
 
 ## Properties
 
 ### abort
 
-• **abort**: [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)
+• **abort**: [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)

@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md) / Stats
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md) / Stats
 
 # Class: Stats
 
-["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md).Stats
+["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md).Stats
 
 A `fs.Stats` object provides information about a file.
 
-Objects returned from [stat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#stat), [lstat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#lstat) and [fstat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#fstat) and
+Objects returned from [stat](https://oven-sh.github.io/bun-types/modules/fs_.md#stat), [lstat](https://oven-sh.github.io/bun-types/modules/fs_.md#lstat) and [fstat](https://oven-sh.github.io/bun-types/modules/fs_.md#fstat) and
 their synchronous counterparts are of this type.
 If `bigint` in the `options` passed to those methods is true, the numeric values
 will be `bigint` instead of `number`, and the object will contain additional
@@ -68,7 +68,7 @@ v0.0.67
 
 ## Hierarchy
 
-- [`StatsBase`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md)<`number`\>
+- [`StatsBase`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md)<`number`\>
 
   ↳ **`Stats`**
 
@@ -76,38 +76,38 @@ v0.0.67
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#constructor)
 
 ### Properties
 
-- [atime](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#atime)
-- [atimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#atimems)
-- [birthtime](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#birthtime)
-- [birthtimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#birthtimems)
-- [blksize](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#blksize)
-- [blocks](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#blocks)
-- [ctime](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#ctime)
-- [ctimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#ctimems)
-- [dev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#dev)
-- [gid](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#gid)
-- [ino](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#ino)
-- [mode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#mode)
-- [mtime](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#mtime)
-- [mtimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#mtimems)
-- [nlink](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#nlink)
-- [rdev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#rdev)
-- [size](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#size)
-- [uid](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#uid)
+- [atime](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#atime)
+- [atimeMs](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#atimems)
+- [birthtime](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#birthtime)
+- [birthtimeMs](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#birthtimems)
+- [blksize](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#blksize)
+- [blocks](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#blocks)
+- [ctime](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#ctime)
+- [ctimeMs](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#ctimems)
+- [dev](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#dev)
+- [gid](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#gid)
+- [ino](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#ino)
+- [mode](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#mode)
+- [mtime](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#mtime)
+- [mtimeMs](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#mtimems)
+- [nlink](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#nlink)
+- [rdev](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#rdev)
+- [size](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#size)
+- [uid](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#uid)
 
 ### Methods
 
-- [isBlockDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#isblockdevice)
-- [isCharacterDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#ischaracterdevice)
-- [isDirectory](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#isdirectory)
-- [isFIFO](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#isfifo)
-- [isFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#isfile)
-- [isSocket](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#issocket)
-- [isSymbolicLink](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md#issymboliclink)
+- [isBlockDevice](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#isblockdevice)
+- [isCharacterDevice](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#ischaracterdevice)
+- [isDirectory](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#isdirectory)
+- [isFIFO](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#isfifo)
+- [isFile](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#isfile)
+- [isSocket](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#issocket)
+- [isSymbolicLink](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md#issymboliclink)
 
 ## Constructors
 
@@ -127,7 +127,7 @@ StatsBase<number\>.constructor
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[atime](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#atime)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[atime](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#atime)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[atimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#atimems)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[atimeMs](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#atimems)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[birthtime](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#birthtime)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[birthtime](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#birthtime)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[birthtimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#birthtimems)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[birthtimeMs](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#birthtimems)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[blksize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#blksize)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[blksize](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#blksize)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[blocks](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#blocks)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[blocks](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#blocks)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[ctime](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#ctime)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[ctime](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#ctime)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[ctimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#ctimems)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[ctimeMs](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#ctimems)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[dev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#dev)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[dev](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#dev)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[gid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#gid)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[gid](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#gid)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[ino](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#ino)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[ino](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#ino)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[mode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#mode)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[mode](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#mode)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[mtime](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#mtime)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[mtime](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#mtime)
 
 ___
 
@@ -257,7 +257,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[mtimeMs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#mtimems)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[mtimeMs](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#mtimems)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[nlink](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#nlink)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[nlink](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#nlink)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[rdev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#rdev)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[rdev](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#rdev)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[size](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#size)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[size](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#size)
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[uid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#uid)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[uid](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#uid)
 
 ## Methods
 
@@ -311,7 +311,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isBlockDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isblockdevice)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isBlockDevice](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isblockdevice)
 
 ▸ **isBlockDevice**(): `boolean`
 
@@ -321,7 +321,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isBlockDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isblockdevice)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isBlockDevice](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isblockdevice)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isCharacterDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#ischaracterdevice)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isCharacterDevice](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#ischaracterdevice)
 
 ▸ **isCharacterDevice**(): `boolean`
 
@@ -345,7 +345,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isCharacterDevice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#ischaracterdevice)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isCharacterDevice](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#ischaracterdevice)
 
 ___
 
@@ -359,7 +359,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isDirectory](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isdirectory)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isDirectory](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isdirectory)
 
 ▸ **isDirectory**(): `boolean`
 
@@ -369,7 +369,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isDirectory](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isdirectory)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isDirectory](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isdirectory)
 
 ___
 
@@ -383,7 +383,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isFIFO](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isfifo)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isFIFO](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isfifo)
 
 ▸ **isFIFO**(): `boolean`
 
@@ -393,7 +393,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isFIFO](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isfifo)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isFIFO](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isfifo)
 
 ___
 
@@ -407,7 +407,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isfile)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isFile](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isfile)
 
 ▸ **isFile**(): `boolean`
 
@@ -417,7 +417,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#isfile)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isFile](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#isfile)
 
 ___
 
@@ -431,7 +431,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isSocket](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#issocket)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isSocket](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#issocket)
 
 ▸ **isSocket**(): `boolean`
 
@@ -441,7 +441,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isSocket](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#issocket)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isSocket](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#issocket)
 
 ___
 
@@ -455,7 +455,7 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isSymbolicLink](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#issymboliclink)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isSymbolicLink](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#issymboliclink)
 
 ▸ **isSymbolicLink**(): `boolean`
 
@@ -465,4 +465,4 @@ ___
 
 #### Inherited from
 
-[StatsBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md).[isSymbolicLink](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatsBase.md#issymboliclink)
+[StatsBase](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md).[isSymbolicLink](https://oven-sh.github.io/bun-types/interfaces/fs_.StatsBase.md#issymboliclink)

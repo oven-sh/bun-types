@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / [HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md) / ContentOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / [HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md) / ContentOptions
 
 # Interface: ContentOptions
 
-[HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md).ContentOptions
+[HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md).ContentOptions
 
 ## Table of contents
 
 ### Properties
 
-- [html](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md#html)
+- [html](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md#html)
 
 ## Properties
 

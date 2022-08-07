@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["domain"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/domain_.md) / Domain
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["domain"](https://oven-sh.github.io/bun-types/modules/domain_.md) / Domain
 
 # Class: Domain
 
-["domain"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/domain_.md).Domain
+["domain"](https://oven-sh.github.io/bun-types/modules/domain_.md).Domain
 
 The `Domain` class encapsulates the functionality of routing errors and
 uncaught exceptions to the active `Domain` object.
@@ -11,7 +11,7 @@ To handle the errors that it catches, listen to its `'error'` event.
 
 ## Hierarchy
 
-- [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md)
+- [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md)
 
   ↳ **`Domain`**
 
@@ -19,45 +19,45 @@ To handle the errors that it catches, listen to its `'error'` event.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#constructor)
 
 ### Properties
 
-- [members](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#members)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#errormonitor)
+- [members](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#members)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#errormonitor)
 
 ### Methods
 
-- [add](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#add)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#addlistener)
-- [bind](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#bind)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#emit)
-- [enter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#enter)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#eventnames)
-- [exit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#exit)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#getmaxlisteners)
-- [intercept](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#intercept)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#once)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#prependoncelistener)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#rawlisteners)
-- [remove](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#remove)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#removelistener)
-- [run](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#run)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#setmaxlisteners)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#geteventlisteners)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#setmaxlisteners-1)
+- [add](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#add)
+- [addListener](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#addlistener)
+- [bind](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#bind)
+- [emit](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#emit)
+- [enter](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#enter)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#eventnames)
+- [exit](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#exit)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#getmaxlisteners)
+- [intercept](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#intercept)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#once)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#prependoncelistener)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#rawlisteners)
+- [remove](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#remove)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#removelistener)
+- [run](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#run)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#setmaxlisteners)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#geteventlisteners)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -73,13 +73,13 @@ To handle the errors that it catches, listen to its `'error'` event.
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#constructor)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[constructor](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#constructor)
 
 ## Properties
 
 ### members
 
-• **members**: (`number` \| [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md))[]
+• **members**: (`number` \| [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md))[]
 
 An array of timers and event emitters that have been explicitly added
 to the domain.
@@ -88,11 +88,11 @@ ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#capturerejectionsymbol)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#capturerejectionsymbol)
 
 ___
 
@@ -104,7 +104,7 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#capturerejections)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#capturerejections)
 
 ___
 
@@ -114,13 +114,13 @@ ___
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#defaultmaxlisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -132,7 +132,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#errormonitor)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#errormonitor)
 
 ## Methods
 
@@ -155,7 +155,7 @@ from that one, and bound to this one instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | `number` \| [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | emitter or timer to be added to the domain |
+| `emitter` | `number` \| [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | emitter or timer to be added to the domain |
 
 #### Returns
 
@@ -165,7 +165,7 @@ ___
 
 ### addListener
 
-▸ **addListener**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **addListener**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Alias for `emitter.on(eventName, listener)`.
 
@@ -178,11 +178,11 @@ Alias for `emitter.on(eventName, listener)`.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#addlistener)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[addListener](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#addlistener)
 
 ___
 
@@ -285,7 +285,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#emit)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[emit](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#emit)
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 The `enter()` method is plumbing used by the `run()`, `bind()`, and`intercept()` methods to set the active domain. It sets `domain.active` and`process.domain` to the domain, and implicitly
 pushes the domain onto the domain
-stack managed by the domain module (see [exit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#exit) for details on the
+stack managed by the domain module (see [exit](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#exit) for details on the
 domain stack). The call to `enter()` delimits the beginning of a chain of
 asynchronous calls and I/O operations bound to a domain.
 
@@ -335,7 +335,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#eventnames)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[eventNames](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#eventnames)
 
 ___
 
@@ -366,7 +366,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -374,7 +374,7 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#getmaxlisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#getmaxlisteners)
 
 ___
 
@@ -382,7 +382,7 @@ ___
 
 ▸ **intercept**<`T`\>(`callback`): `T`
 
-This method is almost identical to [bind](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#bind). However, in
+This method is almost identical to [bind](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#bind). However, in
 addition to catching thrown errors, it will also intercept `Error` objects sent as the first argument to the function.
 
 In this way, the common `if (err) return callback(err);` pattern can be replaced
@@ -449,7 +449,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#listenercount)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#listenercount)
 
 ___
 
@@ -479,13 +479,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#listeners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[listeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **off**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -498,17 +498,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#off)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[off](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **on**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -545,17 +545,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#on)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[on](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **once**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -590,17 +590,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#once)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[once](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#once)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **prependListener**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -624,17 +624,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#prependlistener)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[prependListener](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **prependOnceListener**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -656,11 +656,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#prependoncelistener)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#prependoncelistener)
 
 ___
 
@@ -707,7 +707,7 @@ emitter.emit('log');
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#rawlisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#rawlisteners)
 
 ___
 
@@ -715,14 +715,14 @@ ___
 
 ▸ **remove**(`emitter`): `void`
 
-The opposite of [add](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md#add). Removes domain handling from the
+The opposite of [add](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md#add). Removes domain handling from the
 specified emitter.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | `number` \| [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | emitter or timer to be removed from the domain |
+| `emitter` | `number` \| [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | emitter or timer to be removed from the domain |
 
 #### Returns
 
@@ -732,7 +732,7 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **removeAllListeners**(`event?`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -750,17 +750,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#removealllisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName`, `listener`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **removeListener**(`eventName`, `listener`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -848,11 +848,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#removelistener)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[removeListener](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#removelistener)
 
 ___
 
@@ -910,7 +910,7 @@ ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+▸ **setMaxListeners**(`n`): [`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -927,11 +927,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Domain`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/domain_.Domain.md)
+[`Domain`](https://oven-sh.github.io/bun-types/classes/domain_.Domain.md)
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#setmaxlisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#setmaxlisteners)
 
 ___
 
@@ -968,7 +968,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -977,7 +977,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#geteventlisteners)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#geteventlisteners)
 
 ___
 
@@ -1004,7 +1004,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -1013,7 +1013,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#listenercount-1)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#listenercount-1)
 
 ___
 
@@ -1079,7 +1079,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -1091,7 +1091,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#on-1)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[on](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#on-1)
 
 ___
 
@@ -1193,7 +1193,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#once-1)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[once](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -1211,7 +1211,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#once-1)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[once](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#once-1)
 
 ___
 
@@ -1236,7 +1236,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -1244,4 +1244,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md#setmaxlisteners-1)
+[EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md#setmaxlisteners-1)

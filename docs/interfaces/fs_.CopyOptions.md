@@ -1,22 +1,22 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md) / CopyOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md) / CopyOptions
 
 # Interface: CopyOptions
 
-["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md).CopyOptions
+["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md).CopyOptions
 
 ## Table of contents
 
 ### Properties
 
-- [dereference](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#dereference)
-- [errorOnExist](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#erroronexist)
-- [force](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#force)
-- [preserveTimestamps](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#preservetimestamps)
-- [recursive](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#recursive)
+- [dereference](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#dereference)
+- [errorOnExist](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#erroronexist)
+- [force](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#force)
+- [preserveTimestamps](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#preservetimestamps)
+- [recursive](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#recursive)
 
 ### Methods
 
-- [filter](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.CopyOptions.md#filter)
+- [filter](https://oven-sh.github.io/bun-types/interfaces/fs_.CopyOptions.md#filter)
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / UnderlyingSinkStartCallback
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / UnderlyingSinkStartCallback
 
 # Interface: UnderlyingSinkStartCallback
 
@@ -12,7 +12,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `controller` | [`WritableStreamDefaultController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultcontroller) |
+| `controller` | [`WritableStreamDefaultController`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultcontroller) |
 
 #### Returns
 
@@ -26,7 +26,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `controller` | [`WritableStreamDefaultController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultcontroller) |
+| `controller` | [`WritableStreamDefaultController`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultcontroller) |
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / StreamPipeOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / StreamPipeOptions
 
 # Interface: StreamPipeOptions
 
@@ -6,10 +6,10 @@
 
 ### Properties
 
-- [preventAbort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md#preventabort)
-- [preventCancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md#preventcancel)
-- [preventClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md#preventclose)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md#signal)
+- [preventAbort](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md#preventabort)
+- [preventCancel](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md#preventcancel)
+- [preventClose](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md#preventclose)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md#signal)
 
 ## Properties
 
@@ -49,4 +49,4 @@ ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)

@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / RmOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / RmOptions
 
 # Interface: RmOptions
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).RmOptions
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).RmOptions
 
 ## Table of contents
 
 ### Properties
 
-- [force](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.RmOptions.md#force)
-- [maxRetries](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.RmOptions.md#maxretries)
-- [recursive](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.RmOptions.md#recursive)
-- [retryDelay](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.RmOptions.md#retrydelay)
+- [force](https://oven-sh.github.io/bun-types/interfaces/node_fs_.RmOptions.md#force)
+- [maxRetries](https://oven-sh.github.io/bun-types/interfaces/node_fs_.RmOptions.md#maxretries)
+- [recursive](https://oven-sh.github.io/bun-types/interfaces/node_fs_.RmOptions.md#recursive)
+- [retryDelay](https://oven-sh.github.io/bun-types/interfaces/node_fs_.RmOptions.md#retrydelay)
 
 ## Properties
 

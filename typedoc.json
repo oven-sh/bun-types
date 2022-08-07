@@ -6,5 +6,6 @@
   "out": "docs",
   "plugin": ["typedoc-plugin-markdown"],
   "exclude": ["**/node_modules/**"],
-  "disableSources": true
+  "disableSources": true,
+  "githubPages": false,
 }

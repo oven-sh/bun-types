@@ -1,27 +1,27 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / RSAPSSKeyPairOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / RSAPSSKeyPairOptions
 
 # Interface: RSAPSSKeyPairOptions<PubF, PrivF\>
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).RSAPSSKeyPairOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).RSAPSSKeyPairOptions
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `PubF` | extends [`KeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat) |
-| `PrivF` | extends [`KeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat) |
+| `PubF` | extends [`KeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat) |
+| `PrivF` | extends [`KeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat) |
 
 ## Table of contents
 
 ### Properties
 
-- [hashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#hashalgorithm)
-- [mgf1HashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#mgf1hashalgorithm)
-- [modulusLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#moduluslength)
-- [privateKeyEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#privatekeyencoding)
-- [publicExponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#publicexponent)
-- [publicKeyEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#publickeyencoding)
-- [saltLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md#saltlength)
+- [hashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#hashalgorithm)
+- [mgf1HashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#mgf1hashalgorithm)
+- [modulusLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#moduluslength)
+- [privateKeyEncoding](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#privatekeyencoding)
+- [publicExponent](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#publicexponent)
+- [publicKeyEncoding](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#publickeyencoding)
+- [saltLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md#saltlength)
 
 ## Properties
 
@@ -51,7 +51,7 @@ ___
 
 ### privateKeyEncoding
 
-• **privateKeyEncoding**: [`BasePrivateKeyEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)<`PrivF`\> & { `type`: ``"pkcs8"``  }
+• **privateKeyEncoding**: [`BasePrivateKeyEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)<`PrivF`\> & { `type`: ``"pkcs8"``  }
 
 ___
 

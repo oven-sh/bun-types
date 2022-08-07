@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableStreamDirectController
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableStreamDirectController
 
 # Interface: ReadableStreamDirectController
 
@@ -6,11 +6,11 @@
 
 ### Methods
 
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md#close)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md#end)
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md#flush)
-- [start](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md#start)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md#write)
+- [close](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md#close)
+- [end](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md#end)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md#flush)
+- [start](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md#start)
+- [write](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md#write)
 
 ## Methods
 

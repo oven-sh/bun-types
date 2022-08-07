@@ -1,11 +1,11 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / KeyObject
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / KeyObject
 
 # Class: KeyObject
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).KeyObject
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).KeyObject
 
 Node.js uses a `KeyObject` class to represent a symmetric or asymmetric key,
-and each kind of key exposes different functions. The [createSecretKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createsecretkey), [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey) and [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey) methods are used to create `KeyObject`instances. `KeyObject`
+and each kind of key exposes different functions. The [createSecretKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createsecretkey), [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey) and [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey) methods are used to create `KeyObject`instances. `KeyObject`
 objects are not to be created directly using the `new`keyword.
 
 Most applications should consider using the new `KeyObject` API instead of
@@ -19,19 +19,19 @@ be listed in the `transferList` argument.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#constructor)
 
 ### Properties
 
-- [asymmetricKeyDetails](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#asymmetrickeydetails)
-- [asymmetricKeySize](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#asymmetrickeysize)
-- [asymmetricKeyType](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#asymmetrickeytype)
-- [symmetricKeySize](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#symmetrickeysize)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#type)
+- [asymmetricKeyDetails](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#asymmetrickeydetails)
+- [asymmetricKeySize](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#asymmetrickeysize)
+- [asymmetricKeyType](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#asymmetrickeytype)
+- [symmetricKeySize](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#symmetrickeysize)
+- [type](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#type)
 
 ### Methods
 
-- [export](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md#export)
+- [export](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md#export)
 
 ## Constructors
 
@@ -43,7 +43,7 @@ be listed in the `transferList` argument.
 
 ### asymmetricKeyDetails
 
-• `Optional` **asymmetricKeyDetails**: [`AsymmetricKeyDetails`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.AsymmetricKeyDetails.md)
+• `Optional` **asymmetricKeyDetails**: [`AsymmetricKeyDetails`](https://oven-sh.github.io/bun-types/interfaces/crypto_.AsymmetricKeyDetails.md)
 
 This property exists only on asymmetric keys. Depending on the type of the key,
 this object contains information about the key. None of the information obtained
@@ -69,7 +69,7 @@ ___
 
 ### asymmetricKeyType
 
-• `Optional` **asymmetricKeyType**: [`KeyType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keytype)
+• `Optional` **asymmetricKeyType**: [`KeyType`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keytype)
 
 For asymmetric keys, this property represents the type of the key. Supported key
 types are:
@@ -100,7 +100,7 @@ ___
 
 ### type
 
-• **type**: [`KeyObjectType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyobjecttype)
+• **type**: [`KeyObjectType`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyobjecttype)
 
 Depending on the type of this `KeyObject`, this property is either`'secret'` for secret (symmetric) keys, `'public'` for public (asymmetric) keys
 or `'private'` for private (asymmetric) keys.
@@ -109,7 +109,7 @@ or `'private'` for private (asymmetric) keys.
 
 ### export
 
-▸ **export**(`options`): `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **export**(`options`): `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 For symmetric keys, the following encoding options can be used:
 
@@ -136,32 +136,32 @@ PKCS#1 and SEC1 encryption.
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`KeyExportOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyExportOptions.md)<``"pem"``\> |
+| `options` | [`KeyExportOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyExportOptions.md)<``"pem"``\> |
 
 #### Returns
 
-`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **export**(`options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **export**(`options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`KeyExportOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyExportOptions.md)<``"der"``\> |
+| `options?` | [`KeyExportOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyExportOptions.md)<``"der"``\> |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **export**(`options?`): [`JsonWebKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKey.md)
+▸ **export**(`options?`): [`JsonWebKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKey.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`JwkKeyExportOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JwkKeyExportOptions.md) |
+| `options?` | [`JwkKeyExportOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JwkKeyExportOptions.md) |
 
 #### Returns
 
-[`JsonWebKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKey.md)
+[`JsonWebKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKey.md)

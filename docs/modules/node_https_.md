@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:https"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:https"
 
 # Namespace: "node:https"
 
@@ -6,31 +6,31 @@
 
 ### Classes
 
-- [ClientRequest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.ClientRequest.md)
-- [IncomingMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.IncomingMessage.md)
+- [ClientRequest](https://oven-sh.github.io/bun-types/classes/node_https_.ClientRequest.md)
+- [IncomingMessage](https://oven-sh.github.io/bun-types/classes/node_https_.IncomingMessage.md)
 
 ### Interfaces
 
-- [ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.ClientRequestArgs.md)
-- [IncomingHttpHeaders](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.IncomingHttpHeaders.md)
-- [InformationEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.InformationEvent.md)
-- [OutgoingHttpHeaders](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.OutgoingHttpHeaders.md)
-- [RequestOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_https_.RequestOptions.md)
+- [ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/node_https_.ClientRequestArgs.md)
+- [IncomingHttpHeaders](https://oven-sh.github.io/bun-types/interfaces/node_https_.IncomingHttpHeaders.md)
+- [InformationEvent](https://oven-sh.github.io/bun-types/interfaces/node_https_.InformationEvent.md)
+- [OutgoingHttpHeaders](https://oven-sh.github.io/bun-types/interfaces/node_https_.OutgoingHttpHeaders.md)
+- [RequestOptions](https://oven-sh.github.io/bun-types/interfaces/node_https_.RequestOptions.md)
 
 ### Type Aliases
 
-- [OutgoingHttpHeader](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#outgoinghttpheader)
+- [OutgoingHttpHeader](https://oven-sh.github.io/bun-types/modules/node_https_.md#outgoinghttpheader)
 
 ### Variables
 
-- [METHODS](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#methods)
-- [STATUS\_CODES](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#status_codes)
-- [maxHeaderSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#maxheadersize)
+- [METHODS](https://oven-sh.github.io/bun-types/modules/node_https_.md#methods)
+- [STATUS\_CODES](https://oven-sh.github.io/bun-types/modules/node_https_.md#status_codes)
+- [maxHeaderSize](https://oven-sh.github.io/bun-types/modules/node_https_.md#maxheadersize)
 
 ### Functions
 
-- [get](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#get)
-- [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#request)
+- [get](https://oven-sh.github.io/bun-types/modules/node_https_.md#get)
+- [request](https://oven-sh.github.io/bun-types/modules/node_https_.md#request)
 
 ## Type Aliases
 
@@ -67,14 +67,14 @@ Defaults to 16KB. Configurable using the `--max-http-header-size` CLI option.
 
 ### get
 
-▸ **get**(`options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **get**(`options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 Since most requests are GET requests without bodies, Node.js provides this
-convenience method. The only difference between this method and [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#request) is that it sets the method to GET and calls `req.end()`automatically. The callback must take care to consume the
+convenience method. The only difference between this method and [request](https://oven-sh.github.io/bun-types/modules/node_https_.md#request) is that it sets the method to GET and calls `req.end()`automatically. The callback must take care to consume the
 response
-data for reasons stated in [ClientRequest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.ClientRequest.md) section.
+data for reasons stated in [ClientRequest](https://oven-sh.github.io/bun-types/classes/node_https_.ClientRequest.md) section.
 
-The `callback` is invoked with a single argument that is an instance of [IncomingMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.IncomingMessage.md).
+The `callback` is invoked with a single argument that is an instance of [IncomingMessage](https://oven-sh.github.io/bun-types/classes/node_https_.IncomingMessage.md).
 
 JSON fetching example:
 
@@ -130,35 +130,35 @@ server.listen(8000);
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) \| [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) | Accepts the same `options` as [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#request), with the `method` always set to `GET`. Properties that are inherited from the prototype are ignored. |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` | - |
+| `options` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) \| [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) | Accepts the same `options` as [request](https://oven-sh.github.io/bun-types/modules/node_https_.md#request), with the `method` always set to `GET`. Properties that are inherited from the prototype are ignored. |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` | - |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **get**(`url`, `options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **get**(`url`, `options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) |
-| `options` | [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) |
+| `options` | [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **get**(`options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **get**(`options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 Since most requests are GET requests without bodies, Node.js provides this
-convenience method. The only difference between this method and [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#request) is that it sets the method to GET and calls `req.end()`automatically. The callback must take care to consume the
+convenience method. The only difference between this method and [request](https://oven-sh.github.io/bun-types/modules/node_https_.md#request) is that it sets the method to GET and calls `req.end()`automatically. The callback must take care to consume the
 response
-data for reasons stated in [ClientRequest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.ClientRequest.md) section.
+data for reasons stated in [ClientRequest](https://oven-sh.github.io/bun-types/classes/node_https_.ClientRequest.md) section.
 
-The `callback` is invoked with a single argument that is an instance of [IncomingMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.IncomingMessage.md).
+The `callback` is invoked with a single argument that is an instance of [IncomingMessage](https://oven-sh.github.io/bun-types/classes/node_https_.IncomingMessage.md).
 
 JSON fetching example:
 
@@ -214,32 +214,32 @@ server.listen(8000);
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) \| [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) | Accepts the same `options` as [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_https_.md#request), with the `method` always set to `GET`. Properties that are inherited from the prototype are ignored. |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` | - |
+| `options` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) \| [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) | Accepts the same `options` as [request](https://oven-sh.github.io/bun-types/modules/node_https_.md#request), with the `method` always set to `GET`. Properties that are inherited from the prototype are ignored. |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` | - |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **get**(`url`, `options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **get**(`url`, `options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) |
-| `options` | [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) |
+| `options` | [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
 ### request
 
-▸ **request**(`options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **request**(`options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 `options` in `socket.connect()` are also supported.
 
@@ -254,7 +254,7 @@ If both `url` and `options` are specified, the objects are merged, with the`opti
 The optional `callback` parameter will be added as a one-time listener for
 the `'response'` event.
 
-`http.request()` returns an instance of the [ClientRequest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.ClientRequest.md) class. The `ClientRequest` instance is a writable stream. If one needs to
+`http.request()` returns an instance of the [ClientRequest](https://oven-sh.github.io/bun-types/classes/node_https_.ClientRequest.md) class. The `ClientRequest` instance is a writable stream. If one needs to
 upload a file with a POST request, then write to the `ClientRequest` object.
 
 ```js
@@ -429,28 +429,28 @@ request itself.
 
 | Name | Type |
 | :------ | :------ |
-| `options` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) \| [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `options` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) \| [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **request**(`url`, `options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **request**(`url`, `options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) |
-| `options` | [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) |
+| `options` | [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **request**(`options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **request**(`options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 `options` in `socket.connect()` are also supported.
 
@@ -465,7 +465,7 @@ If both `url` and `options` are specified, the objects are merged, with the`opti
 The optional `callback` parameter will be added as a one-time listener for
 the `'response'` event.
 
-`http.request()` returns an instance of the [ClientRequest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.ClientRequest.md) class. The `ClientRequest` instance is a writable stream. If one needs to
+`http.request()` returns an instance of the [ClientRequest](https://oven-sh.github.io/bun-types/classes/node_https_.ClientRequest.md) class. The `ClientRequest` instance is a writable stream. If one needs to
 upload a file with a POST request, then write to the `ClientRequest` object.
 
 ```js
@@ -640,23 +640,23 @@ request itself.
 
 | Name | Type |
 | :------ | :------ |
-| `options` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) \| [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `options` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) \| [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **request**(`url`, `options`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **request**(`url`, `options`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) |
-| `options` | [`RequestOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.RequestOptions.md) |
-| `callback?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) |
+| `options` | [`RequestOptions`](https://oven-sh.github.io/bun-types/interfaces/http_.RequestOptions.md) |
+| `callback?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)

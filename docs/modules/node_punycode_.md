@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:punycode"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:punycode"
 
 # Namespace: "node:punycode"
 
@@ -6,25 +6,25 @@
 
 ### Interfaces
 
-- [ucs2](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_punycode_.ucs2.md)
+- [ucs2](https://oven-sh.github.io/bun-types/interfaces/node_punycode_.ucs2.md)
 
 ### Variables
 
-- [ucs2](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#ucs2)
-- [version](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#version)
+- [ucs2](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#ucs2)
+- [version](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#version)
 
 ### Functions
 
-- [decode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#decode)
-- [encode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#encode)
-- [toASCII](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#toascii)
-- [toUnicode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_punycode_.md#tounicode)
+- [decode](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#decode)
+- [encode](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#encode)
+- [toASCII](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#toascii)
+- [toUnicode](https://oven-sh.github.io/bun-types/modules/node_punycode_.md#tounicode)
 
 ## Variables
 
 ### ucs2
 
-• `Const` **ucs2**: [`ucs2`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/punycode_.md#ucs2)
+• `Const` **ucs2**: [`ucs2`](https://oven-sh.github.io/bun-types/modules/punycode_.md#ucs2)
 
 **`Deprecated`**
 

@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md) / Library
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md) / Library
 
 # Interface: Library
 
-["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md).Library
+["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md).Library
 
 ## Table of contents
 
 ### Properties
 
-- [symbols](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md#symbols)
+- [symbols](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md#symbols)
 
 ### Methods
 
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md#close)
+- [close](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md#close)
 
 ## Properties
 

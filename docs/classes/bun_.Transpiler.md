@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / Transpiler
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / Transpiler
 
 # Class: Transpiler
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).Transpiler
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).Transpiler
 
 Quickly transpile TypeScript, JSX, or JS to modern JavaScript.
 
@@ -27,14 +27,14 @@ export default App;
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md#constructor)
 
 ### Methods
 
-- [scan](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md#scan)
-- [scanImports](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md#scanimports)
-- [transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md#transform)
-- [transformSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md#transformsync)
+- [scan](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md#scan)
+- [scanImports](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md#scanimports)
+- [transform](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md#transform)
+- [transformSync](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md#transformsync)
 
 ## Constructors
 
@@ -46,7 +46,7 @@ export default App;
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`TranspilerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md) |
+| `options` | [`TranspilerOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md) |
 
 ## Methods
 
@@ -81,13 +81,13 @@ console.log(exports); // ["hello"]
 | Name | Type |
 | :------ | :------ |
 | `exports` | `string`[] |
-| `imports` | [`Import`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Import.md)[] |
+| `imports` | [`Import`](https://oven-sh.github.io/bun-types/interfaces/bun_.Import.md)[] |
 
 ___
 
 ### scanImports
 
-▸ **scanImports**(`code`): [`Import`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Import.md)[]
+▸ **scanImports**(`code`): [`Import`](https://oven-sh.github.io/bun-types/interfaces/bun_.Import.md)[]
 
 Get a list of import paths from a TypeScript, JSX, TSX, or JavaScript file.
 
@@ -112,7 +112,7 @@ This is a fast path which performs less work than `scan`.
 
 #### Returns
 
-[`Import`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Import.md)[]
+[`Import`](https://oven-sh.github.io/bun-types/interfaces/bun_.Import.md)[]
 
 ___
 
@@ -128,7 +128,7 @@ This function does not resolve imports.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `code` | `StringOrBuffer` | The code to transpile |
-| `loader?` | [`JavaScriptLoader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#javascriptloader) | - |
+| `loader?` | [`JavaScriptLoader`](https://oven-sh.github.io/bun-types/modules/bun_.md#javascriptloader) | - |
 
 #### Returns
 
@@ -148,7 +148,7 @@ This function does not resolve imports.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `code` | `StringOrBuffer` | The code to transpile |
-| `loader` | [`JavaScriptLoader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#javascriptloader) | - |
+| `loader` | [`JavaScriptLoader`](https://oven-sh.github.io/bun-types/modules/bun_.md#javascriptloader) | - |
 | `ctx` | `object` | - |
 
 #### Returns
@@ -181,7 +181,7 @@ This function does not resolve imports.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `code` | `StringOrBuffer` | The code to transpile |
-| `loader` | [`JavaScriptLoader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#javascriptloader) | - |
+| `loader` | [`JavaScriptLoader`](https://oven-sh.github.io/bun-types/modules/bun_.md#javascriptloader) | - |
 
 #### Returns
 

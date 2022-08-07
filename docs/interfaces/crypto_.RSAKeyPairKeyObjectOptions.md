@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / RSAKeyPairKeyObjectOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / RSAKeyPairKeyObjectOptions
 
 # Interface: RSAKeyPairKeyObjectOptions
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).RSAKeyPairKeyObjectOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).RSAKeyPairKeyObjectOptions
 
 ## Table of contents
 
 ### Properties
 
-- [modulusLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md#moduluslength)
-- [publicExponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md#publicexponent)
+- [modulusLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md#moduluslength)
+- [publicExponent](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md#publicexponent)
 
 ## Properties
 

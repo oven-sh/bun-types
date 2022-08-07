@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / Transform
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / Transform
 
 # Class: Transform
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).Transform
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).Transform
 
 Transform streams are `Duplex` streams where the output is in some way
 related to the input. Like all `Duplex` streams, `Transform` streams
@@ -19,155 +19,155 @@ v0.9.4
 
 ## Hierarchy
 
-- [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+- [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
   ↳ **`Transform`**
 
-  ↳↳ [`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
+  ↳↳ [`Hash`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
 
-  ↳↳ [`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
+  ↳↳ [`Hmac`](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
 
-  ↳↳ [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+  ↳↳ [`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
-  ↳↳ [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+  ↳↳ [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
-  ↳↳ [`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Hash.md)
+  ↳↳ [`Hash`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Hash.md)
 
-  ↳↳ [`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Hmac.md)
+  ↳↳ [`Hmac`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Hmac.md)
 
-  ↳↳ [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Cipher.md)
+  ↳↳ [`Cipher`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Cipher.md)
 
-  ↳↳ [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Decipher.md)
+  ↳↳ [`Decipher`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Decipher.md)
 
-  ↳↳ [`PassThrough`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.PassThrough.md)
+  ↳↳ [`PassThrough`](https://oven-sh.github.io/bun-types/classes/stream_.PassThrough.md)
 
-  ↳↳ [`PassThrough`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.PassThrough.md)
+  ↳↳ [`PassThrough`](https://oven-sh.github.io/bun-types/classes/node_stream_.PassThrough.md)
 
-  ↳↳ [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+  ↳↳ [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
-  ↳↳ [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+  ↳↳ [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
-  ↳↳ [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+  ↳↳ [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
-  ↳↳ [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+  ↳↳ [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
-  ↳↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+  ↳↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
-  ↳↳ [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+  ↳↳ [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
-  ↳↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+  ↳↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
-  ↳↳ [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+  ↳↳ [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
-  ↳↳ [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+  ↳↳ [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
-  ↳↳ [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliCompress-1.md)
+  ↳↳ [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliCompress-1.md)
 
-  ↳↳ [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliDecompress-1.md)
+  ↳↳ [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliDecompress-1.md)
 
-  ↳↳ [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md)
+  ↳↳ [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md)
 
-  ↳↳ [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gunzip-1.md)
+  ↳↳ [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gunzip-1.md)
 
-  ↳↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Deflate-1.md)
+  ↳↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Deflate-1.md)
 
-  ↳↳ [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Inflate-1.md)
+  ↳↳ [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Inflate-1.md)
 
-  ↳↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.DeflateRaw-1.md)
+  ↳↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.DeflateRaw-1.md)
 
-  ↳↳ [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.InflateRaw-1.md)
+  ↳↳ [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.InflateRaw-1.md)
 
-  ↳↳ [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Unzip-1.md)
+  ↳↳ [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Unzip-1.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#constructor)
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#allowhalfopen)
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#locked)
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readable)
-- [readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableaborted)
-- [readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableencoding)
-- [readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableended)
-- [readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableflowing)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readablehighwatermark)
-- [readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readablelength)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableobjectmode)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writableobjectmode)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#errormonitor)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#allowhalfopen)
+- [destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#locked)
+- [readable](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readable)
+- [readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableaborted)
+- [readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableencoding)
+- [readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableended)
+- [readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableflowing)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readablehighwatermark)
+- [readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readablelength)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableobjectmode)
+- [writable](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writableobjectmode)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#errormonitor)
 
 ### Methods
 
-- [[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#[asynciterator])
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_final)
-- [\_flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_flush)
-- [\_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_read)
-- [\_transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_transform)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#cancel)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#eventnames)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#foreach)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getmaxlisteners)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getreader)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getwriter)
-- [isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#ispaused)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
-- [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pause)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipe)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipeto)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
-- [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#push)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#rawlisteners)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#read)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
-- [resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#resume)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setdefaultencoding)
-- [setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setmaxlisteners)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#tee)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#uncork)
-- [unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#unpipe)
-- [unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#unshift)
-- [wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#wrap)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#write)
-- [from](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#from)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#geteventlisteners)
-- [isDisturbed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#isdisturbed)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setmaxlisteners-1)
+- [[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#[asynciterator])
+- [\_construct](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_final)
+- [\_flush](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_flush)
+- [\_read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_read)
+- [\_transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_transform)
+- [\_write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
+- [cancel](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#cancel)
+- [close](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#close)
+- [cork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
+- [end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#eventnames)
+- [forEach](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#foreach)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getmaxlisteners)
+- [getReader](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getreader)
+- [getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getwriter)
+- [isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#ispaused)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
+- [pause](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pause)
+- [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipe)
+- [pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipeto)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
+- [push](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#push)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#rawlisteners)
+- [read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#read)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
+- [resume](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#resume)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setdefaultencoding)
+- [setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setmaxlisteners)
+- [tee](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#tee)
+- [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#uncork)
+- [unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#unpipe)
+- [unshift](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#unshift)
+- [wrap](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#wrap)
+- [write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#write)
+- [from](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#from)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#geteventlisteners)
+- [isDisturbed](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#isdisturbed)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -179,11 +179,11 @@ v0.9.4
 
 | Name | Type |
 | :------ | :------ |
-| `opts?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `opts?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Overrides
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#constructor)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[constructor](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#constructor)
 
 ## Properties
 
@@ -204,7 +204,7 @@ v0.9.4
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#allowhalfopen)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[allowHalfOpen](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#allowhalfopen)
 
 ___
 
@@ -216,7 +216,7 @@ Is `true` after `readable.destroy()` has been called.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#destroyed)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#destroyed)
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#locked)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[locked](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#locked)
 
 ___
 
@@ -239,7 +239,7 @@ the stream has not been destroyed or emitted `'error'` or `'end'`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readable)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readable](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readable)
 
 ___
 
@@ -251,7 +251,7 @@ Returns whether the stream was destroyed or errored before emitting `'end'`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableaborted)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableaborted)
 
 ___
 
@@ -263,7 +263,7 @@ Getter for the property `encoding` of a given `Readable` stream. The `encoding`p
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableencoding)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableencoding)
 
 ___
 
@@ -275,7 +275,7 @@ Becomes `true` when `'end'` event is emitted.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableended)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableended)
 
 ___
 
@@ -288,7 +288,7 @@ in the `Three states` section.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableflowing)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableflowing)
 
 ___
 
@@ -300,7 +300,7 @@ Returns the value of `highWaterMark` passed when creating this `Readable`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readablehighwatermark)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readablehighwatermark)
 
 ___
 
@@ -314,7 +314,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readablelength)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readablelength)
 
 ___
 
@@ -326,7 +326,7 @@ Getter for the property `objectMode` of a given `Readable` stream.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableobjectmode)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableobjectmode)
 
 ___
 
@@ -339,7 +339,7 @@ the stream has not been destroyed, errored or ended.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writable)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writable](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writable)
 
 ___
 
@@ -352,7 +352,7 @@ called in order to fully uncork the stream.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablecorked)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablecorked)
 
 ___
 
@@ -365,7 +365,7 @@ does not indicate whether the data has been flushed, for this use `writable.writ
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writableended)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writableended)
 
 ___
 
@@ -377,7 +377,7 @@ Is set to `true` immediately before the `'finish'` event is emitted.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablefinished)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablefinished)
 
 ___
 
@@ -389,7 +389,7 @@ Return the value of `highWaterMark` passed when creating this `Writable`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablehighwatermark)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablehighwatermark)
 
 ___
 
@@ -403,7 +403,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablelength)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablelength)
 
 ___
 
@@ -415,17 +415,17 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writableobjectmode)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writableobjectmode)
 
 ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#capturerejectionsymbol)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#capturerejectionsymbol)
 
 ___
 
@@ -437,7 +437,7 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#capturerejections)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#capturerejections)
 
 ___
 
@@ -447,13 +447,13 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#defaultmaxlisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -465,7 +465,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#errormonitor)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#errormonitor)
 
 ## Methods
 
@@ -479,7 +479,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#[asynciterator])
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#[asynciterator])
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_construct)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_construct](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_construct)
 
 ___
 
@@ -520,7 +520,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_destroy)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_destroy)
 
 ___
 
@@ -540,7 +540,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_final)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_final](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_final)
 
 ___
 
@@ -552,7 +552,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -576,7 +576,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_read)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_read)
 
 ___
 
@@ -590,7 +590,7 @@ ___
 | :------ | :------ |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -616,7 +616,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_write)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_write)
 
 ___
 
@@ -637,7 +637,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_writev)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[_writev](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_writev)
 
 ___
 
@@ -657,13 +657,13 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#abort)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[abort](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#abort)
 
 ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Event emitter
 The defined events on documents including:
@@ -684,13 +684,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -701,13 +701,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -718,13 +718,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -735,13 +735,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -752,13 +752,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -769,13 +769,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -786,13 +786,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **addListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -803,11 +803,11 @@ The defined events on documents including:
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
 
 ___
 
@@ -827,7 +827,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#cancel)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[cancel](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#cancel)
 
 ___
 
@@ -841,7 +841,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#close)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[close](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#close)
 
 ___
 
@@ -850,7 +850,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#uncork) or [end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -867,13 +867,13 @@ See also: `writable.uncork()`, `writable._writev()`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#cork)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[cork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#cork)
 
 ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **destroy**(`error?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the readable
 stream will release any internal resources and subsequent calls to `push()`will be ignored.
@@ -891,11 +891,11 @@ Implementors should not override this method, but instead implement `readable._d
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#destroy)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[destroy](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#destroy)
 
 ___
 
@@ -953,7 +953,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`, `chunk`): `boolean`
 
@@ -970,7 +970,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -986,7 +986,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`, `err`): `boolean`
 
@@ -1003,7 +1003,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1019,7 +1019,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1035,7 +1035,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1051,7 +1051,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ▸ **emit**(`event`, ...`args`): `boolean`
 
@@ -1068,20 +1068,20 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
 
 ___
 
 ### end
 
-▸ **end**(`cb?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **end**(`cb?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#write) method after calling [end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -1100,13 +1100,13 @@ file.end('world!');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end)
 
-▸ **end**(`chunk`, `cb?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **end**(`chunk`, `cb?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1117,13 +1117,13 @@ file.end('world!');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end)
 
-▸ **end**(`chunk`, `encoding?`, `cb?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **end**(`chunk`, `encoding?`, `cb?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1135,11 +1135,11 @@ file.end('world!');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end)
 
 ___
 
@@ -1169,7 +1169,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#eventnames)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#eventnames)
 
 ___
 
@@ -1181,7 +1181,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -1190,7 +1190,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#foreach)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[forEach](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#foreach)
 
 ___
 
@@ -1199,7 +1199,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -1207,35 +1207,35 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getmaxlisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getmaxlisteners)
 
 ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getreader)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[getReader](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getreader)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getwriter)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getwriter)
 
 ___
 
@@ -1263,7 +1263,7 @@ readable.isPaused(); // === false
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#ispaused)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#ispaused)
 
 ___
 
@@ -1285,7 +1285,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listenercount)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listenercount)
 
 ___
 
@@ -1315,13 +1315,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listeners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **off**(`eventName`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -1334,17 +1334,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#off)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1381,13 +1381,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1398,13 +1398,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1415,13 +1415,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1432,13 +1432,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1449,13 +1449,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1466,13 +1466,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1483,13 +1483,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
-▸ **on**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **on**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1500,17 +1500,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1545,13 +1545,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1562,13 +1562,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1579,13 +1579,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1596,13 +1596,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1613,13 +1613,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1630,13 +1630,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1647,13 +1647,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
-▸ **once**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **once**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1664,17 +1664,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
 
 ___
 
 ### pause
 
-▸ **pause**(): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **pause**(): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 The `readable.pause()` method will cause a stream in flowing mode to stop
 emitting `'data'` events, switching out of flowing mode. Any data that
@@ -1697,11 +1697,11 @@ The `readable.pause()` method has no effect if there is a `'readable'`event list
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pause)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[pause](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pause)
 
 ___
 
@@ -1713,7 +1713,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1729,13 +1729,13 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipe)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipe)
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -1747,16 +1747,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipethrough)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipethrough)
 
 ___
 
@@ -1768,8 +1768,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -1777,13 +1777,13 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipeto)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipeto)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1807,13 +1807,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1824,13 +1824,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1841,13 +1841,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1858,13 +1858,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1875,13 +1875,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1892,13 +1892,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1909,13 +1909,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1926,17 +1926,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1958,13 +1958,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1975,13 +1975,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -1992,13 +1992,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2009,13 +2009,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2026,13 +2026,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2043,13 +2043,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2060,13 +2060,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2077,11 +2077,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
 
 ___
 
@@ -2102,7 +2102,7 @@ ___
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#push)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[push](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#push)
 
 ___
 
@@ -2149,7 +2149,7 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#rawlisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#rawlisteners)
 
 ___
 
@@ -2227,7 +2227,7 @@ a call to `readable.read(size)`, regardless of the value of the`size` argument.
 If the `readable.read()` method returns a chunk of data, a `'data'` event will
 also be emitted.
 
-Calling [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#read) after the `'end'` event has
+Calling [read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#read) after the `'end'` event has
 been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
@@ -2242,13 +2242,13 @@ been emitted will return `null`. No runtime error will be raised.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#read)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#read)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeAllListeners**(`event?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -2266,17 +2266,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removealllisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -2364,13 +2364,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2381,13 +2381,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2398,13 +2398,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2415,13 +2415,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2432,13 +2432,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2449,13 +2449,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2466,13 +2466,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **removeListener**(`event`, `listener`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Parameters
 
@@ -2483,17 +2483,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
 
 ___
 
 ### resume
 
-▸ **resume**(): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **resume**(): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 The `readable.resume()` method causes an explicitly paused `Readable` stream to
 resume emitting `'data'` events, switching the stream into flowing mode.
@@ -2513,17 +2513,17 @@ The `readable.resume()` method has no effect if there is a `'readable'`event lis
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#resume)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[resume](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#resume)
 
 ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **setDefaultEncoding**(`encoding`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -2535,17 +2535,17 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setdefaultencoding)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setdefaultencoding)
 
 ___
 
 ### setEncoding
 
-▸ **setEncoding**(`encoding`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **setEncoding**(`encoding`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 The `readable.setEncoding()` method sets the character encoding for
 data read from the `Readable` stream.
@@ -2576,17 +2576,17 @@ readable.on('data', (chunk) => {
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setencoding)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setencoding)
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **setMaxListeners**(`n`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -2603,25 +2603,25 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setmaxlisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setmaxlisteners)
 
 ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#tee)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[tee](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#tee)
 
 ___
 
@@ -2629,7 +2629,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -2666,16 +2666,16 @@ See also: `writable.cork()`.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#uncork)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[uncork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#uncork)
 
 ___
 
 ### unpipe
 
-▸ **unpipe**(`destination?`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **unpipe**(`destination?`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 The `readable.unpipe()` method detaches a `Writable` stream previously attached
-using the [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipe) method.
+using the [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipe) method.
 
 If the `destination` is not specified, then _all_ pipes are detached.
 
@@ -2701,15 +2701,15 @@ setTimeout(() => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination?` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
+| `destination?` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#unpipe)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#unpipe)
 
 ___
 
@@ -2769,11 +2769,11 @@ function parseHeader(stream, callback) {
 }
 ```
 
-Unlike [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#push), `stream.unshift(chunk)` will not
+Unlike [push](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#push), `stream.unshift(chunk)` will not
 end the reading process by resetting the internal reading state of the stream.
 This can cause unexpected results if `readable.unshift()` is called during a
-read (i.e. from within a [_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_read) implementation on a
-custom stream). Following the call to `readable.unshift()` with an immediate [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#push) will reset the reading state appropriately,
+read (i.e. from within a [_read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_read) implementation on a
+custom stream). Following the call to `readable.unshift()` with an immediate [push](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#push) will reset the reading state appropriately,
 however it is best to simply avoid calling `readable.unshift()` while in the
 process of performing a read.
 
@@ -2790,18 +2790,18 @@ process of performing a read.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#unshift)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[unshift](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#unshift)
 
 ___
 
 ### wrap
 
-▸ **wrap**(`stream`): [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+▸ **wrap**(`stream`): [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 Prior to Node.js 0.10, streams did not implement the entire `stream` module API
 as it is currently defined. (See `Compatibility` for more information.)
 
-When using an older Node.js library that emits `'data'` events and has a [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
+When using an older Node.js library that emits `'data'` events and has a [pause](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
 stream that uses
 the old stream as its data source.
 
@@ -2824,15 +2824,15 @@ myReader.on('readable', () => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | An "old style" readable stream |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | An "old style" readable stream |
 
 #### Returns
 
-[`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+[`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#wrap)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[wrap](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#wrap)
 
 ___
 
@@ -2869,7 +2869,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -2905,7 +2905,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#write)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#write)
 
 ▸ **write**(`chunk`, `cb?`): `boolean`
 
@@ -2922,13 +2922,13 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#write)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#write)
 
 ___
 
 ### from
 
-▸ `Static` **from**(`src`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ `Static` **from**(`src`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 A utility method for creating duplex streams.
 
@@ -2956,15 +2956,15 @@ v16.8.0
 
 | Name | Type |
 | :------ | :------ |
-| `src` | `string` \| `Object` \| `Promise`<`any`\> \| `Blob` \| `ArrayBuffer` \| [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md) \| `Iterable`<`any`\> \| `AsyncIterable`<`any`\> \| `AsyncGeneratorFunction` |
+| `src` | `string` \| `Object` \| `Promise`<`any`\> \| `Blob` \| `ArrayBuffer` \| [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md) \| `Iterable`<`any`\> \| `AsyncIterable`<`any`\> \| `AsyncGeneratorFunction` |
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[from](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#from)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[from](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#from)
 
 ___
 
@@ -3001,7 +3001,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -3010,7 +3010,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#geteventlisteners)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#geteventlisteners)
 
 ___
 
@@ -3024,7 +3024,7 @@ Returns whether the stream has been read from or cancelled.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -3032,7 +3032,7 @@ Returns whether the stream has been read from or cancelled.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[isDisturbed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#isdisturbed)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[isDisturbed](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#isdisturbed)
 
 ___
 
@@ -3059,7 +3059,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -3068,7 +3068,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listenercount-1)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listenercount-1)
 
 ___
 
@@ -3134,7 +3134,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -3146,7 +3146,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on-1)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on-1)
 
 ___
 
@@ -3248,7 +3248,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once-1)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -3266,7 +3266,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once-1)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once-1)
 
 ___
 
@@ -3291,7 +3291,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -3299,4 +3299,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setmaxlisteners-1)
+[Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setmaxlisteners-1)

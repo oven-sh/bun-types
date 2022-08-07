@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md) / UrlWithParsedQuery
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md) / UrlWithParsedQuery
 
 # Interface: UrlWithParsedQuery
 
-["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md).UrlWithParsedQuery
+["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md).UrlWithParsedQuery
 
 ## Hierarchy
 
-- [`Url`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
+- [`Url`](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
 
   ↳ **`UrlWithParsedQuery`**
 
@@ -14,18 +14,18 @@
 
 ### Properties
 
-- [auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#auth)
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#hash)
-- [host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#host)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#hostname)
-- [href](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#href)
-- [path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#path)
-- [pathname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#pathname)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#port)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#protocol)
-- [query](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#query)
-- [search](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#search)
-- [slashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlWithParsedQuery.md#slashes)
+- [auth](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#auth)
+- [hash](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#hash)
+- [host](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#host)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#hostname)
+- [href](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#href)
+- [path](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#path)
+- [pathname](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#pathname)
+- [port](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#port)
+- [protocol](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#protocol)
+- [query](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#query)
+- [search](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#search)
+- [slashes](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlWithParsedQuery.md#slashes)
 
 ## Properties
 
@@ -35,7 +35,7 @@
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#auth)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[auth](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#auth)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#hash)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[hash](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#hash)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#host)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[host](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#host)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#hostname)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[hostname](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#hostname)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[href](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#href)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[href](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#href)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#path)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[path](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#path)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[pathname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#pathname)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[pathname](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#pathname)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#port)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[port](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#port)
 
 ___
 
@@ -115,17 +115,17 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#protocol)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[protocol](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#protocol)
 
 ___
 
 ### query
 
-• **query**: [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+• **query**: [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[query](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#query)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[query](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#query)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[search](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#search)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[search](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#search)
 
 ___
 
@@ -145,4 +145,4 @@ ___
 
 #### Inherited from
 
-[Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md).[slashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md#slashes)
+[Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md).[slashes](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md#slashes)

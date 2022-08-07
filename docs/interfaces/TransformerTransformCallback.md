@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / TransformerTransformCallback
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / TransformerTransformCallback
 
 # Interface: TransformerTransformCallback<I, O\>
 
@@ -20,7 +20,7 @@
 | Name | Type |
 | :------ | :------ |
 | `chunk` | `I` |
-| `controller` | [`TransformStreamDefaultController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#transformstreamdefaultcontroller)<`O`\> |
+| `controller` | [`TransformStreamDefaultController`](https://oven-sh.github.io/bun-types/modules.md#transformstreamdefaultcontroller)<`O`\> |
 
 #### Returns
 
@@ -35,7 +35,7 @@
 | Name | Type |
 | :------ | :------ |
 | `chunk` | `I` |
-| `controller` | [`TransformStreamDefaultController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#transformstreamdefaultcontroller)<`O`\> |
+| `controller` | [`TransformStreamDefaultController`](https://oven-sh.github.io/bun-types/modules.md#transformstreamdefaultcontroller)<`O`\> |
 
 #### Returns
 

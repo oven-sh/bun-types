@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / SystemError
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / SystemError
 
 # Interface: SystemError
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).SystemError
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).SystemError
 
 ## Hierarchy
 
@@ -14,10 +14,10 @@
 
 ### Properties
 
-- [code](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SystemError.md#code)
-- [errno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SystemError.md#errno)
-- [path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SystemError.md#path)
-- [syscall](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SystemError.md#syscall)
+- [code](https://oven-sh.github.io/bun-types/interfaces/bun_.SystemError.md#code)
+- [errno](https://oven-sh.github.io/bun-types/interfaces/bun_.SystemError.md#errno)
+- [path](https://oven-sh.github.io/bun-types/interfaces/bun_.SystemError.md#path)
+- [syscall](https://oven-sh.github.io/bun-types/interfaces/bun_.SystemError.md#syscall)
 
 ## Properties
 

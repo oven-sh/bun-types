@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_assert_.md) / CallTrackerReportInformation
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:assert"](https://oven-sh.github.io/bun-types/modules/node_assert_.md) / CallTrackerReportInformation
 
 # Interface: CallTrackerReportInformation
 
-["node:assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_assert_.md).CallTrackerReportInformation
+["node:assert"](https://oven-sh.github.io/bun-types/modules/node_assert_.md).CallTrackerReportInformation
 
 ## Table of contents
 
 ### Properties
 
-- [actual](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_assert_.CallTrackerReportInformation.md#actual)
-- [expected](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_assert_.CallTrackerReportInformation.md#expected)
-- [message](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_assert_.CallTrackerReportInformation.md#message)
-- [operator](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_assert_.CallTrackerReportInformation.md#operator)
-- [stack](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_assert_.CallTrackerReportInformation.md#stack)
+- [actual](https://oven-sh.github.io/bun-types/interfaces/node_assert_.CallTrackerReportInformation.md#actual)
+- [expected](https://oven-sh.github.io/bun-types/interfaces/node_assert_.CallTrackerReportInformation.md#expected)
+- [message](https://oven-sh.github.io/bun-types/interfaces/node_assert_.CallTrackerReportInformation.md#message)
+- [operator](https://oven-sh.github.io/bun-types/interfaces/node_assert_.CallTrackerReportInformation.md#operator)
+- [stack](https://oven-sh.github.io/bun-types/interfaces/node_assert_.CallTrackerReportInformation.md#stack)
 
 ## Properties
 

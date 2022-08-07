@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md) / NetworkInterfaceInfoIPv6
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["os"](https://oven-sh.github.io/bun-types/modules/os_.md) / NetworkInterfaceInfoIPv6
 
 # Interface: NetworkInterfaceInfoIPv6
 
-["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md).NetworkInterfaceInfoIPv6
+["os"](https://oven-sh.github.io/bun-types/modules/os_.md).NetworkInterfaceInfoIPv6
 
 ## Hierarchy
 
-- [`NetworkInterfaceBase`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md)
+- [`NetworkInterfaceBase`](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md)
 
   ↳ **`NetworkInterfaceInfoIPv6`**
 
@@ -14,13 +14,13 @@
 
 ### Properties
 
-- [address](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#address)
-- [cidr](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#cidr)
-- [family](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#family)
-- [internal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#internal)
-- [mac](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#mac)
-- [netmask](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#netmask)
-- [scopeid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md#scopeid)
+- [address](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#address)
+- [cidr](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#cidr)
+- [family](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#family)
+- [internal](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#internal)
+- [mac](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#mac)
+- [netmask](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#netmask)
+- [scopeid](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md#scopeid)
 
 ## Properties
 
@@ -30,7 +30,7 @@
 
 #### Inherited from
 
-[NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md).[address](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md#address)
+[NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md).[address](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md#address)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Inherited from
 
-[NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md).[cidr](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md#cidr)
+[NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md).[cidr](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md#cidr)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Inherited from
 
-[NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md).[internal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md#internal)
+[NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md).[internal](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md#internal)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Inherited from
 
-[NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md).[mac](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md#mac)
+[NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md).[mac](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md#mac)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Inherited from
 
-[NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md).[netmask](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceBase.md#netmask)
+[NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md).[netmask](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceBase.md#netmask)
 
 ___
 

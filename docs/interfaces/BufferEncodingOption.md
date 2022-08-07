@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / BufferEncodingOption
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / BufferEncodingOption
 
 # Interface: BufferEncodingOption
 
@@ -6,7 +6,7 @@
 
 ### Properties
 
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md#encoding)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md#encoding)
 
 ## Properties
 

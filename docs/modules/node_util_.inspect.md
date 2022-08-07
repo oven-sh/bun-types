@@ -1,24 +1,24 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.md) / inspect
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:util"](https://oven-sh.github.io/bun-types/modules/node_util_.md) / inspect
 
 # Namespace: inspect
 
-["node:util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.md).inspect
+["node:util"](https://oven-sh.github.io/bun-types/modules/node_util_.md).inspect
 
 ## Table of contents
 
 ### Variables
 
-- [colors](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.inspect.md#colors)
-- [custom](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.inspect.md#custom)
-- [defaultOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.inspect.md#defaultoptions)
-- [replDefaults](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.inspect.md#repldefaults)
-- [styles](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.inspect.md#styles)
+- [colors](https://oven-sh.github.io/bun-types/modules/node_util_.inspect.md#colors)
+- [custom](https://oven-sh.github.io/bun-types/modules/node_util_.inspect.md#custom)
+- [defaultOptions](https://oven-sh.github.io/bun-types/modules/node_util_.inspect.md#defaultoptions)
+- [replDefaults](https://oven-sh.github.io/bun-types/modules/node_util_.inspect.md#repldefaults)
+- [styles](https://oven-sh.github.io/bun-types/modules/node_util_.inspect.md#styles)
 
 ## Variables
 
 ### colors
 
-• **colors**: [`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`number`, `number`]\>
+• **colors**: [`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`number`, `number`]\>
 
 ___
 
@@ -32,13 +32,13 @@ ___
 
 ### defaultOptions
 
-• **defaultOptions**: [`InspectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md)
+• **defaultOptions**: [`InspectOptions`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md)
 
 ___
 
 ### replDefaults
 
-• **replDefaults**: [`InspectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md)
+• **replDefaults**: [`InspectOptions`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md)
 
 Allows changing inspect settings from the repl.
 

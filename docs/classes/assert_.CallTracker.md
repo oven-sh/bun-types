@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md) / CallTracker
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md) / CallTracker
 
 # Class: CallTracker
 
-["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md).CallTracker
+["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md).CallTracker
 
 This feature is currently experimental and behavior might still change.
 
@@ -10,13 +10,13 @@ This feature is currently experimental and behavior might still change.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.CallTracker.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/assert_.CallTracker.md#constructor)
 
 ### Methods
 
-- [calls](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.CallTracker.md#calls)
-- [report](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.CallTracker.md#report)
-- [verify](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.CallTracker.md#verify)
+- [calls](https://oven-sh.github.io/bun-types/classes/assert_.CallTracker.md#calls)
+- [report](https://oven-sh.github.io/bun-types/classes/assert_.CallTracker.md#report)
+- [verify](https://oven-sh.github.io/bun-types/classes/assert_.CallTracker.md#verify)
 
 ## Constructors
 
@@ -107,7 +107,7 @@ ___
 
 ### report
 
-▸ **report**(): [`CallTrackerReportInformation`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md)[]
+▸ **report**(): [`CallTrackerReportInformation`](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md)[]
 
 The arrays contains information about the expected and actual number of calls of
 the functions that have not been called the expected number of times.
@@ -142,7 +142,7 @@ tracker.report();
 
 #### Returns
 
-[`CallTrackerReportInformation`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md)[]
+[`CallTrackerReportInformation`](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md)[]
 
 of objects containing information about the wrapper functions returned by `calls`.
 

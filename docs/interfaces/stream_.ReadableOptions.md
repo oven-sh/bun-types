@@ -1,35 +1,35 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / ReadableOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / ReadableOptions
 
 # Interface: ReadableOptions
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).ReadableOptions
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).ReadableOptions
 
 ## Hierarchy
 
-- [`StreamOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md)<[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)\>
+- [`StreamOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md)<[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)\>
 
   ↳ **`ReadableOptions`**
 
-  ↳↳ [`DuplexOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.DuplexOptions.md)
+  ↳↳ [`DuplexOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.DuplexOptions.md)
 
-  ↳↳ [`DuplexOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md)
+  ↳↳ [`DuplexOptions`](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md)
 
 ## Table of contents
 
 ### Properties
 
-- [autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#autodestroy)
-- [emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#emitclose)
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#encoding)
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#highwatermark)
-- [objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#objectmode)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#signal)
+- [autoDestroy](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#autodestroy)
+- [emitClose](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#emitclose)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#encoding)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#highwatermark)
+- [objectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#objectmode)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#signal)
 
 ### Methods
 
-- [construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#construct)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#destroy)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#read)
+- [construct](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#construct)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#destroy)
+- [read](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#read)
 
 ## Properties
 
@@ -39,7 +39,7 @@
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#autodestroy)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[autoDestroy](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#autodestroy)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#emitclose)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[emitClose](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#emitclose)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#highwatermark)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[highWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#highwatermark)
 
 ___
 
@@ -75,19 +75,19 @@ ___
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#objectmode)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[objectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#objectmode)
 
 ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 When provided the corresponding `AbortController` can be used to cancel an asynchronous action.
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#signal)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[signal](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#signal)
 
 ## Methods
 
@@ -99,7 +99,7 @@ When provided the corresponding `AbortController` can be used to cancel an async
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `this` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 | `callback` | (`error?`: `Error`) => `void` |
 
 #### Returns
@@ -108,7 +108,7 @@ When provided the corresponding `AbortController` can be used to cancel an async
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#construct)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[construct](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#construct)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `this` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 | `error` | `Error` |
 | `callback` | (`error`: `Error`) => `void` |
 
@@ -130,7 +130,7 @@ ___
 
 #### Inherited from
 
-[StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#destroy)
+[StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md).[destroy](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#destroy)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `this` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 | `size` | `number` |
 
 #### Returns

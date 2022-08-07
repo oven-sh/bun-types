@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "url"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "url"
 
 # Namespace: "url"
 
@@ -17,21 +17,21 @@ import url from 'url';
 
 ### Interfaces
 
-- [URL](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md)
-- [URLFormatOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URLFormatOptions.md)
-- [URLSearchParams](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URLSearchParams.md)
-- [Url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
-- [UrlObject](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlObject.md)
-- [UrlWithParsedQuery](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithParsedQuery.md)
-- [UrlWithStringQuery](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+- [URL](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md)
+- [URLFormatOptions](https://oven-sh.github.io/bun-types/interfaces/url_.URLFormatOptions.md)
+- [URLSearchParams](https://oven-sh.github.io/bun-types/interfaces/url_.URLSearchParams.md)
+- [Url](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
+- [UrlObject](https://oven-sh.github.io/bun-types/interfaces/url_.UrlObject.md)
+- [UrlWithParsedQuery](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithParsedQuery.md)
+- [UrlWithStringQuery](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
 ### Functions
 
-- [fileURLToPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/url_.md#fileurltopath)
-- [format](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/url_.md#format)
-- [parse](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/url_.md#parse)
-- [pathToFileURL](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/url_.md#pathtofileurl)
-- [resolve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/url_.md#resolve)
+- [fileURLToPath](https://oven-sh.github.io/bun-types/modules/url_.md#fileurltopath)
+- [format](https://oven-sh.github.io/bun-types/modules/url_.md#format)
+- [parse](https://oven-sh.github.io/bun-types/modules/url_.md#parse)
+- [pathToFileURL](https://oven-sh.github.io/bun-types/modules/url_.md#pathtofileurl)
+- [resolve](https://oven-sh.github.io/bun-types/modules/url_.md#resolve)
 
 ## Functions
 
@@ -68,7 +68,7 @@ v10.12.0
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md) | The file URL string or URL object to convert to a path. |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md) | The file URL string or URL object to convert to a path. |
 
 #### Returns
 
@@ -107,7 +107,7 @@ v10.12.0
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md) | The file URL string or URL object to convert to a path. |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md) | The file URL string or URL object to convert to a path. |
 
 #### Returns
 
@@ -192,8 +192,8 @@ Legacy: Use the WHATWG URL API instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `urlObject` | [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
-| `options?` | [`URLFormatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URLFormatOptions.md) | - |
+| `urlObject` | [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
+| `options?` | [`URLFormatOptions`](https://oven-sh.github.io/bun-types/interfaces/url_.URLFormatOptions.md) | - |
 
 #### Returns
 
@@ -272,7 +272,7 @@ Legacy: Use the WHATWG URL API instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `urlObject` | `string` \| [`UrlObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlObject.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
+| `urlObject` | `string` \| [`UrlObject`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlObject.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
 
 #### Returns
 
@@ -351,8 +351,8 @@ Legacy: Use the WHATWG URL API instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `urlObject` | [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
-| `options?` | [`URLFormatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URLFormatOptions.md) | - |
+| `urlObject` | [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
+| `options?` | [`URLFormatOptions`](https://oven-sh.github.io/bun-types/interfaces/url_.URLFormatOptions.md) | - |
 
 #### Returns
 
@@ -431,7 +431,7 @@ Legacy: Use the WHATWG URL API instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `urlObject` | `string` \| [`UrlObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlObject.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
+| `urlObject` | `string` \| [`UrlObject`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlObject.md) | A URL object (as returned by `url.parse()` or constructed otherwise). If a string, it is converted to an object by passing it to `url.parse()`. |
 
 #### Returns
 
@@ -441,7 +441,7 @@ ___
 
 ### parse
 
-▸ **parse**(`urlString`): [`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+▸ **parse**(`urlString`): [`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
 The `url.parse()` method takes a URL string, parses it, and returns a URL
 object.
@@ -472,9 +472,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+[`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
 #### Parameters
 
@@ -486,9 +486,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+[`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithParsedQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithParsedQuery.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithParsedQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithParsedQuery.md)
 
 #### Parameters
 
@@ -500,9 +500,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithParsedQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithParsedQuery.md)
+[`UrlWithParsedQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithParsedQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`Url`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`Url`](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
 
 #### Parameters
 
@@ -514,9 +514,9 @@ v0.1.25
 
 #### Returns
 
-[`Url`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
+[`Url`](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
 
-▸ **parse**(`urlString`): [`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+▸ **parse**(`urlString`): [`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
 The `url.parse()` method takes a URL string, parses it, and returns a URL
 object.
@@ -547,9 +547,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+[`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
 #### Parameters
 
@@ -561,9 +561,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithStringQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithStringQuery.md)
+[`UrlWithStringQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithStringQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithParsedQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithParsedQuery.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`UrlWithParsedQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithParsedQuery.md)
 
 #### Parameters
 
@@ -575,9 +575,9 @@ v0.1.25
 
 #### Returns
 
-[`UrlWithParsedQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.UrlWithParsedQuery.md)
+[`UrlWithParsedQuery`](https://oven-sh.github.io/bun-types/interfaces/url_.UrlWithParsedQuery.md)
 
-▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`Url`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
+▸ **parse**(`urlString`, `parseQueryString`, `slashesDenoteHost?`): [`Url`](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
 
 #### Parameters
 
@@ -589,13 +589,13 @@ v0.1.25
 
 #### Returns
 
-[`Url`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.Url-1.md)
+[`Url`](https://oven-sh.github.io/bun-types/interfaces/url_.Url-1.md)
 
 ___
 
 ### pathToFileURL
 
-▸ **pathToFileURL**(`path`): [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md)
+▸ **pathToFileURL**(`path`): [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md)
 
 This function ensures that `path` is resolved absolutely, and that the URL
 control characters are correctly encoded when converting into a File URL.
@@ -622,11 +622,11 @@ v10.12.0
 
 #### Returns
 
-[`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md)
+[`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md)
 
 The file URL object.
 
-▸ **pathToFileURL**(`path`): [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md)
+▸ **pathToFileURL**(`path`): [`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md)
 
 This function ensures that `path` is resolved absolutely, and that the URL
 control characters are correctly encoded when converting into a File URL.
@@ -653,7 +653,7 @@ v10.12.0
 
 #### Returns
 
-[`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URL.md)
+[`URL`](https://oven-sh.github.io/bun-types/interfaces/url_.URL.md)
 
 The file URL object.
 

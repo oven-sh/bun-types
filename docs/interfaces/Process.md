@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Process
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Process
 
 # Interface: Process
 
@@ -6,27 +6,27 @@
 
 ### Properties
 
-- [arch](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#arch)
-- [argv](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#argv)
-- [env](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#env)
-- [isBun](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#isbun)
-- [pid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#pid)
-- [platform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#platform)
-- [ppid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#ppid)
-- [version](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#version)
-- [versions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#versions)
+- [arch](https://oven-sh.github.io/bun-types/interfaces/Process.md#arch)
+- [argv](https://oven-sh.github.io/bun-types/interfaces/Process.md#argv)
+- [env](https://oven-sh.github.io/bun-types/interfaces/Process.md#env)
+- [isBun](https://oven-sh.github.io/bun-types/interfaces/Process.md#isbun)
+- [pid](https://oven-sh.github.io/bun-types/interfaces/Process.md#pid)
+- [platform](https://oven-sh.github.io/bun-types/interfaces/Process.md#platform)
+- [ppid](https://oven-sh.github.io/bun-types/interfaces/Process.md#ppid)
+- [version](https://oven-sh.github.io/bun-types/interfaces/Process.md#version)
+- [versions](https://oven-sh.github.io/bun-types/interfaces/Process.md#versions)
 
 ### Methods
 
-- [chdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#chdir)
-- [cwd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#cwd)
-- [dlopen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#dlopen)
-- [exit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#exit)
-- [getgid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#getgid)
-- [getuid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#getuid)
-- [nextTick](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#nexttick)
-- [setgid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#setgid)
-- [setuid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Process.md#setuid)
+- [chdir](https://oven-sh.github.io/bun-types/interfaces/Process.md#chdir)
+- [cwd](https://oven-sh.github.io/bun-types/interfaces/Process.md#cwd)
+- [dlopen](https://oven-sh.github.io/bun-types/interfaces/Process.md#dlopen)
+- [exit](https://oven-sh.github.io/bun-types/interfaces/Process.md#exit)
+- [getgid](https://oven-sh.github.io/bun-types/interfaces/Process.md#getgid)
+- [getuid](https://oven-sh.github.io/bun-types/interfaces/Process.md#getuid)
+- [nextTick](https://oven-sh.github.io/bun-types/interfaces/Process.md#nexttick)
+- [setgid](https://oven-sh.github.io/bun-types/interfaces/Process.md#setgid)
+- [setuid](https://oven-sh.github.io/bun-types/interfaces/Process.md#setuid)
 
 ## Properties
 
@@ -232,7 +232,7 @@ ___
 
 Run a function on the next tick of the event loop
 
-This is the same as [queueMicrotask](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#queuemicrotask)
+This is the same as [queueMicrotask](https://oven-sh.github.io/bun-types/modules.md#queuemicrotask)
 
 #### Parameters
 
@@ -249,7 +249,7 @@ This is the same as [queueMicrotask](https://github.com/oven-sh/bun-types/blob/m
 
 Run a function on the next tick of the event loop
 
-This is the same as [queueMicrotask](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#queuemicrotask)
+This is the same as [queueMicrotask](https://oven-sh.github.io/bun-types/modules.md#queuemicrotask)
 
 #### Parameters
 

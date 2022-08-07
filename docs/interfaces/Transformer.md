@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Transformer
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Transformer
 
 # Interface: Transformer<I, O\>
 
@@ -13,17 +13,17 @@
 
 ### Properties
 
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Transformer.md#flush)
-- [readableType](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Transformer.md#readabletype)
-- [start](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Transformer.md#start)
-- [transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Transformer.md#transform)
-- [writableType](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Transformer.md#writabletype)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/Transformer.md#flush)
+- [readableType](https://oven-sh.github.io/bun-types/interfaces/Transformer.md#readabletype)
+- [start](https://oven-sh.github.io/bun-types/interfaces/Transformer.md#start)
+- [transform](https://oven-sh.github.io/bun-types/interfaces/Transformer.md#transform)
+- [writableType](https://oven-sh.github.io/bun-types/interfaces/Transformer.md#writabletype)
 
 ## Properties
 
 ### flush
 
-• `Optional` **flush**: [`TransformerFlushCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformerFlushCallback.md)<`O`\>
+• `Optional` **flush**: [`TransformerFlushCallback`](https://oven-sh.github.io/bun-types/interfaces/TransformerFlushCallback.md)<`O`\>
 
 ___
 
@@ -35,13 +35,13 @@ ___
 
 ### start
 
-• `Optional` **start**: [`TransformerStartCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformerStartCallback.md)<`O`\>
+• `Optional` **start**: [`TransformerStartCallback`](https://oven-sh.github.io/bun-types/interfaces/TransformerStartCallback.md)<`O`\>
 
 ___
 
 ### transform
 
-• `Optional` **transform**: [`TransformerTransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformerTransformCallback.md)<`I`, `O`\>
+• `Optional` **transform**: [`TransformerTransformCallback`](https://oven-sh.github.io/bun-types/interfaces/TransformerTransformCallback.md)<`I`, `O`\>
 
 ___
 

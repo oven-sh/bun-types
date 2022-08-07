@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / RequestInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / RequestInit
 
 # Interface: RequestInit
 
@@ -6,19 +6,19 @@
 
 ### Properties
 
-- [body](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#body)
-- [cache](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#cache)
-- [credentials](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#credentials)
-- [headers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#headers)
-- [integrity](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#integrity)
-- [keepalive](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#keepalive)
-- [method](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#method)
-- [mode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#mode)
-- [redirect](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#redirect)
-- [referrer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#referrer)
-- [referrerPolicy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#referrerpolicy)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#signal)
-- [window](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/RequestInit.md#window)
+- [body](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#body)
+- [cache](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#cache)
+- [credentials](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#credentials)
+- [headers](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#headers)
+- [integrity](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#integrity)
+- [keepalive](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#keepalive)
+- [method](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#method)
+- [mode](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#mode)
+- [redirect](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#redirect)
+- [referrer](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#referrer)
+- [referrerPolicy](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#referrerpolicy)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#signal)
+- [window](https://oven-sh.github.io/bun-types/interfaces/RequestInit.md#window)
 
 ## Properties
 
@@ -118,7 +118,7 @@ ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 An AbortSignal to set request's signal.
 

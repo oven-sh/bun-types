@@ -1,16 +1,16 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / ReadSyncOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / ReadSyncOptions
 
 # Interface: ReadSyncOptions
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).ReadSyncOptions
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).ReadSyncOptions
 
 ## Table of contents
 
 ### Properties
 
-- [length](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.ReadSyncOptions.md#length)
-- [offset](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.ReadSyncOptions.md#offset)
-- [position](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.ReadSyncOptions.md#position)
+- [length](https://oven-sh.github.io/bun-types/interfaces/node_fs_.ReadSyncOptions.md#length)
+- [offset](https://oven-sh.github.io/bun-types/interfaces/node_fs_.ReadSyncOptions.md#offset)
+- [position](https://oven-sh.github.io/bun-types/interfaces/node_fs_.ReadSyncOptions.md#position)
 
 ## Properties
 
@@ -36,7 +36,7 @@ ___
 
 ### position
 
-• `Optional` **position**: [`ReadPosition`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#readposition)
+• `Optional` **position**: [`ReadPosition`](https://oven-sh.github.io/bun-types/modules/fs_.md#readposition)
 
 **`Default`**
 

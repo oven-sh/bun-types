@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md) / Stream
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md) / Stream
 
 # Class: Stream
 
-["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md).Stream
+["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md).Stream
 
 ## Hierarchy
 
@@ -14,38 +14,38 @@
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#constructor)
 
 ### Properties
 
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#errormonitor)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#errormonitor)
 
 ### Methods
 
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#addlistener)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#emit)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#eventnames)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#getmaxlisteners)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#once)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#pipe)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#prependoncelistener)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#rawlisteners)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#removelistener)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#setmaxlisteners)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#geteventlisteners)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#setmaxlisteners-1)
+- [addListener](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#addlistener)
+- [emit](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#emit)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#eventnames)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#getmaxlisteners)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#once)
+- [pipe](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#pipe)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#prependoncelistener)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#rawlisteners)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#removelistener)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#setmaxlisteners)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#geteventlisteners)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -57,7 +57,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `opts?` | [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md) |
+| `opts?` | [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md) |
 
 #### Overrides
 
@@ -67,7 +67,7 @@ internal.constructor
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
@@ -99,7 +99,7 @@ ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -117,7 +117,7 @@ internal.errorMonitor
 
 ### addListener
 
-▸ **addListener**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **addListener**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Alias for `emitter.on(eventName, listener)`.
 
@@ -130,7 +130,7 @@ Alias for `emitter.on(eventName, listener)`.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -232,7 +232,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Stream.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/node_stream_.Stream.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -298,7 +298,7 @@ ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **off**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -311,7 +311,7 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -321,7 +321,7 @@ ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **on**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -358,7 +358,7 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -368,7 +368,7 @@ ___
 
 ### once
 
-▸ **once**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **once**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -403,7 +403,7 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -419,7 +419,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -441,7 +441,7 @@ ___
 
 ### prependListener
 
-▸ **prependListener**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **prependListener**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -465,7 +465,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -475,7 +475,7 @@ ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **prependOnceListener**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -497,7 +497,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -554,7 +554,7 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **removeAllListeners**(`event?`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -572,7 +572,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -582,7 +582,7 @@ ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName`, `listener`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **removeListener**(`eventName`, `listener`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -670,7 +670,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -680,7 +680,7 @@ ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+▸ **setMaxListeners**(`n`): [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -697,7 +697,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+[`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
 #### Inherited from
 
@@ -738,7 +738,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -774,7 +774,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -849,7 +849,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -1006,7 +1006,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 

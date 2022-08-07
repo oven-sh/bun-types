@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableStream
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableStream
 
 # Interface: ReadableStream<R\>
 
@@ -14,16 +14,16 @@ This Streams API interface represents a readable stream of byte data. The Fetch 
 
 ### Properties
 
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#locked)
+- [locked](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#locked)
 
 ### Methods
 
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#cancel)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#foreach)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#getreader)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#pipeto)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md#tee)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#cancel)
+- [forEach](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#foreach)
+- [getReader](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#getreader)
+- [pipeThrough](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#pipeto)
+- [tee](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md#tee)
 
 ## Properties
 
@@ -69,7 +69,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -82,7 +82,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -93,23 +93,23 @@ ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -121,14 +121,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -140,12 +140,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 ___
 
@@ -157,8 +157,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -170,8 +170,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -181,14 +181,14 @@ ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]

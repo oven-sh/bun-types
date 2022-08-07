@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / CryptoHashInterface
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / CryptoHashInterface
 
 # Class: CryptoHashInterface<T\>
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).CryptoHashInterface
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).CryptoHashInterface
 
 This class only exists in types
 
@@ -16,33 +16,33 @@ This class only exists in types
 
 - **`CryptoHashInterface`**
 
-  ↳ [`SHA1`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA1.md)
+  ↳ [`SHA1`](https://oven-sh.github.io/bun-types/classes/bun_.SHA1.md)
 
-  ↳ [`MD5`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.MD5.md)
+  ↳ [`MD5`](https://oven-sh.github.io/bun-types/classes/bun_.MD5.md)
 
-  ↳ [`MD4`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.MD4.md)
+  ↳ [`MD4`](https://oven-sh.github.io/bun-types/classes/bun_.MD4.md)
 
-  ↳ [`SHA224`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA224.md)
+  ↳ [`SHA224`](https://oven-sh.github.io/bun-types/classes/bun_.SHA224.md)
 
-  ↳ [`SHA512`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA512.md)
+  ↳ [`SHA512`](https://oven-sh.github.io/bun-types/classes/bun_.SHA512.md)
 
-  ↳ [`SHA384`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md)
+  ↳ [`SHA384`](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md)
 
-  ↳ [`SHA256`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA256.md)
+  ↳ [`SHA256`](https://oven-sh.github.io/bun-types/classes/bun_.SHA256.md)
 
-  ↳ [`SHA512_256`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA512_256.md)
+  ↳ [`SHA512_256`](https://oven-sh.github.io/bun-types/classes/bun_.SHA512_256.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#constructor)
 
 ### Methods
 
-- [digest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#digest)
-- [update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#update)
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#hash)
+- [digest](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#digest)
+- [update](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#update)
+- [hash](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#hash)
 
 ## Constructors
 
@@ -68,7 +68,7 @@ Finalize the hash
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in. If none is provided, it will return a `Uint8Array`. |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in. If none is provided, it will return a `Uint8Array`. |
 
 #### Returns
 
@@ -134,7 +134,7 @@ Run the hash over the given data
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `input` | `StringOrBuffer` | `string`, `Uint8Array`, or `ArrayBuffer` to hash. `Uint8Array` or `ArrayBuffer` is faster. |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in |
 
 #### Returns
 

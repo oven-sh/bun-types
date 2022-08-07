@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md) / EncodeIntoResult
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["util"](https://oven-sh.github.io/bun-types/modules/util_.md) / EncodeIntoResult
 
 # Interface: EncodeIntoResult
 
-["util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md).EncodeIntoResult
+["util"](https://oven-sh.github.io/bun-types/modules/util_.md).EncodeIntoResult
 
 ## Table of contents
 
 ### Properties
 
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.EncodeIntoResult.md#read)
-- [written](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.EncodeIntoResult.md#written)
+- [read](https://oven-sh.github.io/bun-types/interfaces/util_.EncodeIntoResult.md#read)
+- [written](https://oven-sh.github.io/bun-types/interfaces/util_.EncodeIntoResult.md#written)
 
 ## Properties
 

@@ -1,22 +1,22 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md) / StatOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md) / StatOptions
 
 # Interface: StatOptions
 
-["fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md).StatOptions
+["fs"](https://oven-sh.github.io/bun-types/modules/fs_.md).StatOptions
 
 ## Hierarchy
 
 - **`StatOptions`**
 
-  ↳ [`StatSyncOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatSyncOptions.md)
+  ↳ [`StatSyncOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatSyncOptions.md)
 
-  ↳ [`StatSyncOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.StatSyncOptions.md)
+  ↳ [`StatSyncOptions`](https://oven-sh.github.io/bun-types/interfaces/node_fs_.StatSyncOptions.md)
 
 ## Table of contents
 
 ### Properties
 
-- [bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md#bigint)
+- [bigint](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md#bigint)
 
 ## Properties
 

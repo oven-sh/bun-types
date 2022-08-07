@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / Server
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / Server
 
 # Interface: Server
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).Server
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).Server
 
 HTTP & HTTPS Server
 
-To start the server, see [serve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#serve-1)
+To start the server, see [serve](https://oven-sh.github.io/bun-types/modules/bun_.md#serve-1)
 
 Often, you don't need to interact with this object directly. It exists to help you with the following tasks:
 - Stop the server
@@ -22,14 +22,14 @@ Powered by a fork of [uWebSockets](https://github.com/uNetworking/uWebSockets). 
 
 ### Properties
 
-- [development](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md#development)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md#hostname)
-- [pendingRequests](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md#pendingrequests)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md#port)
+- [development](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md#development)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md#hostname)
+- [pendingRequests](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md#pendingrequests)
+- [port](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md#port)
 
 ### Methods
 
-- [stop](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md#stop)
+- [stop](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md#stop)
 
 ## Properties
 

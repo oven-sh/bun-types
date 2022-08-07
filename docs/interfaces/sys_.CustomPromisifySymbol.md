@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/sys_.md) / CustomPromisifySymbol
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["sys"](https://oven-sh.github.io/bun-types/modules/sys_.md) / CustomPromisifySymbol
 
 # Interface: CustomPromisifySymbol<TCustom\>
 
-["sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/sys_.md).CustomPromisifySymbol
+["sys"](https://oven-sh.github.io/bun-types/modules/sys_.md).CustomPromisifySymbol
 
 ## Type parameters
 
@@ -20,7 +20,7 @@
 
 ### Properties
 
-- [[custom]](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/sys_.CustomPromisifySymbol.md#[custom])
+- [[custom]](https://oven-sh.github.io/bun-types/interfaces/sys_.CustomPromisifySymbol.md#[custom])
 
 ## Properties
 

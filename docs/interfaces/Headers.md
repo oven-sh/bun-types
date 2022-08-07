@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Headers
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Headers
 
 # Interface: Headers
 
@@ -17,15 +17,15 @@ case-insensitive byte sequence.
 
 ### Methods
 
-- [append](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#append)
-- [delete](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#delete)
-- [entries](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#entries)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#foreach)
-- [get](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#get)
-- [has](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#has)
-- [keys](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#keys)
-- [set](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#set)
-- [values](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Headers.md#values)
+- [append](https://oven-sh.github.io/bun-types/interfaces/Headers.md#append)
+- [delete](https://oven-sh.github.io/bun-types/interfaces/Headers.md#delete)
+- [entries](https://oven-sh.github.io/bun-types/interfaces/Headers.md#entries)
+- [forEach](https://oven-sh.github.io/bun-types/interfaces/Headers.md#foreach)
+- [get](https://oven-sh.github.io/bun-types/interfaces/Headers.md#get)
+- [has](https://oven-sh.github.io/bun-types/interfaces/Headers.md#has)
+- [keys](https://oven-sh.github.io/bun-types/interfaces/Headers.md#keys)
+- [set](https://oven-sh.github.io/bun-types/interfaces/Headers.md#set)
+- [values](https://oven-sh.github.io/bun-types/interfaces/Headers.md#values)
 
 ## Methods
 
@@ -111,7 +111,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`Headers`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#headers)) => `void` |
+| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`Headers`](https://oven-sh.github.io/bun-types/modules.md#headers)) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -124,7 +124,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`Headers`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#headers)) => `void` |
+| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`Headers`](https://oven-sh.github.io/bun-types/modules.md#headers)) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns

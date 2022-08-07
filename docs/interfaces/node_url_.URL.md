@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md) / URL
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md) / URL
 
 # Interface: URL
 
-["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md).URL
+["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md).URL
 
 The URL interface represents an object providing static methods used for
 creating object URLs.
@@ -11,23 +11,23 @@ creating object URLs.
 
 ### Properties
 
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#hash)
-- [host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#host)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#hostname)
-- [href](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#href)
-- [origin](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#origin)
-- [password](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#password)
-- [pathname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#pathname)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#port)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#protocol)
-- [search](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#search)
-- [searchParams](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#searchparams)
-- [username](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#username)
+- [hash](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#hash)
+- [host](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#host)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#hostname)
+- [href](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#href)
+- [origin](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#origin)
+- [password](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#password)
+- [pathname](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#pathname)
+- [port](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#port)
+- [protocol](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#protocol)
+- [search](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#search)
+- [searchParams](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#searchparams)
+- [username](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#username)
 
 ### Methods
 
-- [toJSON](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#tojson)
-- [toString](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URL.md#tostring)
+- [toJSON](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#tojson)
+- [toString](https://oven-sh.github.io/bun-types/interfaces/node_url_.URL.md#tostring)
 
 ## Properties
 
@@ -93,7 +93,7 @@ ___
 
 ### searchParams
 
-• `Readonly` **searchParams**: [`URLSearchParams`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/url_.URLSearchParams.md)
+• `Readonly` **searchParams**: [`URLSearchParams`](https://oven-sh.github.io/bun-types/interfaces/url_.URLSearchParams.md)
 
 ___
 

@@ -1,26 +1,26 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md) / InformationEvent
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md) / InformationEvent
 
 # Interface: InformationEvent
 
-["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md).InformationEvent
+["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md).InformationEvent
 
 ## Table of contents
 
 ### Properties
 
-- [headers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#headers)
-- [httpVersion](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#httpversion)
-- [httpVersionMajor](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#httpversionmajor)
-- [httpVersionMinor](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#httpversionminor)
-- [rawHeaders](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#rawheaders)
-- [statusCode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#statuscode)
-- [statusMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.InformationEvent.md#statusmessage)
+- [headers](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#headers)
+- [httpVersion](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#httpversion)
+- [httpVersionMajor](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#httpversionmajor)
+- [httpVersionMinor](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#httpversionminor)
+- [rawHeaders](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#rawheaders)
+- [statusCode](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#statuscode)
+- [statusMessage](https://oven-sh.github.io/bun-types/interfaces/node_http_.InformationEvent.md#statusmessage)
 
 ## Properties
 
 ### headers
 
-• **headers**: [`IncomingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.IncomingHttpHeaders.md)
+• **headers**: [`IncomingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/http_.IncomingHttpHeaders.md)
 
 ___
 

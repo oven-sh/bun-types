@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableStreamDefaultController
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableStreamDefaultController
 
 # Interface: ReadableStreamDefaultController<R\>
 
@@ -12,13 +12,13 @@
 
 ### Properties
 
-- [desiredSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultController.md#desiredsize)
+- [desiredSize](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultController.md#desiredsize)
 
 ### Methods
 
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultController.md#close)
-- [enqueue](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultController.md#enqueue)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultController.md#error)
+- [close](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultController.md#close)
+- [enqueue](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultController.md#enqueue)
+- [error](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultController.md#error)
 
 ## Properties
 

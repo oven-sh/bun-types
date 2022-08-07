@@ -1,13 +1,13 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / DiffieHellman
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / DiffieHellman
 
 # Class: DiffieHellman
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).DiffieHellman
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).DiffieHellman
 
 The `DiffieHellman` class is a utility for creating Diffie-Hellman key
 exchanges.
 
-Instances of the `DiffieHellman` class can be created using the [createDiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#creatediffiehellman) function.
+Instances of the `DiffieHellman` class can be created using the [createDiffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#creatediffiehellman) function.
 
 ```js
 import assert from 'assert';
@@ -36,22 +36,22 @@ assert.strictEqual(aliceSecret.toString('hex'), bobSecret.toString('hex'));
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#constructor)
 
 ### Properties
 
-- [verifyError](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#verifyerror)
+- [verifyError](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#verifyerror)
 
 ### Methods
 
-- [computeSecret](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#computesecret)
-- [generateKeys](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#generatekeys)
-- [getGenerator](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#getgenerator)
-- [getPrime](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#getprime)
-- [getPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#getprivatekey)
-- [getPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#getpublickey)
-- [setPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#setprivatekey)
-- [setPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md#setpublickey)
+- [computeSecret](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#computesecret)
+- [generateKeys](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#generatekeys)
+- [getGenerator](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#getgenerator)
+- [getPrime](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#getprime)
+- [getPrivateKey](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#getprivatekey)
+- [getPublicKey](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#getpublickey)
+- [setPrivateKey](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#setprivatekey)
+- [setPublicKey](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md#setpublickey)
 
 ## Constructors
 
@@ -79,7 +79,7 @@ The following values are valid for this property (as defined in `constants`modul
 
 ### computeSecret
 
-▸ **computeSecret**(`otherPublicKey`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **computeSecret**(`otherPublicKey`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Computes the shared secret using `otherPublicKey` as the other
 party's public key and returns the computed shared secret. The supplied
@@ -98,20 +98,20 @@ If `outputEncoding` is given a string is returned; otherwise, a `Buffer` is retu
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **computeSecret**(`otherPublicKey`, `inputEncoding`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **computeSecret**(`otherPublicKey`, `inputEncoding`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `string` |
-| `inputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `inputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **computeSecret**(`otherPublicKey`, `outputEncoding`): `string`
 
@@ -120,7 +120,7 @@ If `outputEncoding` is given a string is returned; otherwise, a `Buffer` is retu
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `ArrayBufferView` |
-| `outputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `outputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -133,8 +133,8 @@ If `outputEncoding` is given a string is returned; otherwise, a `Buffer` is retu
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `string` |
-| `inputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
-| `outputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `inputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
+| `outputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -144,7 +144,7 @@ ___
 
 ### generateKeys
 
-▸ **generateKeys**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **generateKeys**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Generates private and public Diffie-Hellman key values, and returns
 the public key in the specified `encoding`. This key should be
@@ -153,7 +153,7 @@ If `encoding` is provided a string is returned; otherwise a `Buffer` is returned
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **generateKeys**(`encoding`): `string`
 
@@ -161,7 +161,7 @@ If `encoding` is provided a string is returned; otherwise a `Buffer` is returned
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -171,7 +171,7 @@ ___
 
 ### getGenerator
 
-▸ **getGenerator**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getGenerator**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns the Diffie-Hellman generator in the specified `encoding`.
 If `encoding` is provided a string is
@@ -179,7 +179,7 @@ returned; otherwise a `Buffer` is returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **getGenerator**(`encoding`): `string`
 
@@ -187,7 +187,7 @@ returned; otherwise a `Buffer` is returned.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -197,7 +197,7 @@ ___
 
 ### getPrime
 
-▸ **getPrime**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getPrime**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns the Diffie-Hellman prime in the specified `encoding`.
 If `encoding` is provided a string is
@@ -205,7 +205,7 @@ returned; otherwise a `Buffer` is returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **getPrime**(`encoding`): `string`
 
@@ -213,7 +213,7 @@ returned; otherwise a `Buffer` is returned.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -223,7 +223,7 @@ ___
 
 ### getPrivateKey
 
-▸ **getPrivateKey**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getPrivateKey**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns the Diffie-Hellman private key in the specified `encoding`.
 If `encoding` is provided a
@@ -231,7 +231,7 @@ string is returned; otherwise a `Buffer` is returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **getPrivateKey**(`encoding`): `string`
 
@@ -239,7 +239,7 @@ string is returned; otherwise a `Buffer` is returned.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -249,7 +249,7 @@ ___
 
 ### getPublicKey
 
-▸ **getPublicKey**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getPublicKey**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns the Diffie-Hellman public key in the specified `encoding`.
 If `encoding` is provided a
@@ -257,7 +257,7 @@ string is returned; otherwise a `Buffer` is returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **getPublicKey**(`encoding`): `string`
 
@@ -265,7 +265,7 @@ string is returned; otherwise a `Buffer` is returned.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 

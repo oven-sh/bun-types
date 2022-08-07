@@ -1,20 +1,20 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / AsymmetricKeyDetails
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / AsymmetricKeyDetails
 
 # Interface: AsymmetricKeyDetails
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).AsymmetricKeyDetails
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).AsymmetricKeyDetails
 
 ## Table of contents
 
 ### Properties
 
-- [divisorLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#divisorlength)
-- [hashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#hashalgorithm)
-- [mgf1HashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#mgf1hashalgorithm)
-- [modulusLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#moduluslength)
-- [namedCurve](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#namedcurve)
-- [publicExponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#publicexponent)
-- [saltLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.AsymmetricKeyDetails.md#saltlength)
+- [divisorLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#divisorlength)
+- [hashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#hashalgorithm)
+- [mgf1HashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#mgf1hashalgorithm)
+- [modulusLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#moduluslength)
+- [namedCurve](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#namedcurve)
+- [publicExponent](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#publicexponent)
+- [saltLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.AsymmetricKeyDetails.md#saltlength)
 
 ## Properties
 

@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / generateKeyPair
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / generateKeyPair
 
 # Namespace: generateKeyPair
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).generateKeyPair
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).generateKeyPair
 
 ## Table of contents
 
 ### Functions
 
-- [\_\_promisify\_\_](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.generateKeyPair.md#__promisify__)
+- [\_\_promisify\_\_](https://oven-sh.github.io/bun-types/modules/node_crypto_.generateKeyPair.md#__promisify__)
 
 ## Functions
 
@@ -21,63 +21,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-
-#### Returns
-
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
-
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
+
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `type` | ``"rsa"`` |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+
+#### Returns
+
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -86,63 +86,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -151,63 +151,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -216,63 +216,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -281,63 +281,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -346,63 +346,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options?` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -411,63 +411,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options?` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -476,63 +476,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options?` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `options?` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -541,63 +541,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -606,63 +606,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -671,63 +671,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -736,63 +736,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -801,63 +801,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -866,63 +866,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options?` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -931,63 +931,63 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options?` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 ▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
@@ -996,60 +996,60 @@
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
 `Promise`<{ `privateKey`: `string` ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: `string`  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: `string` ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+▸ **__promisify__**(`type`, `options`): `Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-`Promise`<{ `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)  }\>
+`Promise`<{ `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) ; `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)  }\>
 
-▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+▸ **__promisify__**(`type`, `options?`): `Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options?` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `options?` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-`Promise`<[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)\>
+`Promise`<[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)\>

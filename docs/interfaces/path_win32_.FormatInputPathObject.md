@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["path/win32"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_win32_.md) / FormatInputPathObject
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["path/win32"](https://oven-sh.github.io/bun-types/modules/path_win32_.md) / FormatInputPathObject
 
 # Interface: FormatInputPathObject
 
-["path/win32"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_win32_.md).FormatInputPathObject
+["path/win32"](https://oven-sh.github.io/bun-types/modules/path_win32_.md).FormatInputPathObject
 
 ## Table of contents
 
 ### Properties
 
-- [base](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_win32_.FormatInputPathObject.md#base)
-- [dir](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_win32_.FormatInputPathObject.md#dir)
-- [ext](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_win32_.FormatInputPathObject.md#ext)
-- [name](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_win32_.FormatInputPathObject.md#name)
-- [root](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_win32_.FormatInputPathObject.md#root)
+- [base](https://oven-sh.github.io/bun-types/interfaces/path_win32_.FormatInputPathObject.md#base)
+- [dir](https://oven-sh.github.io/bun-types/interfaces/path_win32_.FormatInputPathObject.md#dir)
+- [ext](https://oven-sh.github.io/bun-types/interfaces/path_win32_.FormatInputPathObject.md#ext)
+- [name](https://oven-sh.github.io/bun-types/interfaces/path_win32_.FormatInputPathObject.md#name)
+- [root](https://oven-sh.github.io/bun-types/interfaces/path_win32_.FormatInputPathObject.md#root)
 
 ## Properties
 

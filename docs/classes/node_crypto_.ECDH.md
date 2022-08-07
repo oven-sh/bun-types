@@ -1,13 +1,13 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / ECDH
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / ECDH
 
 # Class: ECDH
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).ECDH
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).ECDH
 
 The `ECDH` class is a utility for creating Elliptic Curve Diffie-Hellman (ECDH)
 key exchanges.
 
-Instances of the `ECDH` class can be created using the [createECDH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md#createecdh) function.
+Instances of the `ECDH` class can be created using the [createECDH](https://oven-sh.github.io/bun-types/modules/node_crypto_.md#createecdh) function.
 
 ```js
 import assert from 'assert';
@@ -36,16 +36,16 @@ assert.strictEqual(aliceSecret.toString('hex'), bobSecret.toString('hex'));
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#constructor)
 
 ### Methods
 
-- [computeSecret](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#computesecret)
-- [generateKeys](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#generatekeys)
-- [getPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#getprivatekey)
-- [getPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#getpublickey)
-- [setPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#setprivatekey)
-- [convertKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.ECDH.md#convertkey)
+- [computeSecret](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#computesecret)
+- [generateKeys](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#generatekeys)
+- [getPrivateKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#getprivatekey)
+- [getPublicKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#getpublickey)
+- [setPrivateKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#setprivatekey)
+- [convertKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.ECDH.md#convertkey)
 
 ## Constructors
 
@@ -57,7 +57,7 @@ assert.strictEqual(aliceSecret.toString('hex'), bobSecret.toString('hex'));
 
 ### computeSecret
 
-▸ **computeSecret**(`otherPublicKey`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **computeSecret**(`otherPublicKey`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Computes the shared secret using `otherPublicKey` as the other
 party's public key and returns the computed shared secret. The supplied
@@ -80,20 +80,20 @@ be sure to handle this exception accordingly.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **computeSecret**(`otherPublicKey`, `inputEncoding`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **computeSecret**(`otherPublicKey`, `inputEncoding`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `string` |
-| `inputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `inputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **computeSecret**(`otherPublicKey`, `outputEncoding`): `string`
 
@@ -102,7 +102,7 @@ be sure to handle this exception accordingly.
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `ArrayBufferView` |
-| `outputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `outputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -115,8 +115,8 @@ be sure to handle this exception accordingly.
 | Name | Type |
 | :------ | :------ |
 | `otherPublicKey` | `string` |
-| `inputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
-| `outputEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `inputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
+| `outputEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -126,7 +126,7 @@ ___
 
 ### generateKeys
 
-▸ **generateKeys**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **generateKeys**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Generates private and public EC Diffie-Hellman key values, and returns
 the public key in the specified `format` and `encoding`. This key should be
@@ -138,7 +138,7 @@ If `encoding` is provided a string is returned; otherwise a `Buffer` is returned
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **generateKeys**(`encoding`, `format?`): `string`
 
@@ -146,8 +146,8 @@ If `encoding` is provided a string is returned; otherwise a `Buffer` is returned
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
-| `format?` | [`ECDHKeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ecdhkeyformat) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
+| `format?` | [`ECDHKeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ecdhkeyformat) |
 
 #### Returns
 
@@ -157,14 +157,14 @@ ___
 
 ### getPrivateKey
 
-▸ **getPrivateKey**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getPrivateKey**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 If `encoding` is specified, a string is returned; otherwise a `Buffer` is
 returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The EC Diffie-Hellman in the specified `encoding`.
 
@@ -174,7 +174,7 @@ The EC Diffie-Hellman in the specified `encoding`.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -184,7 +184,7 @@ ___
 
 ### getPublicKey
 
-▸ **getPublicKey**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **getPublicKey**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The `format` argument specifies point encoding and can be `'compressed'` or`'uncompressed'`. If `format` is not specified the point will be returned in`'uncompressed'` format.
 
@@ -193,7 +193,7 @@ returned.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The EC Diffie-Hellman public key in the specified `encoding` and `format`.
 
@@ -203,8 +203,8 @@ The EC Diffie-Hellman public key in the specified `encoding` and `format`.
 
 | Name | Type |
 | :------ | :------ |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
-| `format?` | [`ECDHKeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ecdhkeyformat) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
+| `format?` | [`ECDHKeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ecdhkeyformat) |
 
 #### Returns
 
@@ -241,7 +241,7 @@ public point (key) is also generated and set in the `ECDH` object.
 | Name | Type |
 | :------ | :------ |
 | `privateKey` | `string` |
-| `encoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `encoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -251,7 +251,7 @@ ___
 
 ### convertKey
 
-▸ `Static` **convertKey**(`key`, `curve`, `inputEncoding?`, `outputEncoding?`, `format?`): `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ `Static` **convertKey**(`key`, `curve`, `inputEncoding?`, `outputEncoding?`, `format?`): `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Converts the EC Diffie-Hellman public key specified by `key` and `curve` to the
 format specified by `format`. The `format` argument specifies point encoding
@@ -259,7 +259,7 @@ and can be `'compressed'`, `'uncompressed'` or `'hybrid'`. The supplied key is
 interpreted using the specified `inputEncoding`, and the returned key is encoded
 using the specified `outputEncoding`.
 
-Use [getCurves](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md#getcurves) to obtain a list of available curve names.
+Use [getCurves](https://oven-sh.github.io/bun-types/modules/node_crypto_.md#getcurves) to obtain a list of available curve names.
 On recent OpenSSL releases, `openssl ecparam -list_curves` will also display
 the name and description of each available elliptic curve.
 
@@ -294,12 +294,12 @@ console.log(uncompressedKey === ecdh.getPublicKey('hex'));
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `key` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
+| `key` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
 | `curve` | `string` | - |
-| `inputEncoding?` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) | The `encoding` of the `key` string. |
+| `inputEncoding?` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) | The `encoding` of the `key` string. |
 | `outputEncoding?` | ``"latin1"`` \| ``"hex"`` \| ``"base64"`` \| ``"base64url"`` | The `encoding` of the return value. |
 | `format?` | ``"uncompressed"`` \| ``"compressed"`` \| ``"hybrid"`` |  |
 
 #### Returns
 
-`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)

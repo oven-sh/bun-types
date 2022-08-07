@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / UnderlyingSource
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / UnderlyingSource
 
 # Interface: UnderlyingSource<R\>
 
@@ -12,28 +12,28 @@
 
 ### Properties
 
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSource.md#cancel)
-- [pull](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSource.md#pull)
-- [start](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSource.md#start)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSource.md#type)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSource.md#cancel)
+- [pull](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSource.md#pull)
+- [start](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSource.md#start)
+- [type](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSource.md#type)
 
 ## Properties
 
 ### cancel
 
-• `Optional` **cancel**: [`UnderlyingSourceCancelCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSourceCancelCallback.md)
+• `Optional` **cancel**: [`UnderlyingSourceCancelCallback`](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSourceCancelCallback.md)
 
 ___
 
 ### pull
 
-• `Optional` **pull**: [`UnderlyingSourcePullCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSourcePullCallback.md)<`R`\>
+• `Optional` **pull**: [`UnderlyingSourcePullCallback`](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSourcePullCallback.md)<`R`\>
 
 ___
 
 ### start
 
-• `Optional` **start**: [`UnderlyingSourceStartCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSourceStartCallback.md)<`R`\>
+• `Optional` **start**: [`UnderlyingSourceStartCallback`](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSourceStartCallback.md)<`R`\>
 
 ___
 

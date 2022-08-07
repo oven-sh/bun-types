@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / BufferConstructor
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / BufferConstructor
 
 # Interface: BufferConstructor
 
@@ -10,24 +10,24 @@ Valid string encodings: 'ascii'|'utf8'|'utf16le'|'ucs2'(alias of 'utf16le')|'bas
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#constructor)
 
 ### Properties
 
-- [poolSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#poolsize)
+- [poolSize](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#poolsize)
 
 ### Methods
 
-- [alloc](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#alloc)
-- [allocUnsafe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#allocunsafe)
-- [allocUnsafeSlow](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#allocunsafeslow)
-- [byteLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#bytelength)
-- [compare](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#compare)
-- [concat](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#concat)
-- [from](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#from)
-- [isBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#isbuffer)
-- [isEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#isencoding)
-- [of](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md#of)
+- [alloc](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#alloc)
+- [allocUnsafe](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#allocunsafe)
+- [allocUnsafeSlow](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#allocunsafeslow)
+- [byteLength](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#bytelength)
+- [compare](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#compare)
+- [concat](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#concat)
+- [from](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#from)
+- [isBuffer](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#isbuffer)
+- [isEncoding](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#isencoding)
+- [of](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md#of)
 
 ## Constructors
 
@@ -117,7 +117,7 @@ since v10.0.0 - Use `Buffer.from(buffer)` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `buffer` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | The buffer to copy. |
+| `buffer` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | The buffer to copy. |
 
 • **new BufferConstructor**(`str`, `encoding?`)
 
@@ -203,7 +203,7 @@ since v10.0.0 - Use `Buffer.from(buffer)` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `buffer` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | The buffer to copy. |
+| `buffer` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | The buffer to copy. |
 
 ## Properties
 
@@ -218,7 +218,7 @@ for pooling. This value may be modified.
 
 ### alloc
 
-▸ **alloc**(`size`, `fill?`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **alloc**(`size`, `fill?`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `fill` is `undefined`, the`Buffer` will be zero-filled.
 
@@ -267,14 +267,14 @@ A `TypeError` will be thrown if `size` is not a number.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `size` | `number` | The desired length of the new `Buffer`. |
-| `fill?` | `string` \| `number` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | A value to pre-fill the new `Buffer` with. |
+| `fill?` | `string` \| `number` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | A value to pre-fill the new `Buffer` with. |
 | `encoding?` | `BufferEncoding` | If `fill` is a string, this is its encoding. |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **alloc**(`size`, `fill?`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **alloc**(`size`, `fill?`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `fill` is `undefined`, the`Buffer` will be zero-filled.
 
@@ -323,18 +323,18 @@ A `TypeError` will be thrown if `size` is not a number.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `size` | `number` | The desired length of the new `Buffer`. |
-| `fill?` | `string` \| `number` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | A value to pre-fill the new `Buffer` with. |
+| `fill?` | `string` \| `number` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | A value to pre-fill the new `Buffer` with. |
 | `encoding?` | `BufferEncoding` | If `fill` is a string, this is its encoding. |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### allocUnsafe
 
-▸ **allocUnsafe**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **allocUnsafe**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `size` is larger than constants.MAX_LENGTH or smaller than 0, `ERR_INVALID_ARG_VALUE` is thrown.
 
@@ -377,9 +377,9 @@ additional performance that `Buffer.allocUnsafe()` provides.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **allocUnsafe**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **allocUnsafe**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `size` is larger than constants.MAX_LENGTH or smaller than 0, `ERR_INVALID_ARG_VALUE` is thrown.
 
@@ -422,13 +422,13 @@ additional performance that `Buffer.allocUnsafe()` provides.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### allocUnsafeSlow
 
-▸ **allocUnsafeSlow**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **allocUnsafeSlow**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `size` is larger than constants.MAX_LENGTH or smaller than 0, `ERR_INVALID_ARG_VALUE` is thrown. A zero-length `Buffer` is created
 if `size` is 0.
@@ -479,9 +479,9 @@ A `TypeError` will be thrown if `size` is not a number.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **allocUnsafeSlow**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **allocUnsafeSlow**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` of `size` bytes. If `size` is larger than constants.MAX_LENGTH or smaller than 0, `ERR_INVALID_ARG_VALUE` is thrown. A zero-length `Buffer` is created
 if `size` is 0.
@@ -532,7 +532,7 @@ A `TypeError` will be thrown if `size` is not a number.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -682,7 +682,7 @@ ___
 
 ### concat
 
-▸ **concat**(`list`, `totalLength?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **concat**(`list`, `totalLength?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` which is the result of concatenating all the `Buffer`instances in the `list` together.
 
@@ -727,9 +727,9 @@ console.log(bufA.length);
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **concat**(`list`, `totalLength?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **concat**(`list`, `totalLength?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` which is the result of concatenating all the `Buffer`instances in the `list` together.
 
@@ -774,13 +774,13 @@ console.log(bufA.length);
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### from
 
-▸ **from**(`arrayBuffer`, `byteOffset?`, `length?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`arrayBuffer`, `byteOffset?`, `length?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` using an `array` of bytes in the range `0` – `255`.
 Array entries outside that range will be truncated to fit into it.
@@ -807,9 +807,9 @@ appropriate for `Buffer.from()` variants.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`data`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`data`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer using the passed {data}
 
@@ -821,9 +821,9 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`data`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`data`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
@@ -833,9 +833,9 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`str`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`str`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer containing the given JavaScript string {str}.
 If provided, the {encoding} parameter identifies the character encoding.
@@ -850,9 +850,9 @@ If not provided, {encoding} defaults to 'utf8'.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`arrayBuffer`, `byteOffset?`, `length?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`arrayBuffer`, `byteOffset?`, `length?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Allocates a new `Buffer` using an `array` of bytes in the range `0` – `255`.
 Array entries outside that range will be truncated to fit into it.
@@ -879,9 +879,9 @@ appropriate for `Buffer.from()` variants.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`data`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`data`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer using the passed {data}
 
@@ -893,9 +893,9 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`data`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`data`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
@@ -905,9 +905,9 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **from**(`str`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **from**(`str`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer containing the given JavaScript string {str}.
 If provided, the {encoding} parameter identifies the character encoding.
@@ -922,7 +922,7 @@ If not provided, {encoding} defaults to 'utf8'.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1046,7 +1046,7 @@ ___
 
 ### of
 
-▸ **of**(...`items`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **of**(...`items`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer using the passed {data}
 
@@ -1058,9 +1058,9 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **of**(...`items`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **of**(...`items`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Creates a new Buffer using the passed {data}
 
@@ -1072,4 +1072,4 @@ Creates a new Buffer using the passed {data}
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)

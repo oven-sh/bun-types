@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:querystring"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:querystring"
 
 # Namespace: "node:querystring"
 
@@ -6,23 +6,23 @@
 
 ### Interfaces
 
-- [ParseOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.ParseOptions.md)
-- [ParsedUrlQuery](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.ParsedUrlQuery.md)
-- [ParsedUrlQueryInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.ParsedUrlQueryInput.md)
-- [StringifyOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_querystring_.StringifyOptions.md)
+- [ParseOptions](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.ParseOptions.md)
+- [ParsedUrlQuery](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.ParsedUrlQuery.md)
+- [ParsedUrlQueryInput](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.ParsedUrlQueryInput.md)
+- [StringifyOptions](https://oven-sh.github.io/bun-types/interfaces/node_querystring_.StringifyOptions.md)
 
 ### Functions
 
-- [decode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_querystring_.md#decode)
-- [encode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_querystring_.md#encode)
-- [parse](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_querystring_.md#parse)
-- [stringify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_querystring_.md#stringify)
+- [decode](https://oven-sh.github.io/bun-types/modules/node_querystring_.md#decode)
+- [encode](https://oven-sh.github.io/bun-types/modules/node_querystring_.md#encode)
+- [parse](https://oven-sh.github.io/bun-types/modules/node_querystring_.md#parse)
+- [stringify](https://oven-sh.github.io/bun-types/modules/node_querystring_.md#stringify)
 
 ## Functions
 
 ### decode
 
-▸ **decode**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+▸ **decode**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 The `querystring.parse()` method parses a URL query string (`str`) into a
 collection of key and value pairs.
@@ -58,13 +58,13 @@ querystring.parse('w=%D6%D0%CE%C4&#x26;foo=bar', null, null,
 | `str` | `string` | The URL query string to parse |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`ParseOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md) | - |
+| `options?` | [`ParseOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md) | - |
 
 #### Returns
 
-[`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+[`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
-▸ **decode**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+▸ **decode**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 The `querystring.parse()` method parses a URL query string (`str`) into a
 collection of key and value pairs.
@@ -100,11 +100,11 @@ querystring.parse('w=%D6%D0%CE%C4&#x26;foo=bar', null, null,
 | `str` | `string` | The URL query string to parse |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`ParseOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md) | - |
+| `options?` | [`ParseOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md) | - |
 
 #### Returns
 
-[`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+[`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 ___
 
@@ -147,10 +147,10 @@ querystring.stringify({ w: '中文', foo: 'bar' }, null, null,
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `obj?` | [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
+| `obj?` | [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`StringifyOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.StringifyOptions.md) | - |
+| `options?` | [`StringifyOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.StringifyOptions.md) | - |
 
 #### Returns
 
@@ -193,10 +193,10 @@ querystring.stringify({ w: '中文', foo: 'bar' }, null, null,
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `obj?` | [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
+| `obj?` | [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`StringifyOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.StringifyOptions.md) | - |
+| `options?` | [`StringifyOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.StringifyOptions.md) | - |
 
 #### Returns
 
@@ -206,7 +206,7 @@ ___
 
 ### parse
 
-▸ **parse**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+▸ **parse**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 The `querystring.parse()` method parses a URL query string (`str`) into a
 collection of key and value pairs.
@@ -242,13 +242,13 @@ querystring.parse('w=%D6%D0%CE%C4&#x26;foo=bar', null, null,
 | `str` | `string` | The URL query string to parse |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`ParseOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md) | - |
+| `options?` | [`ParseOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md) | - |
 
 #### Returns
 
-[`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+[`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
-▸ **parse**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+▸ **parse**(`str`, `sep?`, `eq?`, `options?`): [`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 The `querystring.parse()` method parses a URL query string (`str`) into a
 collection of key and value pairs.
@@ -284,11 +284,11 @@ querystring.parse('w=%D6%D0%CE%C4&#x26;foo=bar', null, null,
 | `str` | `string` | The URL query string to parse |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`ParseOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md) | - |
+| `options?` | [`ParseOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md) | - |
 
 #### Returns
 
-[`ParsedUrlQuery`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQuery.md)
+[`ParsedUrlQuery`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQuery.md)
 
 ___
 
@@ -331,10 +331,10 @@ querystring.stringify({ w: '中文', foo: 'bar' }, null, null,
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `obj?` | [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
+| `obj?` | [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`StringifyOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.StringifyOptions.md) | - |
+| `options?` | [`StringifyOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.StringifyOptions.md) | - |
 
 #### Returns
 
@@ -377,10 +377,10 @@ querystring.stringify({ w: '中文', foo: 'bar' }, null, null,
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `obj?` | [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
+| `obj?` | [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md) | The object to serialize into a URL query string |
 | `sep?` | `string` | The substring used to delimit key and value pairs in the query string. |
 | `eq?` | `string` | . The substring used to delimit keys and values in the query string. |
-| `options?` | [`StringifyOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.StringifyOptions.md) | - |
+| `options?` | [`StringifyOptions`](https://oven-sh.github.io/bun-types/interfaces/querystring_.StringifyOptions.md) | - |
 
 #### Returns
 

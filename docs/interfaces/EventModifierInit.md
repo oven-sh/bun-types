@@ -1,10 +1,10 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventModifierInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventModifierInit
 
 # Interface: EventModifierInit
 
 ## Hierarchy
 
-- [`UIEventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md)
+- [`UIEventInit`](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md)
 
   ↳ **`EventModifierInit`**
 
@@ -12,26 +12,26 @@
 
 ### Properties
 
-- [altKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#altkey)
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#bubbles)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#cancelable)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#composed)
-- [ctrlKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#ctrlkey)
-- [detail](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#detail)
-- [metaKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#metakey)
-- [modifierAltGraph](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifieraltgraph)
-- [modifierCapsLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifiercapslock)
-- [modifierFn](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifierfn)
-- [modifierFnLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifierfnlock)
-- [modifierHyper](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifierhyper)
-- [modifierNumLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifiernumlock)
-- [modifierScrollLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifierscrolllock)
-- [modifierSuper](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifiersuper)
-- [modifierSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifiersymbol)
-- [modifierSymbolLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#modifiersymbollock)
-- [shiftKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#shiftkey)
-- [view](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#view)
-- [which](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventModifierInit.md#which)
+- [altKey](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#altkey)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#bubbles)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#cancelable)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#composed)
+- [ctrlKey](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#ctrlkey)
+- [detail](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#detail)
+- [metaKey](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#metakey)
+- [modifierAltGraph](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifieraltgraph)
+- [modifierCapsLock](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifiercapslock)
+- [modifierFn](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifierfn)
+- [modifierFnLock](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifierfnlock)
+- [modifierHyper](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifierhyper)
+- [modifierNumLock](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifiernumlock)
+- [modifierScrollLock](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifierscrolllock)
+- [modifierSuper](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifiersuper)
+- [modifierSymbol](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifiersymbol)
+- [modifierSymbolLock](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#modifiersymbollock)
+- [shiftKey](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#shiftkey)
+- [view](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#view)
+- [which](https://oven-sh.github.io/bun-types/interfaces/EventModifierInit.md#which)
 
 ## Properties
 
@@ -47,7 +47,7 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#bubbles)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[bubbles](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#bubbles)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#cancelable)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[cancelable](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#cancelable)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#composed)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[composed](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#composed)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[detail](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#detail)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[detail](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#detail)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[view](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#view)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[view](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#view)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Inherited from
 
-[UIEventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md).[which](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md#which)
+[UIEventInit](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md).[which](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md#which)

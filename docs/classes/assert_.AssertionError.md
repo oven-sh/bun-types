@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md) / AssertionError
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md) / AssertionError
 
 # Class: AssertionError
 
-["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md).AssertionError
+["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md).AssertionError
 
 Indicates the failure of an assertion. All errors thrown by the `assert` module
 will be instances of the `AssertionError` class.
@@ -17,15 +17,15 @@ will be instances of the `AssertionError` class.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#constructor)
 
 ### Properties
 
-- [actual](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#actual)
-- [code](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#code)
-- [expected](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#expected)
-- [generatedMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#generatedmessage)
-- [operator](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md#operator)
+- [actual](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#actual)
+- [code](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#code)
+- [expected](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#expected)
+- [generatedMessage](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#generatedmessage)
+- [operator](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md#operator)
 
 ## Constructors
 

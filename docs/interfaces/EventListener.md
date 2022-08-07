@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventListener
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventListener
 
 # Interface: EventListener
 
@@ -12,7 +12,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `evt` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `evt` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -26,7 +26,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `evt` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `evt` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 

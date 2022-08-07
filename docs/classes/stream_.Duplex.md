@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / Duplex
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / Duplex
 
 # Class: Duplex
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).Duplex
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).Duplex
 
 Duplex streams are streams that implement both the `Readable` and `Writable` interfaces.
 
@@ -14,105 +14,105 @@ Examples of `Duplex` streams include:
 
 ## Hierarchy
 
-- [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)
+- [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)
 
   ↳ **`Duplex`**
 
-  ↳↳ [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+  ↳↳ [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
-  ↳↳ [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Transform.md)
+  ↳↳ [`Transform`](https://oven-sh.github.io/bun-types/classes/node_stream_.Transform.md)
 
 ## Implements
 
-- [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)
+- [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#constructor)
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#allowhalfopen)
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#locked)
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readable)
-- [readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableaborted)
-- [readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableencoding)
-- [readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableended)
-- [readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableflowing)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readablehighwatermark)
-- [readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readablelength)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#readableobjectmode)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#writableobjectmode)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#errormonitor)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#allowhalfopen)
+- [destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#locked)
+- [readable](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readable)
+- [readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableaborted)
+- [readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableencoding)
+- [readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableended)
+- [readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableflowing)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readablehighwatermark)
+- [readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readablelength)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#readableobjectmode)
+- [writable](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#writableobjectmode)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#errormonitor)
 
 ### Methods
 
-- [[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#[asynciterator])
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_final)
-- [\_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_read)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#addlistener)
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#cancel)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#eventnames)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#foreach)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getmaxlisteners)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getreader)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#getwriter)
-- [isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#ispaused)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once)
-- [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pause)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipe)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipeto)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#prependoncelistener)
-- [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#push)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#rawlisteners)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#read)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#removelistener)
-- [resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#resume)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setdefaultencoding)
-- [setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setmaxlisteners)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#tee)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#uncork)
-- [unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#unpipe)
-- [unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#unshift)
-- [wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#wrap)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#write)
-- [from](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#from)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#geteventlisteners)
-- [isDisturbed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#isdisturbed)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#setmaxlisteners-1)
+- [[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#[asynciterator])
+- [\_construct](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_final)
+- [\_read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_read)
+- [\_write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#addlistener)
+- [cancel](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#cancel)
+- [close](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#close)
+- [cork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#emit)
+- [end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#eventnames)
+- [forEach](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#foreach)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getmaxlisteners)
+- [getReader](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getreader)
+- [getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#getwriter)
+- [isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#ispaused)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once)
+- [pause](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pause)
+- [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipe)
+- [pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipeto)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#prependoncelistener)
+- [push](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#push)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#rawlisteners)
+- [read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#read)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#removelistener)
+- [resume](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#resume)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setdefaultencoding)
+- [setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setmaxlisteners)
+- [tee](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#tee)
+- [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#uncork)
+- [unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#unpipe)
+- [unshift](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#unshift)
+- [wrap](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#wrap)
+- [write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#write)
+- [from](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#from)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#geteventlisteners)
+- [isDisturbed](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#isdisturbed)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -124,11 +124,11 @@ Examples of `Duplex` streams include:
 
 | Name | Type |
 | :------ | :------ |
-| `opts?` | [`DuplexOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.DuplexOptions.md) |
+| `opts?` | [`DuplexOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.DuplexOptions.md) |
 
 #### Overrides
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#constructor)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[constructor](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#constructor)
 
 ## Properties
 
@@ -157,11 +157,11 @@ Is `true` after `readable.destroy()` has been called.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroyed)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroyed)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#destroyed)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#destroyed)
 
 ___
 
@@ -171,11 +171,11 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#locked)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[locked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#locked)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#locked)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[locked](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#locked)
 
 ___
 
@@ -188,7 +188,7 @@ the stream has not been destroyed or emitted `'error'` or `'end'`.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readable)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readable)
 
 ___
 
@@ -200,7 +200,7 @@ Returns whether the stream was destroyed or errored before emitting `'end'`.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableaborted)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableaborted)
 
 ___
 
@@ -212,7 +212,7 @@ Getter for the property `encoding` of a given `Readable` stream. The `encoding`p
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableencoding)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableencoding)
 
 ___
 
@@ -224,7 +224,7 @@ Becomes `true` when `'end'` event is emitted.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableended)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableended)
 
 ___
 
@@ -237,7 +237,7 @@ in the `Three states` section.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableflowing)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableflowing)
 
 ___
 
@@ -249,7 +249,7 @@ Returns the value of `highWaterMark` passed when creating this `Readable`.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readablehighwatermark)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readablehighwatermark)
 
 ___
 
@@ -263,7 +263,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readablelength)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readablelength)
 
 ___
 
@@ -275,7 +275,7 @@ Getter for the property `objectMode` of a given `Readable` stream.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableobjectmode)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableobjectmode)
 
 ___
 
@@ -288,7 +288,7 @@ the stream has not been destroyed, errored or ended.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writable)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writable)
 
 ___
 
@@ -301,7 +301,7 @@ called in order to fully uncork the stream.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablecorked)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablecorked)
 
 ___
 
@@ -314,7 +314,7 @@ does not indicate whether the data has been flushed, for this use `writable.writ
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableended)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableended)
 
 ___
 
@@ -326,7 +326,7 @@ Is set to `true` immediately before the `'finish'` event is emitted.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablefinished)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablefinished)
 
 ___
 
@@ -338,7 +338,7 @@ Return the value of `highWaterMark` passed when creating this `Writable`.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablehighwatermark)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablehighwatermark)
 
 ___
 
@@ -352,7 +352,7 @@ the status of the `highWaterMark`.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablelength)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablelength)
 
 ___
 
@@ -364,21 +364,21 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableobjectmode)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableobjectmode)
 
 ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejectionsymbol)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#capturerejectionsymbol)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#capturerejectionsymbol)
 
 ___
 
@@ -390,11 +390,11 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejections)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejections)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#capturerejections)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#capturerejections)
 
 ___
 
@@ -404,17 +404,17 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#defaultmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#defaultmaxlisteners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#defaultmaxlisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -426,11 +426,11 @@ regular `'error'` listener is installed.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#errormonitor)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#errormonitor)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#errormonitor)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#errormonitor)
 
 ## Methods
 
@@ -444,7 +444,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#[asynciterator])
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#[asynciterator])
 
 ___
 
@@ -464,11 +464,11 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_construct)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_construct](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_construct)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_construct)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[_construct](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_construct)
 
 ___
 
@@ -489,11 +489,11 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_destroy)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_destroy)
 
 #### Overrides
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_destroy)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_destroy)
 
 ___
 
@@ -513,7 +513,7 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_final)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_final](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_final)
 
 ___
 
@@ -533,7 +533,7 @@ ___
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_read)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[_read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_read)
 
 ___
 
@@ -555,7 +555,7 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_write)
 
 ___
 
@@ -576,7 +576,7 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_writev)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_writev](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_writev)
 
 ___
 
@@ -596,13 +596,13 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#abort)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[abort](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#abort)
 
 ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Event emitter
 The defined events on documents including:
@@ -623,17 +623,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -644,17 +644,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -665,17 +665,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -686,17 +686,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -707,17 +707,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -728,17 +728,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -749,17 +749,17 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **addListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -770,7 +770,7 @@ The defined events on documents including:
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -778,7 +778,7 @@ Writable.addListener
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
 
 ___
 
@@ -798,7 +798,7 @@ ___
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#cancel)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[cancel](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#cancel)
 
 ___
 
@@ -812,7 +812,7 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#close)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[close](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#close)
 
 ___
 
@@ -821,7 +821,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#uncork) or [end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -838,13 +838,13 @@ See also: `writable.uncork()`, `writable._writev()`.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#cork)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[cork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#cork)
 
 ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **destroy**(`error?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the readable
 stream will release any internal resources and subsequent calls to `push()`will be ignored.
@@ -862,15 +862,15 @@ Implementors should not override this method, but instead implement `readable._d
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroy)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroy)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#destroy)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[destroy](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#destroy)
 
 ___
 
@@ -928,11 +928,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`, `chunk`): `boolean`
 
@@ -949,11 +949,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -969,11 +969,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`, `err`): `boolean`
 
@@ -990,11 +990,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1010,11 +1010,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1030,11 +1030,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1050,11 +1050,11 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ▸ **emit**(`event`, ...`args`): `boolean`
 
@@ -1075,20 +1075,20 @@ Writable.emit
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
 
 ___
 
 ### end
 
-▸ **end**(`cb?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **end**(`cb?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#write) method after calling [end](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -1107,13 +1107,13 @@ file.end('world!');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
-▸ **end**(`chunk`, `cb?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **end**(`chunk`, `cb?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1124,13 +1124,13 @@ file.end('world!');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
-▸ **end**(`chunk`, `encoding?`, `cb?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **end**(`chunk`, `encoding?`, `cb?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1142,11 +1142,11 @@ file.end('world!');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
 ___
 
@@ -1176,11 +1176,11 @@ console.log(myEE.eventNames());
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#eventnames)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#eventnames)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#eventnames)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#eventnames)
 
 ___
 
@@ -1192,7 +1192,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -1201,7 +1201,7 @@ ___
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#foreach)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[forEach](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#foreach)
 
 ___
 
@@ -1210,7 +1210,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -1218,39 +1218,39 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getmaxlisteners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#getmaxlisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#getmaxlisteners)
 
 ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#getreader)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[getReader](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#getreader)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getwriter)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getwriter)
 
 ___
 
@@ -1278,7 +1278,7 @@ readable.isPaused(); // === false
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#ispaused)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#ispaused)
 
 ___
 
@@ -1300,11 +1300,11 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listenercount)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listenercount)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listenercount)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listenercount)
 
 ___
 
@@ -1334,17 +1334,17 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listeners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listeners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listeners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **off**(`eventName`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -1357,21 +1357,21 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#off)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#off)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#off)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1408,17 +1408,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1429,17 +1429,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1450,17 +1450,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1471,17 +1471,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1492,17 +1492,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1513,17 +1513,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1534,17 +1534,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
-▸ **on**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **on**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1555,7 +1555,7 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -1563,13 +1563,13 @@ Writable.on
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1604,17 +1604,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1625,17 +1625,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1646,17 +1646,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1667,17 +1667,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1688,17 +1688,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1709,17 +1709,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1730,17 +1730,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
-▸ **once**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **once**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1751,7 +1751,7 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -1759,13 +1759,13 @@ Writable.once
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
 
 ___
 
 ### pause
 
-▸ **pause**(): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **pause**(): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 The `readable.pause()` method will cause a stream in flowing mode to stop
 emitting `'data'` events, switching out of flowing mode. Any data that
@@ -1788,11 +1788,11 @@ The `readable.pause()` method has no effect if there is a `'readable'`event list
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pause)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[pause](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pause)
 
 ___
 
@@ -1804,7 +1804,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1820,17 +1820,17 @@ ___
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#pipe)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#pipe)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipe)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipe)
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -1842,16 +1842,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipethrough)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipethrough)
 
 ___
 
@@ -1863,8 +1863,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -1872,13 +1872,13 @@ ___
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipeto)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipeto)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1902,17 +1902,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1923,17 +1923,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1944,17 +1944,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1965,17 +1965,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -1986,17 +1986,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2007,17 +2007,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2028,17 +2028,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2049,7 +2049,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -2057,13 +2057,13 @@ Writable.prependListener
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -2085,17 +2085,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2106,17 +2106,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2127,17 +2127,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2148,17 +2148,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2169,17 +2169,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2190,17 +2190,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2211,17 +2211,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2232,7 +2232,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -2240,7 +2240,7 @@ Writable.prependOnceListener
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
 
 ___
 
@@ -2261,7 +2261,7 @@ ___
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#push)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[push](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#push)
 
 ___
 
@@ -2308,11 +2308,11 @@ emitter.emit('log');
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#rawlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#rawlisteners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#rawlisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#rawlisteners)
 
 ___
 
@@ -2390,7 +2390,7 @@ a call to `readable.read(size)`, regardless of the value of the`size` argument.
 If the `readable.read()` method returns a chunk of data, a `'data'` event will
 also be emitted.
 
-Calling [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#read) after the `'end'` event has
+Calling [read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#read) after the `'end'` event has
 been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
@@ -2405,13 +2405,13 @@ been emitted will return `null`. No runtime error will be raised.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#read)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#read)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeAllListeners**(`event?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -2429,21 +2429,21 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removealllisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removealllisteners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removealllisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -2531,17 +2531,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2552,17 +2552,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2573,17 +2573,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2594,17 +2594,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2615,17 +2615,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2636,17 +2636,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2657,17 +2657,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **removeListener**(`event`, `listener`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Parameters
 
@@ -2678,7 +2678,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
@@ -2686,13 +2686,13 @@ Writable.removeListener
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
 
 ___
 
 ### resume
 
-▸ **resume**(): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **resume**(): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 The `readable.resume()` method causes an explicitly paused `Readable` stream to
 resume emitting `'data'` events, switching the stream into flowing mode.
@@ -2712,17 +2712,17 @@ The `readable.resume()` method has no effect if there is a `'readable'`event lis
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#resume)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[resume](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#resume)
 
 ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **setDefaultEncoding**(`encoding`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -2734,17 +2734,17 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setdefaultencoding)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setdefaultencoding)
 
 ___
 
 ### setEncoding
 
-▸ **setEncoding**(`encoding`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **setEncoding**(`encoding`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 The `readable.setEncoding()` method sets the character encoding for
 data read from the `Readable` stream.
@@ -2775,17 +2775,17 @@ readable.on('data', (chunk) => {
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setencoding)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setencoding)
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **setMaxListeners**(`n`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -2802,29 +2802,29 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setmaxlisteners)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setmaxlisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setmaxlisteners)
 
 ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#tee)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[tee](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#tee)
 
 ___
 
@@ -2832,7 +2832,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -2869,16 +2869,16 @@ See also: `writable.cork()`.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#uncork)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[uncork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#uncork)
 
 ___
 
 ### unpipe
 
-▸ **unpipe**(`destination?`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **unpipe**(`destination?`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 The `readable.unpipe()` method detaches a `Writable` stream previously attached
-using the [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipe) method.
+using the [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipe) method.
 
 If the `destination` is not specified, then _all_ pipes are detached.
 
@@ -2904,15 +2904,15 @@ setTimeout(() => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination?` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
+| `destination?` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#unpipe)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#unpipe)
 
 ___
 
@@ -2972,11 +2972,11 @@ function parseHeader(stream, callback) {
 }
 ```
 
-Unlike [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#push), `stream.unshift(chunk)` will not
+Unlike [push](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#push), `stream.unshift(chunk)` will not
 end the reading process by resetting the internal reading state of the stream.
 This can cause unexpected results if `readable.unshift()` is called during a
-read (i.e. from within a [_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#_read) implementation on a
-custom stream). Following the call to `readable.unshift()` with an immediate [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#push) will reset the reading state appropriately,
+read (i.e. from within a [_read](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#_read) implementation on a
+custom stream). Following the call to `readable.unshift()` with an immediate [push](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#push) will reset the reading state appropriately,
 however it is best to simply avoid calling `readable.unshift()` while in the
 process of performing a read.
 
@@ -2993,18 +2993,18 @@ process of performing a read.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#unshift)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[unshift](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#unshift)
 
 ___
 
 ### wrap
 
-▸ **wrap**(`stream`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ **wrap**(`stream`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 Prior to Node.js 0.10, streams did not implement the entire `stream` module API
 as it is currently defined. (See `Compatibility` for more information.)
 
-When using an older Node.js library that emits `'data'` events and has a [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
+When using an older Node.js library that emits `'data'` events and has a [pause](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
 stream that uses
 the old stream as its data source.
 
@@ -3027,15 +3027,15 @@ myReader.on('readable', () => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | An "old style" readable stream |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | An "old style" readable stream |
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#wrap)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[wrap](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#wrap)
 
 ___
 
@@ -3072,7 +3072,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -3108,7 +3108,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write)
 
 ▸ **write**(`chunk`, `cb?`): `boolean`
 
@@ -3125,13 +3125,13 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Implementation of
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write)
 
 ___
 
 ### from
 
-▸ `Static` **from**(`src`): [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+▸ `Static` **from**(`src`): [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 A utility method for creating duplex streams.
 
@@ -3159,15 +3159,15 @@ v16.8.0
 
 | Name | Type |
 | :------ | :------ |
-| `src` | `string` \| `Object` \| `Promise`<`any`\> \| `Blob` \| `ArrayBuffer` \| [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md) \| `Iterable`<`any`\> \| `AsyncIterable`<`any`\> \| `AsyncGeneratorFunction` |
+| `src` | `string` \| `Object` \| `Promise`<`any`\> \| `Blob` \| `ArrayBuffer` \| [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md) \| `Iterable`<`any`\> \| `AsyncIterable`<`any`\> \| `AsyncGeneratorFunction` |
 
 #### Returns
 
-[`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+[`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
 #### Overrides
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[from](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#from)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[from](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#from)
 
 ___
 
@@ -3204,7 +3204,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -3213,7 +3213,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#geteventlisteners)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#geteventlisteners)
 
 ___
 
@@ -3227,7 +3227,7 @@ Returns whether the stream has been read from or cancelled.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -3235,7 +3235,7 @@ Returns whether the stream has been read from or cancelled.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[isDisturbed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#isdisturbed)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[isDisturbed](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#isdisturbed)
 
 ___
 
@@ -3262,7 +3262,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -3271,7 +3271,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listenercount-1)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listenercount-1)
 
 ___
 
@@ -3337,7 +3337,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -3349,7 +3349,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on-1)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on-1)
 
 ___
 
@@ -3451,7 +3451,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once-1)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -3469,7 +3469,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once-1)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once-1)
 
 ___
 
@@ -3494,7 +3494,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -3502,4 +3502,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setmaxlisteners-1)
+[Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setmaxlisteners-1)

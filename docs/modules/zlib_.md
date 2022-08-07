@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "zlib"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "zlib"
 
 # Namespace: "zlib"
 
@@ -99,107 +99,107 @@ do_unzip(buffer)
 
 ### Namespaces
 
-- [brotliCompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.brotliCompress.md)
-- [brotliDecompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.brotliDecompress.md)
-- [constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.constants.md)
-- [deflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.deflate.md)
-- [deflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.deflateRaw.md)
-- [gunzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.gunzip.md)
-- [gzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.gzip.md)
-- [inflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.inflate.md)
-- [inflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.inflateRaw.md)
-- [unzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.unzip.md)
+- [brotliCompress](https://oven-sh.github.io/bun-types/modules/zlib_.brotliCompress.md)
+- [brotliDecompress](https://oven-sh.github.io/bun-types/modules/zlib_.brotliDecompress.md)
+- [constants](https://oven-sh.github.io/bun-types/modules/zlib_.constants.md)
+- [deflate](https://oven-sh.github.io/bun-types/modules/zlib_.deflate.md)
+- [deflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.deflateRaw.md)
+- [gunzip](https://oven-sh.github.io/bun-types/modules/zlib_.gunzip.md)
+- [gzip](https://oven-sh.github.io/bun-types/modules/zlib_.gzip.md)
+- [inflate](https://oven-sh.github.io/bun-types/modules/zlib_.inflate.md)
+- [inflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.inflateRaw.md)
+- [unzip](https://oven-sh.github.io/bun-types/modules/zlib_.unzip.md)
 
 ### Interfaces
 
-- [BrotliCompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
-- [BrotliDecompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
-- [BrotliOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md)
-- [Deflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
-- [DeflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
-- [Gunzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
-- [Gzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
-- [Inflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
-- [InflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
-- [Unzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
-- [Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md)
-- [ZlibOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md)
-- [ZlibParams](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibParams.md)
-- [ZlibReset](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibReset.md)
+- [BrotliCompress](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
+- [BrotliDecompress](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
+- [BrotliOptions](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md)
+- [Deflate](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
+- [DeflateRaw](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
+- [Gunzip](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
+- [Gzip](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
+- [Inflate](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
+- [InflateRaw](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
+- [Unzip](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
+- [Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md)
+- [ZlibOptions](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md)
+- [ZlibParams](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibParams.md)
+- [ZlibReset](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibReset.md)
 
 ### Type Aliases
 
-- [CompressCallback](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback)
-- [InputType](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype)
+- [CompressCallback](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback)
+- [InputType](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype)
 
 ### Variables
 
-- [Z\_ASCII](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_ascii)
-- [Z\_BEST\_COMPRESSION](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_best_compression)
-- [Z\_BEST\_SPEED](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_best_speed)
-- [Z\_BINARY](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_binary)
-- [Z\_BLOCK](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_block)
-- [Z\_BUF\_ERROR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_buf_error)
-- [Z\_DATA\_ERROR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_data_error)
-- [Z\_DEFAULT\_COMPRESSION](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_default_compression)
-- [Z\_DEFAULT\_STRATEGY](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_default_strategy)
-- [Z\_DEFLATED](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_deflated)
-- [Z\_ERRNO](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_errno)
-- [Z\_FILTERED](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_filtered)
-- [Z\_FINISH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_finish)
-- [Z\_FIXED](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_fixed)
-- [Z\_FULL\_FLUSH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_full_flush)
-- [Z\_HUFFMAN\_ONLY](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_huffman_only)
-- [Z\_MEM\_ERROR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_mem_error)
-- [Z\_NEED\_DICT](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_need_dict)
-- [Z\_NO\_COMPRESSION](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_no_compression)
-- [Z\_NO\_FLUSH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_no_flush)
-- [Z\_OK](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_ok)
-- [Z\_PARTIAL\_FLUSH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_partial_flush)
-- [Z\_RLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_rle)
-- [Z\_STREAM\_END](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_stream_end)
-- [Z\_STREAM\_ERROR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_stream_error)
-- [Z\_SYNC\_FLUSH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_sync_flush)
-- [Z\_TEXT](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_text)
-- [Z\_TREES](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_trees)
-- [Z\_UNKNOWN](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_unknown)
-- [Z\_VERSION\_ERROR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#z_version_error)
+- [Z\_ASCII](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_ascii)
+- [Z\_BEST\_COMPRESSION](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_best_compression)
+- [Z\_BEST\_SPEED](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_best_speed)
+- [Z\_BINARY](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_binary)
+- [Z\_BLOCK](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_block)
+- [Z\_BUF\_ERROR](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_buf_error)
+- [Z\_DATA\_ERROR](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_data_error)
+- [Z\_DEFAULT\_COMPRESSION](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_default_compression)
+- [Z\_DEFAULT\_STRATEGY](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_default_strategy)
+- [Z\_DEFLATED](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_deflated)
+- [Z\_ERRNO](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_errno)
+- [Z\_FILTERED](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_filtered)
+- [Z\_FINISH](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_finish)
+- [Z\_FIXED](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_fixed)
+- [Z\_FULL\_FLUSH](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_full_flush)
+- [Z\_HUFFMAN\_ONLY](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_huffman_only)
+- [Z\_MEM\_ERROR](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_mem_error)
+- [Z\_NEED\_DICT](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_need_dict)
+- [Z\_NO\_COMPRESSION](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_no_compression)
+- [Z\_NO\_FLUSH](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_no_flush)
+- [Z\_OK](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_ok)
+- [Z\_PARTIAL\_FLUSH](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_partial_flush)
+- [Z\_RLE](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_rle)
+- [Z\_STREAM\_END](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_stream_end)
+- [Z\_STREAM\_ERROR](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_stream_error)
+- [Z\_SYNC\_FLUSH](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_sync_flush)
+- [Z\_TEXT](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_text)
+- [Z\_TREES](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_trees)
+- [Z\_UNKNOWN](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_unknown)
+- [Z\_VERSION\_ERROR](https://oven-sh.github.io/bun-types/modules/zlib_.md#z_version_error)
 
 ### Functions
 
-- [brotliCompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#brotlicompress)
-- [brotliCompressSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#brotlicompresssync)
-- [brotliDecompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#brotlidecompress)
-- [brotliDecompressSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#brotlidecompresssync)
-- [createBrotliCompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createbrotlicompress)
-- [createBrotliDecompress](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createbrotlidecompress)
-- [createDeflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createdeflate)
-- [createDeflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createdeflateraw)
-- [createGunzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#creategunzip)
-- [createGzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#creategzip)
-- [createInflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createinflate)
-- [createInflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createinflateraw)
-- [createUnzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#createunzip)
-- [deflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#deflate)
-- [deflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#deflateraw)
-- [deflateRawSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#deflaterawsync)
-- [deflateSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#deflatesync)
-- [gunzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#gunzip)
-- [gunzipSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#gunzipsync)
-- [gzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#gzip)
-- [gzipSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#gzipsync)
-- [inflate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inflate)
-- [inflateRaw](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inflateraw)
-- [inflateRawSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inflaterawsync)
-- [inflateSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inflatesync)
-- [unzip](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#unzip)
-- [unzipSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#unzipsync)
+- [brotliCompress](https://oven-sh.github.io/bun-types/modules/zlib_.md#brotlicompress)
+- [brotliCompressSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#brotlicompresssync)
+- [brotliDecompress](https://oven-sh.github.io/bun-types/modules/zlib_.md#brotlidecompress)
+- [brotliDecompressSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#brotlidecompresssync)
+- [createBrotliCompress](https://oven-sh.github.io/bun-types/modules/zlib_.md#createbrotlicompress)
+- [createBrotliDecompress](https://oven-sh.github.io/bun-types/modules/zlib_.md#createbrotlidecompress)
+- [createDeflate](https://oven-sh.github.io/bun-types/modules/zlib_.md#createdeflate)
+- [createDeflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.md#createdeflateraw)
+- [createGunzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#creategunzip)
+- [createGzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#creategzip)
+- [createInflate](https://oven-sh.github.io/bun-types/modules/zlib_.md#createinflate)
+- [createInflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.md#createinflateraw)
+- [createUnzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#createunzip)
+- [deflate](https://oven-sh.github.io/bun-types/modules/zlib_.md#deflate)
+- [deflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.md#deflateraw)
+- [deflateRawSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#deflaterawsync)
+- [deflateSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#deflatesync)
+- [gunzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#gunzip)
+- [gunzipSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#gunzipsync)
+- [gzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#gzip)
+- [gzipSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#gzipsync)
+- [inflate](https://oven-sh.github.io/bun-types/modules/zlib_.md#inflate)
+- [inflateRaw](https://oven-sh.github.io/bun-types/modules/zlib_.md#inflateraw)
+- [inflateRawSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#inflaterawsync)
+- [inflateSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#inflatesync)
+- [unzip](https://oven-sh.github.io/bun-types/modules/zlib_.md#unzip)
+- [unzipSync](https://oven-sh.github.io/bun-types/modules/zlib_.md#unzipsync)
 
 ## Type Aliases
 
 ### CompressCallback
 
-Ƭ **CompressCallback**: (`error`: `Error` \| ``null``, `result`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void`
+Ƭ **CompressCallback**: (`error`: `Error` \| ``null``, `result`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void`
 
 #### Type declaration
 
@@ -210,7 +210,7 @@ do_unzip(buffer)
 | Name | Type |
 | :------ | :------ |
 | `error` | `Error` \| ``null`` |
-| `result` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) |
+| `result` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) |
 
 ##### Returns
 
@@ -522,9 +522,9 @@ Use `constants.Z_VERSION_ERROR`
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -536,8 +536,8 @@ Use `constants.Z_VERSION_ERROR`
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -549,9 +549,9 @@ Use `constants.Z_VERSION_ERROR`
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -563,8 +563,8 @@ Use `constants.Z_VERSION_ERROR`
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -574,7 +574,7 @@ ___
 
 ### brotliCompressSync
 
-▸ **brotliCompressSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **brotliCompressSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `BrotliCompress`.
 
@@ -582,14 +582,14 @@ Compress a chunk of data with `BrotliCompress`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **brotliCompressSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **brotliCompressSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `BrotliCompress`.
 
@@ -597,12 +597,12 @@ Compress a chunk of data with `BrotliCompress`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -614,9 +614,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -628,8 +628,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -641,9 +641,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -655,8 +655,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -666,7 +666,7 @@ ___
 
 ### brotliDecompressSync
 
-▸ **brotliDecompressSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **brotliDecompressSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `BrotliDecompress`.
 
@@ -674,14 +674,14 @@ Decompress a chunk of data with `BrotliDecompress`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **brotliDecompressSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **brotliDecompressSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `BrotliDecompress`.
 
@@ -689,18 +689,18 @@ Decompress a chunk of data with `BrotliDecompress`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### createBrotliCompress
 
-▸ **createBrotliCompress**(`options?`): [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+▸ **createBrotliCompress**(`options?`): [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
 Creates and returns a new `BrotliCompress` object.
 
@@ -708,13 +708,13 @@ Creates and returns a new `BrotliCompress` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+[`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
-▸ **createBrotliCompress**(`options?`): [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+▸ **createBrotliCompress**(`options?`): [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
 Creates and returns a new `BrotliCompress` object.
 
@@ -722,17 +722,17 @@ Creates and returns a new `BrotliCompress` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+[`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
 ___
 
 ### createBrotliDecompress
 
-▸ **createBrotliDecompress**(`options?`): [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+▸ **createBrotliDecompress**(`options?`): [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
 Creates and returns a new `BrotliDecompress` object.
 
@@ -740,13 +740,13 @@ Creates and returns a new `BrotliDecompress` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+[`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
-▸ **createBrotliDecompress**(`options?`): [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+▸ **createBrotliDecompress**(`options?`): [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
 Creates and returns a new `BrotliDecompress` object.
 
@@ -754,17 +754,17 @@ Creates and returns a new `BrotliDecompress` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`BrotliOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliOptions.md) |
+| `options?` | [`BrotliOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliOptions.md) |
 
 #### Returns
 
-[`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+[`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
 ___
 
 ### createDeflate
 
-▸ **createDeflate**(`options?`): [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+▸ **createDeflate**(`options?`): [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
 Creates and returns a new `Deflate` object.
 
@@ -772,13 +772,13 @@ Creates and returns a new `Deflate` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+[`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
-▸ **createDeflate**(`options?`): [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+▸ **createDeflate**(`options?`): [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
 Creates and returns a new `Deflate` object.
 
@@ -786,17 +786,17 @@ Creates and returns a new `Deflate` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+[`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
 ___
 
 ### createDeflateRaw
 
-▸ **createDeflateRaw**(`options?`): [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+▸ **createDeflateRaw**(`options?`): [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
 Creates and returns a new `DeflateRaw` object.
 
@@ -810,13 +810,13 @@ that effectively uses an 8-bit window only.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+[`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
-▸ **createDeflateRaw**(`options?`): [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+▸ **createDeflateRaw**(`options?`): [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
 Creates and returns a new `DeflateRaw` object.
 
@@ -830,17 +830,17 @@ that effectively uses an 8-bit window only.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+[`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
 ___
 
 ### createGunzip
 
-▸ **createGunzip**(`options?`): [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+▸ **createGunzip**(`options?`): [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
 Creates and returns a new `Gunzip` object.
 
@@ -848,13 +848,13 @@ Creates and returns a new `Gunzip` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+[`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
-▸ **createGunzip**(`options?`): [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+▸ **createGunzip**(`options?`): [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
 Creates and returns a new `Gunzip` object.
 
@@ -862,17 +862,17 @@ Creates and returns a new `Gunzip` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+[`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
 ___
 
 ### createGzip
 
-▸ **createGzip**(`options?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **createGzip**(`options?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Creates and returns a new `Gzip` object.
 See `example`.
@@ -881,13 +881,13 @@ See `example`.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
-▸ **createGzip**(`options?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **createGzip**(`options?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Creates and returns a new `Gzip` object.
 See `example`.
@@ -896,17 +896,17 @@ See `example`.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 ___
 
 ### createInflate
 
-▸ **createInflate**(`options?`): [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+▸ **createInflate**(`options?`): [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
 Creates and returns a new `Inflate` object.
 
@@ -914,13 +914,13 @@ Creates and returns a new `Inflate` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+[`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
-▸ **createInflate**(`options?`): [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+▸ **createInflate**(`options?`): [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
 Creates and returns a new `Inflate` object.
 
@@ -928,17 +928,17 @@ Creates and returns a new `Inflate` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+[`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
 ___
 
 ### createInflateRaw
 
-▸ **createInflateRaw**(`options?`): [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+▸ **createInflateRaw**(`options?`): [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
 Creates and returns a new `InflateRaw` object.
 
@@ -946,13 +946,13 @@ Creates and returns a new `InflateRaw` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+[`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
-▸ **createInflateRaw**(`options?`): [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+▸ **createInflateRaw**(`options?`): [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
 Creates and returns a new `InflateRaw` object.
 
@@ -960,17 +960,17 @@ Creates and returns a new `InflateRaw` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+[`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
 ___
 
 ### createUnzip
 
-▸ **createUnzip**(`options?`): [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+▸ **createUnzip**(`options?`): [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
 Creates and returns a new `Unzip` object.
 
@@ -978,13 +978,13 @@ Creates and returns a new `Unzip` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+[`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
-▸ **createUnzip**(`options?`): [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+▸ **createUnzip**(`options?`): [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
 Creates and returns a new `Unzip` object.
 
@@ -992,11 +992,11 @@ Creates and returns a new `Unzip` object.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+[`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
 ___
 
@@ -1008,8 +1008,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1021,9 +1021,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1035,8 +1035,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1048,9 +1048,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1066,8 +1066,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1079,9 +1079,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1093,8 +1093,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1106,9 +1106,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1118,7 +1118,7 @@ ___
 
 ### deflateRawSync
 
-▸ **deflateRawSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **deflateRawSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `DeflateRaw`.
 
@@ -1126,14 +1126,14 @@ Compress a chunk of data with `DeflateRaw`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **deflateRawSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **deflateRawSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `DeflateRaw`.
 
@@ -1141,18 +1141,18 @@ Compress a chunk of data with `DeflateRaw`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### deflateSync
 
-▸ **deflateSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **deflateSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `Deflate`.
 
@@ -1160,14 +1160,14 @@ Compress a chunk of data with `Deflate`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **deflateSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **deflateSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `Deflate`.
 
@@ -1175,12 +1175,12 @@ Compress a chunk of data with `Deflate`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1192,8 +1192,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1205,9 +1205,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1219,8 +1219,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1232,9 +1232,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1244,7 +1244,7 @@ ___
 
 ### gunzipSync
 
-▸ **gunzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **gunzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Gunzip`.
 
@@ -1252,14 +1252,14 @@ Decompress a chunk of data with `Gunzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **gunzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **gunzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Gunzip`.
 
@@ -1267,12 +1267,12 @@ Decompress a chunk of data with `Gunzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1284,8 +1284,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1297,9 +1297,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1311,8 +1311,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1324,9 +1324,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1336,7 +1336,7 @@ ___
 
 ### gzipSync
 
-▸ **gzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **gzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `Gzip`.
 
@@ -1344,14 +1344,14 @@ Compress a chunk of data with `Gzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **gzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **gzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Compress a chunk of data with `Gzip`.
 
@@ -1359,12 +1359,12 @@ Compress a chunk of data with `Gzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1376,8 +1376,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1389,9 +1389,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1403,8 +1403,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1416,9 +1416,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1434,8 +1434,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1447,9 +1447,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1461,8 +1461,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1474,9 +1474,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1486,7 +1486,7 @@ ___
 
 ### inflateRawSync
 
-▸ **inflateRawSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **inflateRawSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `InflateRaw`.
 
@@ -1494,14 +1494,14 @@ Decompress a chunk of data with `InflateRaw`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **inflateRawSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **inflateRawSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `InflateRaw`.
 
@@ -1509,18 +1509,18 @@ Decompress a chunk of data with `InflateRaw`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### inflateSync
 
-▸ **inflateSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **inflateSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Inflate`.
 
@@ -1528,14 +1528,14 @@ Decompress a chunk of data with `Inflate`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **inflateSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **inflateSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Inflate`.
 
@@ -1543,12 +1543,12 @@ Decompress a chunk of data with `Inflate`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1560,8 +1560,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1573,9 +1573,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1587,8 +1587,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1600,9 +1600,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
-| `callback` | [`CompressCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#compresscallback) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
+| `callback` | [`CompressCallback`](https://oven-sh.github.io/bun-types/modules/zlib_.md#compresscallback) |
 
 #### Returns
 
@@ -1612,7 +1612,7 @@ ___
 
 ### unzipSync
 
-▸ **unzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **unzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Unzip`.
 
@@ -1620,14 +1620,14 @@ Decompress a chunk of data with `Unzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **unzipSync**(`buf`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **unzipSync**(`buf`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decompress a chunk of data with `Unzip`.
 
@@ -1635,9 +1635,9 @@ Decompress a chunk of data with `Unzip`.
 
 | Name | Type |
 | :------ | :------ |
-| `buf` | [`InputType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md#inputtype) |
-| `options?` | [`ZlibOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibOptions.md) |
+| `buf` | [`InputType`](https://oven-sh.github.io/bun-types/modules/zlib_.md#inputtype) |
+| `options?` | [`ZlibOptions`](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)

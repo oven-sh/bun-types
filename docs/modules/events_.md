@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "events"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "events"
 
 # Namespace: "events"
 
@@ -44,12 +44,12 @@ myEmitter.emit('event');
 
 ### Namespaces
 
-- [EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.EventEmitter.md)
+- [EventEmitter](https://oven-sh.github.io/bun-types/modules/events_.EventEmitter.md)
 
 ### Classes
 
-- [EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md)
+- [EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md)
 
 ### Interfaces
 
-- [Abortable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.Abortable.md)
+- [Abortable](https://oven-sh.github.io/bun-types/interfaces/events_.Abortable.md)

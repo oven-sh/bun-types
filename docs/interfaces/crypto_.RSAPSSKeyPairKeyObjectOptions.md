@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / RSAPSSKeyPairKeyObjectOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / RSAPSSKeyPairKeyObjectOptions
 
 # Interface: RSAPSSKeyPairKeyObjectOptions
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).RSAPSSKeyPairKeyObjectOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).RSAPSSKeyPairKeyObjectOptions
 
 ## Table of contents
 
 ### Properties
 
-- [hashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#hashalgorithm)
-- [mgf1HashAlgorithm](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#mgf1hashalgorithm)
-- [modulusLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#moduluslength)
-- [publicExponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#publicexponent)
-- [saltLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#saltlength)
+- [hashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#hashalgorithm)
+- [mgf1HashAlgorithm](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#mgf1hashalgorithm)
+- [modulusLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#moduluslength)
+- [publicExponent](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#publicexponent)
+- [saltLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md#saltlength)
 
 ## Properties
 

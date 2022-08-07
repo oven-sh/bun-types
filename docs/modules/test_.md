@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "test"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "test"
 
 # Namespace: "test"
 
@@ -6,14 +6,14 @@
 
 ### Interfaces
 
-- [Expect](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/test_.Expect.md)
+- [Expect](https://oven-sh.github.io/bun-types/interfaces/test_.Expect.md)
 
 ### Functions
 
-- [describe](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/test_.md#describe)
-- [expect](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/test_.md#expect)
-- [it](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/test_.md#it)
-- [test](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/test_.md#test)
+- [describe](https://oven-sh.github.io/bun-types/modules/test_.md#describe)
+- [expect](https://oven-sh.github.io/bun-types/modules/test_.md#expect)
+- [it](https://oven-sh.github.io/bun-types/modules/test_.md#it)
+- [test](https://oven-sh.github.io/bun-types/modules/test_.md#test)
 
 ## Functions
 
@@ -49,7 +49,7 @@ ___
 
 ### expect
 
-▸ **expect**(`value`): [`Expect`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md)
+▸ **expect**(`value`): [`Expect`](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md)
 
 #### Parameters
 
@@ -59,9 +59,9 @@ ___
 
 #### Returns
 
-[`Expect`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md)
+[`Expect`](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md)
 
-▸ **expect**(`value`): [`Expect`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md)
+▸ **expect**(`value`): [`Expect`](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md)
 
 #### Parameters
 
@@ -71,7 +71,7 @@ ___
 
 #### Returns
 
-[`Expect`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md)
+[`Expect`](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md)
 
 ___
 

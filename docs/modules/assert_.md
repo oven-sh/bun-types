@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "assert"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "assert"
 
 # Namespace: "assert"
 
@@ -13,36 +13,36 @@ invariants.
 
 ### Classes
 
-- [AssertionError](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.AssertionError.md)
-- [CallTracker](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/assert_.CallTracker.md)
+- [AssertionError](https://oven-sh.github.io/bun-types/classes/assert_.AssertionError.md)
+- [CallTracker](https://oven-sh.github.io/bun-types/classes/assert_.CallTracker.md)
 
 ### Interfaces
 
-- [CallTrackerReportInformation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md)
+- [CallTrackerReportInformation](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md)
 
 ### Type Aliases
 
-- [AssertPredicate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#assertpredicate)
+- [AssertPredicate](https://oven-sh.github.io/bun-types/modules/assert_.md#assertpredicate)
 
 ### Functions
 
-- [deepEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepequal)
-- [deepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepstrictequal)
-- [doesNotReject](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#doesnotreject)
-- [doesNotThrow](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#doesnotthrow)
-- [equal](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#equal)
-- [fail](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#fail)
-- [ifError](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#iferror)
-- [match](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#match)
-- [notDeepEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notdeepequal)
-- [notDeepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notdeepstrictequal)
-- [notEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notequal)
-- [notStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notstrictequal)
-- [ok](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#ok)
-- [rejects](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#rejects)
-- [strict](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#strict)
-- [strictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#strictequal)
-- [throws](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#throws)
+- [deepEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepequal)
+- [deepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepstrictequal)
+- [doesNotReject](https://oven-sh.github.io/bun-types/modules/assert_.md#doesnotreject)
+- [doesNotThrow](https://oven-sh.github.io/bun-types/modules/assert_.md#doesnotthrow)
+- [equal](https://oven-sh.github.io/bun-types/modules/assert_.md#equal)
+- [fail](https://oven-sh.github.io/bun-types/modules/assert_.md#fail)
+- [ifError](https://oven-sh.github.io/bun-types/modules/assert_.md#iferror)
+- [match](https://oven-sh.github.io/bun-types/modules/assert_.md#match)
+- [notDeepEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notdeepequal)
+- [notDeepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notdeepstrictequal)
+- [notEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notequal)
+- [notStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notstrictequal)
+- [ok](https://oven-sh.github.io/bun-types/modules/assert_.md#ok)
+- [rejects](https://oven-sh.github.io/bun-types/modules/assert_.md#rejects)
+- [strict](https://oven-sh.github.io/bun-types/modules/assert_.md#strict)
+- [strictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#strictequal)
+- [throws](https://oven-sh.github.io/bun-types/modules/assert_.md#throws)
 
 ## Type Aliases
 
@@ -58,14 +58,14 @@ invariants.
 
 **Strict assertion mode**
 
-An alias of [deepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepstrictequal).
+An alias of [deepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepstrictequal).
 
 **Legacy assertion mode**
 
-> Stability: 3 - Legacy: Use [deepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepstrictequal) instead.
+> Stability: 3 - Legacy: Use [deepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepstrictequal) instead.
 
 Tests for deep equality between the `actual` and `expected` parameters. Consider
-using [deepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepstrictequal) instead. [deepEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepequal) can have
+using [deepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepstrictequal) instead. [deepEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepequal) can have
 surprising results.
 
 _Deep equality_ means that the enumerable "own" properties of child objects
@@ -133,9 +133,9 @@ error messages as expressive as possible.
 
 If specified, `error` can be a [`Class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes),
 [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) or a validation
-function. See [throws](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#throws) for more details.
+function. See [throws](https://oven-sh.github.io/bun-types/modules/assert_.md#throws) for more details.
 
-Besides the async nature to await the completion behaves identically to [doesNotThrow](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#doesnotthrow).
+Besides the async nature to await the completion behaves identically to [doesNotThrow](https://oven-sh.github.io/bun-types/modules/assert_.md#doesnotthrow).
 
 ```js
 import assert from 'assert/strict';
@@ -175,7 +175,7 @@ assert.doesNotReject(Promise.reject(new TypeError('Wrong value')))
 | Name | Type |
 | :------ | :------ |
 | `block` | `Promise`<`unknown`\> \| () => `Promise`<`unknown`\> |
-| `error` | [`AssertPredicate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#assertpredicate) |
+| `error` | [`AssertPredicate`](https://oven-sh.github.io/bun-types/modules/assert_.md#assertpredicate) |
 | `message?` | `string` \| `Error` |
 
 #### Returns
@@ -203,7 +203,7 @@ propagated back to the caller.
 
 If specified, `error` can be a [`Class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes),
 [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) or a validation
-function. See [throws](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#throws) for more details.
+function. See [throws](https://oven-sh.github.io/bun-types/modules/assert_.md#throws) for more details.
 
 The following, for instance, will throw the `TypeError` because there is no
 matching error type in the assertion:
@@ -266,7 +266,7 @@ assert.doesNotThrow(
 | Name | Type |
 | :------ | :------ |
 | `block` | () => `unknown` |
-| `error` | [`AssertPredicate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#assertpredicate) |
+| `error` | [`AssertPredicate`](https://oven-sh.github.io/bun-types/modules/assert_.md#assertpredicate) |
 | `message?` | `string` \| `Error` |
 
 #### Returns
@@ -281,11 +281,11 @@ ___
 
 **Strict assertion mode**
 
-An alias of [strictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#strictequal).
+An alias of [strictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#strictequal).
 
 **Legacy assertion mode**
 
-> Stability: 3 - Legacy: Use [strictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#strictequal) instead.
+> Stability: 3 - Legacy: Use [strictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#strictequal) instead.
 
 Tests shallow, coercive equality between the `actual` and `expected` parameters
 using the [`==` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality). `NaN` is specially handled
@@ -470,13 +470,13 @@ ___
 
 **Strict assertion mode**
 
-An alias of [notDeepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notdeepstrictequal).
+An alias of [notDeepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notdeepstrictequal).
 
 **Legacy assertion mode**
 
-> Stability: 3 - Legacy: Use [notDeepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notdeepstrictequal) instead.
+> Stability: 3 - Legacy: Use [notDeepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notdeepstrictequal) instead.
 
-Tests for any deep inequality. Opposite of [deepEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepequal).
+Tests for any deep inequality. Opposite of [deepEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepequal).
 
 ```js
 import assert from 'assert';
@@ -533,7 +533,7 @@ ___
 
 ▸ **notDeepStrictEqual**(`actual`, `expected`, `message?`): `void`
 
-Tests for deep strict inequality. Opposite of [deepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#deepstrictequal).
+Tests for deep strict inequality. Opposite of [deepStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#deepstrictequal).
 
 ```js
 import assert from 'assert/strict';
@@ -568,11 +568,11 @@ ___
 
 **Strict assertion mode**
 
-An alias of [notStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notstrictequal).
+An alias of [notStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notstrictequal).
 
 **Legacy assertion mode**
 
-> Stability: 3 - Legacy: Use [notStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#notstrictequal) instead.
+> Stability: 3 - Legacy: Use [notStrictEqual](https://oven-sh.github.io/bun-types/modules/assert_.md#notstrictequal) instead.
 
 Tests shallow, coercive inequality with the [`!=` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Inequality). `NaN` is
 specially handled and treated as being identical if both sides are `NaN`.
@@ -730,7 +730,7 @@ If `asyncFn` is a function and it throws an error synchronously,`assert.rejects(
 function does not return a promise, `assert.rejects()` will return a rejected`Promise` with an `ERR_INVALID_RETURN_VALUE` error. In both cases the error
 handler is skipped.
 
-Besides the async nature to await the completion behaves identically to [throws](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#throws).
+Besides the async nature to await the completion behaves identically to [throws](https://oven-sh.github.io/bun-types/modules/assert_.md#throws).
 
 If specified, `error` can be a [`Class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes),
 [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), a validation function,
@@ -781,7 +781,7 @@ assert.rejects(
 
 `error` cannot be a string. If a string is provided as the second
 argument, then `error` is assumed to be omitted and the string will be used for`message` instead. This can lead to easy-to-miss mistakes. Please read the
-example in [throws](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#throws) carefully if using a string as the second
+example in [throws](https://oven-sh.github.io/bun-types/modules/assert_.md#throws) carefully if using a string as the second
 argument gets considered.
 
 #### Parameters
@@ -802,7 +802,7 @@ argument gets considered.
 | Name | Type |
 | :------ | :------ |
 | `block` | `Promise`<`unknown`\> \| () => `Promise`<`unknown`\> |
-| `error` | [`AssertPredicate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#assertpredicate) |
+| `error` | [`AssertPredicate`](https://oven-sh.github.io/bun-types/modules/assert_.md#assertpredicate) |
 | `message?` | `string` \| `Error` |
 
 #### Returns
@@ -1112,7 +1112,7 @@ argument.
 | Name | Type |
 | :------ | :------ |
 | `block` | () => `unknown` |
-| `error` | [`AssertPredicate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md#assertpredicate) |
+| `error` | [`AssertPredicate`](https://oven-sh.github.io/bun-types/modules/assert_.md#assertpredicate) |
 | `message?` | `string` \| `Error` |
 
 #### Returns

@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / SecureHeapUsage
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / SecureHeapUsage
 
 # Interface: SecureHeapUsage
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).SecureHeapUsage
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).SecureHeapUsage
 
 ## Table of contents
 
 ### Properties
 
-- [min](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md#min)
-- [total](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md#total)
-- [used](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md#used)
-- [utilization](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md#utilization)
+- [min](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md#min)
+- [total](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md#total)
+- [used](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md#used)
+- [utilization](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md#utilization)
 
 ## Properties
 

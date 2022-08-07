@@ -1,26 +1,26 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md) / ZlibParams
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["zlib"](https://oven-sh.github.io/bun-types/modules/zlib_.md) / ZlibParams
 
 # Interface: ZlibParams
 
-["zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md).ZlibParams
+["zlib"](https://oven-sh.github.io/bun-types/modules/zlib_.md).ZlibParams
 
 ## Hierarchy
 
 - **`ZlibParams`**
 
-  ↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+  ↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
-  ↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+  ↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
-  ↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Deflate-1.md)
+  ↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Deflate-1.md)
 
-  ↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.DeflateRaw-1.md)
+  ↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.DeflateRaw-1.md)
 
 ## Table of contents
 
 ### Methods
 
-- [params](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.ZlibParams.md#params)
+- [params](https://oven-sh.github.io/bun-types/interfaces/zlib_.ZlibParams.md#params)
 
 ## Methods
 

@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / FileBlob
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / FileBlob
 
 # Interface: FileBlob
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).FileBlob
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).FileBlob
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
 
@@ -38,16 +38,16 @@ await Bun.write(
 
 ### Properties
 
-- [size](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#size)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#type)
+- [size](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#size)
+- [type](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#type)
 
 ### Methods
 
-- [arrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#arraybuffer)
-- [json](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#json)
-- [slice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#slice)
-- [stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#stream)
-- [text](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md#text)
+- [arrayBuffer](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#arraybuffer)
+- [json](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#json)
+- [slice](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#slice)
+- [stream](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#stream)
+- [text](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md#text)
 
 ## Properties
 
@@ -147,7 +147,7 @@ ___
 
 ### slice
 
-▸ **slice**(`begin?`, `end?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **slice**(`begin?`, `end?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 Offset any operation on the file starting at `begin` and ending at `end`. `end` is relative to 0
 
@@ -164,13 +164,13 @@ If `begin` > 0, Bun.write() will be slower on macOS
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 #### Inherited from
 
 Blob.slice
 
-▸ **slice**(`begin?`, `end?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **slice**(`begin?`, `end?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 Offset any operation on the file starting at `begin` and ending at `end`. `end` is relative to 0
 
@@ -187,7 +187,7 @@ If `begin` > 0, Bun.write() will be slower on macOS
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 #### Inherited from
 
@@ -197,13 +197,13 @@ ___
 
 ### stream
 
-▸ **stream**(): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`Uint8Array`\>
+▸ **stream**(): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`Uint8Array`\>
 
 Read the data from the blob as a ReadableStream.
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`Uint8Array`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`Uint8Array`\>
 
 #### Inherited from
 

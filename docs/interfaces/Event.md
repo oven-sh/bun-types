@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Event
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Event
 
 # Interface: Event
 
@@ -8,31 +8,31 @@ An event which takes place in the DOM.
 
 ### Properties
 
-- [AT\_TARGET](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#at_target)
-- [BUBBLING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#bubbling_phase)
-- [CAPTURING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#capturing_phase)
-- [NONE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#none)
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#bubbles)
-- [cancelBubble](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#cancelbubble)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#cancelable)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#composed)
-- [currentTarget](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#currenttarget)
-- [defaultPrevented](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#defaultprevented)
-- [eventPhase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#eventphase)
-- [isTrusted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#istrusted)
-- [returnValue](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#returnvalue)
-- [srcElement](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#srcelement)
-- [target](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#target)
-- [timeStamp](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#timestamp)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#type)
+- [AT\_TARGET](https://oven-sh.github.io/bun-types/interfaces/Event.md#at_target)
+- [BUBBLING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/Event.md#bubbling_phase)
+- [CAPTURING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/Event.md#capturing_phase)
+- [NONE](https://oven-sh.github.io/bun-types/interfaces/Event.md#none)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/Event.md#bubbles)
+- [cancelBubble](https://oven-sh.github.io/bun-types/interfaces/Event.md#cancelbubble)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/Event.md#cancelable)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/Event.md#composed)
+- [currentTarget](https://oven-sh.github.io/bun-types/interfaces/Event.md#currenttarget)
+- [defaultPrevented](https://oven-sh.github.io/bun-types/interfaces/Event.md#defaultprevented)
+- [eventPhase](https://oven-sh.github.io/bun-types/interfaces/Event.md#eventphase)
+- [isTrusted](https://oven-sh.github.io/bun-types/interfaces/Event.md#istrusted)
+- [returnValue](https://oven-sh.github.io/bun-types/interfaces/Event.md#returnvalue)
+- [srcElement](https://oven-sh.github.io/bun-types/interfaces/Event.md#srcelement)
+- [target](https://oven-sh.github.io/bun-types/interfaces/Event.md#target)
+- [timeStamp](https://oven-sh.github.io/bun-types/interfaces/Event.md#timestamp)
+- [type](https://oven-sh.github.io/bun-types/interfaces/Event.md#type)
 
 ### Methods
 
-- [composedPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#composedpath)
-- [initEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#initevent)
-- [preventDefault](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#preventdefault)
-- [stopImmediatePropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#stopimmediatepropagation)
-- [stopPropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Event.md#stoppropagation)
+- [composedPath](https://oven-sh.github.io/bun-types/interfaces/Event.md#composedpath)
+- [initEvent](https://oven-sh.github.io/bun-types/interfaces/Event.md#initevent)
+- [preventDefault](https://oven-sh.github.io/bun-types/interfaces/Event.md#preventdefault)
+- [stopImmediatePropagation](https://oven-sh.github.io/bun-types/interfaces/Event.md#stopimmediatepropagation)
+- [stopPropagation](https://oven-sh.github.io/bun-types/interfaces/Event.md#stoppropagation)
 
 ## Properties
 
@@ -99,7 +99,7 @@ ___
 
 ### currentTarget
 
-• `Readonly` **currentTarget**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **currentTarget**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object whose event listener's callback is currently
 being invoked.
@@ -143,7 +143,7 @@ ___
 
 ### srcElement
 
-• `Readonly` **srcElement**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **srcElement**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 **`Deprecated`**
 
@@ -151,7 +151,7 @@ ___
 
 ### target
 
-• `Readonly` **target**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **target**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object to which event is dispatched (its target).
 
@@ -176,7 +176,7 @@ Returns the type of event, e.g. "click", "hashchange", or "submit".
 
 ### composedPath
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -185,9 +185,9 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -196,7 +196,7 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 ___
 

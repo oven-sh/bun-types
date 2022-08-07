@@ -1,21 +1,21 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md) / constants
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["os"](https://oven-sh.github.io/bun-types/modules/os_.md) / constants
 
 # Namespace: constants
 
-["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md).constants
+["os"](https://oven-sh.github.io/bun-types/modules/os_.md).constants
 
 ## Table of contents
 
 ### Namespaces
 
-- [errno](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.errno.md)
-- [priority](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.priority.md)
-- [signals](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.signals.md)
+- [errno](https://oven-sh.github.io/bun-types/modules/os_.constants.errno.md)
+- [priority](https://oven-sh.github.io/bun-types/modules/os_.constants.priority.md)
+- [signals](https://oven-sh.github.io/bun-types/modules/os_.constants.signals.md)
 
 ### Variables
 
-- [UV\_UDP\_REUSEADDR](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.md#uv_udp_reuseaddr)
-- [signals](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.md#signals)
+- [UV\_UDP\_REUSEADDR](https://oven-sh.github.io/bun-types/modules/os_.constants.md#uv_udp_reuseaddr)
+- [signals](https://oven-sh.github.io/bun-types/modules/os_.constants.md#signals)
 
 ## Variables
 
@@ -27,4 +27,4 @@ ___
 
 ### signals
 
-• **signals**: [`SignalConstants`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md#signalconstants)
+• **signals**: [`SignalConstants`](https://oven-sh.github.io/bun-types/modules/os_.md#signalconstants)

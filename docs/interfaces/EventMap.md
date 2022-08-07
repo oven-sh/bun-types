@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventMap
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventMap
 
 # Interface: EventMap
 
@@ -6,10 +6,10 @@
 
 ### Properties
 
-- [fetch](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventMap.md#fetch)
+- [fetch](https://oven-sh.github.io/bun-types/interfaces/EventMap.md#fetch)
 
 ## Properties
 
 ### fetch
 
-• **fetch**: [`FetchEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md)
+• **fetch**: [`FetchEvent`](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md)

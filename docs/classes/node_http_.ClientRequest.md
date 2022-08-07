@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md) / ClientRequest
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md) / ClientRequest
 
 # Class: ClientRequest
 
-["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md).ClientRequest
+["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md).ClientRequest
 
-This object is created internally and returned from [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md#request). It
+This object is created internally and returned from [request](https://oven-sh.github.io/bun-types/modules/node_http_.md#request). It
 represents an _in-progress_ request whose header has already been queued. The
 header is still mutable using the `setHeader(name, value)`,`getHeader(name)`, `removeHeader(name)` API. The actual header will
 be sent along with the first data chunk or when calling `request.end()`.
 
 To get the response, add a listener for `'response'` to the request object.`'response'` will be emitted from the request object when the response
 headers have been received. The `'response'` event is executed with one
-argument which is an instance of [IncomingMessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.IncomingMessage.md).
+argument which is an instance of [IncomingMessage](https://oven-sh.github.io/bun-types/classes/node_http_.IncomingMessage.md).
 
 During the `'response'` event, one can add listeners to the
 response object; particularly to listen for the `'data'` event.
@@ -34,34 +34,34 @@ body which has been transmitted are equal or not.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#constructor)
 
 ### Properties
 
-- [aborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#aborted)
-- [host](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#host)
-- [maxHeadersCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#maxheaderscount)
-- [method](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#method)
-- [path](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#path)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#protocol)
-- [reusedSocket](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#reusedsocket)
+- [aborted](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#aborted)
+- [host](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#host)
+- [maxHeadersCount](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#maxheaderscount)
+- [method](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#method)
+- [path](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#path)
+- [protocol](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#protocol)
+- [reusedSocket](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#reusedsocket)
 
 ### Methods
 
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#addlistener)
-- [flushHeaders](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#flushheaders)
-- [getHeader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#getheader)
-- [getRawHeaderNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#getrawheadernames)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#once)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#prependoncelistener)
-- [removeHeader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#removeheader)
-- [setHeader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#setheader)
-- [setNoDelay](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#setnodelay)
-- [setSocketKeepAlive](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#setsocketkeepalive)
-- [setTimeout](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.ClientRequest.md#settimeout)
+- [abort](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#addlistener)
+- [flushHeaders](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#flushheaders)
+- [getHeader](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#getheader)
+- [getRawHeaderNames](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#getrawheadernames)
+- [on](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#once)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#prependoncelistener)
+- [removeHeader](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#removeheader)
+- [setHeader](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#setheader)
+- [setNoDelay](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#setnodelay)
+- [setSocketKeepAlive](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#setsocketkeepalive)
+- [setTimeout](https://oven-sh.github.io/bun-types/classes/node_http_.ClientRequest.md#settimeout)
 
 ## Constructors
 
@@ -73,8 +73,8 @@ body which has been transmitted are equal or not.
 
 | Name | Type |
 | :------ | :------ |
-| `url` | `string` \| [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) \| [`ClientRequestArgs`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md) |
-| `cb?` | (`res`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `url` | `string` \| [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) \| [`ClientRequestArgs`](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md) |
+| `cb?` | (`res`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 ## Properties
 
@@ -204,7 +204,7 @@ ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 **`Deprecated`**
 
@@ -217,9 +217,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -230,35 +230,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"information"`` |
-| `listener` | (`info`: [`InformationEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.InformationEvent.md)) => `void` |
+| `listener` | (`info`: [`InformationEvent`](https://oven-sh.github.io/bun-types/interfaces/http_.InformationEvent.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"response"`` |
-| `listener` | (`response`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `listener` | (`response`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -269,9 +269,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -282,9 +282,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -295,9 +295,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -308,9 +308,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -321,35 +321,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **addListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -360,7 +360,7 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
@@ -426,7 +426,7 @@ ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 **`Deprecated`**
 
@@ -439,9 +439,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -452,35 +452,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"information"`` |
-| `listener` | (`info`: [`InformationEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.InformationEvent.md)) => `void` |
+| `listener` | (`info`: [`InformationEvent`](https://oven-sh.github.io/bun-types/interfaces/http_.InformationEvent.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"response"`` |
-| `listener` | (`response`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `listener` | (`response`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -491,9 +491,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -504,9 +504,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -517,9 +517,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -530,9 +530,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -543,35 +543,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **on**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **on**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -582,13 +582,13 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 **`Deprecated`**
 
@@ -601,9 +601,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -614,35 +614,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"information"`` |
-| `listener` | (`info`: [`InformationEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.InformationEvent.md)) => `void` |
+| `listener` | (`info`: [`InformationEvent`](https://oven-sh.github.io/bun-types/interfaces/http_.InformationEvent.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"response"`` |
-| `listener` | (`response`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `listener` | (`response`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -653,9 +653,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -666,9 +666,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -679,9 +679,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -692,9 +692,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -705,35 +705,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **once**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **once**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -744,13 +744,13 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 **`Deprecated`**
 
@@ -763,9 +763,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -776,35 +776,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"information"`` |
-| `listener` | (`info`: [`InformationEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.InformationEvent.md)) => `void` |
+| `listener` | (`info`: [`InformationEvent`](https://oven-sh.github.io/bun-types/interfaces/http_.InformationEvent.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"response"`` |
-| `listener` | (`response`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `listener` | (`response`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -815,9 +815,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -828,9 +828,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -841,9 +841,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -854,9 +854,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -867,35 +867,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -906,13 +906,13 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 **`Deprecated`**
 
@@ -925,9 +925,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -938,35 +938,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"information"`` |
-| `listener` | (`info`: [`InformationEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.InformationEvent.md)) => `void` |
+| `listener` | (`info`: [`InformationEvent`](https://oven-sh.github.io/bun-types/interfaces/http_.InformationEvent.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"response"`` |
-| `listener` | (`response`: [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)) => `void` |
+| `listener` | (`response`: [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -977,9 +977,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -990,9 +990,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -1003,9 +1003,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -1016,9 +1016,9 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -1029,35 +1029,35 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
-▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **prependOnceListener**(`event`, `listener`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 #### Parameters
 
@@ -1068,7 +1068,7 @@ ___
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
@@ -1096,7 +1096,7 @@ ___
 
 ### setHeader
 
-▸ **setHeader**(`name`, `value`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **setHeader**(`name`, `value`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 Sets a single header value for the header object.
 
@@ -1109,7 +1109,7 @@ Sets a single header value for the header object.
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 ___
 
@@ -1152,7 +1152,7 @@ ___
 
 ### setTimeout
 
-▸ **setTimeout**(`timeout`, `callback?`): [`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+▸ **setTimeout**(`timeout`, `callback?`): [`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)
 
 Once a socket is assigned to this request and is connected `socket.setTimeout()` will be called.
 
@@ -1165,4 +1165,4 @@ Once a socket is assigned to this request and is connected `socket.setTimeout()`
 
 #### Returns
 
-[`ClientRequest`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.ClientRequest.md)
+[`ClientRequest`](https://oven-sh.github.io/bun-types/classes/http_.ClientRequest.md)

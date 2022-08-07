@@ -1,23 +1,23 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md) / ZlibOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md) / ZlibOptions
 
 # Interface: ZlibOptions
 
-["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md).ZlibOptions
+["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md).ZlibOptions
 
 ## Table of contents
 
 ### Properties
 
-- [chunkSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#chunksize)
-- [dictionary](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#dictionary)
-- [finishFlush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#finishflush)
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#flush)
-- [info](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#info)
-- [level](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#level)
-- [maxOutputLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#maxoutputlength)
-- [memLevel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#memlevel)
-- [strategy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#strategy)
-- [windowBits](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.ZlibOptions.md#windowbits)
+- [chunkSize](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#chunksize)
+- [dictionary](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#dictionary)
+- [finishFlush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#finishflush)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#flush)
+- [info](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#info)
+- [level](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#level)
+- [maxOutputLength](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#maxoutputlength)
+- [memLevel](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#memlevel)
+- [strategy](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#strategy)
+- [windowBits](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.ZlibOptions.md#windowbits)
 
 ## Properties
 

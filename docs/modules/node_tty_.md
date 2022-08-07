@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:tty"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:tty"
 
 # Namespace: "node:tty"
 
@@ -6,12 +6,12 @@
 
 ### Variables
 
-- [ReadStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_tty_.md#readstream)
-- [WriteStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_tty_.md#writestream)
+- [ReadStream](https://oven-sh.github.io/bun-types/modules/node_tty_.md#readstream)
+- [WriteStream](https://oven-sh.github.io/bun-types/modules/node_tty_.md#writestream)
 
 ### Functions
 
-- [isatty](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_tty_.md#isatty)
+- [isatty](https://oven-sh.github.io/bun-types/modules/node_tty_.md#isatty)
 
 ## Variables
 

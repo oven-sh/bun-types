@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:sys"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:sys"
 
 # Namespace: "node:sys"
 
@@ -6,58 +6,58 @@
 
 ### Namespaces
 
-- [inspect](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.inspect.md)
-- [promisify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.promisify.md)
+- [inspect](https://oven-sh.github.io/bun-types/modules/node_sys_.inspect.md)
+- [promisify](https://oven-sh.github.io/bun-types/modules/node_sys_.promisify.md)
 
 ### Interfaces
 
-- [CustomPromisifyLegacy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.CustomPromisifyLegacy.md)
-- [CustomPromisifySymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.CustomPromisifySymbol.md)
-- [DebugLogger](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.DebugLogger.md)
-- [EncodeIntoResult](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.EncodeIntoResult.md)
-- [InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.InspectOptions.md)
-- [InspectOptionsStylized](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.InspectOptionsStylized.md)
+- [CustomPromisifyLegacy](https://oven-sh.github.io/bun-types/interfaces/node_sys_.CustomPromisifyLegacy.md)
+- [CustomPromisifySymbol](https://oven-sh.github.io/bun-types/interfaces/node_sys_.CustomPromisifySymbol.md)
+- [DebugLogger](https://oven-sh.github.io/bun-types/interfaces/node_sys_.DebugLogger.md)
+- [EncodeIntoResult](https://oven-sh.github.io/bun-types/interfaces/node_sys_.EncodeIntoResult.md)
+- [InspectOptions](https://oven-sh.github.io/bun-types/interfaces/node_sys_.InspectOptions.md)
+- [InspectOptionsStylized](https://oven-sh.github.io/bun-types/interfaces/node_sys_.InspectOptionsStylized.md)
 
 ### Type Aliases
 
-- [CustomInspectFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#custominspectfunction)
-- [CustomPromisify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#custompromisify)
-- [DebugLoggerFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#debugloggerfunction)
-- [Style](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#style)
+- [CustomInspectFunction](https://oven-sh.github.io/bun-types/modules/node_sys_.md#custominspectfunction)
+- [CustomPromisify](https://oven-sh.github.io/bun-types/modules/node_sys_.md#custompromisify)
+- [DebugLoggerFunction](https://oven-sh.github.io/bun-types/modules/node_sys_.md#debugloggerfunction)
+- [Style](https://oven-sh.github.io/bun-types/modules/node_sys_.md#style)
 
 ### Functions
 
-- [callbackify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#callbackify)
-- [debug](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#debug)
-- [debuglog](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#debuglog)
-- [deprecate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#deprecate)
-- [format](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#format)
-- [inherits](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#inherits)
-- [inspect](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#inspect)
-- [isArray](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isarray)
-- [isBoolean](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isboolean)
-- [isBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isbuffer)
-- [isDate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isdate)
-- [isDeepStrictEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isdeepstrictequal)
-- [isError](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#iserror)
-- [isFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isfunction)
-- [isNull](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isnull)
-- [isNullOrUndefined](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isnullorundefined)
-- [isNumber](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isnumber)
-- [isObject](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isobject)
-- [isPrimitive](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isprimitive)
-- [isRegExp](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isregexp)
-- [isString](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isstring)
-- [isSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#issymbol)
-- [isUndefined](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#isundefined)
-- [log](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#log)
-- [promisify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md#promisify)
+- [callbackify](https://oven-sh.github.io/bun-types/modules/node_sys_.md#callbackify)
+- [debug](https://oven-sh.github.io/bun-types/modules/node_sys_.md#debug)
+- [debuglog](https://oven-sh.github.io/bun-types/modules/node_sys_.md#debuglog)
+- [deprecate](https://oven-sh.github.io/bun-types/modules/node_sys_.md#deprecate)
+- [format](https://oven-sh.github.io/bun-types/modules/node_sys_.md#format)
+- [inherits](https://oven-sh.github.io/bun-types/modules/node_sys_.md#inherits)
+- [inspect](https://oven-sh.github.io/bun-types/modules/node_sys_.md#inspect)
+- [isArray](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isarray)
+- [isBoolean](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isboolean)
+- [isBuffer](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isbuffer)
+- [isDate](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isdate)
+- [isDeepStrictEqual](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isdeepstrictequal)
+- [isError](https://oven-sh.github.io/bun-types/modules/node_sys_.md#iserror)
+- [isFunction](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isfunction)
+- [isNull](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isnull)
+- [isNullOrUndefined](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isnullorundefined)
+- [isNumber](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isnumber)
+- [isObject](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isobject)
+- [isPrimitive](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isprimitive)
+- [isRegExp](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isregexp)
+- [isString](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isstring)
+- [isSymbol](https://oven-sh.github.io/bun-types/modules/node_sys_.md#issymbol)
+- [isUndefined](https://oven-sh.github.io/bun-types/modules/node_sys_.md#isundefined)
+- [log](https://oven-sh.github.io/bun-types/modules/node_sys_.md#log)
+- [promisify](https://oven-sh.github.io/bun-types/modules/node_sys_.md#promisify)
 
 ## Type Aliases
 
 ### CustomInspectFunction
 
-Ƭ **CustomInspectFunction**: (`depth`: `number`, `options`: [`InspectOptionsStylized`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptionsStylized.md)) => `string`
+Ƭ **CustomInspectFunction**: (`depth`: `number`, `options`: [`InspectOptionsStylized`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptionsStylized.md)) => `string`
 
 #### Type declaration
 
@@ -68,7 +68,7 @@
 | Name | Type |
 | :------ | :------ |
 | `depth` | `number` |
-| `options` | [`InspectOptionsStylized`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptionsStylized.md) |
+| `options` | [`InspectOptionsStylized`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptionsStylized.md) |
 
 ##### Returns
 
@@ -78,7 +78,7 @@ ___
 
 ### CustomPromisify
 
-Ƭ **CustomPromisify**<`TCustom`\>: [`CustomPromisifySymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.CustomPromisifySymbol.md)<`TCustom`\> \| [`CustomPromisifyLegacy`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.CustomPromisifyLegacy.md)<`TCustom`\>
+Ƭ **CustomPromisify**<`TCustom`\>: [`CustomPromisifySymbol`](https://oven-sh.github.io/bun-types/interfaces/util_.CustomPromisifySymbol.md)<`TCustom`\> \| [`CustomPromisifyLegacy`](https://oven-sh.github.io/bun-types/interfaces/util_.CustomPromisifyLegacy.md)<`TCustom`\>
 
 #### Type parameters
 
@@ -117,7 +117,7 @@ ___
 
 ### callbackify
 
-▸ **callbackify**(`fn`): (`callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**(`fn`): (`callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 Takes an `async` function (or a function that returns a `Promise`) and returns a
 function following the error-first callback style, i.e. taking
@@ -182,13 +182,13 @@ a callback style function
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`TResult`\>(`fn`): (`callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`TResult`\>(`fn`): (`callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -212,13 +212,13 @@ a callback style function
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -243,13 +243,13 @@ a callback style function
 | Name | Type |
 | :------ | :------ |
 | `arg1` | `T1` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `TResult`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `TResult`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -275,13 +275,13 @@ a callback style function
 | Name | Type |
 | :------ | :------ |
 | `arg1` | `T1` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -308,13 +308,13 @@ a callback style function
 | :------ | :------ |
 | `arg1` | `T1` |
 | `arg2` | `T2` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -342,13 +342,13 @@ a callback style function
 | :------ | :------ |
 | `arg1` | `T1` |
 | `arg2` | `T2` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -377,13 +377,13 @@ a callback style function
 | `arg1` | `T1` |
 | `arg2` | `T2` |
 | `arg3` | `T3` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -413,13 +413,13 @@ a callback style function
 | `arg1` | `T1` |
 | `arg2` | `T2` |
 | `arg3` | `T3` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -450,13 +450,13 @@ a callback style function
 | `arg2` | `T2` |
 | `arg3` | `T3` |
 | `arg4` | `T4` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -488,13 +488,13 @@ a callback style function
 | `arg2` | `T2` |
 | `arg3` | `T3` |
 | `arg4` | `T4` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -527,13 +527,13 @@ a callback style function
 | `arg3` | `T3` |
 | `arg4` | `T4` |
 | `arg5` | `T5` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -567,13 +567,13 @@ a callback style function
 | `arg3` | `T3` |
 | `arg4` | `T4` |
 | `arg5` | `T5` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -608,13 +608,13 @@ a callback style function
 | `arg4` | `T4` |
 | `arg5` | `T5` |
 | `arg6` | `T6` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -650,13 +650,13 @@ a callback style function
 | `arg4` | `T4` |
 | `arg5` | `T5` |
 | `arg6` | `T6` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**(`fn`): (`callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**(`fn`): (`callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 Takes an `async` function (or a function that returns a `Promise`) and returns a
 function following the error-first callback style, i.e. taking
@@ -721,13 +721,13 @@ a callback style function
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`TResult`\>(`fn`): (`callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`TResult`\>(`fn`): (`callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -751,13 +751,13 @@ a callback style function
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -782,13 +782,13 @@ a callback style function
 | Name | Type |
 | :------ | :------ |
 | `arg1` | `T1` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `TResult`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `TResult`\>(`fn`): (`arg1`: `T1`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -814,13 +814,13 @@ a callback style function
 | Name | Type |
 | :------ | :------ |
 | `arg1` | `T1` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md), `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -847,13 +847,13 @@ a callback style function
 | :------ | :------ |
 | `arg1` | `T1` |
 | `arg2` | `T2` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -881,13 +881,13 @@ a callback style function
 | :------ | :------ |
 | `arg1` | `T1` |
 | `arg2` | `T2` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -916,13 +916,13 @@ a callback style function
 | `arg1` | `T1` |
 | `arg2` | `T2` |
 | `arg3` | `T3` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -952,13 +952,13 @@ a callback style function
 | `arg1` | `T1` |
 | `arg2` | `T2` |
 | `arg3` | `T3` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -989,13 +989,13 @@ a callback style function
 | `arg2` | `T2` |
 | `arg3` | `T3` |
 | `arg4` | `T4` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -1027,13 +1027,13 @@ a callback style function
 | `arg2` | `T2` |
 | `arg3` | `T3` |
 | `arg4` | `T4` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -1066,13 +1066,13 @@ a callback style function
 | `arg3` | `T3` |
 | `arg4` | `T4` |
 | `arg5` | `T5` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -1106,13 +1106,13 @@ a callback style function
 | `arg3` | `T3` |
 | `arg4` | `T4` |
 | `arg5` | `T5` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`) => `void`
 
 #### Type parameters
 
@@ -1147,13 +1147,13 @@ a callback style function
 | `arg4` | `T4` |
 | `arg5` | `T5` |
 | `arg6` | `T6` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 ##### Returns
 
 `void`
 
-▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
+▸ **callbackify**<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`, `TResult`\>(`fn`): (`arg1`: `T1`, `arg2`: `T2`, `arg3`: `T3`, `arg4`: `T4`, `arg5`: `T5`, `arg6`: `T6`, `callback`: (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void`) => `void`
 
 #### Type parameters
 
@@ -1189,7 +1189,7 @@ a callback style function
 | `arg4` | `T4` |
 | `arg5` | `T5` |
 | `arg6` | `T6` |
-| `callback` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
+| `callback` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `result`: `TResult`) => `void` |
 
 ##### Returns
 
@@ -1199,7 +1199,7 @@ ___
 
 ### debug
 
-▸ **debug**(`section`, `callback?`): [`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+▸ **debug**(`section`, `callback?`): [`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The `util.debuglog()` method is used to create a function that conditionally
 writes debug messages to `stderr` based on the existence of the `NODE_DEBUG`environment variable. If the `section` name appears within the value of that
@@ -1258,15 +1258,15 @@ let debuglog = util.debuglog('internals', (debug) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `section` | `string` | A string identifying the portion of the application for which the `debuglog` function is being created. |
-| `callback?` | (`fn`: [`DebugLoggerFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
+| `callback?` | (`fn`: [`DebugLoggerFunction`](https://oven-sh.github.io/bun-types/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
 
 #### Returns
 
-[`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+[`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The logging function
 
-▸ **debug**(`section`, `callback?`): [`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+▸ **debug**(`section`, `callback?`): [`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The `util.debuglog()` method is used to create a function that conditionally
 writes debug messages to `stderr` based on the existence of the `NODE_DEBUG`environment variable. If the `section` name appears within the value of that
@@ -1325,11 +1325,11 @@ let debuglog = util.debuglog('internals', (debug) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `section` | `string` | A string identifying the portion of the application for which the `debuglog` function is being created. |
-| `callback?` | (`fn`: [`DebugLoggerFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
+| `callback?` | (`fn`: [`DebugLoggerFunction`](https://oven-sh.github.io/bun-types/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
 
 #### Returns
 
-[`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+[`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The logging function
 
@@ -1337,7 +1337,7 @@ ___
 
 ### debuglog
 
-▸ **debuglog**(`section`, `callback?`): [`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+▸ **debuglog**(`section`, `callback?`): [`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The `util.debuglog()` method is used to create a function that conditionally
 writes debug messages to `stderr` based on the existence of the `NODE_DEBUG`environment variable. If the `section` name appears within the value of that
@@ -1396,15 +1396,15 @@ let debuglog = util.debuglog('internals', (debug) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `section` | `string` | A string identifying the portion of the application for which the `debuglog` function is being created. |
-| `callback?` | (`fn`: [`DebugLoggerFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
+| `callback?` | (`fn`: [`DebugLoggerFunction`](https://oven-sh.github.io/bun-types/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
 
 #### Returns
 
-[`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+[`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The logging function
 
-▸ **debuglog**(`section`, `callback?`): [`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+▸ **debuglog**(`section`, `callback?`): [`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The `util.debuglog()` method is used to create a function that conditionally
 writes debug messages to `stderr` based on the existence of the `NODE_DEBUG`environment variable. If the `section` name appears within the value of that
@@ -1463,11 +1463,11 @@ let debuglog = util.debuglog('internals', (debug) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `section` | `string` | A string identifying the portion of the application for which the `debuglog` function is being created. |
-| `callback?` | (`fn`: [`DebugLoggerFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
+| `callback?` | (`fn`: [`DebugLoggerFunction`](https://oven-sh.github.io/bun-types/modules/util_.md#debugloggerfunction)) => `void` | A callback invoked the first time the logging function is called with a function argument that is a more optimized logging function. |
 
 #### Returns
 
-[`DebugLogger`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.DebugLogger.md)
+[`DebugLogger`](https://oven-sh.github.io/bun-types/interfaces/util_.DebugLogger.md)
 
 The logging function
 
@@ -2056,7 +2056,7 @@ The representation of `object`.
 | Name | Type |
 | :------ | :------ |
 | `object` | `any` |
-| `options?` | [`InspectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md) |
+| `options?` | [`InspectOptions`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md) |
 
 #### Returns
 
@@ -2251,7 +2251,7 @@ The representation of `object`.
 | Name | Type |
 | :------ | :------ |
 | `object` | `any` |
-| `options?` | [`InspectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md) |
+| `options?` | [`InspectOptions`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md) |
 
 #### Returns
 
@@ -3444,7 +3444,7 @@ bindBar().then((a) => console.log(a)); // '42'
 
 | Name | Type |
 | :------ | :------ |
-| `fn` | [`CustomPromisify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#custompromisify)<`TCustom`\> |
+| `fn` | [`CustomPromisify`](https://oven-sh.github.io/bun-types/modules/util_.md#custompromisify)<`TCustom`\> |
 
 #### Returns
 
@@ -3926,7 +3926,7 @@ bindBar().then((a) => console.log(a)); // '42'
 
 | Name | Type |
 | :------ | :------ |
-| `fn` | [`CustomPromisify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#custompromisify)<`TCustom`\> |
+| `fn` | [`CustomPromisify`](https://oven-sh.github.io/bun-types/modules/util_.md#custompromisify)<`TCustom`\> |
 
 #### Returns
 

@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:test"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_test_.md) / Expect
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:test"](https://oven-sh.github.io/bun-types/modules/bun_test_.md) / Expect
 
 # Interface: Expect
 
-["bun:test"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_test_.md).Expect
+["bun:test"](https://oven-sh.github.io/bun-types/modules/bun_test_.md).Expect
 
 ## Table of contents
 
 ### Methods
 
-- [toBe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md#tobe)
-- [toContain](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_test_.Expect.md#tocontain)
+- [toBe](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md#tobe)
+- [toContain](https://oven-sh.github.io/bun-types/interfaces/bun_test_.Expect.md#tocontain)
 
 ## Methods
 

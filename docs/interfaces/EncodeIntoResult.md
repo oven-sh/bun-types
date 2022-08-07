@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EncodeIntoResult
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EncodeIntoResult
 
 # Interface: EncodeIntoResult
 
@@ -6,8 +6,8 @@
 
 ### Properties
 
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EncodeIntoResult.md#read)
-- [written](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EncodeIntoResult.md#written)
+- [read](https://oven-sh.github.io/bun-types/interfaces/EncodeIntoResult.md#read)
+- [written](https://oven-sh.github.io/bun-types/interfaces/EncodeIntoResult.md#written)
 
 ## Properties
 

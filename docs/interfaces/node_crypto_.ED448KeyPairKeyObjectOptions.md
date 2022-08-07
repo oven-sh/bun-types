@@ -1,5 +1,5 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / ED448KeyPairKeyObjectOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / ED448KeyPairKeyObjectOptions
 
 # Interface: ED448KeyPairKeyObjectOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).ED448KeyPairKeyObjectOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).ED448KeyPairKeyObjectOptions

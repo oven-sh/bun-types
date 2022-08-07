@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventListenerObject
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventListenerObject
 
 # Interface: EventListenerObject
 
@@ -6,7 +6,7 @@
 
 ### Methods
 
-- [handleEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerObject.md#handleevent)
+- [handleEvent](https://oven-sh.github.io/bun-types/interfaces/EventListenerObject.md#handleevent)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `object` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -30,7 +30,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `object` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 

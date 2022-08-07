@@ -1,23 +1,23 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / GeneratePrimeOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / GeneratePrimeOptions
 
 # Interface: GeneratePrimeOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).GeneratePrimeOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).GeneratePrimeOptions
 
 ## Table of contents
 
 ### Properties
 
-- [add](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.GeneratePrimeOptions.md#add)
-- [bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.GeneratePrimeOptions.md#bigint)
-- [rem](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.GeneratePrimeOptions.md#rem)
-- [safe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.GeneratePrimeOptions.md#safe)
+- [add](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.GeneratePrimeOptions.md#add)
+- [bigint](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.GeneratePrimeOptions.md#bigint)
+- [rem](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.GeneratePrimeOptions.md#rem)
+- [safe](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.GeneratePrimeOptions.md#safe)
 
 ## Properties
 
 ### add
 
-• `Optional` **add**: [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike)
+• `Optional` **add**: [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 ### rem
 
-• `Optional` **rem**: [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike)
+• `Optional` **rem**: [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike)
 
 ___
 

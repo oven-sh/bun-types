@@ -1,24 +1,24 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / TranspilerOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / TranspilerOptions
 
 # Interface: TranspilerOptions
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).TranspilerOptions
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).TranspilerOptions
 
 ## Table of contents
 
 ### Properties
 
-- [allowBunRuntime](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#allowbunruntime)
-- [autoImportJSX](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#autoimportjsx)
-- [define](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#define)
-- [exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#exports)
-- [jsxOptimizationInline](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#jsxoptimizationinline)
-- [loader](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#loader)
-- [macros](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#macros)
-- [platform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#platform)
-- [treeShaking](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#treeshaking)
-- [trimUnusedImports](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#trimunusedimports)
-- [tsconfig](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md#tsconfig)
+- [allowBunRuntime](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#allowbunruntime)
+- [autoImportJSX](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#autoimportjsx)
+- [define](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#define)
+- [exports](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#exports)
+- [jsxOptimizationInline](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#jsxoptimizationinline)
+- [loader](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#loader)
+- [macros](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#macros)
+- [platform](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#platform)
+- [treeShaking](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#treeshaking)
+- [trimUnusedImports](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#trimunusedimports)
+- [tsconfig](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md#tsconfig)
 
 ## Properties
 
@@ -69,7 +69,7 @@ ___
 
 ### loader
 
-• `Optional` **loader**: [`JavaScriptLoader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#javascriptloader)
+• `Optional` **loader**: [`JavaScriptLoader`](https://oven-sh.github.io/bun-types/modules/bun_.md#javascriptloader)
 
 What is the default loader used for this transpiler?
 
@@ -77,7 +77,7 @@ ___
 
 ### macros
 
-• `Optional` **macros**: [`MacroMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#macromap)
+• `Optional` **macros**: [`MacroMap`](https://oven-sh.github.io/bun-types/modules/bun_.md#macromap)
 
 Replace an import statement with a macro.
 
@@ -120,7 +120,7 @@ ___
 
 ### platform
 
-• `Optional` **platform**: [`Platform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#platform)
+• `Optional` **platform**: [`Platform`](https://oven-sh.github.io/bun-types/modules/bun_.md#platform)
 
 **`Example`**
 

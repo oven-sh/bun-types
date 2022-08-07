@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventListenerOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventListenerOptions
 
 # Interface: EventListenerOptions
 
@@ -6,13 +6,13 @@
 
 - **`EventListenerOptions`**
 
-  ↳ [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md)
+  ↳ [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md)
 
 ## Table of contents
 
 ### Properties
 
-- [capture](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md#capture)
+- [capture](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md#capture)
 
 ## Properties
 

@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md) / PipelineOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md) / PipelineOptions
 
 # Interface: PipelineOptions
 
-["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md).PipelineOptions
+["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md).PipelineOptions
 
 ## Table of contents
 
 ### Properties
 
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.PipelineOptions.md#signal)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/node_stream_.PipelineOptions.md#signal)
 
 ## Properties
 
 ### signal
 
-• **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)

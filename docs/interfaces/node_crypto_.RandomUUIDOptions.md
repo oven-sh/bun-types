@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / RandomUUIDOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / RandomUUIDOptions
 
 # Interface: RandomUUIDOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).RandomUUIDOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).RandomUUIDOptions
 
 ## Table of contents
 
 ### Properties
 
-- [disableEntropyCache](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.RandomUUIDOptions.md#disableentropycache)
+- [disableEntropyCache](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.RandomUUIDOptions.md#disableentropycache)
 
 ## Properties
 

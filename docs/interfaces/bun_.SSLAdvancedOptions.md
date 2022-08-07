@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / SSLAdvancedOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / SSLAdvancedOptions
 
 # Interface: SSLAdvancedOptions
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).SSLAdvancedOptions
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).SSLAdvancedOptions
 
 ## Table of contents
 
 ### Properties
 
-- [caFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md#cafile)
-- [dhParamsFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md#dhparamsfile)
-- [lowMemoryMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md#lowmemorymode)
-- [passphrase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md#passphrase)
+- [caFile](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md#cafile)
+- [dhParamsFile](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md#dhparamsfile)
+- [lowMemoryMode](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md#lowmemorymode)
+- [passphrase](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md#passphrase)
 
 ## Properties
 

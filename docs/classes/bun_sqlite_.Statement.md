@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:sqlite"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md) / Statement
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:sqlite"](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md) / Statement
 
 # Class: Statement<ParamsType, ReturnType\>
 
-["bun:sqlite"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md).Statement
+["bun:sqlite"](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md).Statement
 
 A prepared statement.
 
-This is returned by [prepare](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#prepare) and [query](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#query).
+This is returned by [prepare](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#prepare) and [query](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#query).
 
 **`Example`**
 
@@ -36,29 +36,29 @@ stmt.run("baz");
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 | `ReturnType` | `any` |
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#constructor)
 
 ### Properties
 
-- [columnNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#columnnames)
-- [native](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#native)
-- [paramsCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#paramscount)
+- [columnNames](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#columnnames)
+- [native](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#native)
+- [paramsCount](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#paramscount)
 
 ### Methods
 
-- [all](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#all)
-- [finalize](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#finalize)
-- [get](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#get)
-- [run](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#run)
-- [toString](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#tostring)
-- [values](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#values)
+- [all](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#all)
+- [finalize](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#finalize)
+- [get](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#get)
+- [run](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#run)
+- [toString](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#tostring)
+- [values](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#values)
 
 ## Constructors
 
@@ -68,13 +68,13 @@ stmt.run("baz");
 
 Creates a new prepared statement from native code.
 
-This is used internally by the [Database](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md) class. Probably you don't need to call this yourself.
+This is used internally by the [Database](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md) class. Probably you don't need to call this yourself.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 | `ReturnType` | `any` |
 
 #### Parameters
@@ -310,7 +310,7 @@ ___
 
 Execute the prepared statement and return the results as an array of arrays.
 
-This is a little faster than [all](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md#all).
+This is a little faster than [all](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md#all).
 
 **`Example`**
 

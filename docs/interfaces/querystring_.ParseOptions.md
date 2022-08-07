@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["querystring"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/querystring_.md) / ParseOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["querystring"](https://oven-sh.github.io/bun-types/modules/querystring_.md) / ParseOptions
 
 # Interface: ParseOptions
 
-["querystring"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/querystring_.md).ParseOptions
+["querystring"](https://oven-sh.github.io/bun-types/modules/querystring_.md).ParseOptions
 
 ## Table of contents
 
 ### Properties
 
-- [decodeURIComponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md#decodeuricomponent)
-- [maxKeys](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParseOptions.md#maxkeys)
+- [decodeURIComponent](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md#decodeuricomponent)
+- [maxKeys](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParseOptions.md#maxkeys)
 
 ## Properties
 

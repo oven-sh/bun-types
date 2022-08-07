@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / WebSocket
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / WebSocket
 
 # Interface: WebSocket
 
@@ -6,7 +6,7 @@ Provides the API for creating and managing a WebSocket connection to a server, a
 
 ## Hierarchy
 
-- [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+- [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
   ↳ **`WebSocket`**
 
@@ -14,28 +14,28 @@ Provides the API for creating and managing a WebSocket connection to a server, a
 
 ### Properties
 
-- [CLOSED](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#closed)
-- [CLOSING](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#closing)
-- [CONNECTING](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#connecting)
-- [OPEN](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#open)
-- [binaryType](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#binarytype)
-- [bufferedAmount](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#bufferedamount)
-- [extensions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#extensions)
-- [onclose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#onclose)
-- [onerror](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#onerror)
-- [onmessage](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#onmessage)
-- [onopen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#onopen)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#protocol)
-- [readyState](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#readystate)
-- [url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#url)
+- [CLOSED](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#closed)
+- [CLOSING](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#closing)
+- [CONNECTING](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#connecting)
+- [OPEN](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#open)
+- [binaryType](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#binarytype)
+- [bufferedAmount](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#bufferedamount)
+- [extensions](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#extensions)
+- [onclose](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#onclose)
+- [onerror](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#onerror)
+- [onmessage](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#onmessage)
+- [onopen](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#onopen)
+- [protocol](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#protocol)
+- [readyState](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#readystate)
+- [url](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#url)
 
 ### Methods
 
-- [addEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#addeventlistener)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#close)
-- [dispatchEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#dispatchevent)
-- [removeEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#removeeventlistener)
-- [send](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocket.md#send)
+- [addEventListener](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#addeventlistener)
+- [close](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#close)
+- [dispatchEvent](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#dispatchevent)
+- [removeEventListener](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#removeeventlistener)
+- [send](https://oven-sh.github.io/bun-types/interfaces/WebSocket.md#send)
 
 ## Properties
 
@@ -93,7 +93,7 @@ ___
 
 ### onclose
 
-• **onclose**: (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`CloseEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#closeevent)) => `any`
+• **onclose**: (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`CloseEvent`](https://oven-sh.github.io/bun-types/modules.md#closeevent)) => `any`
 
 #### Type declaration
 
@@ -103,8 +103,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket) |
-| `ev` | [`CloseEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#closeevent) |
+| `this` | [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket) |
+| `ev` | [`CloseEvent`](https://oven-sh.github.io/bun-types/modules.md#closeevent) |
 
 ##### Returns
 
@@ -114,7 +114,7 @@ ___
 
 ### onerror
 
-• **onerror**: (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)) => `any`
+• **onerror**: (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)) => `any`
 
 #### Type declaration
 
@@ -124,8 +124,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket) |
-| `ev` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `this` | [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket) |
+| `ev` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 ##### Returns
 
@@ -135,7 +135,7 @@ ___
 
 ### onmessage
 
-• **onmessage**: (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`MessageEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#messageevent)<`any`\>) => `any`
+• **onmessage**: (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`MessageEvent`](https://oven-sh.github.io/bun-types/modules.md#messageevent)<`any`\>) => `any`
 
 #### Type declaration
 
@@ -145,8 +145,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket) |
-| `ev` | [`MessageEvent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#messageevent)<`any`\> |
+| `this` | [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket) |
+| `ev` | [`MessageEvent`](https://oven-sh.github.io/bun-types/modules.md#messageevent)<`any`\> |
 
 ##### Returns
 
@@ -156,7 +156,7 @@ ___
 
 ### onopen
 
-• **onopen**: (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)) => `any`
+• **onopen**: (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)) => `any`
 
 #### Type declaration
 
@@ -166,8 +166,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket) |
-| `ev` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `this` | [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket) |
+| `ev` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 ##### Returns
 
@@ -207,15 +207,15 @@ Returns the URL that was used to establish the WebSocket connection.
 
 | Name | Type |
 | :------ | :------ |
-| `K` | extends keyof [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md) |
+| `K` | extends keyof [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md) |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `listener` | (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -233,7 +233,7 @@ EventTarget.addEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -249,15 +249,15 @@ EventTarget.addEventListener
 
 | Name | Type |
 | :------ | :------ |
-| `K` | extends keyof [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md) |
+| `K` | extends keyof [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md) |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `listener` | (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -275,7 +275,7 @@ EventTarget.addEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -331,7 +331,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -349,7 +349,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -369,15 +369,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `K` | extends keyof [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md) |
+| `K` | extends keyof [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md) |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `listener` | (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -395,7 +395,7 @@ EventTarget.removeEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -411,15 +411,15 @@ EventTarget.removeEventListener
 
 | Name | Type |
 | :------ | :------ |
-| `K` | extends keyof [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md) |
+| `K` | extends keyof [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md) |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`WebSocket`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `listener` | (`this`: [`WebSocket`](https://oven-sh.github.io/bun-types/modules.md#websocket), `ev`: [`WebSocketEventMap`](https://oven-sh.github.io/bun-types/interfaces/WebSocketEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -437,7 +437,7 @@ EventTarget.removeEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 

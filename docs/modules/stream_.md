@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "stream"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "stream"
 
 # Namespace: "stream"
 
@@ -26,73 +26,73 @@ usually not necessary to use the `stream` module to consume streams.
 
 ### Namespaces
 
-- [finished](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.finished.md)
-- [pipeline](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.pipeline.md)
+- [finished](https://oven-sh.github.io/bun-types/modules/stream_.finished.md)
+- [pipeline](https://oven-sh.github.io/bun-types/modules/stream_.pipeline.md)
 
 ### Classes
 
-- [Duplex](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
-- [PassThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.PassThrough.md)
-- [Readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)
-- [Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
-- [Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
-- [Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)
+- [Duplex](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
+- [PassThrough](https://oven-sh.github.io/bun-types/classes/stream_.PassThrough.md)
+- [Readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)
+- [Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
+- [Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
+- [Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)
 
 ### Interfaces
 
-- [DuplexOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.DuplexOptions.md)
-- [FinishedOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.FinishedOptions.md)
-- [Pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.Pipe.md)
-- [PipelineOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.PipelineOptions.md)
-- [ReadableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md)
-- [StreamOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md)
-- [TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md)
-- [WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md)
+- [DuplexOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.DuplexOptions.md)
+- [FinishedOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.FinishedOptions.md)
+- [Pipe](https://oven-sh.github.io/bun-types/interfaces/stream_.Pipe.md)
+- [PipelineOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.PipelineOptions.md)
+- [ReadableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md)
+- [StreamOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md)
+- [TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md)
+- [WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md)
 
 ### Type Aliases
 
-- [PipelineCallback](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)
-- [PipelineDestination](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestination)
-- [PipelineDestinationIterableFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)
-- [PipelineDestinationPromiseFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)
-- [PipelinePromise](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinepromise)
-- [PipelineSource](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)
-- [PipelineSourceFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesourcefunction)
-- [PipelineTransform](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)
-- [PipelineTransformSource](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransformsource)
-- [TransformCallback](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback)
+- [PipelineCallback](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)
+- [PipelineDestination](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestination)
+- [PipelineDestinationIterableFunction](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)
+- [PipelineDestinationPromiseFunction](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)
+- [PipelinePromise](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinepromise)
+- [PipelineSource](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)
+- [PipelineSourceFunction](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesourcefunction)
+- [PipelineTransform](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)
+- [PipelineTransformSource](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransformsource)
+- [TransformCallback](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback)
 
 ### Functions
 
-- [addAbortSignal](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#addabortsignal)
-- [finished](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#finished)
-- [isErrored](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#iserrored)
-- [isReadable](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#isreadable)
-- [pipeline](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipeline)
+- [addAbortSignal](https://oven-sh.github.io/bun-types/modules/stream_.md#addabortsignal)
+- [finished](https://oven-sh.github.io/bun-types/modules/stream_.md#finished)
+- [isErrored](https://oven-sh.github.io/bun-types/modules/stream_.md#iserrored)
+- [isReadable](https://oven-sh.github.io/bun-types/modules/stream_.md#isreadable)
+- [pipeline](https://oven-sh.github.io/bun-types/modules/stream_.md#pipeline)
 
 ## Type Aliases
 
 ### PipelineCallback
 
-Ƭ **PipelineCallback**<`S`\>: `S` extends [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, infer P\> ? (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``, `value`: `P`) => `void` : (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md) \| ``null``) => `void`
+Ƭ **PipelineCallback**<`S`\>: `S` extends [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, infer P\> ? (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``, `value`: `P`) => `void` : (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md) \| ``null``) => `void`
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`PipelineDestination`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestination)<`any`, `any`\> |
+| `S` | extends [`PipelineDestination`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestination)<`any`, `any`\> |
 
 ___
 
 ### PipelineDestination
 
-Ƭ **PipelineDestination**<`S`, `P`\>: `S` extends [`PipelineTransformSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransformsource)<infer ST\> ? [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`ST`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`ST`, `P`\> : `never`
+Ƭ **PipelineDestination**<`S`, `P`\>: `S` extends [`PipelineTransformSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransformsource)<infer ST\> ? [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`ST`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`ST`, `P`\> : `never`
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`PipelineTransformSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransformsource)<`any`\> |
+| `S` | extends [`PipelineTransformSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransformsource)<`any`\> |
 | `P` | `P` |
 
 ___
@@ -152,19 +152,19 @@ ___
 
 ### PipelinePromise
 
-Ƭ **PipelinePromise**<`S`\>: `S` extends [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, infer P\> ? `Promise`<`P`\> : `Promise`<`void`\>
+Ƭ **PipelinePromise**<`S`\>: `S` extends [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, infer P\> ? `Promise`<`P`\> : `Promise`<`void`\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`PipelineDestination`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestination)<`any`, `any`\> |
+| `S` | extends [`PipelineDestination`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestination)<`any`, `any`\> |
 
 ___
 
 ### PipelineSource
 
-Ƭ **PipelineSource**<`T`\>: `Iterable`<`T`\> \| `AsyncIterable`<`T`\> \| [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream) \| [`PipelineSourceFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesourcefunction)<`T`\>
+Ƭ **PipelineSource**<`T`\>: `Iterable`<`T`\> \| `AsyncIterable`<`T`\> \| [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream) \| [`PipelineSourceFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesourcefunction)<`T`\>
 
 #### Type parameters
 
@@ -196,20 +196,20 @@ ___
 
 ### PipelineTransform
 
-Ƭ **PipelineTransform**<`S`, `U`\>: [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md) \| (`source`: `S` extends (...`args`: `any`[]) => `Iterable`<infer ST\> \| `AsyncIterable`<infer ST\> ? `AsyncIterable`<`ST`\> : `S`) => `AsyncIterable`<`U`\>
+Ƭ **PipelineTransform**<`S`, `U`\>: [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md) \| (`source`: `S` extends (...`args`: `any`[]) => `Iterable`<infer ST\> \| `AsyncIterable`<infer ST\> ? `AsyncIterable`<`ST`\> : `S`) => `AsyncIterable`<`U`\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`PipelineTransformSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransformsource)<`any`\> |
+| `S` | extends [`PipelineTransformSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransformsource)<`any`\> |
 | `U` | `U` |
 
 ___
 
 ### PipelineTransformSource
 
-Ƭ **PipelineTransformSource**<`T`\>: [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`T`\> \| [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`any`, `T`\>
+Ƭ **PipelineTransformSource**<`T`\>: [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`T`\> \| [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`any`, `T`\>
 
 #### Type parameters
 
@@ -289,13 +289,13 @@ const stream = addAbortSignal(
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)<`T`\> |
+| `T` | extends [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)<`T`\> |
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `signal` | [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal) | A signal representing possible cancellation |
+| `signal` | [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal) | A signal representing possible cancellation |
 | `stream` | `T` | a stream to attach a signal to |
 
 #### Returns
@@ -363,9 +363,9 @@ const cleanup = finished(rs, (err) => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md) | A readable and/or writable stream. |
-| `options` | [`FinishedOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.FinishedOptions.md) | - |
-| `callback` | (`err?`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` | A callback function that takes an optional error argument. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md) | A readable and/or writable stream. |
+| `options` | [`FinishedOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.FinishedOptions.md) | - |
+| `callback` | (`err?`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` | A callback function that takes an optional error argument. |
 
 #### Returns
 
@@ -385,8 +385,8 @@ A cleanup function which removes all registered listeners.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md) |
-| `callback` | (`err?`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md) |
+| `callback` | (`err?`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 #### Returns
 
@@ -410,7 +410,7 @@ Returns whether the stream has encountered an error.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> \| [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> \| [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> |
 
 #### Returns
 
@@ -428,7 +428,7 @@ Returns whether the stream is readable.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -438,7 +438,7 @@ ___
 
 ### pipeline
 
-▸ **pipeline**<`A`, `B`\>(`source`, `destination`, `callback?`): `B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**<`A`, `B`\>(`source`, `destination`, `callback?`): `B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 A module method to pipe between streams and generators forwarding errors and
 properly cleaning up and provide a callback when the pipeline is complete.
@@ -590,8 +590,8 @@ const server = http.createServer((req, res) => {
 
 | Name | Type |
 | :------ | :------ |
-| `A` | extends [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`any`\> |
-| `B` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
+| `A` | extends [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`any`\> |
+| `B` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
 
 #### Parameters
 
@@ -599,21 +599,21 @@ const server = http.createServer((req, res) => {
 | :------ | :------ | :------ |
 | `source` | `A` | - |
 | `destination` | `B` | - |
-| `callback?` | [`PipelineCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)<`B`\> | Called when the pipeline is fully done. |
+| `callback?` | [`PipelineCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)<`B`\> | Called when the pipeline is fully done. |
 
 #### Returns
 
-`B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+`B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**<`A`, `T1`, `B`\>(`source`, `transform1`, `destination`, `callback?`): `B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**<`A`, `T1`, `B`\>(`source`, `transform1`, `destination`, `callback?`): `B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `A` | extends [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`any`\> |
-| `T1` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
-| `B` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
+| `A` | extends [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`any`\> |
+| `T1` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
+| `B` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
 
 #### Parameters
 
@@ -622,22 +622,22 @@ const server = http.createServer((req, res) => {
 | `source` | `A` |
 | `transform1` | `T1` |
 | `destination` | `B` |
-| `callback?` | [`PipelineCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)<`B`\> |
+| `callback?` | [`PipelineCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)<`B`\> |
 
 #### Returns
 
-`B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+`B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**<`A`, `T1`, `T2`, `B`\>(`source`, `transform1`, `transform2`, `destination`, `callback?`): `B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**<`A`, `T1`, `T2`, `B`\>(`source`, `transform1`, `transform2`, `destination`, `callback?`): `B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `A` | extends [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`any`\> |
-| `T1` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
-| `T2` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
-| `B` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
+| `A` | extends [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`any`\> |
+| `T1` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
+| `T2` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
+| `B` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
 
 #### Parameters
 
@@ -647,23 +647,23 @@ const server = http.createServer((req, res) => {
 | `transform1` | `T1` |
 | `transform2` | `T2` |
 | `destination` | `B` |
-| `callback?` | [`PipelineCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)<`B`\> |
+| `callback?` | [`PipelineCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)<`B`\> |
 
 #### Returns
 
-`B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+`B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**<`A`, `T1`, `T2`, `T3`, `B`\>(`source`, `transform1`, `transform2`, `transform3`, `destination`, `callback?`): `B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**<`A`, `T1`, `T2`, `T3`, `B`\>(`source`, `transform1`, `transform2`, `transform3`, `destination`, `callback?`): `B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `A` | extends [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`any`\> |
-| `T1` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
-| `T2` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
-| `T3` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T2`, `any`\> |
-| `B` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
+| `A` | extends [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`any`\> |
+| `T1` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
+| `T2` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
+| `T3` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T2`, `any`\> |
+| `B` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
 
 #### Parameters
 
@@ -674,24 +674,24 @@ const server = http.createServer((req, res) => {
 | `transform2` | `T2` |
 | `transform3` | `T3` |
 | `destination` | `B` |
-| `callback?` | [`PipelineCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)<`B`\> |
+| `callback?` | [`PipelineCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)<`B`\> |
 
 #### Returns
 
-`B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+`B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**<`A`, `T1`, `T2`, `T3`, `T4`, `B`\>(`source`, `transform1`, `transform2`, `transform3`, `transform4`, `destination`, `callback?`): `B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**<`A`, `T1`, `T2`, `T3`, `T4`, `B`\>(`source`, `transform1`, `transform2`, `transform3`, `transform4`, `destination`, `callback?`): `B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `A` | extends [`PipelineSource`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinesource)<`any`\> |
-| `T1` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
-| `T2` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
-| `T3` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T2`, `any`\> |
-| `T4` | extends [`PipelineTransform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinetransform)<`T3`, `any`\> |
-| `B` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
+| `A` | extends [`PipelineSource`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinesource)<`any`\> |
+| `T1` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`A`, `any`\> |
+| `T2` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T1`, `any`\> |
+| `T3` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T2`, `any`\> |
+| `T4` | extends [`PipelineTransform`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinetransform)<`T3`, `any`\> |
+| `B` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`any`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`any`, `any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`PipelineDestinationIterableFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationiterablefunction)<`unknown`\> \| [`PipelineDestinationPromiseFunction`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinedestinationpromisefunction)<`unknown`, `any`\> |
 
 #### Parameters
 
@@ -703,35 +703,35 @@ const server = http.createServer((req, res) => {
 | `transform3` | `T3` |
 | `transform4` | `T4` |
 | `destination` | `B` |
-| `callback?` | [`PipelineCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#pipelinecallback)<`B`\> |
+| `callback?` | [`PipelineCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#pipelinecallback)<`B`\> |
 
 #### Returns
 
-`B` extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream) ? `B` : [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+`B` extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream) ? `B` : [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**(`streams`, `callback?`): [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**(`streams`, `callback?`): [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `streams` | readonly ([`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md))[] |
-| `callback?` | (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void` |
+| `streams` | readonly ([`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md))[] |
+| `callback?` | (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void` |
 
 #### Returns
 
-[`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+[`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
-▸ **pipeline**(`stream1`, `stream2`, ...`streams`): [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+▸ **pipeline**(`stream1`, `stream2`, ...`streams`): [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `stream1` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> |
-| `stream2` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md) |
-| `...streams` | ([`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadWriteStream.md) \| (`err`: [`ErrnoException`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md)) => `void`)[] |
+| `stream1` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> |
+| `stream2` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md) |
+| `...streams` | ([`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> \| [`ReadWriteStream`](https://oven-sh.github.io/bun-types/interfaces/ReadWriteStream.md) \| (`err`: [`ErrnoException`](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md)) => `void`)[] |
 
 #### Returns
 
-[`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+[`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)

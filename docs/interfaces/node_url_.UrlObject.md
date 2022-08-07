@@ -1,24 +1,24 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md) / UrlObject
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md) / UrlObject
 
 # Interface: UrlObject
 
-["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md).UrlObject
+["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md).UrlObject
 
 ## Table of contents
 
 ### Properties
 
-- [auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#auth)
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#hash)
-- [host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#host)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#hostname)
-- [href](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#href)
-- [pathname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#pathname)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#port)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#protocol)
-- [query](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#query)
-- [search](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#search)
-- [slashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.UrlObject.md#slashes)
+- [auth](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#auth)
+- [hash](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#hash)
+- [host](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#host)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#hostname)
+- [href](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#href)
+- [pathname](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#pathname)
+- [port](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#port)
+- [protocol](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#protocol)
+- [query](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#query)
+- [search](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#search)
+- [slashes](https://oven-sh.github.io/bun-types/interfaces/node_url_.UrlObject.md#slashes)
 
 ## Properties
 
@@ -72,7 +72,7 @@ ___
 
 ### query
 
-• `Optional` **query**: `string` \| [`ParsedUrlQueryInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.ParsedUrlQueryInput.md)
+• `Optional` **query**: `string` \| [`ParsedUrlQueryInput`](https://oven-sh.github.io/bun-types/interfaces/querystring_.ParsedUrlQueryInput.md)
 
 ___
 

@@ -1,21 +1,21 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["events"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.md) / EventEmitter
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["events"](https://oven-sh.github.io/bun-types/modules/events_.md) / EventEmitter
 
 # Namespace: EventEmitter
 
-["events"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.md).EventEmitter
+["events"](https://oven-sh.github.io/bun-types/modules/events_.md).EventEmitter
 
 ## Table of contents
 
 ### References
 
-- [EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.EventEmitter.md#eventemitter)
+- [EventEmitter](https://oven-sh.github.io/bun-types/modules/events_.EventEmitter.md#eventemitter)
 
 ### Interfaces
 
-- [Abortable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.EventEmitter.Abortable.md)
+- [Abortable](https://oven-sh.github.io/bun-types/interfaces/events_.EventEmitter.Abortable.md)
 
 ## References
 
 ### EventEmitter
 
-Re-exports [EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md)
+Re-exports [EventEmitter](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md)

@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md) / promisify
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["util"](https://oven-sh.github.io/bun-types/modules/util_.md) / promisify
 
 # Namespace: promisify
 
-["util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md).promisify
+["util"](https://oven-sh.github.io/bun-types/modules/util_.md).promisify
 
 ## Table of contents
 
 ### Variables
 
-- [custom](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.promisify.md#custom)
+- [custom](https://oven-sh.github.io/bun-types/modules/util_.promisify.md#custom)
 
 ## Variables
 

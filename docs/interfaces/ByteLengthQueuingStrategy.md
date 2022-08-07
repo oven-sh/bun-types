@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ByteLengthQueuingStrategy
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ByteLengthQueuingStrategy
 
 # Interface: ByteLengthQueuingStrategy
 
@@ -6,7 +6,7 @@ This Streams API interface provides a built-in byte length queuing strategy that
 
 ## Hierarchy
 
-- [`QueuingStrategy`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md)<`ArrayBufferView`\>
+- [`QueuingStrategy`](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md)<`ArrayBufferView`\>
 
   ↳ **`ByteLengthQueuingStrategy`**
 
@@ -14,8 +14,8 @@ This Streams API interface provides a built-in byte length queuing strategy that
 
 ### Properties
 
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ByteLengthQueuingStrategy.md#highwatermark)
-- [size](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ByteLengthQueuingStrategy.md#size)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/ByteLengthQueuingStrategy.md#highwatermark)
+- [size](https://oven-sh.github.io/bun-types/interfaces/ByteLengthQueuingStrategy.md#size)
 
 ## Properties
 
@@ -25,14 +25,14 @@ This Streams API interface provides a built-in byte length queuing strategy that
 
 #### Inherited from
 
-[QueuingStrategy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md).[highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md#highwatermark)
+[QueuingStrategy](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md).[highWaterMark](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md#highwatermark)
 
 ___
 
 ### size
 
-• `Readonly` **size**: [`QueuingStrategySize`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategySize.md)<`ArrayBufferView`\>
+• `Readonly` **size**: [`QueuingStrategySize`](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategySize.md)<`ArrayBufferView`\>
 
 #### Inherited from
 
-[QueuingStrategy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md).[size](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategy.md#size)
+[QueuingStrategy](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md).[size](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategy.md#size)

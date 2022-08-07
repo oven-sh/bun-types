@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md) / EncodeIntoResult
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:sys"](https://oven-sh.github.io/bun-types/modules/node_sys_.md) / EncodeIntoResult
 
 # Interface: EncodeIntoResult
 
-["node:sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md).EncodeIntoResult
+["node:sys"](https://oven-sh.github.io/bun-types/modules/node_sys_.md).EncodeIntoResult
 
 ## Table of contents
 
 ### Properties
 
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.EncodeIntoResult.md#read)
-- [written](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.EncodeIntoResult.md#written)
+- [read](https://oven-sh.github.io/bun-types/interfaces/node_sys_.EncodeIntoResult.md#read)
+- [written](https://oven-sh.github.io/bun-types/interfaces/node_sys_.EncodeIntoResult.md#written)
 
 ## Properties
 

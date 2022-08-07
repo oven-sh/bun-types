@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Buffer
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Buffer
 
 # Interface: Buffer
 
@@ -12,87 +12,87 @@
 
 ### Methods
 
-- [compare](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#compare)
-- [copy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#copy)
-- [entries](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#entries)
-- [equals](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#equals)
-- [fill](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#fill)
-- [includes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#includes)
-- [indexOf](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#indexof)
-- [keys](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#keys)
-- [lastIndexOf](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#lastindexof)
-- [readBigInt64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbigint64be)
-- [readBigInt64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbigint64le)
-- [readBigUInt64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbiguint64be)
-- [readBigUInt64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbiguint64le)
-- [readBigUint64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbiguint64be-1)
-- [readBigUint64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readbiguint64le-1)
-- [readDoubleBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readdoublebe)
-- [readDoubleLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readdoublele)
-- [readFloatBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readfloatbe)
-- [readFloatLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readfloatle)
-- [readInt16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readint16be)
-- [readInt16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readint16le)
-- [readInt32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readint32be)
-- [readInt32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readint32le)
-- [readInt8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readint8)
-- [readIntBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readintbe)
-- [readIntLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readintle)
-- [readUInt16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint16be)
-- [readUInt16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint16le)
-- [readUInt32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint32be)
-- [readUInt32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint32le)
-- [readUInt8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint8)
-- [readUIntBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuintbe)
-- [readUIntLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuintle)
-- [readUint16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint16be-1)
-- [readUint16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint16le-1)
-- [readUint32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint32be-1)
-- [readUint32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint32le-1)
-- [readUint8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuint8-1)
-- [readUintBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuintbe-1)
-- [readUintLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#readuintle-1)
-- [reverse](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#reverse)
-- [slice](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#slice)
-- [subarray](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#subarray)
-- [swap16](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#swap16)
-- [swap32](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#swap32)
-- [swap64](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#swap64)
-- [toJSON](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#tojson)
-- [toString](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#tostring)
-- [values](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#values)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#write)
-- [writeBigInt64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebigint64be)
-- [writeBigInt64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebigint64le)
-- [writeBigUInt64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebiguint64be)
-- [writeBigUInt64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebiguint64le)
-- [writeBigUint64BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebiguint64be-1)
-- [writeBigUint64LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writebiguint64le-1)
-- [writeDoubleBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writedoublebe)
-- [writeDoubleLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writedoublele)
-- [writeFloatBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writefloatbe)
-- [writeFloatLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writefloatle)
-- [writeInt16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeint16be)
-- [writeInt16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeint16le)
-- [writeInt32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeint32be)
-- [writeInt32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeint32le)
-- [writeInt8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeint8)
-- [writeIntBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeintbe)
-- [writeIntLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeintle)
-- [writeUInt16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint16be)
-- [writeUInt16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint16le)
-- [writeUInt32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint32be)
-- [writeUInt32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint32le)
-- [writeUInt8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint8)
-- [writeUIntBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuintbe)
-- [writeUIntLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuintle)
-- [writeUint16BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint16be-1)
-- [writeUint16LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint16le-1)
-- [writeUint32BE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint32be-1)
-- [writeUint32LE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint32le-1)
-- [writeUint8](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuint8-1)
-- [writeUintBE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuintbe-1)
-- [writeUintLE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md#writeuintle-1)
+- [compare](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#compare)
+- [copy](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#copy)
+- [entries](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#entries)
+- [equals](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#equals)
+- [fill](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#fill)
+- [includes](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#includes)
+- [indexOf](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#indexof)
+- [keys](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#keys)
+- [lastIndexOf](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#lastindexof)
+- [readBigInt64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbigint64be)
+- [readBigInt64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbigint64le)
+- [readBigUInt64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbiguint64be)
+- [readBigUInt64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbiguint64le)
+- [readBigUint64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbiguint64be-1)
+- [readBigUint64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readbiguint64le-1)
+- [readDoubleBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readdoublebe)
+- [readDoubleLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readdoublele)
+- [readFloatBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readfloatbe)
+- [readFloatLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readfloatle)
+- [readInt16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readint16be)
+- [readInt16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readint16le)
+- [readInt32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readint32be)
+- [readInt32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readint32le)
+- [readInt8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readint8)
+- [readIntBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readintbe)
+- [readIntLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readintle)
+- [readUInt16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint16be)
+- [readUInt16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint16le)
+- [readUInt32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint32be)
+- [readUInt32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint32le)
+- [readUInt8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint8)
+- [readUIntBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuintbe)
+- [readUIntLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuintle)
+- [readUint16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint16be-1)
+- [readUint16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint16le-1)
+- [readUint32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint32be-1)
+- [readUint32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint32le-1)
+- [readUint8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuint8-1)
+- [readUintBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuintbe-1)
+- [readUintLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#readuintle-1)
+- [reverse](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#reverse)
+- [slice](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#slice)
+- [subarray](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#subarray)
+- [swap16](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#swap16)
+- [swap32](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#swap32)
+- [swap64](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#swap64)
+- [toJSON](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#tojson)
+- [toString](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#tostring)
+- [values](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#values)
+- [write](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#write)
+- [writeBigInt64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebigint64be)
+- [writeBigInt64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebigint64le)
+- [writeBigUInt64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebiguint64be)
+- [writeBigUInt64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebiguint64le)
+- [writeBigUint64BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebiguint64be-1)
+- [writeBigUint64LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writebiguint64le-1)
+- [writeDoubleBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writedoublebe)
+- [writeDoubleLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writedoublele)
+- [writeFloatBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writefloatbe)
+- [writeFloatLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writefloatle)
+- [writeInt16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeint16be)
+- [writeInt16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeint16le)
+- [writeInt32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeint32be)
+- [writeInt32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeint32le)
+- [writeInt8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeint8)
+- [writeIntBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeintbe)
+- [writeIntLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeintle)
+- [writeUInt16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint16be)
+- [writeUInt16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint16le)
+- [writeUInt32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint32be)
+- [writeUInt32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint32le)
+- [writeUInt8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint8)
+- [writeUIntBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuintbe)
+- [writeUIntLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuintle)
+- [writeUint16BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint16be-1)
+- [writeUint16LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint16le-1)
+- [writeUint32BE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint32be-1)
+- [writeUint32LE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint32le-1)
+- [writeUint8](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuint8-1)
+- [writeUintBE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuintbe-1)
+- [writeUintLE](https://oven-sh.github.io/bun-types/interfaces/Buffer.md#writeuintle-1)
 
 ## Methods
 
@@ -484,7 +484,7 @@ ___
 
 ### fill
 
-▸ **fill**(`value`, `offset?`, `end?`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **fill**(`value`, `offset?`, `end?`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Fills `buf` with the specified `value`. If the `offset` and `end` are not given,
 the entire `buf` will be filled:
@@ -543,7 +543,7 @@ console.log(buf.fill('zz', 'hex'));
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
@@ -551,7 +551,7 @@ A reference to `buf`.
 
 Uint8Array.fill
 
-▸ **fill**(`value`, `offset?`, `end?`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **fill**(`value`, `offset?`, `end?`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Fills `buf` with the specified `value`. If the `offset` and `end` are not given,
 the entire `buf` will be filled:
@@ -610,7 +610,7 @@ console.log(buf.fill('zz', 'hex'));
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
@@ -651,7 +651,7 @@ console.log(buf.includes('this', 4));
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` \| `number` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | What to search for. |
+| `value` | `string` \| `number` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | What to search for. |
 | `byteOffset?` | `number` | Where to begin searching in `buf`. If negative, then offset is calculated from the end of `buf`. |
 | `encoding?` | `BufferEncoding` | If `value` is a string, this is its encoding. |
 
@@ -694,7 +694,7 @@ console.log(buf.includes('this', 4));
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `value` | `string` \| `number` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | What to search for. |
+| `value` | `string` \| `number` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | What to search for. |
 | `byteOffset?` | `number` | Where to begin searching in `buf`. If negative, then offset is calculated from the end of `buf`. |
 | `encoding?` | `BufferEncoding` | If `value` is a string, this is its encoding. |
 
@@ -2660,21 +2660,21 @@ ___
 
 ### reverse
 
-▸ **reverse**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **reverse**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
 Uint8Array.reverse
 
-▸ **reverse**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **reverse**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
@@ -2684,7 +2684,7 @@ ___
 
 ### slice
 
-▸ **slice**(`start?`, `end?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **slice**(`start?`, `end?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` that references the same memory as the original, but
 offset and cropped by the `start` and `end` indices.
@@ -2727,13 +2727,13 @@ Use `subarray` instead.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
 Uint8Array.slice
 
-▸ **slice**(`start?`, `end?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **slice**(`start?`, `end?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` that references the same memory as the original, but
 offset and cropped by the `start` and `end` indices.
@@ -2776,7 +2776,7 @@ Use `subarray` instead.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
@@ -2786,7 +2786,7 @@ ___
 
 ### subarray
 
-▸ **subarray**(`start?`, `end?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **subarray**(`start?`, `end?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` that references the same memory as the original, but
 offset and cropped by the `start` and `end` indices.
@@ -2852,13 +2852,13 @@ console.log(buf.subarray(-5, -2).toString());
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
 Uint8Array.subarray
 
-▸ **subarray**(`start?`, `end?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **subarray**(`start?`, `end?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Returns a new `Buffer` that references the same memory as the original, but
 offset and cropped by the `start` and `end` indices.
@@ -2924,7 +2924,7 @@ console.log(buf.subarray(-5, -2).toString());
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
@@ -2934,7 +2934,7 @@ ___
 
 ### swap16
 
-▸ **swap16**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap16**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of unsigned 16-bit integers and swaps the
 byte order _in-place_. Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 2.
@@ -2970,11 +2970,11 @@ buf.swap16(); // Convert to big-endian UTF-16 text.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
-▸ **swap16**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap16**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of unsigned 16-bit integers and swaps the
 byte order _in-place_. Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 2.
@@ -3010,7 +3010,7 @@ buf.swap16(); // Convert to big-endian UTF-16 text.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
@@ -3018,7 +3018,7 @@ ___
 
 ### swap32
 
-▸ **swap32**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap32**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of unsigned 32-bit integers and swaps the
 byte order _in-place_. Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 4.
@@ -3044,11 +3044,11 @@ buf2.swap32();
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
-▸ **swap32**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap32**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of unsigned 32-bit integers and swaps the
 byte order _in-place_. Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 4.
@@ -3074,7 +3074,7 @@ buf2.swap32();
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
@@ -3082,7 +3082,7 @@ ___
 
 ### swap64
 
-▸ **swap64**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap64**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of 64-bit numbers and swaps byte order _in-place_.
 Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 8.
@@ -3108,11 +3108,11 @@ buf2.swap64();
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 
-▸ **swap64**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **swap64**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Interprets `buf` as an array of 64-bit numbers and swaps byte order _in-place_.
 Throws `ERR_INVALID_BUFFER_SIZE` if `buf.length` is not a multiple of 8.
@@ -3138,7 +3138,7 @@ buf2.swap64();
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 A reference to `buf`.
 

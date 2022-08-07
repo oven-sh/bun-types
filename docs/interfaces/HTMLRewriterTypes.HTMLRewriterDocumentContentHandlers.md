@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / [HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md) / HTMLRewriterDocumentContentHandlers
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / [HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md) / HTMLRewriterDocumentContentHandlers
 
 # Interface: HTMLRewriterDocumentContentHandlers
 
-[HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md).HTMLRewriterDocumentContentHandlers
+[HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md).HTMLRewriterDocumentContentHandlers
 
 ## Table of contents
 
 ### Methods
 
-- [comments](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#comments)
-- [doctype](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#doctype)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#end)
-- [text](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#text)
+- [comments](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#comments)
+- [doctype](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#doctype)
+- [end](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#end)
+- [text](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md#text)
 
 ## Methods
 
@@ -23,7 +23,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `comment` | [`Comment`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Comment.md) |
+| `comment` | [`Comment`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Comment.md) |
 
 #### Returns
 
@@ -35,7 +35,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `comment` | [`Comment`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Comment.md) |
+| `comment` | [`Comment`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Comment.md) |
 
 #### Returns
 
@@ -51,7 +51,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `doctype` | [`Doctype`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md) |
+| `doctype` | [`Doctype`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md) |
 
 #### Returns
 
@@ -63,7 +63,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `doctype` | [`Doctype`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md) |
+| `doctype` | [`Doctype`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md) |
 
 #### Returns
 
@@ -79,7 +79,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `end` | [`DocumentEnd`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.DocumentEnd.md) |
+| `end` | [`DocumentEnd`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.DocumentEnd.md) |
 
 #### Returns
 
@@ -91,7 +91,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `end` | [`DocumentEnd`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.DocumentEnd.md) |
+| `end` | [`DocumentEnd`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.DocumentEnd.md) |
 
 #### Returns
 
@@ -107,7 +107,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `text` | [`Text`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Text.md) |
+| `text` | [`Text`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Text.md) |
 
 #### Returns
 
@@ -119,7 +119,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `text` | [`Text`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Text.md) |
+| `text` | [`Text`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Text.md) |
 
 #### Returns
 

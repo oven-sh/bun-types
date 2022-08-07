@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ResponseInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ResponseInit
 
 # Interface: ResponseInit
 
@@ -6,9 +6,9 @@
 
 ### Properties
 
-- [headers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ResponseInit.md#headers)
-- [status](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ResponseInit.md#status)
-- [statusText](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ResponseInit.md#statustext)
+- [headers](https://oven-sh.github.io/bun-types/interfaces/ResponseInit.md#headers)
+- [status](https://oven-sh.github.io/bun-types/interfaces/ResponseInit.md#status)
+- [statusText](https://oven-sh.github.io/bun-types/interfaces/ResponseInit.md#statustext)
 
 ## Properties
 

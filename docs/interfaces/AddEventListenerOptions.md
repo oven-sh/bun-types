@@ -1,10 +1,10 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / AddEventListenerOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / AddEventListenerOptions
 
 # Interface: AddEventListenerOptions
 
 ## Hierarchy
 
-- [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md)
+- [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md)
 
   ↳ **`AddEventListenerOptions`**
 
@@ -12,10 +12,10 @@
 
 ### Properties
 
-- [capture](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md#capture)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md#once)
-- [passive](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md#passive)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md#signal)
+- [capture](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md#capture)
+- [once](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md#once)
+- [passive](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md#passive)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md#signal)
 
 ## Properties
 
@@ -25,7 +25,7 @@
 
 #### Inherited from
 
-[EventListenerOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md).[capture](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md#capture)
+[EventListenerOptions](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md).[capture](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md#capture)
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)

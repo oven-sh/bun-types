@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.md) / InspectOptionsStylized
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:util"](https://oven-sh.github.io/bun-types/modules/node_util_.md) / InspectOptionsStylized
 
 # Interface: InspectOptionsStylized
 
-["node:util"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_util_.md).InspectOptionsStylized
+["node:util"](https://oven-sh.github.io/bun-types/modules/node_util_.md).InspectOptionsStylized
 
 ## Hierarchy
 
-- [`InspectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md)
+- [`InspectOptions`](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md)
 
   ↳ **`InspectOptionsStylized`**
 
@@ -14,21 +14,21 @@
 
 ### Properties
 
-- [breakLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#breaklength)
-- [colors](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#colors)
-- [compact](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#compact)
-- [customInspect](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#custominspect)
-- [depth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#depth)
-- [getters](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#getters)
-- [maxArrayLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#maxarraylength)
-- [maxStringLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#maxstringlength)
-- [showHidden](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#showhidden)
-- [showProxy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#showproxy)
-- [sorted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#sorted)
+- [breakLength](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#breaklength)
+- [colors](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#colors)
+- [compact](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#compact)
+- [customInspect](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#custominspect)
+- [depth](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#depth)
+- [getters](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#getters)
+- [maxArrayLength](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#maxarraylength)
+- [maxStringLength](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#maxstringlength)
+- [showHidden](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#showhidden)
+- [showProxy](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#showproxy)
+- [sorted](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#sorted)
 
 ### Methods
 
-- [stylize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_util_.InspectOptionsStylized.md#stylize)
+- [stylize](https://oven-sh.github.io/bun-types/interfaces/node_util_.InspectOptionsStylized.md#stylize)
 
 ## Properties
 
@@ -38,7 +38,7 @@
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[breakLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#breaklength)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[breakLength](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#breaklength)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[colors](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#colors)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[colors](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#colors)
 
 ___
 
@@ -70,7 +70,7 @@ For more information, see the example below.
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[compact](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#compact)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[compact](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#compact)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[customInspect](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#custominspect)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[customInspect](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#custominspect)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[depth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#depth)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[depth](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#depth)
 
 ___
 
@@ -114,7 +114,7 @@ the getter function.
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[getters](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#getters)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[getters](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#getters)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[maxArrayLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#maxarraylength)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[maxArrayLength](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#maxarraylength)
 
 ___
 
@@ -142,7 +142,7 @@ Set to `0` or negative to show no characters.
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[maxStringLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#maxstringlength)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[maxStringLength](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#maxstringlength)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[showHidden](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#showhidden)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[showHidden](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#showhidden)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[showProxy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#showproxy)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[showProxy](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#showproxy)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Inherited from
 
-[InspectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md).[sorted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/util_.InspectOptions.md#sorted)
+[InspectOptions](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md).[sorted](https://oven-sh.github.io/bun-types/interfaces/util_.InspectOptions.md#sorted)
 
 ## Methods
 
@@ -185,7 +185,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `text` | `string` |
-| `styleType` | [`Style`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#style) |
+| `styleType` | [`Style`](https://oven-sh.github.io/bun-types/modules/util_.md#style) |
 
 #### Returns
 
@@ -198,7 +198,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `text` | `string` |
-| `styleType` | [`Style`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#style) |
+| `styleType` | [`Style`](https://oven-sh.github.io/bun-types/modules/util_.md#style) |
 
 #### Returns
 

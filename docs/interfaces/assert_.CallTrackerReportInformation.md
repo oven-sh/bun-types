@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md) / CallTrackerReportInformation
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md) / CallTrackerReportInformation
 
 # Interface: CallTrackerReportInformation
 
-["assert"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/assert_.md).CallTrackerReportInformation
+["assert"](https://oven-sh.github.io/bun-types/modules/assert_.md).CallTrackerReportInformation
 
 ## Table of contents
 
 ### Properties
 
-- [actual](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md#actual)
-- [expected](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md#expected)
-- [message](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md#message)
-- [operator](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md#operator)
-- [stack](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/assert_.CallTrackerReportInformation.md#stack)
+- [actual](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md#actual)
+- [expected](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md#expected)
+- [message](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md#message)
+- [operator](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md#operator)
+- [stack](https://oven-sh.github.io/bun-types/interfaces/assert_.CallTrackerReportInformation.md#stack)
 
 ## Properties
 

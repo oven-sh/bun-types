@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / HeapSnapshot
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / HeapSnapshot
 
 # Interface: HeapSnapshot
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).HeapSnapshot
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).HeapSnapshot
 
 JavaScriptCore engine's internal heap snapshot
 
@@ -14,13 +14,13 @@ If you have any ideas, please file an issue https://github.com/oven-sh/bun
 
 ### Properties
 
-- [edgeNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#edgenames)
-- [edgeTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#edgetypes)
-- [edges](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#edges)
-- [nodeClassNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#nodeclassnames)
-- [nodes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#nodes)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#type)
-- [version](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md#version)
+- [edgeNames](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#edgenames)
+- [edgeTypes](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#edgetypes)
+- [edges](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#edges)
+- [nodeClassNames](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#nodeclassnames)
+- [nodes](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#nodes)
+- [type](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#type)
+- [version](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md#version)
 
 ## Properties
 

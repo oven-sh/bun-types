@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:path"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_path_.md) / FormatInputPathObject
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:path"](https://oven-sh.github.io/bun-types/modules/node_path_.md) / FormatInputPathObject
 
 # Interface: FormatInputPathObject
 
-["node:path"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_path_.md).FormatInputPathObject
+["node:path"](https://oven-sh.github.io/bun-types/modules/node_path_.md).FormatInputPathObject
 
 ## Table of contents
 
 ### Properties
 
-- [base](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_path_.FormatInputPathObject.md#base)
-- [dir](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_path_.FormatInputPathObject.md#dir)
-- [ext](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_path_.FormatInputPathObject.md#ext)
-- [name](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_path_.FormatInputPathObject.md#name)
-- [root](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_path_.FormatInputPathObject.md#root)
+- [base](https://oven-sh.github.io/bun-types/interfaces/node_path_.FormatInputPathObject.md#base)
+- [dir](https://oven-sh.github.io/bun-types/interfaces/node_path_.FormatInputPathObject.md#dir)
+- [ext](https://oven-sh.github.io/bun-types/interfaces/node_path_.FormatInputPathObject.md#ext)
+- [name](https://oven-sh.github.io/bun-types/interfaces/node_path_.FormatInputPathObject.md#name)
+- [root](https://oven-sh.github.io/bun-types/interfaces/node_path_.FormatInputPathObject.md#root)
 
 ## Properties
 

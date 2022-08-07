@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "crypto"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "crypto"
 
 # Namespace: "crypto"
 
@@ -25,153 +25,153 @@ console.log(hash);
 
 ### Namespaces
 
-- [constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.constants.md)
-- [generateKeyPair](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.generateKeyPair.md)
+- [constants](https://oven-sh.github.io/bun-types/modules/crypto_.constants.md)
+- [generateKeyPair](https://oven-sh.github.io/bun-types/modules/crypto_.generateKeyPair.md)
 
 ### Classes
 
-- [Certificate](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Certificate.md)
-- [Cipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
-- [Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
-- [DiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
-- [ECDH](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.ECDH.md)
-- [Hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
-- [Hmac](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
-- [KeyObject](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
-- [Sign](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
-- [Verify](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+- [Certificate](https://oven-sh.github.io/bun-types/classes/crypto_.Certificate.md)
+- [Cipher](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
+- [Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
+- [DiffieHellman](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
+- [ECDH](https://oven-sh.github.io/bun-types/classes/crypto_.ECDH.md)
+- [Hash](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
+- [Hmac](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
+- [KeyObject](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
+- [Sign](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
+- [Verify](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 ### Interfaces
 
-- [AsymmetricKeyDetails](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.AsymmetricKeyDetails.md)
-- [BasePrivateKeyEncodingOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)
-- [CheckPrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CheckPrimeOptions.md)
-- [CipherCCM](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
-- [CipherCCMOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md)
-- [CipherGCM](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
-- [CipherGCMOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md)
-- [CipherInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfo.md)
-- [CipherInfoOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfoOptions.md)
-- [CipherOCB](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCB.md)
-- [CipherOCBOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCBOptions.md)
-- [DSAKeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md)
-- [DSAKeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)
-- [DecipherCCM](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
-- [DecipherGCM](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
-- [DecipherOCB](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherOCB.md)
-- [ECKeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md)
-- [ECKeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)
-- [ED25519KeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md)
-- [ED25519KeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)
-- [ED448KeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md)
-- [ED448KeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)
-- [GeneratePrimeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md)
-- [GeneratePrimeOptionsArrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md)
-- [GeneratePrimeOptionsBigInt](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsBigInt.md)
-- [HashOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md)
-- [JsonWebKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKey.md)
-- [JsonWebKeyInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md)
-- [JwkKeyExportOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JwkKeyExportOptions.md)
-- [KeyExportOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyExportOptions.md)
-- [KeyPairKeyObjectResult](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
-- [KeyPairSyncResult](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)
-- [PrivateKeyInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PrivateKeyInput.md)
-- [PublicKeyInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PublicKeyInput.md)
-- [RSAKeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md)
-- [RSAKeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)
-- [RSAPSSKeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md)
-- [RSAPSSKeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)
-- [RandomUUIDOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RandomUUIDOptions.md)
-- [RsaPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md)
-- [RsaPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPublicKey.md)
-- [ScryptOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ScryptOptions.md)
-- [SecureHeapUsage](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md)
-- [SignKeyObjectInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md)
-- [SignPrivateKeyInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md)
-- [SigningOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SigningOptions.md)
-- [VerifyKeyObjectInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md)
-- [VerifyPublicKeyInput](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md)
-- [X25519KeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md)
-- [X25519KeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)
-- [X448KeyPairKeyObjectOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md)
-- [X448KeyPairOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)
-- [X509CheckOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X509CheckOptions.md)
+- [AsymmetricKeyDetails](https://oven-sh.github.io/bun-types/interfaces/crypto_.AsymmetricKeyDetails.md)
+- [BasePrivateKeyEncodingOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)
+- [CheckPrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.CheckPrimeOptions.md)
+- [CipherCCM](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
+- [CipherCCMOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md)
+- [CipherGCM](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
+- [CipherGCMOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md)
+- [CipherInfo](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfo.md)
+- [CipherInfoOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfoOptions.md)
+- [CipherOCB](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCB.md)
+- [CipherOCBOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCBOptions.md)
+- [DSAKeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md)
+- [DSAKeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)
+- [DecipherCCM](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
+- [DecipherGCM](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
+- [DecipherOCB](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherOCB.md)
+- [ECKeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md)
+- [ECKeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)
+- [ED25519KeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md)
+- [ED25519KeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)
+- [ED448KeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md)
+- [ED448KeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)
+- [GeneratePrimeOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md)
+- [GeneratePrimeOptionsArrayBuffer](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md)
+- [GeneratePrimeOptionsBigInt](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsBigInt.md)
+- [HashOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md)
+- [JsonWebKey](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKey.md)
+- [JsonWebKeyInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md)
+- [JwkKeyExportOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.JwkKeyExportOptions.md)
+- [KeyExportOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyExportOptions.md)
+- [KeyPairKeyObjectResult](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
+- [KeyPairSyncResult](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)
+- [PrivateKeyInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.PrivateKeyInput.md)
+- [PublicKeyInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.PublicKeyInput.md)
+- [RSAKeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md)
+- [RSAKeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)
+- [RSAPSSKeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md)
+- [RSAPSSKeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)
+- [RandomUUIDOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.RandomUUIDOptions.md)
+- [RsaPrivateKey](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md)
+- [RsaPublicKey](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPublicKey.md)
+- [ScryptOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.ScryptOptions.md)
+- [SecureHeapUsage](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md)
+- [SignKeyObjectInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md)
+- [SignPrivateKeyInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md)
+- [SigningOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.SigningOptions.md)
+- [VerifyKeyObjectInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md)
+- [VerifyPublicKeyInput](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md)
+- [X25519KeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md)
+- [X25519KeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)
+- [X448KeyPairKeyObjectOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md)
+- [X448KeyPairOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)
+- [X509CheckOptions](https://oven-sh.github.io/bun-types/interfaces/crypto_.X509CheckOptions.md)
 
 ### Type Aliases
 
-- [BinaryLike](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike)
-- [BinaryToTextEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding)
-- [CharacterEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#characterencoding)
-- [CipherCCMTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes)
-- [CipherGCMTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes)
-- [CipherKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey)
-- [CipherMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphermode)
-- [CipherOCBTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherocbtypes)
-- [DSAEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#dsaencoding)
-- [ECDHKeyFormat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ecdhkeyformat)
-- [Encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding)
-- [KeyFormat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat)
-- [KeyLike](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike)
-- [KeyObjectType](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyobjecttype)
-- [KeyType](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keytype)
-- [LargeNumberLike](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike)
-- [LegacyCharacterEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#legacycharacterencoding)
+- [BinaryLike](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike)
+- [BinaryToTextEncoding](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding)
+- [CharacterEncoding](https://oven-sh.github.io/bun-types/modules/crypto_.md#characterencoding)
+- [CipherCCMTypes](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes)
+- [CipherGCMTypes](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes)
+- [CipherKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey)
+- [CipherMode](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphermode)
+- [CipherOCBTypes](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherocbtypes)
+- [DSAEncoding](https://oven-sh.github.io/bun-types/modules/crypto_.md#dsaencoding)
+- [ECDHKeyFormat](https://oven-sh.github.io/bun-types/modules/crypto_.md#ecdhkeyformat)
+- [Encoding](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding)
+- [KeyFormat](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat)
+- [KeyLike](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike)
+- [KeyObjectType](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyobjecttype)
+- [KeyType](https://oven-sh.github.io/bun-types/modules/crypto_.md#keytype)
+- [LargeNumberLike](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike)
+- [LegacyCharacterEncoding](https://oven-sh.github.io/bun-types/modules/crypto_.md#legacycharacterencoding)
 
 ### Variables
 
-- [DEFAULT\_ENCODING](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#default_encoding)
-- [fips](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#fips)
+- [DEFAULT\_ENCODING](https://oven-sh.github.io/bun-types/modules/crypto_.md#default_encoding)
+- [fips](https://oven-sh.github.io/bun-types/modules/crypto_.md#fips)
 
 ### Functions
 
-- [checkPrime](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#checkprime)
-- [checkPrimeSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#checkprimesync)
-- [createCipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipher)
-- [createCipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipheriv)
-- [createDecipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipher)
-- [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipheriv)
-- [createDiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#creatediffiehellman)
-- [createECDH](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createecdh)
-- [createHash](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createhash)
-- [createHmac](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createhmac)
-- [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey)
-- [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey)
-- [createSecretKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createsecretkey)
-- [createSign](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createsign)
-- [createVerify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createverify)
-- [diffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#diffiehellman)
-- [generateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generatekey)
-- [generateKeyPair](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generatekeypair)
-- [generateKeyPairSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generatekeypairsync)
-- [generateKeySync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generatekeysync)
-- [generatePrime](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generateprime)
-- [generatePrimeSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#generateprimesync)
-- [getCipherInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getcipherinfo)
-- [getCiphers](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getciphers)
-- [getCurves](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getcurves)
-- [getDiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getdiffiehellman)
-- [getFips](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getfips)
-- [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes)
-- [hkdf](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#hkdf)
-- [hkdfSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#hkdfsync)
-- [pbkdf2](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#pbkdf2)
-- [pbkdf2Sync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#pbkdf2sync)
-- [privateDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privatedecrypt)
-- [privateEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privateencrypt)
-- [pseudoRandomBytes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#pseudorandombytes)
-- [publicDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicdecrypt)
-- [publicEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicencrypt)
-- [randomBytes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randombytes)
-- [randomFill](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomfill)
-- [randomFillSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomfillsync)
-- [randomInt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomint)
-- [randomUUID](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomuuid)
-- [scrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scrypt)
-- [scryptSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scryptsync)
-- [secureHeapUsed](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#secureheapused)
-- [sign](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#sign)
-- [timingSafeEqual](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#timingsafeequal)
-- [verify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#verify)
+- [checkPrime](https://oven-sh.github.io/bun-types/modules/crypto_.md#checkprime)
+- [checkPrimeSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#checkprimesync)
+- [createCipher](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipher)
+- [createCipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipheriv)
+- [createDecipher](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipher)
+- [createDecipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipheriv)
+- [createDiffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#creatediffiehellman)
+- [createECDH](https://oven-sh.github.io/bun-types/modules/crypto_.md#createecdh)
+- [createHash](https://oven-sh.github.io/bun-types/modules/crypto_.md#createhash)
+- [createHmac](https://oven-sh.github.io/bun-types/modules/crypto_.md#createhmac)
+- [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey)
+- [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey)
+- [createSecretKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createsecretkey)
+- [createSign](https://oven-sh.github.io/bun-types/modules/crypto_.md#createsign)
+- [createVerify](https://oven-sh.github.io/bun-types/modules/crypto_.md#createverify)
+- [diffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#diffiehellman)
+- [generateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#generatekey)
+- [generateKeyPair](https://oven-sh.github.io/bun-types/modules/crypto_.md#generatekeypair)
+- [generateKeyPairSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#generatekeypairsync)
+- [generateKeySync](https://oven-sh.github.io/bun-types/modules/crypto_.md#generatekeysync)
+- [generatePrime](https://oven-sh.github.io/bun-types/modules/crypto_.md#generateprime)
+- [generatePrimeSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#generateprimesync)
+- [getCipherInfo](https://oven-sh.github.io/bun-types/modules/crypto_.md#getcipherinfo)
+- [getCiphers](https://oven-sh.github.io/bun-types/modules/crypto_.md#getciphers)
+- [getCurves](https://oven-sh.github.io/bun-types/modules/crypto_.md#getcurves)
+- [getDiffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#getdiffiehellman)
+- [getFips](https://oven-sh.github.io/bun-types/modules/crypto_.md#getfips)
+- [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes)
+- [hkdf](https://oven-sh.github.io/bun-types/modules/crypto_.md#hkdf)
+- [hkdfSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#hkdfsync)
+- [pbkdf2](https://oven-sh.github.io/bun-types/modules/crypto_.md#pbkdf2)
+- [pbkdf2Sync](https://oven-sh.github.io/bun-types/modules/crypto_.md#pbkdf2sync)
+- [privateDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privatedecrypt)
+- [privateEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privateencrypt)
+- [pseudoRandomBytes](https://oven-sh.github.io/bun-types/modules/crypto_.md#pseudorandombytes)
+- [publicDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicdecrypt)
+- [publicEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicencrypt)
+- [randomBytes](https://oven-sh.github.io/bun-types/modules/crypto_.md#randombytes)
+- [randomFill](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomfill)
+- [randomFillSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomfillsync)
+- [randomInt](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomint)
+- [randomUUID](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomuuid)
+- [scrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#scrypt)
+- [scryptSync](https://oven-sh.github.io/bun-types/modules/crypto_.md#scryptsync)
+- [secureHeapUsed](https://oven-sh.github.io/bun-types/modules/crypto_.md#secureheapused)
+- [sign](https://oven-sh.github.io/bun-types/modules/crypto_.md#sign)
+- [timingSafeEqual](https://oven-sh.github.io/bun-types/modules/crypto_.md#timingsafeequal)
+- [verify](https://oven-sh.github.io/bun-types/modules/crypto_.md#verify)
 
 ## Type Aliases
 
@@ -207,7 +207,7 @@ ___
 
 ### CipherKey
 
-Ƭ **CipherKey**: [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+Ƭ **CipherKey**: [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 ### Encoding
 
-Ƭ **Encoding**: [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) \| [`CharacterEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#characterencoding) \| [`LegacyCharacterEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#legacycharacterencoding)
+Ƭ **Encoding**: [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) \| [`CharacterEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#characterencoding) \| [`LegacyCharacterEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#legacycharacterencoding)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 ### KeyLike
 
-Ƭ **KeyLike**: `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+Ƭ **KeyLike**: `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
@@ -307,7 +307,7 @@ Checks the primality of the `candidate`.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) |
+| `value` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) |
 | `callback` | (`err`: `Error`, `result`: `boolean`) => `void` |
 
 #### Returns
@@ -320,8 +320,8 @@ Checks the primality of the `candidate`.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) |
-| `options` | [`CheckPrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CheckPrimeOptions.md) |
+| `value` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) |
+| `options` | [`CheckPrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CheckPrimeOptions.md) |
 | `callback` | (`err`: `Error`, `result`: `boolean`) => `void` |
 
 #### Returns
@@ -336,7 +336,7 @@ Checks the primality of the `candidate`.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) |
+| `value` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) |
 | `callback` | (`err`: `Error`, `result`: `boolean`) => `void` |
 
 #### Returns
@@ -349,8 +349,8 @@ Checks the primality of the `candidate`.
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) |
-| `options` | [`CheckPrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CheckPrimeOptions.md) |
+| `value` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) |
+| `options` | [`CheckPrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CheckPrimeOptions.md) |
 | `callback` | (`err`: `Error`, `result`: `boolean`) => `void` |
 
 #### Returns
@@ -369,8 +369,8 @@ Checks the primality of the `candidate`.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `candidate` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) | A possible prime encoded as a sequence of big endian octets of arbitrary length. |
-| `options?` | [`CheckPrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CheckPrimeOptions.md) | - |
+| `candidate` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) | A possible prime encoded as a sequence of big endian octets of arbitrary length. |
+| `options?` | [`CheckPrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CheckPrimeOptions.md) | - |
 
 #### Returns
 
@@ -386,8 +386,8 @@ Checks the primality of the `candidate`.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `candidate` | [`LargeNumberLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#largenumberlike) | A possible prime encoded as a sequence of big endian octets of arbitrary length. |
-| `options?` | [`CheckPrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CheckPrimeOptions.md) | - |
+| `candidate` | [`LargeNumberLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#largenumberlike) | A possible prime encoded as a sequence of big endian octets of arbitrary length. |
+| `options?` | [`CheckPrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CheckPrimeOptions.md) | - |
 
 #### Returns
 
@@ -399,7 +399,7 @@ ___
 
 ### createCipher
 
-▸ **createCipher**(`algorithm`, `password`, `options`): [`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+▸ **createCipher**(`algorithm`, `password`, `options`): [`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
 Creates and returns a `Cipher` object that uses the given `algorithm` and`password`.
 
@@ -425,28 +425,28 @@ rapidly.
 
 In line with OpenSSL's recommendation to use a more modern algorithm instead of [`EVP_BytesToKey`](https://www.openssl.org/docs/man1.1.0/crypto/EVP_BytesToKey.html) it is recommended that
 developers derive a key and IV on
-their own using [scrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scrypt) and to use [createCipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipheriv) to create the `Cipher` object. Users should not use ciphers with counter mode
+their own using [scrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#scrypt) and to use [createCipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipheriv) to create the `Cipher` object. Users should not use ciphers with counter mode
 (e.g. CTR, GCM, or CCM) in `crypto.createCipher()`. A warning is emitted when
 they are used in order to avoid the risk of IV reuse that causes
 vulnerabilities. For the case when IV is reused in GCM, see [Nonce-Disrespecting Adversaries](https://github.com/nonce-disrespect/nonce-disrespect) for details.
 
 **`Deprecated`**
 
-Since v10.0.0 - Use [createCipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipheriv) instead.
+Since v10.0.0 - Use [createCipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipheriv) instead.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+[`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
-▸ **createCipher**(`algorithm`, `password`, `options?`): [`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+▸ **createCipher**(`algorithm`, `password`, `options?`): [`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
 **`Deprecated`**
 
@@ -456,15 +456,15 @@ since v10.0.0 use `createCipheriv()`
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+[`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
-▸ **createCipher**(`algorithm`, `password`, `options?`): [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+▸ **createCipher**(`algorithm`, `password`, `options?`): [`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 **`Deprecated`**
 
@@ -475,14 +475,14 @@ since v10.0.0 use `createCipheriv()`
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+[`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
-▸ **createCipher**(`algorithm`, `password`, `options`): [`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+▸ **createCipher**(`algorithm`, `password`, `options`): [`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
 Creates and returns a `Cipher` object that uses the given `algorithm` and`password`.
 
@@ -508,28 +508,28 @@ rapidly.
 
 In line with OpenSSL's recommendation to use a more modern algorithm instead of [`EVP_BytesToKey`](https://www.openssl.org/docs/man1.1.0/crypto/EVP_BytesToKey.html) it is recommended that
 developers derive a key and IV on
-their own using [scrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scrypt) and to use [createCipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipheriv) to create the `Cipher` object. Users should not use ciphers with counter mode
+their own using [scrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#scrypt) and to use [createCipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipheriv) to create the `Cipher` object. Users should not use ciphers with counter mode
 (e.g. CTR, GCM, or CCM) in `crypto.createCipher()`. A warning is emitted when
 they are used in order to avoid the risk of IV reuse that causes
 vulnerabilities. For the case when IV is reused in GCM, see [Nonce-Disrespecting Adversaries](https://github.com/nonce-disrespect/nonce-disrespect) for details.
 
 **`Deprecated`**
 
-Since v10.0.0 - Use [createCipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createcipheriv) instead.
+Since v10.0.0 - Use [createCipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createcipheriv) instead.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+[`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
-▸ **createCipher**(`algorithm`, `password`, `options?`): [`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+▸ **createCipher**(`algorithm`, `password`, `options?`): [`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
 **`Deprecated`**
 
@@ -539,15 +539,15 @@ since v10.0.0 use `createCipheriv()`
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+[`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
-▸ **createCipher**(`algorithm`, `password`, `options?`): [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+▸ **createCipher**(`algorithm`, `password`, `options?`): [`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 **`Deprecated`**
 
@@ -558,18 +558,18 @@ since v10.0.0 use `createCipheriv()`
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+[`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 ___
 
 ### createCipheriv
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
 Creates and returns a `Cipher` object, with the given `algorithm`, `key` and
 initialization vector (`iv`).
@@ -602,61 +602,61 @@ given IV will be.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) | - |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) | - |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+[`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCB.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCB.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherOCBTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherocbtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options` | [`CipherOCBOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCBOptions.md) |
+| `algorithm` | [`CipherOCBTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherocbtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options` | [`CipherOCBOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCBOptions.md) |
 
 #### Returns
 
-[`CipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCB.md)
+[`CipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCB.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+[`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+[`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
 Creates and returns a `Cipher` object, with the given `algorithm`, `key` and
 initialization vector (`iv`).
@@ -689,65 +689,65 @@ given IV will be.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) | - |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) | - |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`CipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCM.md)
+[`CipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCM.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCB.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options`): [`CipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCB.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherOCBTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherocbtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options` | [`CipherOCBOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCBOptions.md) |
+| `algorithm` | [`CipherOCBTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherocbtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options` | [`CipherOCBOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCBOptions.md) |
 
 #### Returns
 
-[`CipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCB.md)
+[`CipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCB.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`CipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCM.md)
+[`CipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCM.md)
 
-▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+▸ **createCipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Cipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Cipher.md)
+[`Cipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Cipher.md)
 
 ___
 
 ### createDecipher
 
-▸ **createDecipher**(`algorithm`, `password`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **createDecipher**(`algorithm`, `password`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Creates and returns a `Decipher` object that uses the given `algorithm` and`password` (key).
 
@@ -765,25 +765,25 @@ rapidly.
 
 In line with OpenSSL's recommendation to use a more modern algorithm instead of [`EVP_BytesToKey`](https://www.openssl.org/docs/man1.1.0/crypto/EVP_BytesToKey.html) it is recommended that
 developers derive a key and IV on
-their own using [scrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scrypt) and to use [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipheriv) to create the `Decipher` object.
+their own using [scrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#scrypt) and to use [createDecipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipheriv) to create the `Decipher` object.
 
 **`Deprecated`**
 
-Since v10.0.0 - Use [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipheriv) instead.
+Since v10.0.0 - Use [createDecipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipheriv) instead.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **createDecipher**(`algorithm`, `password`, `options?`): [`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+▸ **createDecipher**(`algorithm`, `password`, `options?`): [`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
 **`Deprecated`**
 
@@ -793,15 +793,15 @@ since v10.0.0 use `createDecipheriv()`
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+[`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
-▸ **createDecipher**(`algorithm`, `password`, `options?`): [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+▸ **createDecipher**(`algorithm`, `password`, `options?`): [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 **`Deprecated`**
 
@@ -812,14 +812,14 @@ since v10.0.0 use `createDecipheriv()`
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+[`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
-▸ **createDecipher**(`algorithm`, `password`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **createDecipher**(`algorithm`, `password`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Creates and returns a `Decipher` object that uses the given `algorithm` and`password` (key).
 
@@ -837,25 +837,25 @@ rapidly.
 
 In line with OpenSSL's recommendation to use a more modern algorithm instead of [`EVP_BytesToKey`](https://www.openssl.org/docs/man1.1.0/crypto/EVP_BytesToKey.html) it is recommended that
 developers derive a key and IV on
-their own using [scrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#scrypt) and to use [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipheriv) to create the `Decipher` object.
+their own using [scrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#scrypt) and to use [createDecipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipheriv) to create the `Decipher` object.
 
 **`Deprecated`**
 
-Since v10.0.0 - Use [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createdecipheriv) instead.
+Since v10.0.0 - Use [createDecipheriv](https://oven-sh.github.io/bun-types/modules/crypto_.md#createdecipheriv) instead.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **createDecipher**(`algorithm`, `password`, `options?`): [`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+▸ **createDecipher**(`algorithm`, `password`, `options?`): [`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
 **`Deprecated`**
 
@@ -865,15 +865,15 @@ since v10.0.0 use `createDecipheriv()`
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+[`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
-▸ **createDecipher**(`algorithm`, `password`, `options?`): [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+▸ **createDecipher**(`algorithm`, `password`, `options?`): [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 **`Deprecated`**
 
@@ -884,18 +884,18 @@ since v10.0.0 use `createDecipheriv()`
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+[`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 ___
 
 ### createDecipheriv
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Creates and returns a `Decipher` object that uses the given `algorithm`, `key`and initialization vector (`iv`).
 
@@ -927,61 +927,61 @@ IV will be.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) | - |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) | - |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherOCB.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherOCB.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherOCBTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherocbtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options` | [`CipherOCBOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCBOptions.md) |
+| `algorithm` | [`CipherOCBTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherocbtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options` | [`CipherOCBOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCBOptions.md) |
 
 #### Returns
 
-[`DecipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherOCB.md)
+[`DecipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherOCB.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+[`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+[`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Creates and returns a `Decipher` object that uses the given `algorithm`, `key`and initialization vector (`iv`).
 
@@ -1013,65 +1013,65 @@ IV will be.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `algorithm` | [`CipherCCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherccmtypes) | - |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) | - |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
-| `options` | [`CipherCCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
+| `algorithm` | [`CipherCCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherccmtypes) | - |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) | - |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
+| `options` | [`CipherCCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherCCMOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherOCB.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options`): [`DecipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherOCB.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherOCBTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherocbtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options` | [`CipherOCBOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherOCBOptions.md) |
+| `algorithm` | [`CipherOCBTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherocbtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options` | [`CipherOCBOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherOCBOptions.md) |
 
 #### Returns
 
-[`DecipherOCB`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherOCB.md)
+[`DecipherOCB`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherOCB.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `algorithm` | [`CipherGCMTypes`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphergcmtypes) |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`CipherGCMOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherGCMOptions.md) |
+| `algorithm` | [`CipherGCMTypes`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphergcmtypes) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`CipherGCMOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherGCMOptions.md) |
 
 #### Returns
 
-[`DecipherGCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherGCM.md)
+[`DecipherGCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherGCM.md)
 
-▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+▸ **createDecipheriv**(`algorithm`, `key`, `iv`, `options?`): [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `algorithm` | `string` |
-| `key` | [`CipherKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#cipherkey) |
-| `iv` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) |
+| `key` | [`CipherKey`](https://oven-sh.github.io/bun-types/modules/crypto_.md#cipherkey) |
+| `iv` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) |
 
 #### Returns
 
-[`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+[`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
 ___
 
 ### createDiffieHellman
 
-▸ **createDiffieHellman**(`primeLength`, `generator?`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`primeLength`, `generator?`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 Creates a `DiffieHellman` key exchange object using the supplied `prime` and an
 optional specific `generator`.
@@ -1093,9 +1093,9 @@ otherwise a number, `Buffer`, `TypedArray`, or `DataView` is expected.
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
@@ -1105,51 +1105,51 @@ otherwise a number, `Buffer`, `TypedArray`, or `DataView` is expected.
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 | `generator` | `number` \| `ArrayBufferView` |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`, `generatorEncoding`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`, `generatorEncoding`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 | `generator` | `string` |
-| `generatorEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `generatorEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`primeLength`, `generator?`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`primeLength`, `generator?`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 Creates a `DiffieHellman` key exchange object using the supplied `prime` and an
 optional specific `generator`.
@@ -1171,9 +1171,9 @@ otherwise a number, `Buffer`, `TypedArray`, or `DataView` is expected.
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
@@ -1183,58 +1183,58 @@ otherwise a number, `Buffer`, `TypedArray`, or `DataView` is expected.
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 | `generator` | `number` \| `ArrayBufferView` |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`, `generatorEncoding`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **createDiffieHellman**(`prime`, `primeEncoding`, `generator`, `generatorEncoding`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `prime` | `string` |
-| `primeEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `primeEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 | `generator` | `string` |
-| `generatorEncoding` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `generatorEncoding` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 ___
 
 ### createECDH
 
-▸ **createECDH**(`curveName`): [`ECDH`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.ECDH.md)
+▸ **createECDH**(`curveName`): [`ECDH`](https://oven-sh.github.io/bun-types/classes/crypto_.ECDH.md)
 
 Creates an Elliptic Curve Diffie-Hellman (`ECDH`) key exchange object using a
-predefined curve specified by the `curveName` string. Use [getCurves](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getcurves) to obtain a list of available curve names. On recent
+predefined curve specified by the `curveName` string. Use [getCurves](https://oven-sh.github.io/bun-types/modules/crypto_.md#getcurves) to obtain a list of available curve names. On recent
 OpenSSL releases, `openssl ecparam -list_curves` will also display the name
 and description of each available elliptic curve.
 
@@ -1246,12 +1246,12 @@ and description of each available elliptic curve.
 
 #### Returns
 
-[`ECDH`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.ECDH.md)
+[`ECDH`](https://oven-sh.github.io/bun-types/classes/crypto_.ECDH.md)
 
-▸ **createECDH**(`curveName`): [`ECDH`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.ECDH.md)
+▸ **createECDH**(`curveName`): [`ECDH`](https://oven-sh.github.io/bun-types/classes/crypto_.ECDH.md)
 
 Creates an Elliptic Curve Diffie-Hellman (`ECDH`) key exchange object using a
-predefined curve specified by the `curveName` string. Use [getCurves](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#getcurves) to obtain a list of available curve names. On recent
+predefined curve specified by the `curveName` string. Use [getCurves](https://oven-sh.github.io/bun-types/modules/crypto_.md#getcurves) to obtain a list of available curve names. On recent
 OpenSSL releases, `openssl ecparam -list_curves` will also display the name
 and description of each available elliptic curve.
 
@@ -1263,13 +1263,13 @@ and description of each available elliptic curve.
 
 #### Returns
 
-[`ECDH`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.ECDH.md)
+[`ECDH`](https://oven-sh.github.io/bun-types/classes/crypto_.ECDH.md)
 
 ___
 
 ### createHash
 
-▸ **createHash**(`algorithm`, `options?`): [`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
+▸ **createHash**(`algorithm`, `options?`): [`Hash`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
 
 Creates and returns a `Hash` object that can be used to generate hash digests
 using the given `algorithm`. Optional `options` argument controls stream
@@ -1314,13 +1314,13 @@ input.on('readable', () => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`HashOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md) | `stream.transform` options |
+| `options?` | [`HashOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
+[`Hash`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
 
-▸ **createHash**(`algorithm`, `options?`): [`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
+▸ **createHash**(`algorithm`, `options?`): [`Hash`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
 
 Creates and returns a `Hash` object that can be used to generate hash digests
 using the given `algorithm`. Optional `options` argument controls stream
@@ -1365,17 +1365,17 @@ input.on('readable', () => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`HashOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md) | `stream.transform` options |
+| `options?` | [`HashOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`Hash`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md)
+[`Hash`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md)
 
 ___
 
 ### createHmac
 
-▸ **createHmac**(`algorithm`, `key`, `options?`): [`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
+▸ **createHmac**(`algorithm`, `key`, `options?`): [`Hmac`](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
 
 Creates and returns an `Hmac` object that uses the given `algorithm` and `key`.
 Optional `options` argument controls stream behavior.
@@ -1421,14 +1421,14 @@ input.on('readable', () => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `key` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | - |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) | `stream.transform` options |
+| `key` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | - |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
+[`Hmac`](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
 
-▸ **createHmac**(`algorithm`, `key`, `options?`): [`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
+▸ **createHmac**(`algorithm`, `key`, `options?`): [`Hmac`](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
 
 Creates and returns an `Hmac` object that uses the given `algorithm` and `key`.
 Optional `options` argument controls stream behavior.
@@ -1474,18 +1474,18 @@ input.on('readable', () => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `key` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | - |
-| `options?` | [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md) | `stream.transform` options |
+| `key` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | - |
+| `options?` | [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md) | `stream.transform` options |
 
 #### Returns
 
-[`Hmac`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hmac.md)
+[`Hmac`](https://oven-sh.github.io/bun-types/classes/crypto_.Hmac.md)
 
 ___
 
 ### createPrivateKey
 
-▸ **createPrivateKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createPrivateKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a private key. If `key` is a
 string or `Buffer`, `format` is assumed to be `'pem'`; otherwise, `key`must be an object with the properties described above.
@@ -1497,13 +1497,13 @@ of the passphrase is limited to 1024 bytes.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) \| [`PrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PrivateKeyInput.md) \| [`JsonWebKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md) |
+| `key` | `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) \| [`PrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.PrivateKeyInput.md) \| [`JsonWebKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md) |
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **createPrivateKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createPrivateKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a private key. If `key` is a
 string or `Buffer`, `format` is assumed to be `'pem'`; otherwise, `key`must be an object with the properties described above.
@@ -1515,17 +1515,17 @@ of the passphrase is limited to 1024 bytes.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) \| [`PrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PrivateKeyInput.md) \| [`JsonWebKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md) |
+| `key` | `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) \| [`PrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.PrivateKeyInput.md) \| [`JsonWebKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md) |
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
 ### createPublicKey
 
-▸ **createPublicKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createPublicKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a public key. If `key` is a
 string or `Buffer`, `format` is assumed to be `'pem'`; if `key` is a `KeyObject`with type `'private'`, the public key is derived from the given private key;
@@ -1534,7 +1534,7 @@ otherwise, `key` must be an object with the properties described above.
 If the format is `'pem'`, the `'key'` may also be an X.509 certificate.
 
 Because public keys can be derived from private keys, a private key may be
-passed instead of a public key. In that case, this function behaves as if [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey) had been called, except that the type of the
+passed instead of a public key. In that case, this function behaves as if [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey) had been called, except that the type of the
 returned `KeyObject` will be `'public'` and that the private key cannot be
 extracted from the returned `KeyObject`. Similarly, if a `KeyObject` with type`'private'` is given, a new `KeyObject` with type `'public'` will be returned
 and it will be impossible to extract the private key from the returned object.
@@ -1543,13 +1543,13 @@ and it will be impossible to extract the private key from the returned object.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) \| [`JsonWebKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md) \| [`PublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PublicKeyInput.md) |
+| `key` | `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) \| [`JsonWebKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md) \| [`PublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.PublicKeyInput.md) |
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **createPublicKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createPublicKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a public key. If `key` is a
 string or `Buffer`, `format` is assumed to be `'pem'`; if `key` is a `KeyObject`with type `'private'`, the public key is derived from the given private key;
@@ -1558,7 +1558,7 @@ otherwise, `key` must be an object with the properties described above.
 If the format is `'pem'`, the `'key'` may also be an X.509 certificate.
 
 Because public keys can be derived from private keys, a private key may be
-passed instead of a public key. In that case, this function behaves as if [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey) had been called, except that the type of the
+passed instead of a public key. In that case, this function behaves as if [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey) had been called, except that the type of the
 returned `KeyObject` will be `'public'` and that the private key cannot be
 extracted from the returned `KeyObject`. Similarly, if a `KeyObject` with type`'private'` is given, a new `KeyObject` with type `'public'` will be returned
 and it will be impossible to extract the private key from the returned object.
@@ -1567,17 +1567,17 @@ and it will be impossible to extract the private key from the returned object.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) \| [`JsonWebKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md) \| [`PublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.PublicKeyInput.md) |
+| `key` | `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) \| [`JsonWebKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md) \| [`PublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.PublicKeyInput.md) |
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
 ### createSecretKey
 
-▸ **createSecretKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createSecretKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a secret key for symmetric
 encryption or `Hmac`.
@@ -1590,9 +1590,9 @@ encryption or `Hmac`.
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **createSecretKey**(`key`, `encoding`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createSecretKey**(`key`, `encoding`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 #### Parameters
 
@@ -1603,9 +1603,9 @@ encryption or `Hmac`.
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **createSecretKey**(`key`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createSecretKey**(`key`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Creates and returns a new key object containing a secret key for symmetric
 encryption or `Hmac`.
@@ -1618,9 +1618,9 @@ encryption or `Hmac`.
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **createSecretKey**(`key`, `encoding`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **createSecretKey**(`key`, `encoding`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 #### Parameters
 
@@ -1631,15 +1631,15 @@ encryption or `Hmac`.
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
 ### createSign
 
-▸ **createSign**(`algorithm`, `options?`): [`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
+▸ **createSign**(`algorithm`, `options?`): [`Sign`](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
 
-Creates and returns a `Sign` object that uses the given `algorithm`. Use [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes) to obtain the names of the available digest algorithms.
+Creates and returns a `Sign` object that uses the given `algorithm`. Use [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes) to obtain the names of the available digest algorithms.
 Optional `options` argument controls the `stream.Writable` behavior.
 
 In some cases, a `Sign` instance can be created using the name of a signature
@@ -1653,15 +1653,15 @@ algorithm names.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
+| `options?` | [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
 
 #### Returns
 
-[`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
+[`Sign`](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
 
-▸ **createSign**(`algorithm`, `options?`): [`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
+▸ **createSign**(`algorithm`, `options?`): [`Sign`](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
 
-Creates and returns a `Sign` object that uses the given `algorithm`. Use [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes) to obtain the names of the available digest algorithms.
+Creates and returns a `Sign` object that uses the given `algorithm`. Use [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes) to obtain the names of the available digest algorithms.
 Optional `options` argument controls the `stream.Writable` behavior.
 
 In some cases, a `Sign` instance can be created using the name of a signature
@@ -1675,20 +1675,20 @@ algorithm names.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
+| `options?` | [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
 
 #### Returns
 
-[`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
+[`Sign`](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
 
 ___
 
 ### createVerify
 
-▸ **createVerify**(`algorithm`, `options?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **createVerify**(`algorithm`, `options?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Creates and returns a `Verify` object that uses the given algorithm.
-Use [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes) to obtain an array of names of the available
+Use [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes) to obtain an array of names of the available
 signing algorithms. Optional `options` argument controls the`stream.Writable` behavior.
 
 In some cases, a `Verify` instance can be created using the name of a signature
@@ -1702,16 +1702,16 @@ algorithm names.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
+| `options?` | [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
-▸ **createVerify**(`algorithm`, `options?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **createVerify**(`algorithm`, `options?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Creates and returns a `Verify` object that uses the given algorithm.
-Use [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes) to obtain an array of names of the available
+Use [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes) to obtain an array of names of the available
 signing algorithms. Optional `options` argument controls the`stream.Writable` behavior.
 
 In some cases, a `Verify` instance can be created using the name of a signature
@@ -1725,17 +1725,17 @@ algorithm names.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `algorithm` | `string` | - |
-| `options?` | [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
+| `options?` | [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md) | `stream.Writable` options |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 ___
 
 ### diffieHellman
 
-▸ **diffieHellman**(`options`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **diffieHellman**(`options`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Computes the Diffie-Hellman secret based on a `privateKey` and a `publicKey`.
 Both keys must have the same `asymmetricKeyType`, which must be one of `'dh'`(for Diffie-Hellman), `'ec'` (for ECDH), `'x448'`, or `'x25519'` (for ECDH-ES).
@@ -1745,14 +1745,14 @@ Both keys must have the same `asymmetricKeyType`, which must be one of `'dh'`(fo
 | Name | Type |
 | :------ | :------ |
 | `options` | `Object` |
-| `options.privateKey` | [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) |
-| `options.publicKey` | [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) |
+| `options.privateKey` | [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) |
+| `options.publicKey` | [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **diffieHellman**(`options`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **diffieHellman**(`options`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Computes the Diffie-Hellman secret based on a `privateKey` and a `publicKey`.
 Both keys must have the same `asymmetricKeyType`, which must be one of `'dh'`(for Diffie-Hellman), `'ec'` (for ECDH), `'x448'`, or `'x25519'` (for ECDH-ES).
@@ -1762,12 +1762,12 @@ Both keys must have the same `asymmetricKeyType`, which must be one of `'dh'`(fo
 | Name | Type |
 | :------ | :------ |
 | `options` | `Object` |
-| `options.privateKey` | [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) |
-| `options.publicKey` | [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) |
+| `options.privateKey` | [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) |
+| `options.publicKey` | [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -1795,7 +1795,7 @@ generateKey('hmac', { length: 64 }, (err, key) => {
 | `type` | ``"hmac"`` \| ``"aes"`` | The intended use of the generated secret key. Currently accepted values are `'hmac'` and `'aes'`. |
 | `options` | `Object` | - |
 | `options.length` | `number` | - |
-| `callback` | (`err`: `Error`, `key`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` | - |
+| `callback` | (`err`: `Error`, `key`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` | - |
 
 #### Returns
 
@@ -1823,7 +1823,7 @@ generateKey('hmac', { length: 64 }, (err, key) => {
 | `type` | ``"hmac"`` \| ``"aes"`` | The intended use of the generated secret key. Currently accepted values are `'hmac'` and `'aes'`. |
 | `options` | `Object` | - |
 | `options.length` | `number` | - |
-| `callback` | (`err`: `Error`, `key`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` | - |
+| `callback` | (`err`: `Error`, `key`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` | - |
 
 #### Returns
 
@@ -1876,7 +1876,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `type` | ``"rsa"`` | Must be `'rsa'`, `'rsa-pss'`, `'dsa'`, `'ec'`, `'ed25519'`, `'ed448'`, `'x25519'`, `'x448'`, or `'dh'`. |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` | - |
 
 #### Returns
@@ -1890,8 +1890,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -1904,8 +1904,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -1918,8 +1918,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -1932,8 +1932,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -1946,7 +1946,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -1960,8 +1960,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -1974,8 +1974,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -1988,8 +1988,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2002,8 +2002,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2016,7 +2016,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2030,8 +2030,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2044,8 +2044,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2058,8 +2058,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2072,8 +2072,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2086,7 +2086,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2100,8 +2100,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2114,8 +2114,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2128,8 +2128,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2142,8 +2142,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2156,7 +2156,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2170,8 +2170,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2184,8 +2184,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2198,8 +2198,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2212,8 +2212,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2226,7 +2226,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2240,8 +2240,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2254,8 +2254,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2268,8 +2268,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2282,8 +2282,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2296,7 +2296,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2310,8 +2310,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2324,8 +2324,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2338,8 +2338,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2352,8 +2352,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2366,7 +2366,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2380,8 +2380,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2394,8 +2394,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2408,8 +2408,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2422,8 +2422,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2472,7 +2472,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `type` | ``"rsa"`` | Must be `'rsa'`, `'rsa-pss'`, `'dsa'`, `'ec'`, `'ed25519'`, `'ed448'`, `'x25519'`, `'x448'`, or `'dh'`. |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` | - |
 
 #### Returns
@@ -2486,8 +2486,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2500,8 +2500,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2514,8 +2514,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2528,8 +2528,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2542,7 +2542,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2556,8 +2556,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2570,8 +2570,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2584,8 +2584,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2598,8 +2598,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2612,7 +2612,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2626,8 +2626,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2640,8 +2640,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2654,8 +2654,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2668,8 +2668,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2682,7 +2682,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2696,8 +2696,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2710,8 +2710,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2724,8 +2724,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2738,8 +2738,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2752,7 +2752,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2766,8 +2766,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2780,8 +2780,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2794,8 +2794,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2808,8 +2808,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2822,7 +2822,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2836,8 +2836,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2850,8 +2850,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2864,8 +2864,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2878,8 +2878,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2892,7 +2892,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2906,8 +2906,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2920,8 +2920,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -2934,8 +2934,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2948,8 +2948,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -2962,7 +2962,7 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 | `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: `string`) => `void` |
 
 #### Returns
@@ -2976,8 +2976,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: `string`, `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -2990,8 +2990,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: `string`) => `void` |
 
 #### Returns
 
@@ -3004,8 +3004,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
-| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `callback` | (`err`: `Error`, `publicKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `privateKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -3018,8 +3018,8 @@ a `Promise` for an `Object` with `publicKey` and `privateKey` properties.
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
-| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)) => `void` |
+| `options` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `callback` | (`err`: `Error`, `publicKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md), `privateKey`: [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)) => `void` |
 
 #### Returns
 
@@ -3029,7 +3029,7 @@ ___
 
 ### generateKeyPairSync
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 Generates a new asymmetric key pair of the given `type`. RSA, RSA-PSS, DSA, EC,
 Ed25519, Ed448, X25519, X448, and DH are currently supported.
@@ -3074,520 +3074,520 @@ it will be a buffer containing the data encoded as DER.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `type` | ``"rsa"`` | Must be `'rsa'`, `'rsa-pss'`, `'dsa'`, `'ec'`, `'ed25519'`, `'ed448'`, `'x25519'`, `'x448'`, or `'dh'`. |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options?` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options?` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options?` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `options?` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 Generates a new asymmetric key pair of the given `type`. RSA, RSA-PSS, DSA, EC,
 Ed25519, Ed448, X25519, X448, and DH are currently supported.
@@ -3632,524 +3632,524 @@ it will be a buffer containing the data encoded as DER.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `type` | ``"rsa"`` | Must be `'rsa'`, `'rsa-pss'`, `'dsa'`, `'ec'`, `'ed25519'`, `'ed448'`, `'x25519'`, `'x448'`, or `'dh'`. |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> | - |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa"`` |
-| `options` | [`RSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`RSAPSSKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"rsa-pss"`` |
-| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
+| `options` | [`RSAPSSKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RSAPSSKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`DSAKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"dsa"`` |
-| `options` | [`DSAKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
+| `options` | [`DSAKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DSAKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ECKeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ec"`` |
-| `options` | [`ECKeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
+| `options` | [`ECKeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ECKeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options` | [`ED25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed25519"`` |
-| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options` | [`ED448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`ED448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"ed448"`` |
-| `options?` | [`ED448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
+| `options?` | [`ED448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ED448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options` | [`X25519KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X25519KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x25519"`` |
-| `options?` | [`X25519KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
+| `options?` | [`X25519KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X25519KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"pem"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<`string`, [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"pem"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), `string`\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), `string`\>
 
-▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **generateKeyPairSync**(`type`, `options`): [`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options` | [`X448KeyPairOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
+| `options` | [`X448KeyPairOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairOptions.md)<``"der"``, ``"der"``\> |
 
 #### Returns
 
-[`KeyPairSyncResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer), [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`KeyPairSyncResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairSyncResult.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer), [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+▸ **generateKeyPairSync**(`type`, `options?`): [`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `type` | ``"x448"`` |
-| `options?` | [`X448KeyPairKeyObjectOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
+| `options?` | [`X448KeyPairKeyObjectOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.X448KeyPairKeyObjectOptions.md) |
 
 #### Returns
 
-[`KeyPairKeyObjectResult`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.KeyPairKeyObjectResult.md)
+[`KeyPairKeyObjectResult`](https://oven-sh.github.io/bun-types/interfaces/crypto_.KeyPairKeyObjectResult.md)
 
 ___
 
 ### generateKeySync
 
-▸ **generateKeySync**(`type`, `options`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **generateKeySync**(`type`, `options`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Synchronously generates a new random secret key of the given `length`. The`type` will determine which validations will be performed on the `length`.
 
@@ -4172,9 +4172,9 @@ console.log(key.export().toString('hex'));  // e89..........41e
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
-▸ **generateKeySync**(`type`, `options`): [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+▸ **generateKeySync**(`type`, `options`): [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 Synchronously generates a new random secret key of the given `length`. The`type` will determine which validations will be performed on the `length`.
 
@@ -4197,7 +4197,7 @@ console.log(key.export().toString('hex'));  // e89..........41e
 
 #### Returns
 
-[`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md)
+[`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md)
 
 ___
 
@@ -4247,7 +4247,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsBigInt`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
+| `options` | [`GeneratePrimeOptionsBigInt`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
 | `callback` | (`err`: `Error`, `prime`: `bigint`) => `void` |
 
 #### Returns
@@ -4261,7 +4261,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
+| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
 | `callback` | (`err`: `Error`, `prime`: `ArrayBuffer`) => `void` |
 
 #### Returns
@@ -4275,7 +4275,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md) |
+| `options` | [`GeneratePrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md) |
 | `callback` | (`err`: `Error`, `prime`: `bigint` \| `ArrayBuffer`) => `void` |
 
 #### Returns
@@ -4326,7 +4326,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsBigInt`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
+| `options` | [`GeneratePrimeOptionsBigInt`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
 | `callback` | (`err`: `Error`, `prime`: `bigint`) => `void` |
 
 #### Returns
@@ -4340,7 +4340,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
+| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
 | `callback` | (`err`: `Error`, `prime`: `ArrayBuffer`) => `void` |
 
 #### Returns
@@ -4354,7 +4354,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md) |
+| `options` | [`GeneratePrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md) |
 | `callback` | (`err`: `Error`, `prime`: `bigint` \| `ArrayBuffer`) => `void` |
 
 #### Returns
@@ -4408,7 +4408,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsBigInt`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
+| `options` | [`GeneratePrimeOptionsBigInt`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
 
 #### Returns
 
@@ -4421,7 +4421,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
+| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
 
 #### Returns
 
@@ -4434,7 +4434,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md) |
+| `options` | [`GeneratePrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md) |
 
 #### Returns
 
@@ -4483,7 +4483,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsBigInt`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
+| `options` | [`GeneratePrimeOptionsBigInt`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsBigInt.md) |
 
 #### Returns
 
@@ -4496,7 +4496,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
+| `options` | [`GeneratePrimeOptionsArrayBuffer`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptionsArrayBuffer.md) |
 
 #### Returns
 
@@ -4509,7 +4509,7 @@ in an [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `options` | [`GeneratePrimeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.GeneratePrimeOptions.md) |
+| `options` | [`GeneratePrimeOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.GeneratePrimeOptions.md) |
 
 #### Returns
 
@@ -4519,7 +4519,7 @@ ___
 
 ### getCipherInfo
 
-▸ **getCipherInfo**(`nameOrNid`, `options?`): [`CipherInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfo.md) \| `undefined`
+▸ **getCipherInfo**(`nameOrNid`, `options?`): [`CipherInfo`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfo.md) \| `undefined`
 
 Returns information about a given cipher.
 
@@ -4534,13 +4534,13 @@ unacceptable, `undefined` will be returned.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `nameOrNid` | `string` \| `number` | The name or nid of the cipher to query. |
-| `options?` | [`CipherInfoOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfoOptions.md) | - |
+| `options?` | [`CipherInfoOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfoOptions.md) | - |
 
 #### Returns
 
-[`CipherInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfo.md) \| `undefined`
+[`CipherInfo`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfo.md) \| `undefined`
 
-▸ **getCipherInfo**(`nameOrNid`, `options?`): [`CipherInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfo.md) \| `undefined`
+▸ **getCipherInfo**(`nameOrNid`, `options?`): [`CipherInfo`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfo.md) \| `undefined`
 
 Returns information about a given cipher.
 
@@ -4555,11 +4555,11 @@ unacceptable, `undefined` will be returned.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `nameOrNid` | `string` \| `number` | The name or nid of the cipher to query. |
-| `options?` | [`CipherInfoOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfoOptions.md) | - |
+| `options?` | [`CipherInfoOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfoOptions.md) | - |
 
 #### Returns
 
-[`CipherInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.CipherInfo.md) \| `undefined`
+[`CipherInfo`](https://oven-sh.github.io/bun-types/interfaces/crypto_.CipherInfo.md) \| `undefined`
 
 ___
 
@@ -4637,12 +4637,12 @@ ___
 
 ### getDiffieHellman
 
-▸ **getDiffieHellman**(`groupName`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **getDiffieHellman**(`groupName`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 Creates a predefined `DiffieHellmanGroup` key exchange object. The
 supported groups are: `'modp1'`, `'modp2'`, `'modp5'` (defined in [RFC 2412](https://www.rfc-editor.org/rfc/rfc2412.txt), but see `Caveats`) and `'modp14'`, `'modp15'`,`'modp16'`, `'modp17'`,
 `'modp18'` (defined in [RFC 3526](https://www.rfc-editor.org/rfc/rfc3526.txt)). The
-returned object mimics the interface of objects created by [createDiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#creatediffiehellman), but will not allow changing
+returned object mimics the interface of objects created by [createDiffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#creatediffiehellman), but will not allow changing
 the keys (with `diffieHellman.setPublicKey()`, for example). The
 advantage of using this method is that the parties do not have to
 generate nor exchange a group modulus beforehand, saving both processor
@@ -4675,14 +4675,14 @@ console.log(aliceSecret === bobSecret);
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
-▸ **getDiffieHellman**(`groupName`): [`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+▸ **getDiffieHellman**(`groupName`): [`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 Creates a predefined `DiffieHellmanGroup` key exchange object. The
 supported groups are: `'modp1'`, `'modp2'`, `'modp5'` (defined in [RFC 2412](https://www.rfc-editor.org/rfc/rfc2412.txt), but see `Caveats`) and `'modp14'`, `'modp15'`,`'modp16'`, `'modp17'`,
 `'modp18'` (defined in [RFC 3526](https://www.rfc-editor.org/rfc/rfc3526.txt)). The
-returned object mimics the interface of objects created by [createDiffieHellman](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#creatediffiehellman), but will not allow changing
+returned object mimics the interface of objects created by [createDiffieHellman](https://oven-sh.github.io/bun-types/modules/crypto_.md#creatediffiehellman), but will not allow changing
 the keys (with `diffieHellman.setPublicKey()`, for example). The
 advantage of using this method is that the parties do not have to
 generate nor exchange a group modulus beforehand, saving both processor
@@ -4715,7 +4715,7 @@ console.log(aliceSecret === bobSecret);
 
 #### Returns
 
-[`DiffieHellman`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.DiffieHellman.md)
+[`DiffieHellman`](https://oven-sh.github.io/bun-types/classes/crypto_.DiffieHellman.md)
 
 ___
 
@@ -4803,9 +4803,9 @@ hkdf('sha512', 'key', 'salt', 'info', 64, (err, derivedKey) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `digest` | `string` | The digest algorithm to use. |
-| `irm` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | - |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
-| `info` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
+| `irm` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | - |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
+| `info` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
 | `keylen` | `number` | The length of the key to generate. Must be greater than 0. The maximum allowable value is `255` times the number of bytes produced by the selected digest function (e.g. `sha512` generates 64-byte hashes, making the maximum HKDF output 16320 bytes). |
 | `callback` | (`err`: `Error`, `derivedKey`: `ArrayBuffer`) => `void` | - |
 
@@ -4839,9 +4839,9 @@ hkdf('sha512', 'key', 'salt', 'info', 64, (err, derivedKey) => {
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `digest` | `string` | The digest algorithm to use. |
-| `irm` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | - |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
-| `info` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
+| `irm` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | - |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
+| `info` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
 | `keylen` | `number` | The length of the key to generate. Must be greater than 0. The maximum allowable value is `255` times the number of bytes produced by the selected digest function (e.g. `sha512` generates 64-byte hashes, making the maximum HKDF output 16320 bytes). |
 | `callback` | (`err`: `Error`, `derivedKey`: `ArrayBuffer`) => `void` | - |
 
@@ -4878,9 +4878,9 @@ console.log(Buffer.from(derivedKey).toString('hex'));  // '24156e2...5391653'
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `digest` | `string` | The digest algorithm to use. |
-| `ikm` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | The input keying material. It must be at least one byte in length. |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
-| `info` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
+| `ikm` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | The input keying material. It must be at least one byte in length. |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
+| `info` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
 | `keylen` | `number` | The length of the key to generate. Must be greater than 0. The maximum allowable value is `255` times the number of bytes produced by the selected digest function (e.g. `sha512` generates 64-byte hashes, making the maximum HKDF output 16320 bytes). |
 
 #### Returns
@@ -4912,9 +4912,9 @@ console.log(Buffer.from(derivedKey).toString('hex'));  // '24156e2...5391653'
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `digest` | `string` | The digest algorithm to use. |
-| `ikm` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) \| [`KeyObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.KeyObject.md) | The input keying material. It must be at least one byte in length. |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
-| `info` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
+| `ikm` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) \| [`KeyObject`](https://oven-sh.github.io/bun-types/classes/crypto_.KeyObject.md) | The input keying material. It must be at least one byte in length. |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | The salt value. Must be provided but can be zero-length. |
+| `info` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | Additional info value. Must be provided but can be zero-length, and cannot be more than 1024 bytes. |
 | `keylen` | `number` | The length of the key to generate. Must be greater than 0. The maximum allowable value is `255` times the number of bytes produced by the selected digest function (e.g. `sha512` generates 64-byte hashes, making the maximum HKDF output 16320 bytes). |
 
 #### Returns
@@ -4970,7 +4970,7 @@ crypto.pbkdf2('secret', 'salt', 100000, 512, 'sha512', (err, derivedKey) => {
 });
 ```
 
-An array of supported digest functions can be retrieved using [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes).
+An array of supported digest functions can be retrieved using [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes).
 
 This API uses libuv's threadpool, which can have surprising and
 negative performance implications for some applications; see the `UV_THREADPOOL_SIZE` documentation for more information.
@@ -4979,12 +4979,12 @@ negative performance implications for some applications; see the `UV_THREADPOOL_
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `iterations` | `number` |
 | `keylen` | `number` |
 | `digest` | `string` |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -5035,7 +5035,7 @@ crypto.pbkdf2('secret', 'salt', 100000, 512, 'sha512', (err, derivedKey) => {
 });
 ```
 
-An array of supported digest functions can be retrieved using [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes).
+An array of supported digest functions can be retrieved using [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes).
 
 This API uses libuv's threadpool, which can have surprising and
 negative performance implications for some applications; see the `UV_THREADPOOL_SIZE` documentation for more information.
@@ -5044,12 +5044,12 @@ negative performance implications for some applications; see the `UV_THREADPOOL_
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `iterations` | `number` |
 | `keylen` | `number` |
 | `digest` | `string` |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -5059,7 +5059,7 @@ ___
 
 ### pbkdf2Sync
 
-▸ **pbkdf2Sync**(`password`, `salt`, `iterations`, `keylen`, `digest`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **pbkdf2Sync**(`password`, `salt`, `iterations`, `keylen`, `digest`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Provides a synchronous Password-Based Key Derivation Function 2 (PBKDF2)
 implementation. A selected HMAC digest algorithm specified by `digest` is
@@ -5099,23 +5099,23 @@ const key = crypto.pbkdf2Sync('secret', 'salt', 100000, 512, 'sha512');
 console.log(key);  // '3745e48...aa39b34'
 ```
 
-An array of supported digest functions can be retrieved using [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes).
+An array of supported digest functions can be retrieved using [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes).
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `iterations` | `number` |
 | `keylen` | `number` |
 | `digest` | `string` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **pbkdf2Sync**(`password`, `salt`, `iterations`, `keylen`, `digest`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **pbkdf2Sync**(`password`, `salt`, `iterations`, `keylen`, `digest`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Provides a synchronous Password-Based Key Derivation Function 2 (PBKDF2)
 implementation. A selected HMAC digest algorithm specified by `digest` is
@@ -5155,111 +5155,111 @@ const key = crypto.pbkdf2Sync('secret', 'salt', 100000, 512, 'sha512');
 console.log(key);  // '3745e48...aa39b34'
 ```
 
-An array of supported digest functions can be retrieved using [getHashes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#gethashes).
+An array of supported digest functions can be retrieved using [getHashes](https://oven-sh.github.io/bun-types/modules/crypto_.md#gethashes).
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `iterations` | `number` |
 | `keylen` | `number` |
 | `digest` | `string` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### privateDecrypt
 
-▸ **privateDecrypt**(`privateKey`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **privateDecrypt**(`privateKey`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decrypts `buffer` with `privateKey`. `buffer` was previously encrypted using
-the corresponding public key, for example using [publicEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicencrypt).
+the corresponding public key, for example using [publicEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicencrypt).
 
-If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an
+If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_OAEP_PADDING`.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `privateKey` | [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `privateKey` | [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **privateDecrypt**(`privateKey`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **privateDecrypt**(`privateKey`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decrypts `buffer` with `privateKey`. `buffer` was previously encrypted using
-the corresponding public key, for example using [publicEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicencrypt).
+the corresponding public key, for example using [publicEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicencrypt).
 
-If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an
+If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_OAEP_PADDING`.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `privateKey` | [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `privateKey` | [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### privateEncrypt
 
-▸ **privateEncrypt**(`privateKey`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **privateEncrypt**(`privateKey`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Encrypts `buffer` with `privateKey`. The returned data can be decrypted using
-the corresponding public key, for example using [publicDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicdecrypt).
+the corresponding public key, for example using [publicDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicdecrypt).
 
-If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an
+If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_PADDING`.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `privateKey` | [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `privateKey` | [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **privateEncrypt**(`privateKey`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **privateEncrypt**(`privateKey`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Encrypts `buffer` with `privateKey`. The returned data can be decrypted using
-the corresponding public key, for example using [publicDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#publicdecrypt).
+the corresponding public key, for example using [publicDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#publicdecrypt).
 
-If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an
+If `privateKey` is not a `KeyObject`, this function behaves as if`privateKey` had been passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_PADDING`.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `privateKey` | [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `privateKey` | [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### pseudoRandomBytes
 
-▸ **pseudoRandomBytes**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **pseudoRandomBytes**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
@@ -5269,7 +5269,7 @@ ___
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **pseudoRandomBytes**(`size`, `callback`): `void`
 
@@ -5278,13 +5278,13 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
 `void`
 
-▸ **pseudoRandomBytes**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **pseudoRandomBytes**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
@@ -5294,7 +5294,7 @@ ___
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **pseudoRandomBytes**(`size`, `callback`): `void`
 
@@ -5303,7 +5303,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -5313,12 +5313,12 @@ ___
 
 ### publicDecrypt
 
-▸ **publicDecrypt**(`key`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **publicDecrypt**(`key`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decrypts `buffer` with `key`.`buffer` was previously encrypted using
-the corresponding private key, for example using [privateEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privateencrypt).
+the corresponding private key, for example using [privateEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privateencrypt).
 
-If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an
+If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_PADDING`.
 
 Because RSA public keys can be derived from private keys, a private key may
@@ -5328,19 +5328,19 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | [`RsaPublicKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `key` | [`RsaPublicKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **publicDecrypt**(`key`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **publicDecrypt**(`key`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Decrypts `buffer` with `key`.`buffer` was previously encrypted using
-the corresponding private key, for example using [privateEncrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privateencrypt).
+the corresponding private key, for example using [privateEncrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privateencrypt).
 
-If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an
+If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_PADDING`.
 
 Because RSA public keys can be derived from private keys, a private key may
@@ -5350,23 +5350,23 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | [`RsaPublicKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `key` | [`RsaPublicKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### publicEncrypt
 
-▸ **publicEncrypt**(`key`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **publicEncrypt**(`key`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Encrypts the content of `buffer` with `key` and returns a new `Buffer` with encrypted content. The returned data can be decrypted using
-the corresponding private key, for example using [privateDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privatedecrypt).
+the corresponding private key, for example using [privateDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privatedecrypt).
 
-If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an
+If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_OAEP_PADDING`.
 
 Because RSA public keys can be derived from private keys, a private key may
@@ -5376,19 +5376,19 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | [`RsaPublicKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `key` | [`RsaPublicKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **publicEncrypt**(`key`, `buffer`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **publicEncrypt**(`key`, `buffer`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Encrypts the content of `buffer` with `key` and returns a new `Buffer` with encrypted content. The returned data can be decrypted using
-the corresponding private key, for example using [privateDecrypt](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#privatedecrypt).
+the corresponding private key, for example using [privateDecrypt](https://oven-sh.github.io/bun-types/modules/crypto_.md#privatedecrypt).
 
-If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an
+If `key` is not a `KeyObject`, this function behaves as if`key` had been passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an
 object, the `padding` property can be passed. Otherwise, this function uses`RSA_PKCS1_OAEP_PADDING`.
 
 Because RSA public keys can be derived from private keys, a private key may
@@ -5398,18 +5398,18 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `key` | [`RsaPublicKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) |
+| `key` | [`RsaPublicKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPublicKey.md) \| [`RsaPrivateKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RsaPrivateKey.md) \| [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) |
 | `buffer` | `ArrayBufferView` |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### randomBytes
 
-▸ **randomBytes**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **randomBytes**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Generates cryptographically strong pseudorandom data. The `size` argument
 is a number indicating the number of bytes to generate.
@@ -5467,7 +5467,7 @@ request.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 if the `callback` function is not provided.
 
@@ -5478,13 +5478,13 @@ if the `callback` function is not provided.
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
 `void`
 
-▸ **randomBytes**(`size`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **randomBytes**(`size`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Generates cryptographically strong pseudorandom data. The `size` argument
 is a number indicating the number of bytes to generate.
@@ -5542,7 +5542,7 @@ request.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 if the `callback` function is not provided.
 
@@ -5553,7 +5553,7 @@ if the `callback` function is not provided.
 | Name | Type |
 | :------ | :------ |
 | `size` | `number` |
-| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `buf`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -5565,7 +5565,7 @@ ___
 
 ▸ **randomFill**<`T`\>(`buffer`, `callback`): `void`
 
-This function is similar to [randomBytes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randombytes) but requires the first
+This function is similar to [randomBytes](https://oven-sh.github.io/bun-types/modules/crypto_.md#randombytes) but requires the first
 argument to be a `Buffer` that will be filled. It also
 requires that a callback is passed in.
 
@@ -5694,7 +5694,7 @@ request.
 
 ▸ **randomFill**<`T`\>(`buffer`, `callback`): `void`
 
-This function is similar to [randomBytes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randombytes) but requires the first
+This function is similar to [randomBytes](https://oven-sh.github.io/bun-types/modules/crypto_.md#randombytes) but requires the first
 argument to be a `Buffer` that will be filled. It also
 requires that a callback is passed in.
 
@@ -5827,7 +5827,7 @@ ___
 
 ▸ **randomFillSync**<`T`\>(`buffer`, `offset?`, `size?`): `T`
 
-Synchronous version of [randomFill](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomfill).
+Synchronous version of [randomFill](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomfill).
 
 ```js
 import { Buffer } from 'buffer';
@@ -5884,7 +5884,7 @@ The object passed as `buffer` argument.
 
 ▸ **randomFillSync**<`T`\>(`buffer`, `offset?`, `size?`): `T`
 
-Synchronous version of [randomFill](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#randomfill).
+Synchronous version of [randomFill](https://oven-sh.github.io/bun-types/modules/crypto_.md#randomfill).
 
 ```js
 import { Buffer } from 'buffer';
@@ -6142,7 +6142,7 @@ cryptographic pseudorandom number generator.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`RandomUUIDOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RandomUUIDOptions.md) |
+| `options?` | [`RandomUUIDOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RandomUUIDOptions.md) |
 
 #### Returns
 
@@ -6157,7 +6157,7 @@ cryptographic pseudorandom number generator.
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`RandomUUIDOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.RandomUUIDOptions.md) |
+| `options?` | [`RandomUUIDOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.RandomUUIDOptions.md) |
 
 #### Returns
 
@@ -6205,10 +6205,10 @@ scrypt('password', 'salt', 64, { N: 1024 }, (err, derivedKey) => {
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -6220,11 +6220,11 @@ scrypt('password', 'salt', 64, { N: 1024 }, (err, derivedKey) => {
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `options` | [`ScryptOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ScryptOptions.md) |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ScryptOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ScryptOptions.md) |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -6268,10 +6268,10 @@ scrypt('password', 'salt', 64, { N: 1024 }, (err, derivedKey) => {
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -6283,11 +6283,11 @@ scrypt('password', 'salt', 64, { N: 1024 }, (err, derivedKey) => {
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `options` | [`ScryptOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ScryptOptions.md) |
-| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `options` | [`ScryptOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ScryptOptions.md) |
+| `callback` | (`err`: `Error`, `derivedKey`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -6297,7 +6297,7 @@ ___
 
 ### scryptSync
 
-▸ **scryptSync**(`password`, `salt`, `keylen`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **scryptSync**(`password`, `salt`, `keylen`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Provides a synchronous [scrypt](https://en.wikipedia.org/wiki/Scrypt) implementation. Scrypt is a password-based
 key derivation function that is designed to be expensive computationally and
@@ -6331,16 +6331,16 @@ console.log(key2.toString('hex'));  // '3745e48...aa39b34'
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `options?` | [`ScryptOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ScryptOptions.md) |
+| `options?` | [`ScryptOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ScryptOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-▸ **scryptSync**(`password`, `salt`, `keylen`, `options?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **scryptSync**(`password`, `salt`, `keylen`, `options?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Provides a synchronous [scrypt](https://en.wikipedia.org/wiki/Scrypt) implementation. Scrypt is a password-based
 key derivation function that is designed to be expensive computationally and
@@ -6374,43 +6374,43 @@ console.log(key2.toString('hex'));  // '3745e48...aa39b34'
 
 | Name | Type |
 | :------ | :------ |
-| `password` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
-| `salt` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `password` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
+| `salt` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 | `keylen` | `number` |
-| `options?` | [`ScryptOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.ScryptOptions.md) |
+| `options?` | [`ScryptOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.ScryptOptions.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
 ### secureHeapUsed
 
-▸ **secureHeapUsed**(): [`SecureHeapUsage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md)
+▸ **secureHeapUsed**(): [`SecureHeapUsage`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md)
 
 #### Returns
 
-[`SecureHeapUsage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md)
+[`SecureHeapUsage`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md)
 
-▸ **secureHeapUsed**(): [`SecureHeapUsage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md)
+▸ **secureHeapUsed**(): [`SecureHeapUsage`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md)
 
 #### Returns
 
-[`SecureHeapUsage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SecureHeapUsage.md)
+[`SecureHeapUsage`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SecureHeapUsage.md)
 
 ___
 
 ### sign
 
-▸ **sign**(`algorithm`, `data`, `key`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **sign**(`algorithm`, `data`, `key`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Calculates and returns the signature for `data` using the given private key and
 algorithm. If `algorithm` is `null` or `undefined`, then the algorithm is
 dependent upon the key type (especially Ed25519 and Ed448).
 
 If `key` is not a `KeyObject`, this function behaves as if `key` had been
-passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an object, the following
+passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an object, the following
 additional properties can be passed:
 
 If the `callback` function is provided this function uses libuv's threadpool.
@@ -6421,11 +6421,11 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **sign**(`algorithm`, `data`, `key`, `callback`): `void`
 
@@ -6435,21 +6435,21 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md) |
-| `callback` | (`error`: `Error`, `data`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md) |
+| `callback` | (`error`: `Error`, `data`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
 `void`
 
-▸ **sign**(`algorithm`, `data`, `key`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **sign**(`algorithm`, `data`, `key`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Calculates and returns the signature for `data` using the given private key and
 algorithm. If `algorithm` is `null` or `undefined`, then the algorithm is
 dependent upon the key type (especially Ed25519 and Ed448).
 
 If `key` is not a `KeyObject`, this function behaves as if `key` had been
-passed to [createPrivateKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createprivatekey). If it is an object, the following
+passed to [createPrivateKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createprivatekey). If it is an object, the following
 additional properties can be passed:
 
 If the `callback` function is provided this function uses libuv's threadpool.
@@ -6460,11 +6460,11 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ▸ **sign**(`algorithm`, `data`, `key`, `callback`): `void`
 
@@ -6474,8 +6474,8 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md) |
-| `callback` | (`error`: `Error`, `data`: [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)) => `void` |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md) \| [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md) |
+| `callback` | (`error`: `Error`, `data`: [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)) => `void` |
 
 #### Returns
 
@@ -6555,7 +6555,7 @@ Verifies the given signature for `data` using the given key and algorithm. If`al
 key type (especially Ed25519 and Ed448).
 
 If `key` is not a `KeyObject`, this function behaves as if `key` had been
-passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an object, the following
+passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an object, the following
 additional properties can be passed:
 
 The `signature` argument is the previously calculated signature for the `data`.
@@ -6571,7 +6571,7 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `ArrayBufferView` |
 
 #### Returns
@@ -6586,7 +6586,7 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `ArrayBufferView` |
 | `callback` | (`error`: `Error`, `result`: `boolean`) => `void` |
 
@@ -6600,7 +6600,7 @@ Verifies the given signature for `data` using the given key and algorithm. If`al
 key type (especially Ed25519 and Ed448).
 
 If `key` is not a `KeyObject`, this function behaves as if `key` had been
-passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an object, the following
+passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an object, the following
 additional properties can be passed:
 
 The `signature` argument is the previously calculated signature for the `data`.
@@ -6616,7 +6616,7 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `ArrayBufferView` |
 
 #### Returns
@@ -6631,7 +6631,7 @@ If the `callback` function is provided this function uses libuv's threadpool.
 | :------ | :------ |
 | `algorithm` | `string` |
 | `data` | `ArrayBufferView` |
-| `key` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `key` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `ArrayBufferView` |
 | `callback` | (`error`: `Error`, `result`: `boolean`) => `void` |
 

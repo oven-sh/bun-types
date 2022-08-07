@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "path"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "path"
 
 # Namespace: "path"
 
@@ -13,44 +13,44 @@ import path  from 'path';
 
 ### References
 
-- [posix](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#posix)
-- [win32](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#win32)
+- [posix](https://oven-sh.github.io/bun-types/modules/path_.md#posix)
+- [win32](https://oven-sh.github.io/bun-types/modules/path_.md#win32)
 
 ### Interfaces
 
-- [FormatInputPathObject](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_.FormatInputPathObject.md)
-- [ParsedPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_.ParsedPath.md)
+- [FormatInputPathObject](https://oven-sh.github.io/bun-types/interfaces/path_.FormatInputPathObject.md)
+- [ParsedPath](https://oven-sh.github.io/bun-types/interfaces/path_.ParsedPath.md)
 
 ### Variables
 
-- [delimiter](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#delimiter)
-- [sep](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#sep)
+- [delimiter](https://oven-sh.github.io/bun-types/modules/path_.md#delimiter)
+- [sep](https://oven-sh.github.io/bun-types/modules/path_.md#sep)
 
 ### Functions
 
-- [basename](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#basename)
-- [dirname](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#dirname)
-- [extname](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#extname)
-- [format](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#format)
-- [isAbsolute](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#isabsolute)
-- [join](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#join)
-- [normalize](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#normalize)
-- [parse](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#parse)
-- [relative](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#relative)
-- [resolve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#resolve)
-- [toNamespacedPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_.md#tonamespacedpath)
+- [basename](https://oven-sh.github.io/bun-types/modules/path_.md#basename)
+- [dirname](https://oven-sh.github.io/bun-types/modules/path_.md#dirname)
+- [extname](https://oven-sh.github.io/bun-types/modules/path_.md#extname)
+- [format](https://oven-sh.github.io/bun-types/modules/path_.md#format)
+- [isAbsolute](https://oven-sh.github.io/bun-types/modules/path_.md#isabsolute)
+- [join](https://oven-sh.github.io/bun-types/modules/path_.md#join)
+- [normalize](https://oven-sh.github.io/bun-types/modules/path_.md#normalize)
+- [parse](https://oven-sh.github.io/bun-types/modules/path_.md#parse)
+- [relative](https://oven-sh.github.io/bun-types/modules/path_.md#relative)
+- [resolve](https://oven-sh.github.io/bun-types/modules/path_.md#resolve)
+- [toNamespacedPath](https://oven-sh.github.io/bun-types/modules/path_.md#tonamespacedpath)
 
 ## References
 
 ### posix
 
-Renames and re-exports [&quot;path/posix&quot;](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_posix_.md)
+Renames and re-exports [&quot;path/posix&quot;](https://oven-sh.github.io/bun-types/modules/path_posix_.md)
 
 ___
 
 ### win32
 
-Renames and re-exports [&quot;path/win32&quot;](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/path_win32_.md)
+Renames and re-exports [&quot;path/win32&quot;](https://oven-sh.github.io/bun-types/modules/path_win32_.md)
 
 ## Variables
 
@@ -182,7 +182,7 @@ Returns a path string from an object - the opposite of parse().
 
 | Name | Type |
 | :------ | :------ |
-| `pP` | [`FormatInputPathObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.FormatInputPathObject.md) |
+| `pP` | [`FormatInputPathObject`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.FormatInputPathObject.md) |
 
 #### Returns
 
@@ -196,7 +196,7 @@ Returns a path string from an object - the opposite of parse().
 
 | Name | Type |
 | :------ | :------ |
-| `pP` | [`FormatInputPathObject`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.FormatInputPathObject.md) |
+| `pP` | [`FormatInputPathObject`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.FormatInputPathObject.md) |
 
 #### Returns
 
@@ -306,7 +306,7 @@ ___
 
 ### parse
 
-▸ **parse**(`p`): [`ParsedPath`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.ParsedPath.md)
+▸ **parse**(`p`): [`ParsedPath`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.ParsedPath.md)
 
 Returns an object from a path string - the opposite of format().
 
@@ -318,9 +318,9 @@ Returns an object from a path string - the opposite of format().
 
 #### Returns
 
-[`ParsedPath`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.ParsedPath.md)
+[`ParsedPath`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.ParsedPath.md)
 
-▸ **parse**(`p`): [`ParsedPath`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.ParsedPath.md)
+▸ **parse**(`p`): [`ParsedPath`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.ParsedPath.md)
 
 Returns an object from a path string - the opposite of format().
 
@@ -332,7 +332,7 @@ Returns an object from a path string - the opposite of format().
 
 #### Returns
 
-[`ParsedPath`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/path_posix_.ParsedPath.md)
+[`ParsedPath`](https://oven-sh.github.io/bun-types/interfaces/path_posix_.ParsedPath.md)
 
 ___
 

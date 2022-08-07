@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / console
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / console
 
 # Interface: console
 
@@ -6,26 +6,26 @@
 
 ### Methods
 
-- [assert](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#assert)
-- [clear](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#clear)
-- [count](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#count)
-- [countReset](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#countreset)
-- [debug](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#debug)
-- [dir](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#dir)
-- [dirxml](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#dirxml)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#error)
-- [group](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#group)
-- [groupCollapsed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#groupcollapsed)
-- [groupEnd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#groupend)
-- [info](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#info)
-- [log](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#log)
-- [table](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#table)
-- [time](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#time)
-- [timeEnd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#timeend)
-- [timeLog](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#timelog)
-- [timeStamp](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#timestamp)
-- [trace](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#trace)
-- [warn](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#warn)
+- [assert](https://oven-sh.github.io/bun-types/interfaces/console.md#assert)
+- [clear](https://oven-sh.github.io/bun-types/interfaces/console.md#clear)
+- [count](https://oven-sh.github.io/bun-types/interfaces/console.md#count)
+- [countReset](https://oven-sh.github.io/bun-types/interfaces/console.md#countreset)
+- [debug](https://oven-sh.github.io/bun-types/interfaces/console.md#debug)
+- [dir](https://oven-sh.github.io/bun-types/interfaces/console.md#dir)
+- [dirxml](https://oven-sh.github.io/bun-types/interfaces/console.md#dirxml)
+- [error](https://oven-sh.github.io/bun-types/interfaces/console.md#error)
+- [group](https://oven-sh.github.io/bun-types/interfaces/console.md#group)
+- [groupCollapsed](https://oven-sh.github.io/bun-types/interfaces/console.md#groupcollapsed)
+- [groupEnd](https://oven-sh.github.io/bun-types/interfaces/console.md#groupend)
+- [info](https://oven-sh.github.io/bun-types/interfaces/console.md#info)
+- [log](https://oven-sh.github.io/bun-types/interfaces/console.md#log)
+- [table](https://oven-sh.github.io/bun-types/interfaces/console.md#table)
+- [time](https://oven-sh.github.io/bun-types/interfaces/console.md#time)
+- [timeEnd](https://oven-sh.github.io/bun-types/interfaces/console.md#timeend)
+- [timeLog](https://oven-sh.github.io/bun-types/interfaces/console.md#timelog)
+- [timeStamp](https://oven-sh.github.io/bun-types/interfaces/console.md#timestamp)
+- [trace](https://oven-sh.github.io/bun-types/interfaces/console.md#trace)
+- [warn](https://oven-sh.github.io/bun-types/interfaces/console.md#warn)
 
 ## Methods
 
@@ -435,7 +435,7 @@ ___
 
 ▸ **time**(`label?`): `void`
 
-Begin a timer to log with [timeEnd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#timeend)
+Begin a timer to log with [timeEnd](https://oven-sh.github.io/bun-types/interfaces/console.md#timeend)
 
 #### Parameters
 
@@ -449,7 +449,7 @@ Begin a timer to log with [timeEnd](https://github.com/oven-sh/bun-types/blob/ma
 
 ▸ **time**(`label?`): `void`
 
-Begin a timer to log with [timeEnd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#timeend)
+Begin a timer to log with [timeEnd](https://oven-sh.github.io/bun-types/interfaces/console.md#timeend)
 
 #### Parameters
 
@@ -467,7 +467,7 @@ ___
 
 ▸ **timeEnd**(`label?`): `void`
 
-End a timer to log with [time](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#time)
+End a timer to log with [time](https://oven-sh.github.io/bun-types/interfaces/console.md#time)
 
 #### Parameters
 
@@ -481,7 +481,7 @@ End a timer to log with [time](https://github.com/oven-sh/bun-types/blob/master/
 
 ▸ **timeEnd**(`label?`): `void`
 
-End a timer to log with [time](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#time)
+End a timer to log with [time](https://oven-sh.github.io/bun-types/interfaces/console.md#time)
 
 #### Parameters
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / WritableStream
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / WritableStream
 
 # Interface: WritableStream<W\>
 
@@ -14,13 +14,13 @@ This Streams API interface provides a standard abstraction for writing streaming
 
 ### Properties
 
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStream.md#locked)
+- [locked](https://oven-sh.github.io/bun-types/interfaces/WritableStream.md#locked)
 
 ### Methods
 
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStream.md#abort)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStream.md#close)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStream.md#getwriter)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/WritableStream.md#abort)
+- [close](https://oven-sh.github.io/bun-types/interfaces/WritableStream.md#close)
+- [getWriter](https://oven-sh.github.io/bun-types/interfaces/WritableStream.md#getwriter)
 
 ## Properties
 
@@ -76,14 +76,14 @@ ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>

@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / DSAKeyPairKeyObjectOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / DSAKeyPairKeyObjectOptions
 
 # Interface: DSAKeyPairKeyObjectOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).DSAKeyPairKeyObjectOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).DSAKeyPairKeyObjectOptions
 
 ## Table of contents
 
 ### Properties
 
-- [divisorLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DSAKeyPairKeyObjectOptions.md#divisorlength)
-- [modulusLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DSAKeyPairKeyObjectOptions.md#moduluslength)
+- [divisorLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DSAKeyPairKeyObjectOptions.md#divisorlength)
+- [modulusLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DSAKeyPairKeyObjectOptions.md#moduluslength)
 
 ## Properties
 

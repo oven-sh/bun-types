@@ -1,16 +1,16 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / [HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md) / Doctype
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / [HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md) / Doctype
 
 # Interface: Doctype
 
-[HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md).Doctype
+[HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md).Doctype
 
 ## Table of contents
 
 ### Properties
 
-- [name](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md#name)
-- [publicId](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md#publicid)
-- [systemId](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md#systemid)
+- [name](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md#name)
+- [publicId](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md#publicid)
+- [systemId](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md#systemid)
 
 ## Properties
 

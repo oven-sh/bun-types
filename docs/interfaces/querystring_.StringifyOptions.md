@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["querystring"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/querystring_.md) / StringifyOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["querystring"](https://oven-sh.github.io/bun-types/modules/querystring_.md) / StringifyOptions
 
 # Interface: StringifyOptions
 
-["querystring"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/querystring_.md).StringifyOptions
+["querystring"](https://oven-sh.github.io/bun-types/modules/querystring_.md).StringifyOptions
 
 ## Table of contents
 
 ### Properties
 
-- [encodeURIComponent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/querystring_.StringifyOptions.md#encodeuricomponent)
+- [encodeURIComponent](https://oven-sh.github.io/bun-types/interfaces/querystring_.StringifyOptions.md#encodeuricomponent)
 
 ## Properties
 

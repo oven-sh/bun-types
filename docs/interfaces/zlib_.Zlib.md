@@ -1,60 +1,60 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md) / Zlib
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["zlib"](https://oven-sh.github.io/bun-types/modules/zlib_.md) / Zlib
 
 # Interface: Zlib
 
-["zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/zlib_.md).Zlib
+["zlib"](https://oven-sh.github.io/bun-types/modules/zlib_.md).Zlib
 
 ## Hierarchy
 
 - **`Zlib`**
 
-  ↳ [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliCompress-1.md)
+  ↳ [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliCompress-1.md)
 
-  ↳ [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.BrotliDecompress-1.md)
+  ↳ [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/zlib_.BrotliDecompress-1.md)
 
-  ↳ [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+  ↳ [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
-  ↳ [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gunzip-1.md)
+  ↳ [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gunzip-1.md)
 
-  ↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Deflate-1.md)
+  ↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Deflate-1.md)
 
-  ↳ [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Inflate-1.md)
+  ↳ [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Inflate-1.md)
 
-  ↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.DeflateRaw-1.md)
+  ↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.DeflateRaw-1.md)
 
-  ↳ [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.InflateRaw-1.md)
+  ↳ [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/zlib_.InflateRaw-1.md)
 
-  ↳ [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Unzip-1.md)
+  ↳ [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Unzip-1.md)
 
-  ↳ [`BrotliCompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliCompress-1.md)
+  ↳ [`BrotliCompress`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliCompress-1.md)
 
-  ↳ [`BrotliDecompress`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliDecompress-1.md)
+  ↳ [`BrotliDecompress`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliDecompress-1.md)
 
-  ↳ [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md)
+  ↳ [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md)
 
-  ↳ [`Gunzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gunzip-1.md)
+  ↳ [`Gunzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gunzip-1.md)
 
-  ↳ [`Deflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Deflate-1.md)
+  ↳ [`Deflate`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Deflate-1.md)
 
-  ↳ [`Inflate`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Inflate-1.md)
+  ↳ [`Inflate`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Inflate-1.md)
 
-  ↳ [`DeflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.DeflateRaw-1.md)
+  ↳ [`DeflateRaw`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.DeflateRaw-1.md)
 
-  ↳ [`InflateRaw`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.InflateRaw-1.md)
+  ↳ [`InflateRaw`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.InflateRaw-1.md)
 
-  ↳ [`Unzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Unzip-1.md)
+  ↳ [`Unzip`](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Unzip-1.md)
 
 ## Table of contents
 
 ### Properties
 
-- [bytesRead](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#bytesread)
-- [bytesWritten](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#byteswritten)
-- [shell](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#shell)
+- [bytesRead](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#bytesread)
+- [bytesWritten](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#byteswritten)
+- [shell](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#shell)
 
 ### Methods
 
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#flush)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#flush)
 
 ## Properties
 

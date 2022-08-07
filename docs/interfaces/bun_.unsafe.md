@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / unsafe
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / unsafe
 
 # Interface: unsafe
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).unsafe
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).unsafe
 
 ## Table of contents
 
 ### Methods
 
-- [arrayBufferToString](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.unsafe.md#arraybuffertostring)
-- [segfault](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.unsafe.md#segfault)
+- [arrayBufferToString](https://oven-sh.github.io/bun-types/interfaces/bun_.unsafe.md#arraybuffertostring)
+- [segfault](https://oven-sh.github.io/bun-types/interfaces/bun_.unsafe.md#segfault)
 
 ## Methods
 

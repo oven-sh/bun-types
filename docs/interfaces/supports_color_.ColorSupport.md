@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["supports-color"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/supports_color_.md) / ColorSupport
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["supports-color"](https://oven-sh.github.io/bun-types/modules/supports_color_.md) / ColorSupport
 
 # Interface: ColorSupport
 
-["supports-color"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/supports_color_.md).ColorSupport
+["supports-color"](https://oven-sh.github.io/bun-types/modules/supports_color_.md).ColorSupport
 
 Detect whether the terminal supports color.
 
@@ -10,10 +10,10 @@ Detect whether the terminal supports color.
 
 ### Properties
 
-- [has16m](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/supports_color_.ColorSupport.md#has16m)
-- [has256](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/supports_color_.ColorSupport.md#has256)
-- [hasBasic](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/supports_color_.ColorSupport.md#hasbasic)
-- [level](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/supports_color_.ColorSupport.md#level)
+- [has16m](https://oven-sh.github.io/bun-types/interfaces/supports_color_.ColorSupport.md#has16m)
+- [has256](https://oven-sh.github.io/bun-types/interfaces/supports_color_.ColorSupport.md#has256)
+- [hasBasic](https://oven-sh.github.io/bun-types/interfaces/supports_color_.ColorSupport.md#hasbasic)
+- [level](https://oven-sh.github.io/bun-types/interfaces/supports_color_.ColorSupport.md#level)
 
 ## Properties
 
@@ -43,6 +43,6 @@ ___
 
 ### level
 
-• **level**: [`ColorSupportLevel`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/supports_color_.md#colorsupportlevel)
+• **level**: [`ColorSupportLevel`](https://oven-sh.github.io/bun-types/modules/supports_color_.md#colorsupportlevel)
 
 The color level.

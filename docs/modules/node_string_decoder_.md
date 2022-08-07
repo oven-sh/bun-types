@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:string\_decoder"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:string\_decoder"
 
 # Namespace: "node:string\_decoder"
 
@@ -6,4 +6,4 @@
 
 ### Classes
 
-- [StringDecoder](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_string_decoder_.StringDecoder.md)
+- [StringDecoder](https://oven-sh.github.io/bun-types/classes/node_string_decoder_.StringDecoder.md)

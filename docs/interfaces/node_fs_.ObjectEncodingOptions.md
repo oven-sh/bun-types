@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / ObjectEncodingOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / ObjectEncodingOptions
 
 # Interface: ObjectEncodingOptions
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).ObjectEncodingOptions
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).ObjectEncodingOptions
 
 ## Table of contents
 
 ### Properties
 
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.ObjectEncodingOptions.md#encoding)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/node_fs_.ObjectEncodingOptions.md#encoding)
 
 ## Properties
 

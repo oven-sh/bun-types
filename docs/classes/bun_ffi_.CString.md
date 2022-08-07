@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md) / CString
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md) / CString
 
 # Class: CString
 
-["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md).CString
+["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md).CString
 
 Get a string from a UTF-8 encoded C string
 If `byteLength` is not provided, the string is assumed to be null-terminated.
@@ -37,17 +37,17 @@ undefined behavior. Use with care!
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md#constructor)
 
 ### Properties
 
-- [byteLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md#bytelength)
-- [byteOffset](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md#byteoffset)
-- [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md#ptr)
+- [byteLength](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md#bytelength)
+- [byteOffset](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md#byteoffset)
+- [ptr](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md#ptr)
 
 ### Accessors
 
-- [arrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md#arraybuffer)
+- [arrayBuffer](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md#arraybuffer)
 
 ## Constructors
 
@@ -120,7 +120,7 @@ freed.
 
 • `get` **arrayBuffer**(): `ArrayBuffer`
 
-Get the [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ptr) as an `ArrayBuffer`
+Get the [ptr](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ptr) as an `ArrayBuffer`
 
 `null` or empty ptrs returns an `ArrayBuffer` with `byteLength` 0
 

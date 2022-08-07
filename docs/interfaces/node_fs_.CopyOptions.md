@@ -1,22 +1,22 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / CopyOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / CopyOptions
 
 # Interface: CopyOptions
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).CopyOptions
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).CopyOptions
 
 ## Table of contents
 
 ### Properties
 
-- [dereference](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#dereference)
-- [errorOnExist](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#erroronexist)
-- [force](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#force)
-- [preserveTimestamps](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#preservetimestamps)
-- [recursive](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#recursive)
+- [dereference](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#dereference)
+- [errorOnExist](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#erroronexist)
+- [force](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#force)
+- [preserveTimestamps](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#preservetimestamps)
+- [recursive](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#recursive)
 
 ### Methods
 
-- [filter](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.CopyOptions.md#filter)
+- [filter](https://oven-sh.github.io/bun-types/interfaces/node_fs_.CopyOptions.md#filter)
 
 ## Properties
 

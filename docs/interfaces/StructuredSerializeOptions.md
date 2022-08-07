@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / StructuredSerializeOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / StructuredSerializeOptions
 
 # Interface: StructuredSerializeOptions
 
@@ -6,7 +6,7 @@
 
 ### Properties
 
-- [transfer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StructuredSerializeOptions.md#transfer)
+- [transfer](https://oven-sh.github.io/bun-types/interfaces/StructuredSerializeOptions.md#transfer)
 
 ## Properties
 

@@ -1,42 +1,42 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md) / FFIType
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md) / FFIType
 
 # Enumeration: FFIType
 
-["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md).FFIType
+["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md).FFIType
 
 ## Table of contents
 
 ### Enumeration Members
 
-- [bool](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#bool)
-- [char](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#char)
-- [cstring](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#cstring)
-- [double](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#double)
-- [f32](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#f32)
-- [f64](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#f64)
-- [float](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#float)
-- [i16](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#i16)
-- [i32](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#i32)
-- [i64](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#i64)
-- [i64\_fast](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#i64_fast)
-- [i8](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#i8)
-- [int](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int)
-- [int16\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int16_t)
-- [int32\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int32_t)
-- [int64\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int64_t)
-- [int8\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int8_t)
-- [pointer](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#pointer)
-- [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#ptr)
-- [u16](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#u16)
-- [u32](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#u32)
-- [u64](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#u64)
-- [u64\_fast](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#u64_fast)
-- [u8](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#u8)
-- [uint16\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#uint16_t)
-- [uint32\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#uint32_t)
-- [uint64\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#uint64_t)
-- [uint8\_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#uint8_t)
-- [void](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#void)
+- [bool](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#bool)
+- [char](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#char)
+- [cstring](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#cstring)
+- [double](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#double)
+- [f32](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#f32)
+- [f64](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#f64)
+- [float](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#float)
+- [i16](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#i16)
+- [i32](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#i32)
+- [i64](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#i64)
+- [i64\_fast](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#i64_fast)
+- [i8](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#i8)
+- [int](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int)
+- [int16\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int16_t)
+- [int32\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int32_t)
+- [int64\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int64_t)
+- [int8\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int8_t)
+- [pointer](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#pointer)
+- [ptr](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#ptr)
+- [u16](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#u16)
+- [u32](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#u32)
+- [u64](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#u64)
+- [u64\_fast](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#u64_fast)
+- [u8](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#u8)
+- [uint16\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#uint16_t)
+- [uint32\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#uint32_t)
+- [uint64\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#uint64_t)
+- [uint8\_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#uint8_t)
+- [void](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#void)
 
 ## Enumeration Members
 
@@ -66,9 +66,9 @@ ___
 
 • **cstring** = ``14``
 
-When used as a `returns`, this will automatically become a [CString](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md).
+When used as a `returns`, this will automatically become a [CString](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md).
 
-When used in `args` it is equivalent to [pointer](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#pointer)
+When used in `args` it is equivalent to [pointer](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#pointer)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 32-bit signed integer
 
-Alias of [int32_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#int32_t)
+Alias of [int32_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#int32_t)
 
 ___
 
@@ -268,7 +268,7 @@ ___
 
 Pointer value
 
-alias of [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#ptr)
+alias of [ptr](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#ptr)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 32-bit unsigned integer
 
-Alias of [uint32_t](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#uint32_t)
+Alias of [uint32_t](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#uint32_t)
 
 ___
 

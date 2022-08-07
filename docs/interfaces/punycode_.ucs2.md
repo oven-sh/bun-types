@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["punycode"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/punycode_.md) / ucs2
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["punycode"](https://oven-sh.github.io/bun-types/modules/punycode_.md) / ucs2
 
 # Interface: ucs2
 
-["punycode"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/punycode_.md).ucs2
+["punycode"](https://oven-sh.github.io/bun-types/modules/punycode_.md).ucs2
 
 ## Table of contents
 
 ### Methods
 
-- [decode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/punycode_.ucs2.md#decode)
-- [encode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/punycode_.ucs2.md#encode)
+- [decode](https://oven-sh.github.io/bun-types/interfaces/punycode_.ucs2.md#decode)
+- [encode](https://oven-sh.github.io/bun-types/interfaces/punycode_.ucs2.md#encode)
 
 ## Methods
 

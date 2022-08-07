@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:os"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:os"
 
 # Namespace: "node:os"
 
@@ -6,52 +6,52 @@
 
 ### Namespaces
 
-- [constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.constants.md)
+- [constants](https://oven-sh.github.io/bun-types/modules/node_os_.constants.md)
 
 ### Interfaces
 
-- [CpuInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_os_.CpuInfo.md)
-- [NetworkInterfaceBase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_os_.NetworkInterfaceBase.md)
-- [NetworkInterfaceInfoIPv4](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_os_.NetworkInterfaceInfoIPv4.md)
-- [NetworkInterfaceInfoIPv6](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_os_.NetworkInterfaceInfoIPv6.md)
-- [UserInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_os_.UserInfo.md)
+- [CpuInfo](https://oven-sh.github.io/bun-types/interfaces/node_os_.CpuInfo.md)
+- [NetworkInterfaceBase](https://oven-sh.github.io/bun-types/interfaces/node_os_.NetworkInterfaceBase.md)
+- [NetworkInterfaceInfoIPv4](https://oven-sh.github.io/bun-types/interfaces/node_os_.NetworkInterfaceInfoIPv4.md)
+- [NetworkInterfaceInfoIPv6](https://oven-sh.github.io/bun-types/interfaces/node_os_.NetworkInterfaceInfoIPv6.md)
+- [UserInfo](https://oven-sh.github.io/bun-types/interfaces/node_os_.UserInfo.md)
 
 ### Type Aliases
 
-- [NetworkInterfaceInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#networkinterfaceinfo)
-- [SignalConstants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#signalconstants)
+- [NetworkInterfaceInfo](https://oven-sh.github.io/bun-types/modules/node_os_.md#networkinterfaceinfo)
+- [SignalConstants](https://oven-sh.github.io/bun-types/modules/node_os_.md#signalconstants)
 
 ### Variables
 
-- [EOL](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#eol)
-- [devNull](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#devnull)
+- [EOL](https://oven-sh.github.io/bun-types/modules/node_os_.md#eol)
+- [devNull](https://oven-sh.github.io/bun-types/modules/node_os_.md#devnull)
 
 ### Functions
 
-- [arch](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#arch)
-- [cpus](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#cpus)
-- [endianness](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#endianness)
-- [freemem](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#freemem)
-- [getPriority](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#getpriority)
-- [homedir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#homedir)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#hostname)
-- [loadavg](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#loadavg)
-- [networkInterfaces](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#networkinterfaces)
-- [platform](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#platform)
-- [release](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#release)
-- [setPriority](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#setpriority)
-- [tmpdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#tmpdir)
-- [totalmem](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#totalmem)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#type)
-- [uptime](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#uptime)
-- [userInfo](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#userinfo)
-- [version](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_os_.md#version)
+- [arch](https://oven-sh.github.io/bun-types/modules/node_os_.md#arch)
+- [cpus](https://oven-sh.github.io/bun-types/modules/node_os_.md#cpus)
+- [endianness](https://oven-sh.github.io/bun-types/modules/node_os_.md#endianness)
+- [freemem](https://oven-sh.github.io/bun-types/modules/node_os_.md#freemem)
+- [getPriority](https://oven-sh.github.io/bun-types/modules/node_os_.md#getpriority)
+- [homedir](https://oven-sh.github.io/bun-types/modules/node_os_.md#homedir)
+- [hostname](https://oven-sh.github.io/bun-types/modules/node_os_.md#hostname)
+- [loadavg](https://oven-sh.github.io/bun-types/modules/node_os_.md#loadavg)
+- [networkInterfaces](https://oven-sh.github.io/bun-types/modules/node_os_.md#networkinterfaces)
+- [platform](https://oven-sh.github.io/bun-types/modules/node_os_.md#platform)
+- [release](https://oven-sh.github.io/bun-types/modules/node_os_.md#release)
+- [setPriority](https://oven-sh.github.io/bun-types/modules/node_os_.md#setpriority)
+- [tmpdir](https://oven-sh.github.io/bun-types/modules/node_os_.md#tmpdir)
+- [totalmem](https://oven-sh.github.io/bun-types/modules/node_os_.md#totalmem)
+- [type](https://oven-sh.github.io/bun-types/modules/node_os_.md#type)
+- [uptime](https://oven-sh.github.io/bun-types/modules/node_os_.md#uptime)
+- [userInfo](https://oven-sh.github.io/bun-types/modules/node_os_.md#userinfo)
+- [version](https://oven-sh.github.io/bun-types/modules/node_os_.md#version)
 
 ## Type Aliases
 
 ### NetworkInterfaceInfo
 
-Ƭ **NetworkInterfaceInfo**: [`NetworkInterfaceInfoIPv4`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv4.md) \| [`NetworkInterfaceInfoIPv6`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.NetworkInterfaceInfoIPv6.md)
+Ƭ **NetworkInterfaceInfo**: [`NetworkInterfaceInfoIPv4`](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv4.md) \| [`NetworkInterfaceInfoIPv6`](https://oven-sh.github.io/bun-types/interfaces/os_.NetworkInterfaceInfoIPv6.md)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 ### cpus
 
-▸ **cpus**(): [`CpuInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md)[]
+▸ **cpus**(): [`CpuInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md)[]
 
 Returns an array of objects containing information about each logical CPU core.
 
@@ -161,9 +161,9 @@ are always 0.
 
 #### Returns
 
-[`CpuInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md)[]
+[`CpuInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md)[]
 
-▸ **cpus**(): [`CpuInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md)[]
+▸ **cpus**(): [`CpuInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md)[]
 
 Returns an array of objects containing information about each logical CPU core.
 
@@ -223,7 +223,7 @@ are always 0.
 
 #### Returns
 
-[`CpuInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md)[]
+[`CpuInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md)[]
 
 ___
 
@@ -393,7 +393,7 @@ ___
 
 ### networkInterfaces
 
-▸ **networkInterfaces**(): [`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md#networkinterfaceinfo)[]\>
+▸ **networkInterfaces**(): [`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://oven-sh.github.io/bun-types/modules/os_.md#networkinterfaceinfo)[]\>
 
 Returns an object containing network interfaces that have been assigned a
 network address.
@@ -448,9 +448,9 @@ The properties available on the assigned network address object include:
 
 #### Returns
 
-[`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md#networkinterfaceinfo)[]\>
+[`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://oven-sh.github.io/bun-types/modules/os_.md#networkinterfaceinfo)[]\>
 
-▸ **networkInterfaces**(): [`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md#networkinterfaceinfo)[]\>
+▸ **networkInterfaces**(): [`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://oven-sh.github.io/bun-types/modules/os_.md#networkinterfaceinfo)[]\>
 
 Returns an object containing network interfaces that have been assigned a
 network address.
@@ -505,7 +505,7 @@ The properties available on the assigned network address object include:
 
 #### Returns
 
-[`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md#networkinterfaceinfo)[]\>
+[`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`NetworkInterfaceInfo`](https://oven-sh.github.io/bun-types/modules/os_.md#networkinterfaceinfo)[]\>
 
 ___
 
@@ -729,7 +729,7 @@ ___
 
 ### userInfo
 
-▸ **userInfo**(`options`): [`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **userInfo**(`options`): [`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Returns information about the currently effective user. On POSIX platforms,
 this is typically a subset of the password file. The returned object includes
@@ -751,9 +751,9 @@ Throws a `SystemError` if a user has no `username` or `homedir`.
 
 #### Returns
 
-[`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **userInfo**(`options?`): [`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<`string`\>
+▸ **userInfo**(`options?`): [`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<`string`\>
 
 #### Parameters
 
@@ -764,9 +764,9 @@ Throws a `SystemError` if a user has no `username` or `homedir`.
 
 #### Returns
 
-[`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<`string`\>
+[`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<`string`\>
 
-▸ **userInfo**(`options`): [`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **userInfo**(`options`): [`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Returns information about the currently effective user. On POSIX platforms,
 this is typically a subset of the password file. The returned object includes
@@ -788,9 +788,9 @@ Throws a `SystemError` if a user has no `username` or `homedir`.
 
 #### Returns
 
-[`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+[`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **userInfo**(`options?`): [`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<`string`\>
+▸ **userInfo**(`options?`): [`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<`string`\>
 
 #### Parameters
 
@@ -801,7 +801,7 @@ Throws a `SystemError` if a user has no `username` or `homedir`.
 
 #### Returns
 
-[`UserInfo`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md)<`string`\>
+[`UserInfo`](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md)<`string`\>
 
 ___
 

@@ -1,17 +1,17 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md) / URLFormatOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md) / URLFormatOptions
 
 # Interface: URLFormatOptions
 
-["node:url"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_url_.md).URLFormatOptions
+["node:url"](https://oven-sh.github.io/bun-types/modules/node_url_.md).URLFormatOptions
 
 ## Table of contents
 
 ### Properties
 
-- [auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URLFormatOptions.md#auth)
-- [fragment](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URLFormatOptions.md#fragment)
-- [search](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URLFormatOptions.md#search)
-- [unicode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_url_.URLFormatOptions.md#unicode)
+- [auth](https://oven-sh.github.io/bun-types/interfaces/node_url_.URLFormatOptions.md#auth)
+- [fragment](https://oven-sh.github.io/bun-types/interfaces/node_url_.URLFormatOptions.md#fragment)
+- [search](https://oven-sh.github.io/bun-types/interfaces/node_url_.URLFormatOptions.md#search)
+- [unicode](https://oven-sh.github.io/bun-types/interfaces/node_url_.URLFormatOptions.md#unicode)
 
 ## Properties
 

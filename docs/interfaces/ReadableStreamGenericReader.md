@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableStreamGenericReader
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableStreamGenericReader
 
 # Interface: ReadableStreamGenericReader
 
@@ -6,17 +6,17 @@
 
 - **`ReadableStreamGenericReader`**
 
-  ↳ [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultReader.md)
+  ↳ [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultReader.md)
 
 ## Table of contents
 
 ### Properties
 
-- [closed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamGenericReader.md#closed)
+- [closed](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamGenericReader.md#closed)
 
 ### Methods
 
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamGenericReader.md#cancel)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamGenericReader.md#cancel)
 
 ## Properties
 

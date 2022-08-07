@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / BlobInterface
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / BlobInterface
 
 # Interface: BlobInterface
 
@@ -6,9 +6,9 @@
 
 ### Methods
 
-- [arrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobInterface.md#arraybuffer)
-- [json](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobInterface.md#json)
-- [text](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobInterface.md#text)
+- [arrayBuffer](https://oven-sh.github.io/bun-types/interfaces/BlobInterface.md#arraybuffer)
+- [json](https://oven-sh.github.io/bun-types/interfaces/BlobInterface.md#json)
+- [text](https://oven-sh.github.io/bun-types/interfaces/BlobInterface.md#text)
 
 ## Methods
 

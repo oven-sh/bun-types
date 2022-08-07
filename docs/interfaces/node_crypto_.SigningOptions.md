@@ -1,22 +1,22 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / SigningOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / SigningOptions
 
 # Interface: SigningOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).SigningOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).SigningOptions
 
 ## Table of contents
 
 ### Properties
 
-- [dsaEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.SigningOptions.md#dsaencoding)
-- [padding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.SigningOptions.md#padding)
-- [saltLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.SigningOptions.md#saltlength)
+- [dsaEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.SigningOptions.md#dsaencoding)
+- [padding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.SigningOptions.md#padding)
+- [saltLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.SigningOptions.md#saltlength)
 
 ## Properties
 
 ### dsaEncoding
 
-• `Optional` **dsaEncoding**: [`DSAEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#dsaencoding)
+• `Optional` **dsaEncoding**: [`DSAEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#dsaencoding)
 
 ___
 

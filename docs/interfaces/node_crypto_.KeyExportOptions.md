@@ -1,23 +1,23 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / KeyExportOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / KeyExportOptions
 
 # Interface: KeyExportOptions<T\>
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).KeyExportOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).KeyExportOptions
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`KeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat) |
+| `T` | extends [`KeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat) |
 
 ## Table of contents
 
 ### Properties
 
-- [cipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.KeyExportOptions.md#cipher)
-- [format](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.KeyExportOptions.md#format)
-- [passphrase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.KeyExportOptions.md#passphrase)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.KeyExportOptions.md#type)
+- [cipher](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.KeyExportOptions.md#cipher)
+- [format](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.KeyExportOptions.md#format)
+- [passphrase](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.KeyExportOptions.md#passphrase)
+- [type](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.KeyExportOptions.md#type)
 
 ## Properties
 
@@ -35,7 +35,7 @@ ___
 
 ### passphrase
 
-• `Optional` **passphrase**: `string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+• `Optional` **passphrase**: `string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "string\_decoder"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "string\_decoder"
 
 # Namespace: "string\_decoder"
 
@@ -48,4 +48,4 @@ console.log(decoder.end(Buffer.from([0xAC])));
 
 ### Classes
 
-- [StringDecoder](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/string_decoder_.StringDecoder.md)
+- [StringDecoder](https://oven-sh.github.io/bun-types/classes/string_decoder_.StringDecoder.md)

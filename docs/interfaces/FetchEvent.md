@@ -1,10 +1,10 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / FetchEvent
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / FetchEvent
 
 # Interface: FetchEvent
 
 ## Hierarchy
 
-- [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)
+- [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)
 
   ↳ **`FetchEvent`**
 
@@ -12,35 +12,35 @@
 
 ### Properties
 
-- [AT\_TARGET](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#at_target)
-- [BUBBLING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#bubbling_phase)
-- [CAPTURING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#capturing_phase)
-- [NONE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#none)
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#bubbles)
-- [cancelBubble](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#cancelbubble)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#cancelable)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#composed)
-- [currentTarget](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#currenttarget)
-- [defaultPrevented](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#defaultprevented)
-- [eventPhase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#eventphase)
-- [isTrusted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#istrusted)
-- [request](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#request)
-- [returnValue](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#returnvalue)
-- [srcElement](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#srcelement)
-- [target](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#target)
-- [timeStamp](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#timestamp)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#type)
-- [url](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#url)
+- [AT\_TARGET](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#at_target)
+- [BUBBLING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#bubbling_phase)
+- [CAPTURING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#capturing_phase)
+- [NONE](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#none)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#bubbles)
+- [cancelBubble](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#cancelbubble)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#cancelable)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#composed)
+- [currentTarget](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#currenttarget)
+- [defaultPrevented](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#defaultprevented)
+- [eventPhase](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#eventphase)
+- [isTrusted](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#istrusted)
+- [request](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#request)
+- [returnValue](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#returnvalue)
+- [srcElement](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#srcelement)
+- [target](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#target)
+- [timeStamp](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#timestamp)
+- [type](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#type)
+- [url](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#url)
 
 ### Methods
 
-- [composedPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#composedpath)
-- [initEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#initevent)
-- [preventDefault](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#preventdefault)
-- [respondWith](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#respondwith)
-- [stopImmediatePropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#stopimmediatepropagation)
-- [stopPropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#stoppropagation)
-- [waitUntil](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/FetchEvent.md#waituntil)
+- [composedPath](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#composedpath)
+- [initEvent](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#initevent)
+- [preventDefault](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#preventdefault)
+- [respondWith](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#respondwith)
+- [stopImmediatePropagation](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#stopimmediatepropagation)
+- [stopPropagation](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#stoppropagation)
+- [waitUntil](https://oven-sh.github.io/bun-types/interfaces/FetchEvent.md#waituntil)
 
 ## Properties
 
@@ -139,7 +139,7 @@ ___
 
 ### currentTarget
 
-• `Readonly` **currentTarget**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **currentTarget**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object whose event listener's callback is currently
 being invoked.
@@ -209,7 +209,7 @@ ___
 
 ### srcElement
 
-• `Readonly` **srcElement**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **srcElement**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 **`Deprecated`**
 
@@ -221,7 +221,7 @@ ___
 
 ### target
 
-• `Readonly` **target**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **target**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object to which event is dispatched (its target).
 
@@ -264,7 +264,7 @@ ___
 
 ### composedPath
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -273,13 +273,13 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 #### Inherited from
 
 Event.composedPath
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -288,7 +288,7 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 #### Inherited from
 

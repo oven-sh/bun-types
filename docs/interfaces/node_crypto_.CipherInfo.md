@@ -1,19 +1,19 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / CipherInfo
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / CipherInfo
 
 # Interface: CipherInfo
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).CipherInfo
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).CipherInfo
 
 ## Table of contents
 
 ### Properties
 
-- [blockSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#blocksize)
-- [ivLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#ivlength)
-- [keyLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#keylength)
-- [mode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#mode)
-- [name](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#name)
-- [nid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfo.md#nid)
+- [blockSize](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#blocksize)
+- [ivLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#ivlength)
+- [keyLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#keylength)
+- [mode](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#mode)
+- [name](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#name)
+- [nid](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfo.md#nid)
 
 ## Properties
 
@@ -45,7 +45,7 @@ ___
 
 ### mode
 
-• **mode**: [`CipherMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#ciphermode)
+• **mode**: [`CipherMode`](https://oven-sh.github.io/bun-types/modules/crypto_.md#ciphermode)
 
 The cipher mode.
 

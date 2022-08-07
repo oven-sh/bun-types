@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md) / CustomPromisifyLegacy
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:sys"](https://oven-sh.github.io/bun-types/modules/node_sys_.md) / CustomPromisifyLegacy
 
 # Interface: CustomPromisifyLegacy<TCustom\>
 
-["node:sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_sys_.md).CustomPromisifyLegacy
+["node:sys"](https://oven-sh.github.io/bun-types/modules/node_sys_.md).CustomPromisifyLegacy
 
 ## Type parameters
 
@@ -20,7 +20,7 @@
 
 ### Properties
 
-- [\_\_promisify\_\_](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_sys_.CustomPromisifyLegacy.md#__promisify__)
+- [\_\_promisify\_\_](https://oven-sh.github.io/bun-types/interfaces/node_sys_.CustomPromisifyLegacy.md#__promisify__)
 
 ## Properties
 

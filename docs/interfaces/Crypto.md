@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / Crypto
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / Crypto
 
 # Interface: Crypto
 
@@ -6,8 +6,8 @@
 
 ### Methods
 
-- [getRandomValues](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Crypto.md#getrandomvalues)
-- [randomUUID](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Crypto.md#randomuuid)
+- [getRandomValues](https://oven-sh.github.io/bun-types/interfaces/Crypto.md#getrandomvalues)
+- [randomUUID](https://oven-sh.github.io/bun-types/interfaces/Crypto.md#randomuuid)
 
 ## Methods
 

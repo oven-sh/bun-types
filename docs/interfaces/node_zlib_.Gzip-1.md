@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md) / Gzip
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md) / Gzip
 
 # Interface: Gzip
 
-["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md).Gzip
+["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md).Gzip
 
 Transform streams are `Duplex` streams where the output is in some way
 related to the input. Like all `Duplex` streams, `Transform` streams
@@ -19,9 +19,9 @@ v0.9.4
 
 ## Hierarchy
 
-- [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md)
+- [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md)
 
-- [`Zlib`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md)
+- [`Zlib`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md)
 
   ↳ **`Gzip`**
 
@@ -29,80 +29,80 @@ v0.9.4
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#allowhalfopen)
-- [bytesRead](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#bytesread)
-- [bytesWritten](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#byteswritten)
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#locked)
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readable)
-- [readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readableaborted)
-- [readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readableencoding)
-- [readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readableended)
-- [readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readableflowing)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readablehighwatermark)
-- [readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readablelength)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#readableobjectmode)
-- [shell](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#shell)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#writableobjectmode)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#allowhalfopen)
+- [bytesRead](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#bytesread)
+- [bytesWritten](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#byteswritten)
+- [destroyed](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#locked)
+- [readable](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readable)
+- [readableAborted](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readableaborted)
+- [readableEncoding](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readableencoding)
+- [readableEnded](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readableended)
+- [readableFlowing](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readableflowing)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readablehighwatermark)
+- [readableLength](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readablelength)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#readableobjectmode)
+- [shell](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#shell)
+- [writable](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#writableobjectmode)
 
 ### Methods
 
-- [[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#[asynciterator])
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_final)
-- [\_flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_flush)
-- [\_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_read)
-- [\_transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_transform)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#addlistener)
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#cancel)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#eventnames)
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#flush)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#foreach)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#getmaxlisteners)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#getreader)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#getwriter)
-- [isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#ispaused)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#once)
-- [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pause)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pipe)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pipeto)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#prependoncelistener)
-- [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#push)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#rawlisteners)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#read)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#removelistener)
-- [resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#resume)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#setdefaultencoding)
-- [setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#setencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#setmaxlisteners)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#tee)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#uncork)
-- [unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#unpipe)
-- [unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#unshift)
-- [wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#wrap)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#write)
+- [[asyncIterator]](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#[asynciterator])
+- [\_construct](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_final)
+- [\_flush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_flush)
+- [\_read](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_read)
+- [\_transform](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_transform)
+- [\_write](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#addlistener)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#cancel)
+- [close](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#close)
+- [cork](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#emit)
+- [end](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#eventnames)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#flush)
+- [forEach](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#foreach)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#getmaxlisteners)
+- [getReader](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#getreader)
+- [getWriter](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#getwriter)
+- [isPaused](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#ispaused)
+- [listenerCount](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#off)
+- [on](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#on)
+- [once](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#once)
+- [pause](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pause)
+- [pipe](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pipe)
+- [pipeThrough](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pipeto)
+- [prependListener](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#prependoncelistener)
+- [push](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#push)
+- [rawListeners](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#rawlisteners)
+- [read](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#read)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#removelistener)
+- [resume](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#resume)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#setdefaultencoding)
+- [setEncoding](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#setencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#setmaxlisteners)
+- [tee](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#tee)
+- [uncork](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#uncork)
+- [unpipe](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#unpipe)
+- [unshift](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#unshift)
+- [wrap](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#wrap)
+- [write](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#write)
 
 ## Properties
 
@@ -123,7 +123,7 @@ v0.9.4
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#allowhalfopen)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[allowHalfOpen](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#allowhalfopen)
 
 ___
 
@@ -137,7 +137,7 @@ Use bytesWritten instead.
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[bytesRead](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#bytesread)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[bytesRead](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#bytesread)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[bytesWritten](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#byteswritten)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[bytesWritten](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#byteswritten)
 
 ___
 
@@ -159,7 +159,7 @@ Is `true` after `readable.destroy()` has been called.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#destroyed)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#destroyed)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#locked)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[locked](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#locked)
 
 ___
 
@@ -182,7 +182,7 @@ the stream has not been destroyed or emitted `'error'` or `'end'`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readable)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readable](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readable)
 
 ___
 
@@ -194,7 +194,7 @@ Returns whether the stream was destroyed or errored before emitting `'end'`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableaborted)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableaborted)
 
 ___
 
@@ -206,7 +206,7 @@ Getter for the property `encoding` of a given `Readable` stream. The `encoding`p
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableencoding)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableencoding)
 
 ___
 
@@ -218,7 +218,7 @@ Becomes `true` when `'end'` event is emitted.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableended)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableended)
 
 ___
 
@@ -231,7 +231,7 @@ in the `Three states` section.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableflowing)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableflowing)
 
 ___
 
@@ -243,7 +243,7 @@ Returns the value of `highWaterMark` passed when creating this `Readable`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readablehighwatermark)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readablehighwatermark)
 
 ___
 
@@ -257,7 +257,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readablelength)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readablelength)
 
 ___
 
@@ -269,7 +269,7 @@ Getter for the property `objectMode` of a given `Readable` stream.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#readableobjectmode)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#readableobjectmode)
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[shell](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#shell)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[shell](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#shell)
 
 ___
 
@@ -292,7 +292,7 @@ the stream has not been destroyed, errored or ended.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writable)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writable](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writable)
 
 ___
 
@@ -305,7 +305,7 @@ called in order to fully uncork the stream.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablecorked)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablecorked)
 
 ___
 
@@ -318,7 +318,7 @@ does not indicate whether the data has been flushed, for this use `writable.writ
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writableended)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writableended)
 
 ___
 
@@ -330,7 +330,7 @@ Is set to `true` immediately before the `'finish'` event is emitted.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablefinished)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablefinished)
 
 ___
 
@@ -342,7 +342,7 @@ Return the value of `highWaterMark` passed when creating this `Writable`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablehighwatermark)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablehighwatermark)
 
 ___
 
@@ -356,7 +356,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writablelength)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writablelength)
 
 ___
 
@@ -368,7 +368,7 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#writableobjectmode)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#writableobjectmode)
 
 ## Methods
 
@@ -382,7 +382,7 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#[asynciterator])
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#[asynciterator])
 
 ___
 
@@ -402,7 +402,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_construct)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_construct](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_construct)
 
 ___
 
@@ -423,7 +423,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_destroy)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_destroy)
 
 ___
 
@@ -443,7 +443,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_final)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_final](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_final)
 
 ___
 
@@ -455,7 +455,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -463,7 +463,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_flush)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_flush](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_flush)
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_read)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_read)
 
 ___
 
@@ -497,7 +497,7 @@ ___
 | :------ | :------ |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -505,7 +505,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_transform)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_transform)
 
 ___
 
@@ -527,7 +527,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_write)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_write)
 
 ___
 
@@ -548,7 +548,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#_writev)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[_writev](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#_writev)
 
 ___
 
@@ -568,13 +568,13 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#abort)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[abort](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#abort)
 
 ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Event emitter
 The defined events on documents including:
@@ -595,13 +595,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -612,13 +612,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -629,13 +629,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -646,13 +646,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -663,13 +663,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -680,13 +680,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -697,13 +697,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **addListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -714,11 +714,11 @@ The defined events on documents including:
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#addlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#addlistener)
 
 ___
 
@@ -738,7 +738,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#cancel)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[cancel](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#cancel)
 
 ___
 
@@ -752,7 +752,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#close)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[close](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#close)
 
 ___
 
@@ -761,7 +761,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#uncork) or [end](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -778,13 +778,13 @@ See also: `writable.uncork()`, `writable._writev()`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#cork)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[cork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#cork)
 
 ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **destroy**(`error?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the readable
 stream will release any internal resources and subsequent calls to `push()`will be ignored.
@@ -802,11 +802,11 @@ Implementors should not override this method, but instead implement `readable._d
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#destroy)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[destroy](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#destroy)
 
 ___
 
@@ -864,7 +864,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`, `chunk`): `boolean`
 
@@ -881,7 +881,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -897,7 +897,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`, `err`): `boolean`
 
@@ -914,7 +914,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -930,7 +930,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -946,7 +946,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -962,7 +962,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ▸ **emit**(`event`, ...`args`): `boolean`
 
@@ -979,20 +979,20 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#emit)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#emit)
 
 ___
 
 ### end
 
-▸ **end**(`cb?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **end**(`cb?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#write) method after calling [end](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -1011,13 +1011,13 @@ file.end('world!');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end)
 
-▸ **end**(`chunk`, `cb?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **end**(`chunk`, `cb?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1028,13 +1028,13 @@ file.end('world!');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end)
 
-▸ **end**(`chunk`, `encoding?`, `cb?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **end**(`chunk`, `encoding?`, `cb?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1046,11 +1046,11 @@ file.end('world!');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#end)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#end)
 
 ___
 
@@ -1080,7 +1080,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#eventnames)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#eventnames)
 
 ___
 
@@ -1101,7 +1101,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#flush)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[flush](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#flush)
 
 ▸ **flush**(`callback?`): `void`
 
@@ -1117,7 +1117,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#flush)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[flush](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#flush)
 
 ▸ **flush**(`kind?`, `callback?`): `void`
 
@@ -1134,7 +1134,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#flush)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[flush](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#flush)
 
 ▸ **flush**(`callback?`): `void`
 
@@ -1150,7 +1150,7 @@ ___
 
 #### Inherited from
 
-[Zlib](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md).[flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Zlib.md#flush)
+[Zlib](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md).[flush](https://oven-sh.github.io/bun-types/interfaces/zlib_.Zlib.md#flush)
 
 ___
 
@@ -1162,7 +1162,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -1171,7 +1171,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#foreach)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[forEach](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#foreach)
 
 ___
 
@@ -1188,35 +1188,35 @@ set by `emitter.setMaxListeners(n)` or defaults to defaultMaxListeners.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getmaxlisteners)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getmaxlisteners)
 
 ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getreader)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[getReader](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getreader)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#getwriter)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#getwriter)
 
 ___
 
@@ -1244,7 +1244,7 @@ readable.isPaused(); // === false
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#ispaused)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#ispaused)
 
 ___
 
@@ -1266,7 +1266,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#listenercount)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#listenercount)
 
 ___
 
@@ -1296,13 +1296,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#listeners)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **off**(`eventName`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -1315,17 +1315,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#off)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1362,13 +1362,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1379,13 +1379,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1396,13 +1396,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1413,13 +1413,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1430,13 +1430,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1447,13 +1447,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1464,13 +1464,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
-▸ **on**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **on**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1481,17 +1481,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#on)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1526,13 +1526,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1543,13 +1543,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1560,13 +1560,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1577,13 +1577,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1594,13 +1594,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1611,13 +1611,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1628,13 +1628,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
-▸ **once**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **once**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1645,17 +1645,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#once)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#once)
 
 ___
 
 ### pause
 
-▸ **pause**(): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **pause**(): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 The `readable.pause()` method will cause a stream in flowing mode to stop
 emitting `'data'` events, switching out of flowing mode. Any data that
@@ -1678,11 +1678,11 @@ The `readable.pause()` method has no effect if there is a `'readable'`event list
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pause)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[pause](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pause)
 
 ___
 
@@ -1694,7 +1694,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1710,13 +1710,13 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipe)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipe)
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -1728,16 +1728,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipethrough)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipethrough)
 
 ___
 
@@ -1749,8 +1749,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -1758,13 +1758,13 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#pipeto)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#pipeto)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1788,13 +1788,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1805,13 +1805,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1822,13 +1822,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1839,13 +1839,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1856,13 +1856,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1873,13 +1873,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1890,13 +1890,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1907,17 +1907,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependlistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1939,13 +1939,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1956,13 +1956,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1973,13 +1973,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -1990,13 +1990,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2007,13 +2007,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2024,13 +2024,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2041,13 +2041,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2058,11 +2058,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#prependoncelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#prependoncelistener)
 
 ___
 
@@ -2083,7 +2083,7 @@ ___
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#push)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[push](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#push)
 
 ___
 
@@ -2130,7 +2130,7 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#rawlisteners)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#rawlisteners)
 
 ___
 
@@ -2208,7 +2208,7 @@ a call to `readable.read(size)`, regardless of the value of the`size` argument.
 If the `readable.read()` method returns a chunk of data, a `'data'` event will
 also be emitted.
 
-Calling [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#read) after the `'end'` event has
+Calling [read](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#read) after the `'end'` event has
 been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
@@ -2223,13 +2223,13 @@ been emitted will return `null`. No runtime error will be raised.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#read)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[read](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#read)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeAllListeners**(`event?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -2247,17 +2247,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removealllisteners)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -2345,13 +2345,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2362,13 +2362,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2379,13 +2379,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2396,13 +2396,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2413,13 +2413,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2430,13 +2430,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2447,13 +2447,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **removeListener**(`event`, `listener`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Parameters
 
@@ -2464,17 +2464,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#removelistener)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#removelistener)
 
 ___
 
 ### resume
 
-▸ **resume**(): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **resume**(): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 The `readable.resume()` method causes an explicitly paused `Readable` stream to
 resume emitting `'data'` events, switching the stream into flowing mode.
@@ -2494,17 +2494,17 @@ The `readable.resume()` method has no effect if there is a `'readable'`event lis
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#resume)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[resume](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#resume)
 
 ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **setDefaultEncoding**(`encoding`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -2516,17 +2516,17 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setdefaultencoding)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setdefaultencoding)
 
 ___
 
 ### setEncoding
 
-▸ **setEncoding**(`encoding`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **setEncoding**(`encoding`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 The `readable.setEncoding()` method sets the character encoding for
 data read from the `Readable` stream.
@@ -2557,17 +2557,17 @@ readable.on('data', (chunk) => {
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setencoding)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setencoding)
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **setMaxListeners**(`n`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -2584,25 +2584,25 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#setmaxlisteners)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#setmaxlisteners)
 
 ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#tee)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[tee](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#tee)
 
 ___
 
@@ -2610,7 +2610,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -2647,16 +2647,16 @@ See also: `writable.cork()`.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#uncork)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[uncork](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#uncork)
 
 ___
 
 ### unpipe
 
-▸ **unpipe**(`destination?`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **unpipe**(`destination?`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 The `readable.unpipe()` method detaches a `Writable` stream previously attached
-using the [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pipe) method.
+using the [pipe](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pipe) method.
 
 If the `destination` is not specified, then _all_ pipes are detached.
 
@@ -2682,15 +2682,15 @@ setTimeout(() => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination?` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
+| `destination?` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#unpipe)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#unpipe)
 
 ___
 
@@ -2750,11 +2750,11 @@ function parseHeader(stream, callback) {
 }
 ```
 
-Unlike [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#push), `stream.unshift(chunk)` will not
+Unlike [push](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#push), `stream.unshift(chunk)` will not
 end the reading process by resetting the internal reading state of the stream.
 This can cause unexpected results if `readable.unshift()` is called during a
-read (i.e. from within a [_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#_read) implementation on a
-custom stream). Following the call to `readable.unshift()` with an immediate [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#push) will reset the reading state appropriately,
+read (i.e. from within a [_read](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#_read) implementation on a
+custom stream). Following the call to `readable.unshift()` with an immediate [push](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#push) will reset the reading state appropriately,
 however it is best to simply avoid calling `readable.unshift()` while in the
 process of performing a read.
 
@@ -2771,18 +2771,18 @@ process of performing a read.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#unshift)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[unshift](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#unshift)
 
 ___
 
 ### wrap
 
-▸ **wrap**(`stream`): [`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+▸ **wrap**(`stream`): [`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 Prior to Node.js 0.10, streams did not implement the entire `stream` module API
 as it is currently defined. (See `Compatibility` for more information.)
 
-When using an older Node.js library that emits `'data'` events and has a [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
+When using an older Node.js library that emits `'data'` events and has a [pause](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
 stream that uses
 the old stream as its data source.
 
@@ -2805,15 +2805,15 @@ myReader.on('readable', () => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | An "old style" readable stream |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | An "old style" readable stream |
 
 #### Returns
 
-[`Gzip`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/zlib_.Gzip-1.md)
+[`Gzip`](https://oven-sh.github.io/bun-types/interfaces/zlib_.Gzip-1.md)
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#wrap)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[wrap](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#wrap)
 
 ___
 
@@ -2850,7 +2850,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.Gzip-1.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.Gzip-1.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -2886,7 +2886,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#write)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#write)
 
 ▸ **write**(`chunk`, `cb?`): `boolean`
 
@@ -2903,4 +2903,4 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md#write)
+[Transform](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md#write)

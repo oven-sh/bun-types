@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / QueuingStrategyInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / QueuingStrategyInit
 
 # Interface: QueuingStrategyInit
 
@@ -6,7 +6,7 @@
 
 ### Properties
 
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/QueuingStrategyInit.md#highwatermark)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/QueuingStrategyInit.md#highwatermark)
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ErrorEvent
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ErrorEvent
 
 # Interface: ErrorEvent
 
@@ -6,7 +6,7 @@ Events providing information related to errors in scripts or in files.
 
 ## Hierarchy
 
-- [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)
+- [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)
 
   ↳ **`ErrorEvent`**
 
@@ -14,36 +14,36 @@ Events providing information related to errors in scripts or in files.
 
 ### Properties
 
-- [AT\_TARGET](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#at_target)
-- [BUBBLING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#bubbling_phase)
-- [CAPTURING\_PHASE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#capturing_phase)
-- [NONE](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#none)
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#bubbles)
-- [cancelBubble](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#cancelbubble)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#cancelable)
-- [colno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#colno)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#composed)
-- [currentTarget](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#currenttarget)
-- [defaultPrevented](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#defaultprevented)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#error)
-- [eventPhase](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#eventphase)
-- [filename](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#filename)
-- [isTrusted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#istrusted)
-- [lineno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#lineno)
-- [message](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#message)
-- [returnValue](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#returnvalue)
-- [srcElement](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#srcelement)
-- [target](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#target)
-- [timeStamp](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#timestamp)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#type)
+- [AT\_TARGET](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#at_target)
+- [BUBBLING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#bubbling_phase)
+- [CAPTURING\_PHASE](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#capturing_phase)
+- [NONE](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#none)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#bubbles)
+- [cancelBubble](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#cancelbubble)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#cancelable)
+- [colno](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#colno)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#composed)
+- [currentTarget](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#currenttarget)
+- [defaultPrevented](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#defaultprevented)
+- [error](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#error)
+- [eventPhase](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#eventphase)
+- [filename](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#filename)
+- [isTrusted](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#istrusted)
+- [lineno](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#lineno)
+- [message](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#message)
+- [returnValue](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#returnvalue)
+- [srcElement](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#srcelement)
+- [target](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#target)
+- [timeStamp](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#timestamp)
+- [type](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#type)
 
 ### Methods
 
-- [composedPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#composedpath)
-- [initEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#initevent)
-- [preventDefault](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#preventdefault)
-- [stopImmediatePropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#stopimmediatepropagation)
-- [stopPropagation](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEvent.md#stoppropagation)
+- [composedPath](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#composedpath)
+- [initEvent](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#initevent)
+- [preventDefault](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#preventdefault)
+- [stopImmediatePropagation](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#stopimmediatepropagation)
+- [stopPropagation](https://oven-sh.github.io/bun-types/interfaces/ErrorEvent.md#stoppropagation)
 
 ## Properties
 
@@ -148,7 +148,7 @@ ___
 
 ### currentTarget
 
-• `Readonly` **currentTarget**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **currentTarget**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object whose event listener's callback is currently
 being invoked.
@@ -236,7 +236,7 @@ ___
 
 ### srcElement
 
-• `Readonly` **srcElement**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **srcElement**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 **`Deprecated`**
 
@@ -248,7 +248,7 @@ ___
 
 ### target
 
-• `Readonly` **target**: [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+• `Readonly` **target**: [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
 Returns the object to which event is dispatched (its target).
 
@@ -285,7 +285,7 @@ Event.type
 
 ### composedPath
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -294,13 +294,13 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 #### Inherited from
 
 Event.composedPath
 
-▸ **composedPath**(): [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+▸ **composedPath**(): [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 Returns the invocation target objects of event's path (objects on
 which listeners will be invoked), except for any nodes in shadow
@@ -309,7 +309,7 @@ reachable from event's currentTarget.
 
 #### Returns
 
-[`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)[]
+[`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)[]
 
 #### Inherited from
 

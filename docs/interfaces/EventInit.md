@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventInit
 
 # Interface: EventInit
 
@@ -6,21 +6,21 @@
 
 - **`EventInit`**
 
-  ↳ [`ErrorEventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md)
+  ↳ [`ErrorEventInit`](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md)
 
-  ↳ [`CloseEventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/CloseEventInit.md)
+  ↳ [`CloseEventInit`](https://oven-sh.github.io/bun-types/interfaces/CloseEventInit.md)
 
-  ↳ [`MessageEventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/MessageEventInit.md)
+  ↳ [`MessageEventInit`](https://oven-sh.github.io/bun-types/interfaces/MessageEventInit.md)
 
-  ↳ [`UIEventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UIEventInit.md)
+  ↳ [`UIEventInit`](https://oven-sh.github.io/bun-types/interfaces/UIEventInit.md)
 
 ## Table of contents
 
 ### Properties
 
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#bubbles)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#cancelable)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#composed)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#bubbles)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#cancelable)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#composed)
 
 ## Properties
 

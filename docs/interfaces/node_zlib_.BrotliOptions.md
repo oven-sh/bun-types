@@ -1,18 +1,18 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md) / BrotliOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md) / BrotliOptions
 
 # Interface: BrotliOptions
 
-["node:zlib"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_zlib_.md).BrotliOptions
+["node:zlib"](https://oven-sh.github.io/bun-types/modules/node_zlib_.md).BrotliOptions
 
 ## Table of contents
 
 ### Properties
 
-- [chunkSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliOptions.md#chunksize)
-- [finishFlush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliOptions.md#finishflush)
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliOptions.md#flush)
-- [maxOutputLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliOptions.md#maxoutputlength)
-- [params](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_zlib_.BrotliOptions.md#params)
+- [chunkSize](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliOptions.md#chunksize)
+- [finishFlush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliOptions.md#finishflush)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliOptions.md#flush)
+- [maxOutputLength](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliOptions.md#maxoutputlength)
+- [params](https://oven-sh.github.io/bun-types/interfaces/node_zlib_.BrotliOptions.md#params)
 
 ## Properties
 

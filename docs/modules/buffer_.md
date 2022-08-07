@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "buffer"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "buffer"
 
 # Namespace: "buffer"
 
@@ -53,19 +53,19 @@ const buf7 = Buffer.from('tést', 'latin1');
 
 ### Interfaces
 
-- [BlobOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/buffer_.BlobOptions.md)
-- [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/buffer_.Buffer.md)
+- [BlobOptions](https://oven-sh.github.io/bun-types/interfaces/buffer_.BlobOptions.md)
+- [Buffer](https://oven-sh.github.io/bun-types/interfaces/buffer_.Buffer.md)
 
 ### Type Aliases
 
-- [TranscodeEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#transcodeencoding)
+- [TranscodeEncoding](https://oven-sh.github.io/bun-types/modules/buffer_.md#transcodeencoding)
 
 ### Variables
 
-- [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
-- [INSPECT\_MAX\_BYTES](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#inspect_max_bytes)
-- [SlowBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#slowbuffer)
-- [kMaxLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#kmaxlength)
+- [Buffer](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
+- [INSPECT\_MAX\_BYTES](https://oven-sh.github.io/bun-types/modules/buffer_.md#inspect_max_bytes)
+- [SlowBuffer](https://oven-sh.github.io/bun-types/modules/buffer_.md#slowbuffer)
+- [kMaxLength](https://oven-sh.github.io/bun-types/modules/buffer_.md#kmaxlength)
 
 ## Type Aliases
 
@@ -77,7 +77,7 @@ const buf7 = Buffer.from('tést', 'latin1');
 
 ### Buffer
 
-• **Buffer**: [`BufferConstructor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferConstructor.md)
+• **Buffer**: [`BufferConstructor`](https://oven-sh.github.io/bun-types/interfaces/BufferConstructor.md)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `prototype` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) |
+| `prototype` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) |
 
 ___
 

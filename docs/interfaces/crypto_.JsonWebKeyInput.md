@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / JsonWebKeyInput
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / JsonWebKeyInput
 
 # Interface: JsonWebKeyInput
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).JsonWebKeyInput
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).JsonWebKeyInput
 
 ## Table of contents
 
 ### Properties
 
-- [format](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md#format)
-- [key](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKeyInput.md#key)
+- [format](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md#format)
+- [key](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKeyInput.md#key)
 
 ## Properties
 
@@ -21,4 +21,4 @@ ___
 
 ### key
 
-• **key**: [`JsonWebKey`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.JsonWebKey.md)
+• **key**: [`JsonWebKey`](https://oven-sh.github.io/bun-types/interfaces/crypto_.JsonWebKey.md)

@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/sys_.md) / DebugLogger
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["sys"](https://oven-sh.github.io/bun-types/modules/sys_.md) / DebugLogger
 
 # Interface: DebugLogger
 
-["sys"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/sys_.md).DebugLogger
+["sys"](https://oven-sh.github.io/bun-types/modules/sys_.md).DebugLogger
 
 ## Hierarchy
 
-- [`DebugLoggerFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/util_.md#debugloggerfunction)
+- [`DebugLoggerFunction`](https://oven-sh.github.io/bun-types/modules/util_.md#debugloggerfunction)
 
   ↳ **`DebugLogger`**
 
@@ -46,7 +46,7 @@
 
 ### Properties
 
-- [enabled](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/sys_.DebugLogger.md#enabled)
+- [enabled](https://oven-sh.github.io/bun-types/interfaces/sys_.DebugLogger.md#enabled)
 
 ## Properties
 

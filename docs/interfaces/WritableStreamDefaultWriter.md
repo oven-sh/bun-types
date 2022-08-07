@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / WritableStreamDefaultWriter
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / WritableStreamDefaultWriter
 
 # Interface: WritableStreamDefaultWriter<W\>
 
@@ -14,16 +14,16 @@ This Streams API interface is the object returned by WritableStream.getWriter() 
 
 ### Properties
 
-- [closed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#closed)
-- [desiredSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#desiredsize)
-- [ready](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#ready)
+- [closed](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#closed)
+- [desiredSize](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#desiredsize)
+- [ready](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#ready)
 
 ### Methods
 
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#abort)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#close)
-- [releaseLock](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#releaselock)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultWriter.md#write)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#abort)
+- [close](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#close)
+- [releaseLock](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#releaselock)
+- [write](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultWriter.md#write)
 
 ## Properties
 

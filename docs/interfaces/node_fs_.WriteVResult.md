@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / WriteVResult
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / WriteVResult
 
 # Interface: WriteVResult
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).WriteVResult
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).WriteVResult
 
 ## Table of contents
 
 ### Properties
 
-- [buffers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.WriteVResult.md#buffers)
-- [bytesWritten](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.WriteVResult.md#byteswritten)
+- [buffers](https://oven-sh.github.io/bun-types/interfaces/node_fs_.WriteVResult.md#buffers)
+- [bytesWritten](https://oven-sh.github.io/bun-types/interfaces/node_fs_.WriteVResult.md#byteswritten)
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / HTMLRewriterTypes
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / HTMLRewriterTypes
 
 # Namespace: HTMLRewriterTypes
 
@@ -6,19 +6,19 @@
 
 ### Interfaces
 
-- [Comment](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Comment.md)
-- [ContentOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md)
-- [Doctype](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Doctype.md)
-- [DocumentEnd](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.DocumentEnd.md)
-- [Element](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
-- [EndTag](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.EndTag.md)
-- [HTMLRewriterDocumentContentHandlers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md)
-- [HTMLRewriterElementContentHandlers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.HTMLRewriterElementContentHandlers.md)
-- [Text](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Text.md)
+- [Comment](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Comment.md)
+- [ContentOptions](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md)
+- [Doctype](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Doctype.md)
+- [DocumentEnd](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.DocumentEnd.md)
+- [Element](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
+- [EndTag](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.EndTag.md)
+- [HTMLRewriterDocumentContentHandlers](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterDocumentContentHandlers.md)
+- [HTMLRewriterElementContentHandlers](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.HTMLRewriterElementContentHandlers.md)
+- [Text](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Text.md)
 
 ### Type Aliases
 
-- [Content](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md#content)
+- [Content](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md#content)
 
 ## Type Aliases
 

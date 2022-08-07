@@ -1,33 +1,33 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / [HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md) / Element
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / [HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md) / Element
 
 # Interface: Element
 
-[HTMLRewriterTypes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/HTMLRewriterTypes.md).Element
+[HTMLRewriterTypes](https://oven-sh.github.io/bun-types/modules/HTMLRewriterTypes.md).Element
 
 ## Table of contents
 
 ### Properties
 
-- [attributes](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#attributes)
-- [namespaceURI](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#namespaceuri)
-- [removed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#removed)
-- [tagName](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#tagname)
+- [attributes](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#attributes)
+- [namespaceURI](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#namespaceuri)
+- [removed](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#removed)
+- [tagName](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#tagname)
 
 ### Methods
 
-- [after](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#after)
-- [append](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#append)
-- [before](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#before)
-- [getAttribute](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#getattribute)
-- [hasAttribute](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#hasattribute)
-- [onEndTag](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#onendtag)
-- [prepend](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#prepend)
-- [remove](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#remove)
-- [removeAndKeepContent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#removeandkeepcontent)
-- [removeAttribute](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#removeattribute)
-- [replace](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#replace)
-- [setAttribute](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#setattribute)
-- [setInnerContent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md#setinnercontent)
+- [after](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#after)
+- [append](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#append)
+- [before](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#before)
+- [getAttribute](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#getattribute)
+- [hasAttribute](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#hasattribute)
+- [onEndTag](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#onendtag)
+- [prepend](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#prepend)
+- [remove](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#remove)
+- [removeAndKeepContent](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#removeandkeepcontent)
+- [removeAttribute](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#removeattribute)
+- [replace](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#replace)
+- [setAttribute](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#setattribute)
+- [setInnerContent](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md#setinnercontent)
 
 ## Properties
 
@@ -57,91 +57,91 @@ ___
 
 ### after
 
-▸ **after**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **after**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **after**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **after**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### append
 
-▸ **append**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **append**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **append**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **append**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### before
 
-▸ **before**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **before**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **before**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **before**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `handler` | (`tag`: [`EndTag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.EndTag.md)) => `void` \| `Promise`<`void`\> |
+| `handler` | (`tag`: [`EndTag`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.EndTag.md)) => `void` \| `Promise`<`void`\> |
 
 #### Returns
 
@@ -221,7 +221,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `handler` | (`tag`: [`EndTag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.EndTag.md)) => `void` \| `Promise`<`void`\> |
+| `handler` | (`tag`: [`EndTag`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.EndTag.md)) => `void` \| `Promise`<`void`\> |
 
 #### Returns
 
@@ -231,69 +231,69 @@ ___
 
 ### prepend
 
-▸ **prepend**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **prepend**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **prepend**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **prepend**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### remove
 
-▸ **remove**(): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **remove**(): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **remove**(): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **remove**(): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### removeAndKeepContent
 
-▸ **removeAndKeepContent**(): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **removeAndKeepContent**(): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **removeAndKeepContent**(): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **removeAndKeepContent**(): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### removeAttribute
 
-▸ **removeAttribute**(`name`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **removeAttribute**(`name`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
@@ -303,9 +303,9 @@ ___
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **removeAttribute**(`name`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **removeAttribute**(`name`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
@@ -315,43 +315,43 @@ ___
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### replace
 
-▸ **replace**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **replace**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **replace**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **replace**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### setAttribute
 
-▸ **setAttribute**(`name`, `value`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **setAttribute**(`name`, `value`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
@@ -362,9 +362,9 @@ ___
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **setAttribute**(`name`, `value`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **setAttribute**(`name`, `value`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
@@ -375,34 +375,34 @@ ___
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 ___
 
 ### setInnerContent
 
-▸ **setInnerContent**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **setInnerContent**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
-▸ **setInnerContent**(`content`, `options?`): [`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+▸ **setInnerContent**(`content`, `options?`): [`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `content` | `string` |
-| `options?` | [`ContentOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.ContentOptions.md) |
+| `options?` | [`ContentOptions`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.ContentOptions.md) |
 
 #### Returns
 
-[`Element`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/HTMLRewriterTypes.Element.md)
+[`Element`](https://oven-sh.github.io/bun-types/interfaces/HTMLRewriterTypes.Element.md)

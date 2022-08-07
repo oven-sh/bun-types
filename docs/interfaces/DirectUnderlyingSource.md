@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / DirectUnderlyingSource
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / DirectUnderlyingSource
 
 # Interface: DirectUnderlyingSource<R\>
 
@@ -12,21 +12,21 @@
 
 ### Properties
 
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/DirectUnderlyingSource.md#cancel)
-- [pull](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/DirectUnderlyingSource.md#pull)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/DirectUnderlyingSource.md#type)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/DirectUnderlyingSource.md#cancel)
+- [pull](https://oven-sh.github.io/bun-types/interfaces/DirectUnderlyingSource.md#pull)
+- [type](https://oven-sh.github.io/bun-types/interfaces/DirectUnderlyingSource.md#type)
 
 ## Properties
 
 ### cancel
 
-• `Optional` **cancel**: [`UnderlyingSourceCancelCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/UnderlyingSourceCancelCallback.md)
+• `Optional` **cancel**: [`UnderlyingSourceCancelCallback`](https://oven-sh.github.io/bun-types/interfaces/UnderlyingSourceCancelCallback.md)
 
 ___
 
 ### pull
 
-• **pull**: (`controller`: [`ReadableStreamDirectController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md)) => `void` \| `PromiseLike`<`void`\>
+• **pull**: (`controller`: [`ReadableStreamDirectController`](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md)) => `void` \| `PromiseLike`<`void`\>
 
 #### Type declaration
 
@@ -36,7 +36,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `controller` | [`ReadableStreamDirectController`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDirectController.md) |
+| `controller` | [`ReadableStreamDirectController`](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDirectController.md) |
 
 ##### Returns
 

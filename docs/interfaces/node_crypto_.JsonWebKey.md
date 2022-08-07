@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / JsonWebKey
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / JsonWebKey
 
 # Interface: JsonWebKey
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).JsonWebKey
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).JsonWebKey
 
 ## Indexable
 
@@ -12,19 +12,19 @@
 
 ### Properties
 
-- [crv](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#crv)
-- [d](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#d)
-- [dp](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#dp)
-- [dq](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#dq)
-- [e](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#e)
-- [k](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#k)
-- [kty](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#kty)
-- [n](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#n)
-- [p](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#p)
-- [q](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#q)
-- [qi](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#qi)
-- [x](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#x)
-- [y](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.JsonWebKey.md#y)
+- [crv](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#crv)
+- [d](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#d)
+- [dp](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#dp)
+- [dq](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#dq)
+- [e](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#e)
+- [k](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#k)
+- [kty](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#kty)
+- [n](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#n)
+- [p](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#p)
+- [q](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#q)
+- [qi](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#qi)
+- [x](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#x)
+- [y](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.JsonWebKey.md#y)
 
 ## Properties
 

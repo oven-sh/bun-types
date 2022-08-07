@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableStreamDefaultReadValueResult
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableStreamDefaultReadValueResult
 
 # Interface: ReadableStreamDefaultReadValueResult<T\>
 
@@ -12,8 +12,8 @@
 
 ### Properties
 
-- [done](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultReadValueResult.md#done)
-- [value](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStreamDefaultReadValueResult.md#value)
+- [done](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultReadValueResult.md#done)
+- [value](https://oven-sh.github.io/bun-types/interfaces/ReadableStreamDefaultReadValueResult.md#value)
 
 ## Properties
 

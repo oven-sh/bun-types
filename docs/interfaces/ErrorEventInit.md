@@ -1,10 +1,10 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ErrorEventInit
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ErrorEventInit
 
 # Interface: ErrorEventInit
 
 ## Hierarchy
 
-- [`EventInit`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md)
+- [`EventInit`](https://oven-sh.github.io/bun-types/interfaces/EventInit.md)
 
   ↳ **`ErrorEventInit`**
 
@@ -12,14 +12,14 @@
 
 ### Properties
 
-- [bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#bubbles)
-- [cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#cancelable)
-- [colno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#colno)
-- [composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#composed)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#error)
-- [filename](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#filename)
-- [lineno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#lineno)
-- [message](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrorEventInit.md#message)
+- [bubbles](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#bubbles)
+- [cancelable](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#cancelable)
+- [colno](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#colno)
+- [composed](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#composed)
+- [error](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#error)
+- [filename](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#filename)
+- [lineno](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#lineno)
+- [message](https://oven-sh.github.io/bun-types/interfaces/ErrorEventInit.md#message)
 
 ## Properties
 
@@ -29,7 +29,7 @@
 
 #### Inherited from
 
-[EventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md).[bubbles](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#bubbles)
+[EventInit](https://oven-sh.github.io/bun-types/interfaces/EventInit.md).[bubbles](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#bubbles)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Inherited from
 
-[EventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md).[cancelable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#cancelable)
+[EventInit](https://oven-sh.github.io/bun-types/interfaces/EventInit.md).[cancelable](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#cancelable)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Inherited from
 
-[EventInit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md).[composed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventInit.md#composed)
+[EventInit](https://oven-sh.github.io/bun-types/interfaces/EventInit.md).[composed](https://oven-sh.github.io/bun-types/interfaces/EventInit.md#composed)
 
 ___
 

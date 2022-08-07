@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / Writable
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / Writable
 
 # Class: Writable<W\>
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).Writable
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).Writable
 
 ## Type parameters
 
@@ -12,86 +12,86 @@
 
 ## Hierarchy
 
-- [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+- [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
   ↳ **`Writable`**
 
-  ↳↳ [`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Sign.md)
+  ↳↳ [`Sign`](https://oven-sh.github.io/bun-types/classes/crypto_.Sign.md)
 
-  ↳↳ [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+  ↳↳ [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
-  ↳↳ [`Sign`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Sign.md)
+  ↳↳ [`Sign`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Sign.md)
 
-  ↳↳ [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Verify.md)
+  ↳↳ [`Verify`](https://oven-sh.github.io/bun-types/classes/node_crypto_.Verify.md)
 
 ## Implements
 
-- [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)
+- [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)
 
 ## Implemented by
 
-- [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
-- [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Duplex.md)
+- [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
+- [`Duplex`](https://oven-sh.github.io/bun-types/classes/node_stream_.Duplex.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#constructor)
 
 ### Properties
 
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#locked)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableobjectmode)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#errormonitor)
+- [destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#locked)
+- [writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableobjectmode)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#errormonitor)
 
 ### Methods
 
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_final)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#eventnames)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getmaxlisteners)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getwriter)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#pipe)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#rawlisteners)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setdefaultencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setmaxlisteners)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#uncork)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#geteventlisteners)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setmaxlisteners-1)
+- [\_construct](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_final)
+- [\_write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
+- [close](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#close)
+- [cork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
+- [end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#eventnames)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getmaxlisteners)
+- [getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getwriter)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
+- [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#pipe)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#rawlisteners)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setdefaultencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setmaxlisteners)
+- [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#uncork)
+- [write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#geteventlisteners)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -109,11 +109,11 @@
 
 | Name | Type |
 | :------ | :------ |
-| `opts?` | [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md) |
+| `opts?` | [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md) |
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#constructor)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[constructor](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#constructor)
 
 ## Properties
 
@@ -198,11 +198,11 @@ ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#capturerejectionsymbol)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#capturerejectionsymbol)
 
 ___
 
@@ -214,7 +214,7 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#capturerejections)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#capturerejections)
 
 ___
 
@@ -224,13 +224,13 @@ ___
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#defaultmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -242,7 +242,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#errormonitor)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#errormonitor)
 
 ## Methods
 
@@ -352,7 +352,7 @@ ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Event emitter
 The defined events on documents including:
@@ -372,13 +372,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#addlistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -389,13 +389,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -406,13 +406,13 @@ Stream.addListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -423,47 +423,47 @@ Stream.addListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **addListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -474,7 +474,7 @@ Stream.addListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -501,7 +501,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#uncork) or [end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -520,7 +520,7 @@ ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **destroy**(`error?`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the writable
 stream has ended and subsequent calls to `write()` or `end()` will result in
@@ -543,7 +543,7 @@ but instead implement `writable._destroy()`.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 ___
 
@@ -601,7 +601,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#emit)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -659,7 +659,7 @@ Stream.emit
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `src` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `src` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -676,7 +676,7 @@ Stream.emit
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `src` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `src` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -707,14 +707,14 @@ ___
 
 ### end
 
-▸ **end**(`cb?`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **end**(`cb?`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write) method after calling [end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -733,9 +733,9 @@ file.end('world!');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
-▸ **end**(`chunk`, `cb?`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **end**(`chunk`, `cb?`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -746,9 +746,9 @@ file.end('world!');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
-▸ **end**(`chunk`, `encoding`, `cb?`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **end**(`chunk`, `encoding`, `cb?`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -760,7 +760,7 @@ file.end('world!');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 ___
 
@@ -790,7 +790,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#eventnames)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#eventnames)
 
 ___
 
@@ -799,7 +799,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -807,17 +807,17 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#getmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#getmaxlisteners)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`W`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`W`\>
 
 #### Implementation of
 
@@ -843,7 +843,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listenercount)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listenercount)
 
 ___
 
@@ -873,13 +873,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listeners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **off**(`eventName`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Alias for `emitter.removeListener()`.
 
@@ -892,17 +892,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#off)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -939,13 +939,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#on)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#on)
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -956,13 +956,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -973,13 +973,13 @@ Stream.on
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -990,47 +990,47 @@ Stream.on
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **on**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1041,7 +1041,7 @@ Stream.on
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -1051,7 +1051,7 @@ ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1086,13 +1086,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once)
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1103,13 +1103,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1120,13 +1120,13 @@ Stream.once
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1137,47 +1137,47 @@ Stream.once
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **once**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1188,7 +1188,7 @@ Stream.once
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -1204,7 +1204,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1220,13 +1220,13 @@ ___
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#pipe)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#pipe)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1250,13 +1250,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#prependlistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1267,13 +1267,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1284,13 +1284,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1301,47 +1301,47 @@ Stream.prependListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1352,7 +1352,7 @@ Stream.prependListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -1362,7 +1362,7 @@ ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1384,13 +1384,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#prependoncelistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1401,13 +1401,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1418,13 +1418,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1435,47 +1435,47 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1486,7 +1486,7 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -1537,13 +1537,13 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#rawlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#rawlisteners)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeAllListeners**(`event?`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -1561,17 +1561,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#removealllisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -1659,13 +1659,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#removelistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1676,13 +1676,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1693,13 +1693,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1710,47 +1710,47 @@ Stream.removeListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **removeListener**(`event`, `listener`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Parameters
 
@@ -1761,7 +1761,7 @@ Stream.removeListener
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Overrides
 
@@ -1771,7 +1771,7 @@ ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **setDefaultEncoding**(`encoding`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -1783,13 +1783,13 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+▸ **setMaxListeners**(`n`): [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -1806,11 +1806,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)<`W`\>
+[`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)<`W`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#setmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#setmaxlisteners)
 
 ___
 
@@ -1818,7 +1818,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -1888,7 +1888,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -1970,7 +1970,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -1979,7 +1979,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#geteventlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#geteventlisteners)
 
 ___
 
@@ -2006,7 +2006,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -2015,7 +2015,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listenercount-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listenercount-1)
 
 ___
 
@@ -2081,7 +2081,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -2093,7 +2093,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#on-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#on-1)
 
 ___
 
@@ -2195,7 +2195,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -2213,7 +2213,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once-1)
 
 ___
 
@@ -2238,7 +2238,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -2246,4 +2246,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#setmaxlisteners-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#setmaxlisteners-1)

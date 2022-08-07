@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / AbortController
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / AbortController
 
 # Interface: AbortController
 
@@ -8,17 +8,17 @@ A controller object that allows you to abort one or more DOM requests as and whe
 
 ### Properties
 
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortController.md#signal)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/AbortController.md#signal)
 
 ### Methods
 
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortController.md#abort)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/AbortController.md#abort)
 
 ## Properties
 
 ### signal
 
-• `Readonly` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Readonly` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 Returns the AbortSignal object associated with this object.
 

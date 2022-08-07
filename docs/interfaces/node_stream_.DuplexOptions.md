@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md) / DuplexOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md) / DuplexOptions
 
 # Interface: DuplexOptions
 
-["node:stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_stream_.md).DuplexOptions
+["node:stream"](https://oven-sh.github.io/bun-types/modules/node_stream_.md).DuplexOptions
 
 ## Hierarchy
 
-- [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md)
+- [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md)
 
-- [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md)
+- [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md)
 
   ↳ **`DuplexOptions`**
 
@@ -16,29 +16,29 @@
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#allowhalfopen)
-- [autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#autodestroy)
-- [decodeStrings](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#decodestrings)
-- [defaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#defaultencoding)
-- [emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#emitclose)
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#encoding)
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#highwatermark)
-- [objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#objectmode)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#readablehighwatermark)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#readableobjectmode)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#signal)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#writablecorked)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#writablehighwatermark)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#writableobjectmode)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#allowhalfopen)
+- [autoDestroy](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#autodestroy)
+- [decodeStrings](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#decodestrings)
+- [defaultEncoding](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#defaultencoding)
+- [emitClose](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#emitclose)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#encoding)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#highwatermark)
+- [objectMode](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#objectmode)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#readablehighwatermark)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#readableobjectmode)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#signal)
+- [writableCorked](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#writablecorked)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#writablehighwatermark)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#writableobjectmode)
 
 ### Methods
 
-- [construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#construct)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#destroy)
-- [final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#final)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#read)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#write)
-- [writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.DuplexOptions.md#writev)
+- [construct](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#construct)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#destroy)
+- [final](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#final)
+- [read](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#read)
+- [write](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#write)
+- [writev](https://oven-sh.github.io/bun-types/interfaces/node_stream_.DuplexOptions.md#writev)
 
 ## Properties
 
@@ -54,7 +54,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#autodestroy)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[autoDestroy](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#autodestroy)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[decodeStrings](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#decodestrings)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[decodeStrings](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#decodestrings)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[defaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#defaultencoding)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[defaultEncoding](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#defaultencoding)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#emitclose)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[emitClose](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#emitclose)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Inherited from
 
-[ReadableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md).[encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#encoding)
+[ReadableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md).[encoding](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#encoding)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#highwatermark)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[highWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#highwatermark)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#objectmode)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[objectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#objectmode)
 
 ___
 
@@ -132,13 +132,13 @@ ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 When provided the corresponding `AbortController` can be used to cancel an asynchronous action.
 
 #### Inherited from
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#signal)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[signal](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#signal)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `callback` | (`error?`: `Error`) => `void` |
 
 #### Returns
@@ -177,7 +177,7 @@ ___
 
 #### Overrides
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#construct)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[construct](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#construct)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `error` | `Error` |
 | `callback` | (`error`: `Error`) => `void` |
 
@@ -199,7 +199,7 @@ ___
 
 #### Overrides
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#destroy)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[destroy](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#destroy)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `callback` | (`error?`: `Error`) => `void` |
 
 #### Returns
@@ -220,7 +220,7 @@ ___
 
 #### Overrides
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#final)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[final](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#final)
 
 ___
 
@@ -232,7 +232,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `size` | `number` |
 
 #### Returns
@@ -241,7 +241,7 @@ ___
 
 #### Overrides
 
-[ReadableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md#read)
+[ReadableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md).[read](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md#read)
 
 ___
 
@@ -253,7 +253,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
 | `callback` | (`error?`: `Error`) => `void` |
@@ -264,7 +264,7 @@ ___
 
 #### Overrides
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#write)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[write](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#write)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md) |
+| `this` | [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md) |
 | `chunks` | { `chunk`: `any` ; `encoding`: `BufferEncoding`  }[] |
 | `callback` | (`error?`: `Error`) => `void` |
 
@@ -286,4 +286,4 @@ ___
 
 #### Overrides
 
-[WritableOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md).[writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md#writev)
+[WritableOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md).[writev](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md#writev)

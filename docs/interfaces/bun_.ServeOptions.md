@@ -1,23 +1,23 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / ServeOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / ServeOptions
 
 # Interface: ServeOptions
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).ServeOptions
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).ServeOptions
 
 ## Table of contents
 
 ### Properties
 
-- [baseURI](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#baseuri)
-- [development](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#development)
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#error)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#hostname)
-- [maxRequestBodySize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#maxrequestbodysize)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#port)
+- [baseURI](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#baseuri)
+- [development](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#development)
+- [error](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#error)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#hostname)
+- [maxRequestBodySize](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#maxrequestbodysize)
+- [port](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#port)
 
 ### Methods
 
-- [fetch](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#fetch)
+- [fetch](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#fetch)
 
 ## Properties
 
@@ -27,7 +27,7 @@
 
 What URI should be used to make Request.url absolute?
 
-By default, looks at [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#hostname), [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#port), and whether or not SSL is enabled to generate one
+By default, looks at [hostname](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#hostname), [port](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#port), and whether or not SSL is enabled to generate one
 
 **`Example`**
 
@@ -41,7 +41,7 @@ By default, looks at [hostname](https://github.com/oven-sh/bun-types/blob/master
 "https://wongmjane.com/"
 ```
 
-This should be the public, absolute URL – include the protocol and [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#hostname). If the port isn't 80 or 443, then include the [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md#port) too.
+This should be the public, absolute URL – include the protocol and [hostname](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#hostname). If the port isn't 80 or 443, then include the [port](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md#port) too.
 
 **`Example`**
 
@@ -65,7 +65,7 @@ ___
 
 ### error
 
-• `Optional` **error**: (`this`: [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md), `request`: [`Errorlike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Errorlike.md)) => `Response` \| `Promise`<`Response`\> \| `Promise`<`undefined`\>
+• `Optional` **error**: (`this`: [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md), `request`: [`Errorlike`](https://oven-sh.github.io/bun-types/interfaces/bun_.Errorlike.md)) => `Response` \| `Promise`<`Response`\> \| `Promise`<`undefined`\>
 
 #### Type declaration
 
@@ -75,8 +75,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md) |
-| `request` | [`Errorlike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Errorlike.md) |
+| `this` | [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md) |
+| `request` | [`Errorlike`](https://oven-sh.github.io/bun-types/interfaces/bun_.Errorlike.md) |
 
 ##### Returns
 
@@ -148,7 +148,7 @@ Respond to Request objects with a Response object.
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md) |
+| `this` | [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md) |
 | `request` | `Request` |
 
 #### Returns
@@ -165,7 +165,7 @@ Respond to Request objects with a Response object.
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md) |
+| `this` | [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md) |
 | `request` | `Request` |
 
 #### Returns

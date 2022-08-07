@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / Readable
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / Readable
 
 # Class: Readable<R\>
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).Readable
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).Readable
 
 ## Type parameters
 
@@ -12,94 +12,94 @@
 
 ## Hierarchy
 
-- [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md)
+- [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md)
 
   ↳ **`Readable`**
 
-  ↳↳ [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/http_.IncomingMessage.md)
+  ↳↳ [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/http_.IncomingMessage.md)
 
-  ↳↳ [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_http_.IncomingMessage.md)
+  ↳↳ [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/node_http_.IncomingMessage.md)
 
-  ↳↳ [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/https_.IncomingMessage.md)
+  ↳↳ [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/https_.IncomingMessage.md)
 
-  ↳↳ [`IncomingMessage`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_https_.IncomingMessage.md)
+  ↳↳ [`IncomingMessage`](https://oven-sh.github.io/bun-types/classes/node_https_.IncomingMessage.md)
 
-  ↳↳ [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Duplex.md)
+  ↳↳ [`Duplex`](https://oven-sh.github.io/bun-types/classes/stream_.Duplex.md)
 
-  ↳↳ [`Duplex`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_stream_.Duplex.md)
+  ↳↳ [`Duplex`](https://oven-sh.github.io/bun-types/classes/node_stream_.Duplex.md)
 
 ## Implements
 
-- [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)
+- [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#constructor)
 
 ### Properties
 
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#locked)
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readable)
-- [readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableaborted)
-- [readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableencoding)
-- [readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableended)
-- [readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableflowing)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readablehighwatermark)
-- [readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readablelength)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#readableobjectmode)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#errormonitor)
+- [destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#locked)
+- [readable](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readable)
+- [readableAborted](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableaborted)
+- [readableEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableencoding)
+- [readableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableended)
+- [readableFlowing](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableflowing)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readablehighwatermark)
+- [readableLength](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readablelength)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#readableobjectmode)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#errormonitor)
 
 ### Methods
 
-- [[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#[asynciterator])
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_destroy)
-- [\_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_read)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#addlistener)
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#cancel)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#emit)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#eventnames)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#foreach)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#getmaxlisteners)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#getreader)
-- [isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#ispaused)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once)
-- [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pause)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipe)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipeto)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#prependoncelistener)
-- [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#push)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#rawlisteners)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#read)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#removelistener)
-- [resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#resume)
-- [setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setmaxlisteners)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#tee)
-- [unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#unpipe)
-- [unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#unshift)
-- [wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#wrap)
-- [from](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#from)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#geteventlisteners)
-- [isDisturbed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#isdisturbed)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#setmaxlisteners-1)
+- [[asyncIterator]](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#[asynciterator])
+- [\_construct](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_destroy)
+- [\_read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_read)
+- [addListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#addlistener)
+- [cancel](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#cancel)
+- [destroy](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#emit)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#eventnames)
+- [forEach](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#foreach)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#getmaxlisteners)
+- [getReader](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#getreader)
+- [isPaused](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#ispaused)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once)
+- [pause](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pause)
+- [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipe)
+- [pipeThrough](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipeto)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#prependoncelistener)
+- [push](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#push)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#rawlisteners)
+- [read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#read)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#removelistener)
+- [resume](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#resume)
+- [setEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setmaxlisteners)
+- [tee](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#tee)
+- [unpipe](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#unpipe)
+- [unshift](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#unshift)
+- [wrap](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#wrap)
+- [from](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#from)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#geteventlisteners)
+- [isDisturbed](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#isdisturbed)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -117,11 +117,11 @@
 
 | Name | Type |
 | :------ | :------ |
-| `opts?` | [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md) |
+| `opts?` | [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md) |
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#constructor)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[constructor](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#constructor)
 
 ## Properties
 
@@ -213,11 +213,11 @@ ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#capturerejectionsymbol)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#capturerejectionsymbol)
 
 ___
 
@@ -229,7 +229,7 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#capturerejections)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#capturerejections)
 
 ___
 
@@ -239,13 +239,13 @@ ___
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#defaultmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -257,7 +257,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#errormonitor)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#errormonitor)
 
 ## Methods
 
@@ -322,7 +322,7 @@ ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Event emitter
 The defined events on documents including:
@@ -343,13 +343,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#addlistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -360,13 +360,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -377,13 +377,13 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -394,13 +394,13 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -411,13 +411,13 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -428,13 +428,13 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -445,13 +445,13 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.addListener
 
-▸ **addListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **addListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -462,7 +462,7 @@ Stream.addListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -492,7 +492,7 @@ ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **destroy**(`error?`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the readable
 stream will release any internal resources and subsequent calls to `push()`will be ignored.
@@ -510,7 +510,7 @@ Implementors should not override this method, but instead implement `readable._d
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
@@ -568,7 +568,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#emit)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#emit)
 
 ▸ **emit**(`event`, `chunk`): `boolean`
 
@@ -713,7 +713,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#eventnames)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#eventnames)
 
 ___
 
@@ -725,7 +725,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -743,7 +743,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -751,17 +751,17 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#getmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#getmaxlisteners)
 
 ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`R`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`R`\>
 
 #### Implementation of
 
@@ -811,7 +811,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listenercount)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listenercount)
 
 ___
 
@@ -841,13 +841,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listeners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **off**(`eventName`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Alias for `emitter.removeListener()`.
 
@@ -860,17 +860,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#off)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -907,13 +907,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#on)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#on)
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -924,13 +924,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -941,13 +941,13 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -958,13 +958,13 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -975,13 +975,13 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -992,13 +992,13 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1009,13 +1009,13 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.on
 
-▸ **on**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **on**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1026,7 +1026,7 @@ Stream.on
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -1036,7 +1036,7 @@ ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1071,13 +1071,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once)
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1088,13 +1088,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1105,13 +1105,13 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1122,13 +1122,13 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1139,13 +1139,13 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1156,13 +1156,13 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1173,13 +1173,13 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.once
 
-▸ **once**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **once**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1190,7 +1190,7 @@ Stream.once
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -1200,7 +1200,7 @@ ___
 
 ### pause
 
-▸ **pause**(): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **pause**(): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 The `readable.pause()` method will cause a stream in flowing mode to stop
 emitting `'data'` events, switching out of flowing mode. Any data that
@@ -1223,7 +1223,7 @@ The `readable.pause()` method has no effect if there is a `'readable'`event list
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
@@ -1235,7 +1235,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1251,13 +1251,13 @@ ___
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#pipe)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#pipe)
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -1269,12 +1269,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Implementation of
 
@@ -1290,8 +1290,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`R`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`R`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -1305,7 +1305,7 @@ ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1329,13 +1329,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#prependlistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1346,13 +1346,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1363,13 +1363,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1380,13 +1380,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1397,13 +1397,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1414,13 +1414,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1431,13 +1431,13 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1448,7 +1448,7 @@ Stream.prependListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -1458,7 +1458,7 @@ ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1480,13 +1480,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#prependoncelistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1497,13 +1497,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1514,13 +1514,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1531,13 +1531,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1548,13 +1548,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1565,13 +1565,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1582,13 +1582,13 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **prependOnceListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1599,7 +1599,7 @@ Stream.prependOnceListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -1667,7 +1667,7 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#rawlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#rawlisteners)
 
 ___
 
@@ -1745,7 +1745,7 @@ a call to `readable.read(size)`, regardless of the value of the`size` argument.
 If the `readable.read()` method returns a chunk of data, a `'data'` event will
 also be emitted.
 
-Calling [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#read) after the `'end'` event has
+Calling [read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#read) after the `'end'` event has
 been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
@@ -1762,7 +1762,7 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeAllListeners**(`event?`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -1780,17 +1780,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#removealllisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -1878,13 +1878,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#removelistener)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1895,13 +1895,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1912,13 +1912,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1929,13 +1929,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1946,13 +1946,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1963,13 +1963,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1980,13 +1980,13 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
 Stream.removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **removeListener**(`event`, `listener`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Parameters
 
@@ -1997,7 +1997,7 @@ Stream.removeListener
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Overrides
 
@@ -2007,7 +2007,7 @@ ___
 
 ### resume
 
-▸ **resume**(): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **resume**(): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 The `readable.resume()` method causes an explicitly paused `Readable` stream to
 resume emitting `'data'` events, switching the stream into flowing mode.
@@ -2027,13 +2027,13 @@ The `readable.resume()` method has no effect if there is a `'readable'`event lis
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
 ### setEncoding
 
-▸ **setEncoding**(`encoding`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **setEncoding**(`encoding`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 The `readable.setEncoding()` method sets the character encoding for
 data read from the `Readable` stream.
@@ -2064,13 +2064,13 @@ readable.on('data', (chunk) => {
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **setMaxListeners**(`n`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -2087,21 +2087,21 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#setmaxlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#setmaxlisteners)
 
 ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>]
 
 #### Implementation of
 
@@ -2111,10 +2111,10 @@ ___
 
 ### unpipe
 
-▸ **unpipe**(`destination?`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **unpipe**(`destination?`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 The `readable.unpipe()` method detaches a `Writable` stream previously attached
-using the [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pipe) method.
+using the [pipe](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pipe) method.
 
 If the `destination` is not specified, then _all_ pipes are detached.
 
@@ -2140,11 +2140,11 @@ setTimeout(() => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination?` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
+| `destination?` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
@@ -2204,11 +2204,11 @@ function parseHeader(stream, callback) {
 }
 ```
 
-Unlike [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#push), `stream.unshift(chunk)` will not
+Unlike [push](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#push), `stream.unshift(chunk)` will not
 end the reading process by resetting the internal reading state of the stream.
 This can cause unexpected results if `readable.unshift()` is called during a
-read (i.e. from within a [_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#_read) implementation on a
-custom stream). Following the call to `readable.unshift()` with an immediate [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#push) will reset the reading state appropriately,
+read (i.e. from within a [_read](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#_read) implementation on a
+custom stream). Following the call to `readable.unshift()` with an immediate [push](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#push) will reset the reading state appropriately,
 however it is best to simply avoid calling `readable.unshift()` while in the
 process of performing a read.
 
@@ -2227,12 +2227,12 @@ ___
 
 ### wrap
 
-▸ **wrap**(`stream`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+▸ **wrap**(`stream`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 Prior to Node.js 0.10, streams did not implement the entire `stream` module API
 as it is currently defined. (See `Compatibility` for more information.)
 
-When using an older Node.js library that emits `'data'` events and has a [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
+When using an older Node.js library that emits `'data'` events and has a [pause](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
 stream that uses
 the old stream as its data source.
 
@@ -2255,17 +2255,17 @@ myReader.on('readable', () => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | An "old style" readable stream |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | An "old style" readable stream |
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`R`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`R`\>
 
 ___
 
 ### from
 
-▸ `Static` **from**(`iterable`, `options?`): [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>
+▸ `Static` **from**(`iterable`, `options?`): [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>
 
 A utility method for creating Readable Streams out of iterators.
 
@@ -2274,11 +2274,11 @@ A utility method for creating Readable Streams out of iterators.
 | Name | Type |
 | :------ | :------ |
 | `iterable` | `Iterable`<`any`\> \| `AsyncIterable`<`any`\> |
-| `options?` | [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md) |
+| `options?` | [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md) |
 
 #### Returns
 
-[`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>
+[`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>
 
 ___
 
@@ -2315,7 +2315,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -2324,7 +2324,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#geteventlisteners)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#geteventlisteners)
 
 ___
 
@@ -2338,7 +2338,7 @@ Returns whether the stream has been read from or cancelled.
 
 | Name | Type |
 | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> \| [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> \| [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -2369,7 +2369,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -2378,7 +2378,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#listenercount-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#listenercount-1)
 
 ___
 
@@ -2444,7 +2444,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -2456,7 +2456,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#on-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#on-1)
 
 ___
 
@@ -2558,7 +2558,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -2576,7 +2576,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#once-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#once-1)
 
 ___
 
@@ -2601,7 +2601,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -2609,4 +2609,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[Stream](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md#setmaxlisteners-1)
+[Stream](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md#setmaxlisteners-1)

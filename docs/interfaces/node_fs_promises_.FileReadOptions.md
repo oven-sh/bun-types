@@ -1,23 +1,23 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs/promises"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_promises_.md) / FileReadOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs/promises"](https://oven-sh.github.io/bun-types/modules/node_fs_promises_.md) / FileReadOptions
 
 # Interface: FileReadOptions<T\>
 
-["node:fs/promises"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_promises_.md).FileReadOptions
+["node:fs/promises"](https://oven-sh.github.io/bun-types/modules/node_fs_promises_.md).FileReadOptions
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends `ArrayBufferView` = [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) |
+| `T` | extends `ArrayBufferView` = [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) |
 
 ## Table of contents
 
 ### Properties
 
-- [buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_promises_.FileReadOptions.md#buffer)
-- [length](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_promises_.FileReadOptions.md#length)
-- [offset](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_promises_.FileReadOptions.md#offset)
-- [position](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_promises_.FileReadOptions.md#position)
+- [buffer](https://oven-sh.github.io/bun-types/interfaces/node_fs_promises_.FileReadOptions.md#buffer)
+- [length](https://oven-sh.github.io/bun-types/interfaces/node_fs_promises_.FileReadOptions.md#length)
+- [offset](https://oven-sh.github.io/bun-types/interfaces/node_fs_promises_.FileReadOptions.md#offset)
+- [position](https://oven-sh.github.io/bun-types/interfaces/node_fs_promises_.FileReadOptions.md#position)
 
 ## Properties
 

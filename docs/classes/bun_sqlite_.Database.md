@@ -1,35 +1,35 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:sqlite"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md) / Database
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:sqlite"](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md) / Database
 
 # Class: Database
 
-["bun:sqlite"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md).Database
+["bun:sqlite"](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md).Database
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#constructor)
 
 ### Properties
 
-- [filename](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#filename)
-- [handle](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#handle)
+- [filename](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#filename)
+- [handle](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#handle)
 
 ### Accessors
 
-- [inTransaction](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#intransaction)
+- [inTransaction](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#intransaction)
 
 ### Methods
 
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#close)
-- [exec](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#exec)
-- [loadExtension](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#loadextension)
-- [prepare](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#prepare)
-- [query](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#query)
-- [run](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#run)
-- [transaction](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#transaction)
-- [open](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#open)
-- [setCustomSQLite](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#setcustomsqlite)
+- [close](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#close)
+- [exec](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#exec)
+- [loadExtension](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#loadextension)
+- [prepare](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#prepare)
+- [query](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#query)
+- [run](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#run)
+- [transaction](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#transaction)
+- [open](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#open)
+- [setCustomSQLite](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#setcustomsqlite)
 
 ## Constructors
 
@@ -161,7 +161,7 @@ This is an alias of Database.prototype.run
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 
 #### Parameters
 
@@ -182,7 +182,7 @@ ___
 
 Load a SQLite3 extension
 
-macOS requires a custom SQLite3 library to be linked because the Apple build of SQLite for macOS disables loading extensions. See [setCustomSQLite](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#setcustomsqlite)
+macOS requires a custom SQLite3 library to be linked because the Apple build of SQLite for macOS disables loading extensions. See [setCustomSQLite](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#setcustomsqlite)
 
 Bun chooses the Apple build of SQLite on macOS because it brings a ~50% performance improvement.
 
@@ -201,9 +201,9 @@ ___
 
 ### prepare
 
-▸ **prepare**<`ParamsType`, `ReturnType`\>(`sql`, ...`params`): [`Statement`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
+▸ **prepare**<`ParamsType`, `ReturnType`\>(`sql`, ...`params`): [`Statement`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
 
-Compile a SQL query and return a [Statement](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md) object.
+Compile a SQL query and return a [Statement](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md) object.
 
 This does not cache the compiled query and does not execute the query.
 
@@ -220,7 +220,7 @@ stmt.all("baz");
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 | `ReturnType` | `any` |
 
 #### Parameters
@@ -232,7 +232,7 @@ stmt.all("baz");
 
 #### Returns
 
-[`Statement`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
+[`Statement`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
 
 `Statment` instance
 
@@ -242,10 +242,10 @@ ___
 
 ### query
 
-▸ **query**<`ParamsType`, `ReturnType`\>(`sqlQuery`): [`Statement`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
+▸ **query**<`ParamsType`, `ReturnType`\>(`sqlQuery`): [`Statement`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
 
-Compile a SQL query and return a [Statement](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md) object. This is the
-same as [prepare](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#prepare) except that it caches the compiled query.
+Compile a SQL query and return a [Statement](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md) object. This is the
+same as [prepare](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#prepare) except that it caches the compiled query.
 
 This **does not execute** the query, but instead prepares it for later
 execution and caches the compiled query if possible.
@@ -266,7 +266,7 @@ stmt.all();
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 | `ReturnType` | `any` |
 
 #### Parameters
@@ -277,7 +277,7 @@ stmt.all();
 
 #### Returns
 
-[`Statement`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
+[`Statement`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md)<`ParamsType`, `ReturnType`\>
 
 `Statment` instance
 
@@ -291,7 +291,7 @@ ___
 
 Execute a SQL query **without returning any results**.
 
-This does not cache the query, so if you want to run a query multiple times, you should use [prepare](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md#prepare) instead.
+This does not cache the query, so if you want to run a query multiple times, you should use [prepare](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md#prepare) instead.
 
 **`Example`**
 
@@ -322,7 +322,7 @@ Useful for queries like:
 
 | Name | Type |
 | :------ | :------ |
-| `ParamsType` | [`SQLQueryBindings`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings) |
+| `ParamsType` | [`SQLQueryBindings`](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings) |
 
 #### Parameters
 
@@ -399,11 +399,11 @@ ___
 
 ### open
 
-▸ `Static` **open**(`filename`, `options?`): [`Database`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md)
+▸ `Static` **open**(`filename`, `options?`): [`Database`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md)
 
 This is an alias of `new Database()`
 
-See [Database](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md)
+See [Database](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md)
 
 #### Parameters
 
@@ -414,7 +414,7 @@ See [Database](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes
 
 #### Returns
 
-[`Database`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md)
+[`Database`](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md)
 
 ___
 

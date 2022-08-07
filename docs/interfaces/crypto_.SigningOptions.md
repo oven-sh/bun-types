@@ -1,42 +1,42 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / SigningOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / SigningOptions
 
 # Interface: SigningOptions
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).SigningOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).SigningOptions
 
 ## Hierarchy
 
 - **`SigningOptions`**
 
-  ↳ [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignPrivateKeyInput.md)
+  ↳ [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignPrivateKeyInput.md)
 
-  ↳ [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SignKeyObjectInput.md)
+  ↳ [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.SignKeyObjectInput.md)
 
-  ↳ [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md)
+  ↳ [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md)
 
-  ↳ [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md)
+  ↳ [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md)
 
-  ↳ [`SignPrivateKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.SignPrivateKeyInput.md)
+  ↳ [`SignPrivateKeyInput`](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.SignPrivateKeyInput.md)
 
-  ↳ [`SignKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.SignKeyObjectInput.md)
+  ↳ [`SignKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.SignKeyObjectInput.md)
 
-  ↳ [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.VerifyPublicKeyInput.md)
+  ↳ [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.VerifyPublicKeyInput.md)
 
-  ↳ [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.VerifyKeyObjectInput.md)
+  ↳ [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.VerifyKeyObjectInput.md)
 
 ## Table of contents
 
 ### Properties
 
-- [dsaEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SigningOptions.md#dsaencoding)
-- [padding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SigningOptions.md#padding)
-- [saltLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.SigningOptions.md#saltlength)
+- [dsaEncoding](https://oven-sh.github.io/bun-types/interfaces/crypto_.SigningOptions.md#dsaencoding)
+- [padding](https://oven-sh.github.io/bun-types/interfaces/crypto_.SigningOptions.md#padding)
+- [saltLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.SigningOptions.md#saltlength)
 
 ## Properties
 
 ### dsaEncoding
 
-• `Optional` **dsaEncoding**: [`DSAEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#dsaencoding)
+• `Optional` **dsaEncoding**: [`DSAEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#dsaencoding)
 
 ___
 

@@ -1,43 +1,43 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md) / StreamOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md) / StreamOptions
 
 # Interface: StreamOptions<T\>
 
-["stream"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md).StreamOptions
+["stream"](https://oven-sh.github.io/bun-types/modules/stream_.md).StreamOptions
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`Stream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Stream.md) |
+| `T` | extends [`Stream`](https://oven-sh.github.io/bun-types/classes/stream_.Stream.md) |
 
 ## Hierarchy
 
-- [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.EventEmitter.Abortable.md)
+- [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/events_.EventEmitter.Abortable.md)
 
   ↳ **`StreamOptions`**
 
-  ↳↳ [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.ReadableOptions.md)
+  ↳↳ [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.ReadableOptions.md)
 
-  ↳↳ [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.WritableOptions.md)
+  ↳↳ [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.WritableOptions.md)
 
-  ↳↳ [`ReadableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.ReadableOptions.md)
+  ↳↳ [`ReadableOptions`](https://oven-sh.github.io/bun-types/interfaces/node_stream_.ReadableOptions.md)
 
-  ↳↳ [`WritableOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.WritableOptions.md)
+  ↳↳ [`WritableOptions`](https://oven-sh.github.io/bun-types/interfaces/node_stream_.WritableOptions.md)
 
 ## Table of contents
 
 ### Properties
 
-- [autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#autodestroy)
-- [emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#emitclose)
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#highwatermark)
-- [objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#objectmode)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#signal)
+- [autoDestroy](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#autodestroy)
+- [emitClose](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#emitclose)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#highwatermark)
+- [objectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#objectmode)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#signal)
 
 ### Methods
 
-- [construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#construct)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md#destroy)
+- [construct](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#construct)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md#destroy)
 
 ## Properties
 
@@ -67,13 +67,13 @@ ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 When provided the corresponding `AbortController` can be used to cancel an asynchronous action.
 
 #### Inherited from
 
-[Abortable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.EventEmitter.Abortable.md).[signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.EventEmitter.Abortable.md#signal)
+[Abortable](https://oven-sh.github.io/bun-types/interfaces/events_.EventEmitter.Abortable.md).[signal](https://oven-sh.github.io/bun-types/interfaces/events_.EventEmitter.Abortable.md#signal)
 
 ## Methods
 

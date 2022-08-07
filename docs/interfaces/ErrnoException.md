@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ErrnoException
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ErrnoException
 
 # Interface: ErrnoException
 
@@ -12,10 +12,10 @@
 
 ### Properties
 
-- [code](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md#code)
-- [errno](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md#errno)
-- [path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md#path)
-- [syscall](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ErrnoException.md#syscall)
+- [code](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md#code)
+- [errno](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md#errno)
+- [path](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md#path)
+- [syscall](https://oven-sh.github.io/bun-types/interfaces/ErrnoException.md#syscall)
 
 ## Properties
 

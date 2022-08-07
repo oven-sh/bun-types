@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / BlobPropertyBag
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / BlobPropertyBag
 
 # Interface: BlobPropertyBag
 
@@ -6,8 +6,8 @@
 
 ### Properties
 
-- [endings](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md#endings)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md#type)
+- [endings](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md#endings)
+- [type](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md#type)
 
 ## Properties
 

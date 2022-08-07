@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / Verify
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / Verify
 
 # Class: Verify
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).Verify
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).Verify
 
 The `Verify` class is a utility for verifying signatures. It can be used in one
 of two ways:
@@ -12,13 +12,13 @@ supplied signature, or
 * Using the `verify.update()` and `verify.verify()` methods to verify
 the signature.
 
-The [createVerify](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createverify) method is used to create `Verify` instances.`Verify` objects are not to be created directly using the `new` keyword.
+The [createVerify](https://oven-sh.github.io/bun-types/modules/crypto_.md#createverify) method is used to create `Verify` instances.`Verify` objects are not to be created directly using the `new` keyword.
 
 See `Sign` for examples.
 
 ## Hierarchy
 
-- [`Writable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md)
+- [`Writable`](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md)
 
   ↳ **`Verify`**
 
@@ -26,63 +26,63 @@ See `Sign` for examples.
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#constructor)
 
 ### Properties
 
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#locked)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#writableobjectmode)
-- [captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#capturerejectionsymbol)
-- [captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#capturerejections)
-- [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#defaultmaxlisteners)
-- [errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#errormonitor)
+- [destroyed](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#locked)
+- [writable](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#writableobjectmode)
+- [captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#capturerejectionsymbol)
+- [captureRejections](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#capturerejections)
+- [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#defaultmaxlisteners)
+- [errorMonitor](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#errormonitor)
 
 ### Methods
 
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#_final)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#addlistener)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#eventnames)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#getmaxlisteners)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#getwriter)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#once)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#pipe)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#prependoncelistener)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#rawlisteners)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#removelistener)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#setdefaultencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#setmaxlisteners)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#uncork)
-- [update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#update)
-- [verify](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#verify)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#write)
-- [getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#geteventlisteners)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#listenercount-1)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#on-1)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#once-1)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#setmaxlisteners-1)
+- [\_construct](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#_final)
+- [\_write](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#addlistener)
+- [close](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#close)
+- [cork](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#emit)
+- [end](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#eventnames)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#getmaxlisteners)
+- [getWriter](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#getwriter)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#off)
+- [on](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#on)
+- [once](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#once)
+- [pipe](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#pipe)
+- [prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#prependoncelistener)
+- [rawListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#rawlisteners)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#removelistener)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#setdefaultencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#setmaxlisteners)
+- [uncork](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#uncork)
+- [update](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#update)
+- [verify](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#verify)
+- [write](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#write)
+- [getEventListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#geteventlisteners)
+- [listenerCount](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#listenercount-1)
+- [on](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#on-1)
+- [once](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#once-1)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#setmaxlisteners-1)
 
 ## Constructors
 
@@ -92,7 +92,7 @@ See `Sign` for examples.
 
 #### Overrides
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#constructor)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[constructor](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#constructor)
 
 ## Properties
 
@@ -104,7 +104,7 @@ Is `true` after `writable.destroy()` has been called.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroyed)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[destroyed](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroyed)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#locked)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[locked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#locked)
 
 ___
 
@@ -127,7 +127,7 @@ the stream has not been destroyed, errored or ended.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writable)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writable)
 
 ___
 
@@ -140,7 +140,7 @@ called in order to fully uncork the stream.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablecorked)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableCorked](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablecorked)
 
 ___
 
@@ -153,7 +153,7 @@ does not indicate whether the data has been flushed, for this use `writable.writ
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableended)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableEnded](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableended)
 
 ___
 
@@ -165,7 +165,7 @@ Is set to `true` immediately before the `'finish'` event is emitted.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablefinished)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableFinished](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablefinished)
 
 ___
 
@@ -177,7 +177,7 @@ Return the value of `highWaterMark` passed when creating this `Writable`.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablehighwatermark)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablehighwatermark)
 
 ___
 
@@ -191,7 +191,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writablelength)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableLength](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writablelength)
 
 ___
 
@@ -203,17 +203,17 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#writableobjectmode)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[writableObjectMode](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#writableobjectmode)
 
 ___
 
 ### captureRejectionSymbol
 
-▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#capturerejectionsymbol)
+▪ `Static` `Readonly` **captureRejectionSymbol**: typeof [`captureRejectionSymbol`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#capturerejectionsymbol)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[captureRejectionSymbol](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejectionsymbol)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[captureRejectionSymbol](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejectionsymbol)
 
 ___
 
@@ -225,7 +225,7 @@ Sets or gets the default captureRejection value for all emitters.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[captureRejections](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#capturerejections)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[captureRejections](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#capturerejections)
 
 ___
 
@@ -235,13 +235,13 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#defaultmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#defaultmaxlisteners)
 
 ___
 
 ### errorMonitor
 
-▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Hash.md#errormonitor)
+▪ `Static` `Readonly` **errorMonitor**: typeof [`errorMonitor`](https://oven-sh.github.io/bun-types/classes/crypto_.Hash.md#errormonitor)
 
 This symbol shall be used to install a listener for only monitoring `'error'`
 events. Listeners installed using this symbol are called before the regular
@@ -253,7 +253,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[errorMonitor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#errormonitor)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[errorMonitor](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#errormonitor)
 
 ## Methods
 
@@ -273,7 +273,7 @@ regular `'error'` listener is installed.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_construct)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_construct](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_construct)
 
 ___
 
@@ -294,7 +294,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_destroy)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_destroy)
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_final)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_final](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_final)
 
 ___
 
@@ -336,7 +336,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_write)
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#_writev)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[_writev](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#_writev)
 
 ___
 
@@ -377,13 +377,13 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#abort)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[abort](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#abort)
 
 ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Event emitter
 The defined events on documents including:
@@ -403,13 +403,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -420,13 +420,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -437,13 +437,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -454,47 +454,47 @@ The defined events on documents including:
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **addListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -505,11 +505,11 @@ The defined events on documents including:
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#addlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[addListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#addlistener)
 
 ___
 
@@ -523,7 +523,7 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#close)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[close](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#close)
 
 ___
 
@@ -532,7 +532,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#uncork) or [end](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -549,13 +549,13 @@ See also: `writable.uncork()`, `writable._writev()`.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#cork)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[cork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#cork)
 
 ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **destroy**(`error?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the writable
 stream has ended and subsequent calls to `write()` or `end()` will result in
@@ -578,11 +578,11 @@ but instead implement `writable._destroy()`.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#destroy)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[destroy](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#destroy)
 
 ___
 
@@ -640,7 +640,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -656,7 +656,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`, `err`): `boolean`
 
@@ -673,7 +673,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -689,7 +689,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`, `src`): `boolean`
 
@@ -698,7 +698,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `src` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `src` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -706,7 +706,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`, `src`): `boolean`
 
@@ -715,7 +715,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `src` | [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\> |
+| `src` | [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\> |
 
 #### Returns
 
@@ -723,7 +723,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ▸ **emit**(`event`, ...`args`): `boolean`
 
@@ -740,20 +740,20 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#emit)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[emit](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#emit)
 
 ___
 
 ### end
 
-▸ **end**(`cb?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **end**(`cb?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#write) method after calling [end](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -772,13 +772,13 @@ file.end('world!');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
-▸ **end**(`chunk`, `cb?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **end**(`chunk`, `cb?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -789,13 +789,13 @@ file.end('world!');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
-▸ **end**(`chunk`, `encoding`, `cb?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **end**(`chunk`, `encoding`, `cb?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -807,11 +807,11 @@ file.end('world!');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#end)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[end](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#end)
 
 ___
 
@@ -841,7 +841,7 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#eventnames)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[eventNames](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#eventnames)
 
 ___
 
@@ -850,7 +850,7 @@ ___
 ▸ **getMaxListeners**(): `number`
 
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#defaultmaxlisteners).
 
 #### Returns
 
@@ -858,21 +858,21 @@ set by `emitter.setMaxListeners(n)` or defaults to [defaultMaxListeners](https:/
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getmaxlisteners)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#getwriter)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[getWriter](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#getwriter)
 
 ___
 
@@ -894,7 +894,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listenercount)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listenercount)
 
 ___
 
@@ -924,13 +924,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listeners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[listeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **off**(`eventName`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -943,17 +943,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#off)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[off](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -990,13 +990,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1007,13 +1007,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1024,13 +1024,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1041,47 +1041,47 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
-▸ **on**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **on**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1092,17 +1092,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1137,13 +1137,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1154,13 +1154,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1171,13 +1171,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1188,47 +1188,47 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
-▸ **once**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **once**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1239,11 +1239,11 @@ myEE.emit('foo');
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once)
 
 ___
 
@@ -1255,7 +1255,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1271,13 +1271,13 @@ ___
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#pipe)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[pipe](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#pipe)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1301,13 +1301,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1318,13 +1318,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1335,13 +1335,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1352,47 +1352,47 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1403,17 +1403,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependlistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1435,13 +1435,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1452,13 +1452,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1469,13 +1469,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1486,47 +1486,47 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **prependOnceListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1537,11 +1537,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#prependoncelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#prependoncelistener)
 
 ___
 
@@ -1588,13 +1588,13 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#rawlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#rawlisteners)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeAllListeners**(`event?`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -1612,17 +1612,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removealllisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -1710,13 +1710,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1727,13 +1727,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1744,13 +1744,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1761,47 +1761,47 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"pipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | ``"unpipe"`` |
-| `listener` | (`src`: [`Readable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Readable.md)<`any`\>) => `void` |
+| `listener` | (`src`: [`Readable`](https://oven-sh.github.io/bun-types/classes/stream_.Readable.md)<`any`\>) => `void` |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **removeListener**(`event`, `listener`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
@@ -1812,17 +1812,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#removelistener)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[removeListener](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#removelistener)
 
 ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **setDefaultEncoding**(`encoding`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -1834,17 +1834,17 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setdefaultencoding)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setdefaultencoding)
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **setMaxListeners**(`n`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -1861,11 +1861,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setmaxlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setmaxlisteners)
 
 ___
 
@@ -1873,7 +1873,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -1910,13 +1910,13 @@ See also: `writable.cork()`.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#uncork)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[uncork](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#uncork)
 
 ___
 
 ### update
 
-▸ **update**(`data`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **update**(`data`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 Updates the `Verify` content with the given `data`, the encoding of which
 is given in `inputEncoding`.
@@ -1929,24 +1929,24 @@ This can be called many times with new data as it is streamed.
 
 | Name | Type |
 | :------ | :------ |
-| `data` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `data` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
-▸ **update**(`data`, `inputEncoding`): [`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+▸ **update**(`data`, `inputEncoding`): [`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | `string` |
-| `inputEncoding` | [`Encoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding) |
+| `inputEncoding` | [`Encoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding) |
 
 #### Returns
 
-[`Verify`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md)
+[`Verify`](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md)
 
 ___
 
@@ -1956,7 +1956,7 @@ ___
 
 Verifies the provided data using the given `object` and `signature`.
 
-If `object` is not a `KeyObject`, this function behaves as if`object` had been passed to [createPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#createpublickey). If it is an
+If `object` is not a `KeyObject`, this function behaves as if`object` had been passed to [createPublicKey](https://oven-sh.github.io/bun-types/modules/crypto_.md#createpublickey). If it is an
 object, the following additional properties can be passed:
 
 The `signature` argument is the previously calculated signature for the data, in
@@ -1975,7 +1975,7 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `object` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `ArrayBufferView` |
 
 #### Returns
@@ -1988,9 +1988,9 @@ be passed instead of a public key.
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`KeyLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.VerifyPublicKeyInput.md) |
+| `object` | [`KeyLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keylike) \| [`VerifyKeyObjectInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyKeyObjectInput.md) \| [`VerifyPublicKeyInput`](https://oven-sh.github.io/bun-types/interfaces/crypto_.VerifyPublicKeyInput.md) |
 | `signature` | `string` |
-| `signature_format?` | [`BinaryToTextEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarytotextencoding) |
+| `signature_format?` | [`BinaryToTextEncoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarytotextencoding) |
 
 #### Returns
 
@@ -2031,7 +2031,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Verify.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/classes/crypto_.Verify.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -2066,7 +2066,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write)
 
 ▸ **write**(`chunk`, `encoding`, `callback?`): `boolean`
 
@@ -2084,7 +2084,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#write)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[write](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#write)
 
 ___
 
@@ -2121,7 +2121,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 | Name | Type |
 | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget` |
 | `name` | `string` \| `symbol` |
 
 #### Returns
@@ -2130,7 +2130,7 @@ const { getEventListeners, EventEmitter } = require('events');
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[getEventListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#geteventlisteners)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[getEventListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#geteventlisteners)
 
 ___
 
@@ -2157,7 +2157,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | The emitter to query |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | The emitter to query |
 | `eventName` | `string` \| `symbol` | The event name |
 
 #### Returns
@@ -2166,7 +2166,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#listenercount-1)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#listenercount-1)
 
 ___
 
@@ -2232,7 +2232,7 @@ process.nextTick(() => ac.abort());
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `emitter` | [`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) | - |
+| `emitter` | [`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) | - |
 | `eventName` | `string` | The name of the event being listened for |
 | `options?` | `StaticEventEmitterOptions` | - |
 
@@ -2244,7 +2244,7 @@ that iterates `eventName` events emitted by the `emitter`
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#on-1)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[on](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#on-1)
 
 ___
 
@@ -2346,7 +2346,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once-1)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once-1)
 
 ▸ `Static` **once**(`emitter`, `eventName`, `options?`): `Promise`<`any`[]\>
 
@@ -2364,7 +2364,7 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#once-1)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[once](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#once-1)
 
 ___
 
@@ -2389,7 +2389,7 @@ setMaxListeners(5, target, emitter);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `n?` | `number` | A non-negative number. The maximum number of listeners per `EventTarget` event. |
-| `...eventTargets` | ([`EventEmitter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
+| `...eventTargets` | ([`EventEmitter`](https://oven-sh.github.io/bun-types/classes/events_.EventEmitter-1.md) \| `DOMEventTarget`)[] | - |
 
 #### Returns
 
@@ -2397,4 +2397,4 @@ setMaxListeners(5, target, emitter);
 
 #### Inherited from
 
-[Writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Writable.md#setmaxlisteners-1)
+[Writable](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/stream_.Writable.md#setmaxlisteners-1)

@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md) / HashOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md) / HashOptions
 
 # Interface: HashOptions
 
-["crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md).HashOptions
+["crypto"](https://oven-sh.github.io/bun-types/modules/crypto_.md).HashOptions
 
 ## Hierarchy
 
-- [`TransformOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md)
+- [`TransformOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md)
 
   ↳ **`HashOptions`**
 
@@ -14,32 +14,32 @@
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#allowhalfopen)
-- [autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#autodestroy)
-- [decodeStrings](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#decodestrings)
-- [defaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#defaultencoding)
-- [emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#emitclose)
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#encoding)
-- [highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#highwatermark)
-- [objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#objectmode)
-- [outputLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#outputlength)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#readablehighwatermark)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#readableobjectmode)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#signal)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#writablecorked)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#writablehighwatermark)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#writableobjectmode)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#allowhalfopen)
+- [autoDestroy](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#autodestroy)
+- [decodeStrings](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#decodestrings)
+- [defaultEncoding](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#defaultencoding)
+- [emitClose](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#emitclose)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#encoding)
+- [highWaterMark](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#highwatermark)
+- [objectMode](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#objectmode)
+- [outputLength](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#outputlength)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#readablehighwatermark)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#readableobjectmode)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#signal)
+- [writableCorked](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#writablecorked)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#writablehighwatermark)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#writableobjectmode)
 
 ### Methods
 
-- [construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#construct)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#destroy)
-- [final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#final)
-- [flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#flush)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#read)
-- [transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#transform)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#write)
-- [writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.HashOptions.md#writev)
+- [construct](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#construct)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#destroy)
+- [final](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#final)
+- [flush](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#flush)
+- [read](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#read)
+- [transform](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#transform)
+- [write](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#write)
+- [writev](https://oven-sh.github.io/bun-types/interfaces/crypto_.HashOptions.md#writev)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#allowhalfopen)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[allowHalfOpen](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#allowhalfopen)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[autoDestroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#autodestroy)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[autoDestroy](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#autodestroy)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[decodeStrings](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#decodestrings)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[decodeStrings](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#decodestrings)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[defaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#defaultencoding)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[defaultEncoding](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#defaultencoding)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[emitClose](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#emitclose)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[emitClose](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#emitclose)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#encoding)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[encoding](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#encoding)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[highWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#highwatermark)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[highWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#highwatermark)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[objectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#objectmode)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[objectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#objectmode)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#readablehighwatermark)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[readableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#readablehighwatermark)
 
 ___
 
@@ -148,19 +148,19 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#readableobjectmode)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[readableObjectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#readableobjectmode)
 
 ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 When provided the corresponding `AbortController` can be used to cancel an asynchronous action.
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#signal)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[signal](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#signal)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#writablecorked)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[writableCorked](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#writablecorked)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#writablehighwatermark)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#writablehighwatermark)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#writableobjectmode)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[writableObjectMode](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#writableobjectmode)
 
 ## Methods
 
@@ -202,7 +202,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `callback` | (`error?`: `Error`) => `void` |
 
 #### Returns
@@ -211,7 +211,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#construct)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[construct](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#construct)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `error` | `Error` |
 | `callback` | (`error`: `Error`) => `void` |
 
@@ -233,7 +233,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#destroy)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[destroy](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#destroy)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `callback` | (`error?`: `Error`) => `void` |
 
 #### Returns
@@ -254,7 +254,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#final)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[final](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#final)
 
 ___
 
@@ -266,8 +266,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -275,7 +275,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#flush)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[flush](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#flush)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `size` | `number` |
 
 #### Returns
@@ -296,7 +296,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#read)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[read](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#read)
 
 ___
 
@@ -308,10 +308,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -319,7 +319,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#transform)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[transform](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#transform)
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
 | `callback` | (`error?`: `Error`) => `void` |
@@ -342,7 +342,7 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#write)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[write](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#write)
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`Transform`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/stream_.Transform.md) |
+| `this` | [`Transform`](https://oven-sh.github.io/bun-types/classes/stream_.Transform.md) |
 | `chunks` | { `chunk`: `any` ; `encoding`: `BufferEncoding`  }[] |
 | `callback` | (`error?`: `Error`) => `void` |
 
@@ -364,4 +364,4 @@ ___
 
 #### Inherited from
 
-[TransformOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md).[writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.TransformOptions.md#writev)
+[TransformOptions](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md).[writev](https://oven-sh.github.io/bun-types/interfaces/stream_.TransformOptions.md#writev)

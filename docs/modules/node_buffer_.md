@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "node:buffer"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "node:buffer"
 
 # Namespace: "node:buffer"
 
@@ -6,27 +6,27 @@
 
 ### References
 
-- [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_buffer_.md#buffer)
+- [Buffer](https://oven-sh.github.io/bun-types/modules/node_buffer_.md#buffer)
 
 ### Interfaces
 
-- [BlobOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_buffer_.BlobOptions.md)
+- [BlobOptions](https://oven-sh.github.io/bun-types/interfaces/node_buffer_.BlobOptions.md)
 
 ### Type Aliases
 
-- [TranscodeEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_buffer_.md#transcodeencoding)
+- [TranscodeEncoding](https://oven-sh.github.io/bun-types/modules/node_buffer_.md#transcodeencoding)
 
 ### Variables
 
-- [INSPECT\_MAX\_BYTES](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_buffer_.md#inspect_max_bytes)
-- [SlowBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_buffer_.md#slowbuffer)
-- [kMaxLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_buffer_.md#kmaxlength)
+- [INSPECT\_MAX\_BYTES](https://oven-sh.github.io/bun-types/modules/node_buffer_.md#inspect_max_bytes)
+- [SlowBuffer](https://oven-sh.github.io/bun-types/modules/node_buffer_.md#slowbuffer)
+- [kMaxLength](https://oven-sh.github.io/bun-types/modules/node_buffer_.md#kmaxlength)
 
 ## References
 
 ### Buffer
 
-Re-exports [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+Re-exports [Buffer](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ## Type Aliases
 
@@ -50,7 +50,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `prototype` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) |
+| `prototype` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) |
 
 ___
 

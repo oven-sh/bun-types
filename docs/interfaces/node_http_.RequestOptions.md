@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md) / RequestOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md) / RequestOptions
 
 # Interface: RequestOptions
 
-["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md).RequestOptions
+["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md).RequestOptions
 
 ## Hierarchy
 
-- [`ClientRequestArgs`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md)
+- [`ClientRequestArgs`](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md)
 
   ↳ **`RequestOptions`**
 
@@ -14,22 +14,22 @@
 
 ### Properties
 
-- [auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#auth)
-- [defaultPort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#defaultport)
-- [family](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#family)
-- [headers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#headers)
-- [host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#host)
-- [hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#hostname)
-- [localAddress](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#localaddress)
-- [maxHeaderSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#maxheadersize)
-- [method](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#method)
-- [path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#path)
-- [port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#port)
-- [protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#protocol)
-- [setHost](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#sethost)
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#signal)
-- [socketPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#socketpath)
-- [timeout](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_http_.RequestOptions.md#timeout)
+- [auth](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#auth)
+- [defaultPort](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#defaultport)
+- [family](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#family)
+- [headers](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#headers)
+- [host](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#host)
+- [hostname](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#hostname)
+- [localAddress](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#localaddress)
+- [maxHeaderSize](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#maxheadersize)
+- [method](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#method)
+- [path](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#path)
+- [port](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#port)
+- [protocol](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#protocol)
+- [setHost](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#sethost)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#signal)
+- [socketPath](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#socketpath)
+- [timeout](https://oven-sh.github.io/bun-types/interfaces/node_http_.RequestOptions.md#timeout)
 
 ## Properties
 
@@ -39,7 +39,7 @@
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[auth](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#auth)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[auth](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#auth)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[defaultPort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#defaultport)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[defaultPort](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#defaultport)
 
 ___
 
@@ -59,17 +59,17 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[family](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#family)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[family](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#family)
 
 ___
 
 ### headers
 
-• `Optional` **headers**: [`OutgoingHttpHeaders`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.OutgoingHttpHeaders.md)
+• `Optional` **headers**: [`OutgoingHttpHeaders`](https://oven-sh.github.io/bun-types/interfaces/http_.OutgoingHttpHeaders.md)
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[headers](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#headers)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[headers](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#headers)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[host](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#host)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[host](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#host)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[hostname](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#hostname)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[hostname](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#hostname)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[localAddress](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#localaddress)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[localAddress](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#localaddress)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[maxHeaderSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#maxheadersize)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[maxHeaderSize](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#maxheadersize)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[method](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#method)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[method](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#method)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[path](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#path)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[path](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#path)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[port](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#port)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[port](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#port)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[protocol](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#protocol)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[protocol](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#protocol)
 
 ___
 
@@ -163,17 +163,17 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[setHost](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#sethost)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[setHost](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#sethost)
 
 ___
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#signal)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[signal](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#signal)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[socketPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#socketpath)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[socketPath](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#socketpath)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Inherited from
 
-[ClientRequestArgs](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md).[timeout](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/http_.ClientRequestArgs.md#timeout)
+[ClientRequestArgs](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md).[timeout](https://oven-sh.github.io/bun-types/interfaces/http_.ClientRequestArgs.md#timeout)

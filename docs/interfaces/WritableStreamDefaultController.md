@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / WritableStreamDefaultController
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / WritableStreamDefaultController
 
 # Interface: WritableStreamDefaultController
 
@@ -8,7 +8,7 @@ This Streams API interface represents a controller allowing control of a Writabl
 
 ### Methods
 
-- [error](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/WritableStreamDefaultController.md#error)
+- [error](https://oven-sh.github.io/bun-types/interfaces/WritableStreamDefaultController.md#error)
 
 ## Methods
 

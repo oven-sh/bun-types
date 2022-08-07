@@ -1,31 +1,31 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["events"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.md) / [EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.EventEmitter.md) / Abortable
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["events"](https://oven-sh.github.io/bun-types/modules/events_.md) / [EventEmitter](https://oven-sh.github.io/bun-types/modules/events_.EventEmitter.md) / Abortable
 
 # Interface: Abortable
 
-["events"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.md).[EventEmitter](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/events_.EventEmitter.md).Abortable
+["events"](https://oven-sh.github.io/bun-types/modules/events_.md).[EventEmitter](https://oven-sh.github.io/bun-types/modules/events_.EventEmitter.md).Abortable
 
 ## Hierarchy
 
 - **`Abortable`**
 
-  ↳ [`StreamOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.StreamOptions.md)
+  ↳ [`StreamOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.StreamOptions.md)
 
-  ↳ [`FinishedOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/stream_.FinishedOptions.md)
+  ↳ [`FinishedOptions`](https://oven-sh.github.io/bun-types/interfaces/stream_.FinishedOptions.md)
 
-  ↳ [`StreamOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.StreamOptions.md)
+  ↳ [`StreamOptions`](https://oven-sh.github.io/bun-types/interfaces/node_stream_.StreamOptions.md)
 
-  ↳ [`FinishedOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_stream_.FinishedOptions.md)
+  ↳ [`FinishedOptions`](https://oven-sh.github.io/bun-types/interfaces/node_stream_.FinishedOptions.md)
 
 ## Table of contents
 
 ### Properties
 
-- [signal](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/events_.EventEmitter.Abortable.md#signal)
+- [signal](https://oven-sh.github.io/bun-types/interfaces/events_.EventEmitter.Abortable.md#signal)
 
 ## Properties
 
 ### signal
 
-• `Optional` **signal**: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal)
+• `Optional` **signal**: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal)
 
 When provided the corresponding `AbortController` can be used to cancel an asynchronous action.

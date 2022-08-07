@@ -1,5 +1,5 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md) / [constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.md) / signals
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["os"](https://oven-sh.github.io/bun-types/modules/os_.md) / [constants](https://oven-sh.github.io/bun-types/modules/os_.constants.md) / signals
 
 # Namespace: signals
 
-["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md).[constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.constants.md).signals
+["os"](https://oven-sh.github.io/bun-types/modules/os_.md).[constants](https://oven-sh.github.io/bun-types/modules/os_.constants.md).signals

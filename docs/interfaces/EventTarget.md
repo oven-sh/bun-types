@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / EventTarget
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / EventTarget
 
 # Interface: EventTarget
 
@@ -8,9 +8,9 @@ EventTarget is a DOM interface implemented by objects that can receive events an
 
 ### Methods
 
-- [addEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventTarget.md#addeventlistener)
-- [dispatchEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventTarget.md#dispatchevent)
-- [removeEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventTarget.md#removeeventlistener)
+- [addEventListener](https://oven-sh.github.io/bun-types/interfaces/EventTarget.md#addeventlistener)
+- [dispatchEvent](https://oven-sh.github.io/bun-types/interfaces/EventTarget.md#dispatchevent)
+- [removeEventListener](https://oven-sh.github.io/bun-types/interfaces/EventTarget.md#removeeventlistener)
 
 ## Methods
 
@@ -53,7 +53,7 @@ not appended if it has the same type, callback, and capture.
 | :------ | :------ |
 | `type` | `string` |
 | `callback` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -96,7 +96,7 @@ not appended if it has the same type, callback, and capture.
 | :------ | :------ |
 | `type` | `string` |
 | `callback` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -114,7 +114,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -128,7 +128,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -148,7 +148,7 @@ Removes the event listener in target's event listener list with the same type, c
 | :------ | :------ |
 | `type` | `string` |
 | `callback` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -164,7 +164,7 @@ Removes the event listener in target's event listener list with the same type, c
 | :------ | :------ |
 | `type` | `string` |
 | `callback` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 

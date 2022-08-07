@@ -1,11 +1,11 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md) / OutgoingHttpHeaders
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md) / OutgoingHttpHeaders
 
 # Interface: OutgoingHttpHeaders
 
-["node:http"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_http_.md).OutgoingHttpHeaders
+["node:http"](https://oven-sh.github.io/bun-types/modules/node_http_.md).OutgoingHttpHeaders
 
 ## Hierarchy
 
-- [`Dict`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Dict.md)<[`OutgoingHttpHeader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/http_.md#outgoinghttpheader)\>
+- [`Dict`](https://oven-sh.github.io/bun-types/interfaces/Dict.md)<[`OutgoingHttpHeader`](https://oven-sh.github.io/bun-types/modules/http_.md#outgoinghttpheader)\>
 
   ↳ **`OutgoingHttpHeaders`**

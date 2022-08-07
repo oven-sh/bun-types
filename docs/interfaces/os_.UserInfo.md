@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md) / UserInfo
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["os"](https://oven-sh.github.io/bun-types/modules/os_.md) / UserInfo
 
 # Interface: UserInfo<T\>
 
-["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md).UserInfo
+["os"](https://oven-sh.github.io/bun-types/modules/os_.md).UserInfo
 
 ## Type parameters
 
@@ -14,11 +14,11 @@
 
 ### Properties
 
-- [gid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md#gid)
-- [homedir](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md#homedir)
-- [shell](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md#shell)
-- [uid](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md#uid)
-- [username](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.UserInfo.md#username)
+- [gid](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md#gid)
+- [homedir](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md#homedir)
+- [shell](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md#shell)
+- [uid](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md#uid)
+- [username](https://oven-sh.github.io/bun-types/interfaces/os_.UserInfo.md#username)
 
 ## Properties
 

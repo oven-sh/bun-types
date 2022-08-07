@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / AbortSignal
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / AbortSignal
 
 # Interface: AbortSignal
 
@@ -6,7 +6,7 @@ A signal object that allows you to communicate with a DOM request (such as a Fet
 
 ## Hierarchy
 
-- [`EventTarget`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#eventtarget)
+- [`EventTarget`](https://oven-sh.github.io/bun-types/modules.md#eventtarget)
 
   ↳ **`AbortSignal`**
 
@@ -14,14 +14,14 @@ A signal object that allows you to communicate with a DOM request (such as a Fet
 
 ### Properties
 
-- [aborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignal.md#aborted)
-- [onabort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignal.md#onabort)
+- [aborted](https://oven-sh.github.io/bun-types/interfaces/AbortSignal.md#aborted)
+- [onabort](https://oven-sh.github.io/bun-types/interfaces/AbortSignal.md#onabort)
 
 ### Methods
 
-- [addEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignal.md#addeventlistener)
-- [dispatchEvent](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignal.md#dispatchevent)
-- [removeEventListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignal.md#removeeventlistener)
+- [addEventListener](https://oven-sh.github.io/bun-types/interfaces/AbortSignal.md#addeventlistener)
+- [dispatchEvent](https://oven-sh.github.io/bun-types/interfaces/AbortSignal.md#dispatchevent)
+- [removeEventListener](https://oven-sh.github.io/bun-types/interfaces/AbortSignal.md#removeeventlistener)
 
 ## Properties
 
@@ -35,7 +35,7 @@ ___
 
 ### onabort
 
-• **onabort**: (`this`: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal), `ev`: [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event)) => `any`
+• **onabort**: (`this`: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal), `ev`: [`Event`](https://oven-sh.github.io/bun-types/modules.md#event)) => `any`
 
 #### Type declaration
 
@@ -45,8 +45,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `this` | [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal) |
-| `ev` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `this` | [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal) |
+| `ev` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 ##### Returns
 
@@ -69,8 +69,8 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `listener` | (`this`: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://oven-sh.github.io/bun-types/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -88,7 +88,7 @@ EventTarget.addEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -111,8 +111,8 @@ EventTarget.addEventListener
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `listener` | (`this`: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://oven-sh.github.io/bun-types/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -130,7 +130,7 @@ EventTarget.addEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`AddEventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AddEventListenerOptions.md) |
+| `options?` | `boolean` \| [`AddEventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/AddEventListenerOptions.md) |
 
 #### Returns
 
@@ -152,7 +152,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -170,7 +170,7 @@ Dispatches a synthetic event event to target and returns true if either event's 
 
 | Name | Type |
 | :------ | :------ |
-| `event` | [`Event`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#event) |
+| `event` | [`Event`](https://oven-sh.github.io/bun-types/modules.md#event) |
 
 #### Returns
 
@@ -197,8 +197,8 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `listener` | (`this`: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://oven-sh.github.io/bun-types/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -216,7 +216,7 @@ EventTarget.removeEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -239,8 +239,8 @@ EventTarget.removeEventListener
 | Name | Type |
 | :------ | :------ |
 | `type` | `K` |
-| `listener` | (`this`: [`AbortSignal`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `listener` | (`this`: [`AbortSignal`](https://oven-sh.github.io/bun-types/modules.md#abortsignal), `ev`: [`AbortSignalEventMap`](https://oven-sh.github.io/bun-types/interfaces/AbortSignalEventMap.md)[`K`]) => `any` |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 
@@ -258,7 +258,7 @@ EventTarget.removeEventListener
 | :------ | :------ |
 | `type` | `string` |
 | `listener` | `EventListenerOrEventListenerObject` |
-| `options?` | `boolean` \| [`EventListenerOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/EventListenerOptions.md) |
+| `options?` | `boolean` \| [`EventListenerOptions`](https://oven-sh.github.io/bun-types/interfaces/EventListenerOptions.md) |
 
 #### Returns
 

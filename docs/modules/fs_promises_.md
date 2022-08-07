@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "fs/promises"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "fs/promises"
 
 # Namespace: "fs/promises"
 
@@ -14,36 +14,36 @@ concurrent modifications on the same file or data corruption may occur.
 
 ### Interfaces
 
-- [FileReadOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_promises_.FileReadOptions.md)
-- [FileReadResult](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_promises_.FileReadResult.md)
-- [FlagAndOpenMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_promises_.FlagAndOpenMode.md)
+- [FileReadOptions](https://oven-sh.github.io/bun-types/interfaces/fs_promises_.FileReadOptions.md)
+- [FileReadResult](https://oven-sh.github.io/bun-types/interfaces/fs_promises_.FileReadResult.md)
+- [FlagAndOpenMode](https://oven-sh.github.io/bun-types/interfaces/fs_promises_.FlagAndOpenMode.md)
 
 ### Functions
 
-- [access](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#access)
-- [appendFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#appendfile)
-- [chmod](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#chmod)
-- [chown](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#chown)
-- [copyFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#copyfile)
-- [lchmod](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#lchmod)
-- [lchown](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#lchown)
-- [link](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#link)
-- [lstat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#lstat)
-- [lutimes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#lutimes)
-- [mkdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#mkdir)
-- [mkdtemp](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#mkdtemp)
-- [open](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#open)
-- [readFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#readfile)
-- [readdir](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#readdir)
-- [readlink](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#readlink)
-- [realpath](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#realpath)
-- [rename](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#rename)
-- [stat](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#stat)
-- [symlink](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#symlink)
-- [truncate](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#truncate)
-- [unlink](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#unlink)
-- [utimes](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#utimes)
-- [writeFile](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_promises_.md#writefile)
+- [access](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#access)
+- [appendFile](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#appendfile)
+- [chmod](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#chmod)
+- [chown](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#chown)
+- [copyFile](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#copyfile)
+- [lchmod](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#lchmod)
+- [lchown](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#lchown)
+- [link](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#link)
+- [lstat](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#lstat)
+- [lutimes](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#lutimes)
+- [mkdir](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#mkdir)
+- [mkdtemp](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#mkdtemp)
+- [open](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#open)
+- [readFile](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#readfile)
+- [readdir](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#readdir)
+- [readlink](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#readlink)
+- [realpath](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#realpath)
+- [rename](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#rename)
+- [stat](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#stat)
+- [symlink](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#symlink)
+- [truncate](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#truncate)
+- [unlink](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#unlink)
+- [utimes](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#utimes)
+- [writeFile](https://oven-sh.github.io/bun-types/modules/fs_promises_.md#writefile)
 
 ## Functions
 
@@ -171,7 +171,7 @@ v0.0.67
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | filename or {FileHandle} |
 | `data` | `string` \| `Uint8Array` | - |
-| `options?` | [`WriteFileOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#writefileoptions) | - |
+| `options?` | [`WriteFileOptions`](https://oven-sh.github.io/bun-types/modules/fs_.md#writefileoptions) | - |
 
 #### Returns
 
@@ -201,7 +201,7 @@ v0.0.67
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | filename or {FileHandle} |
 | `data` | `string` \| `Uint8Array` | - |
-| `options?` | [`WriteFileOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#writefileoptions) | - |
+| `options?` | [`WriteFileOptions`](https://oven-sh.github.io/bun-types/modules/fs_.md#writefileoptions) | - |
 
 #### Returns
 
@@ -226,7 +226,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `mode` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) |
+| `mode` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) |
 
 #### Returns
 
@@ -247,7 +247,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `mode` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) |
+| `mode` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) |
 
 #### Returns
 
@@ -420,7 +420,7 @@ Since v0.4.7
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `mode` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) |
+| `mode` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) |
 
 #### Returns
 
@@ -443,7 +443,7 @@ Since v0.4.7
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `mode` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) |
+| `mode` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) |
 
 #### Returns
 
@@ -541,7 +541,7 @@ ___
 
 ### lstat
 
-▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Equivalent to `fsPromises.stat()` unless `path` refers to a symbolic link,
 in which case the link itself is stat-ed, not the file that it refers to.
@@ -556,41 +556,41 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Fulfills with the {fs.Stats} object for the given symbolic link `path`.
 
-▸ **lstat**(`path`, `options`): `Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **lstat**(`path`, `options`): `Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
+| `options` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
 
 #### Returns
 
-`Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Equivalent to `fsPromises.stat()` unless `path` refers to a symbolic link,
 in which case the link itself is stat-ed, not the file that it refers to.
@@ -605,39 +605,39 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Fulfills with the {fs.Stats} object for the given symbolic link `path`.
 
-▸ **lstat**(`path`, `options`): `Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **lstat**(`path`, `options`): `Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
+| `options` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
 
 #### Returns
 
-`Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **lstat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 ___
 
@@ -713,7 +713,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive`: ``true``  } |
+| `options` | [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive`: ``true``  } |
 
 #### Returns
 
@@ -730,7 +730,7 @@ Asynchronous mkdir(2) - create a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive?`: ``false``  } | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
+| `options?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive?`: ``false``  } | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
 
 #### Returns
 
@@ -745,7 +745,7 @@ Asynchronous mkdir(2) - create a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
+| `options?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
 
 #### Returns
 
@@ -769,7 +769,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive`: ``true``  } |
+| `options` | [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive`: ``true``  } |
 
 #### Returns
 
@@ -786,7 +786,7 @@ Asynchronous mkdir(2) - create a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive?`: ``false``  } | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
+| `options?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) & { `recursive?`: ``false``  } | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
 
 #### Returns
 
@@ -801,7 +801,7 @@ Asynchronous mkdir(2) - create a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.MakeDirectoryOptions.md) | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
+| `options?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) \| [`MakeDirectoryOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.MakeDirectoryOptions.md) | Either the file mode, or an object optionally specifying the file mode and whether parent folders should be created. If a string is passed, it is parsed as an octal integer. If not specified, defaults to `0o777`. |
 
 #### Returns
 
@@ -846,7 +846,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `prefix` | `string` |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) |
 
 #### Returns
 
@@ -854,7 +854,7 @@ v0.0.67
 
 Fulfills with a string containing the filesystem path of the newly created temporary directory.
 
-▸ **mkdtemp**(`prefix`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **mkdtemp**(`prefix`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously creates a unique temporary directory.
 Generates six random characters to be appended behind a required `prefix` to create a unique temporary directory.
@@ -864,13 +864,13 @@ Generates six random characters to be appended behind a required `prefix` to cre
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `prefix` | `string` | - |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **mkdtemp**(`prefix`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **mkdtemp**(`prefix`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously creates a unique temporary directory.
 Generates six random characters to be appended behind a required `prefix` to create a unique temporary directory.
@@ -880,11 +880,11 @@ Generates six random characters to be appended behind a required `prefix` to cre
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `prefix` | `string` | - |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ▸ **mkdtemp**(`prefix`, `options?`): `Promise`<`string`\>
 
@@ -921,7 +921,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `prefix` | `string` |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) |
 
 #### Returns
 
@@ -929,7 +929,7 @@ v0.0.67
 
 Fulfills with a string containing the filesystem path of the newly created temporary directory.
 
-▸ **mkdtemp**(`prefix`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **mkdtemp**(`prefix`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously creates a unique temporary directory.
 Generates six random characters to be appended behind a required `prefix` to create a unique temporary directory.
@@ -939,13 +939,13 @@ Generates six random characters to be appended behind a required `prefix` to cre
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `prefix` | `string` | - |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **mkdtemp**(`prefix`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **mkdtemp**(`prefix`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously creates a unique temporary directory.
 Generates six random characters to be appended behind a required `prefix` to create a unique temporary directory.
@@ -955,11 +955,11 @@ Generates six random characters to be appended behind a required `prefix` to cre
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `prefix` | `string` | - |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ___
 
@@ -984,8 +984,8 @@ v0.0.67
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | - |
-| `flags?` | [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode) | See `support of file system `flags``. |
-| `mode?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) | Sets the file mode (permission and sticky bits) if the file is created. |
+| `flags?` | [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode) | See `support of file system `flags``. |
+| `mode?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) | Sets the file mode (permission and sticky bits) if the file is created. |
 
 #### Returns
 
@@ -1012,8 +1012,8 @@ v0.0.67
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | - |
-| `flags?` | [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode) | See `support of file system `flags``. |
-| `mode?` | [`Mode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#mode) | Sets the file mode (permission and sticky bits) if the file is created. |
+| `flags?` | [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode) | See `support of file system `flags``. |
+| `mode?` | [`Mode`](https://oven-sh.github.io/bun-types/modules/fs_.md#mode) | Sets the file mode (permission and sticky bits) if the file is created. |
 
 #### Returns
 
@@ -1025,7 +1025,7 @@ ___
 
 ### readFile
 
-▸ **readFile**(`path`, `options?`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readFile**(`path`, `options?`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously reads the entire contents of a file.
 
@@ -1074,11 +1074,11 @@ v0.0.67
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | filename or `FileHandle` |
-| `options?` | { `encoding?`: ``null`` ; `flag?`: `string`  } & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) | - |
+| `options?` | { `encoding?`: ``null`` ; `flag?`: `string`  } & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) | - |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Fulfills with the contents of the file.
 
@@ -1091,13 +1091,13 @@ Asynchronously reads the entire contents of a file.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | A path to a file. If a URL is provided, it must use the `file:` protocol. If a `FileHandle` is provided, the underlying file will _not_ be closed automatically. |
-| `options` | `BufferEncoding` \| { `encoding`: `BufferEncoding` ; `flag?`: [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode)  } & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
+| `options` | `BufferEncoding` \| { `encoding`: `BufferEncoding` ; `flag?`: [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode)  } & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
 
 #### Returns
 
 `Promise`<`string`\>
 
-▸ **readFile**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readFile**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously reads the entire contents of a file.
 
@@ -1106,13 +1106,13 @@ Asynchronously reads the entire contents of a file.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | A path to a file. If a URL is provided, it must use the `file:` protocol. If a `FileHandle` is provided, the underlying file will _not_ be closed automatically. |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) & { `flag?`: [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode)  } | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) & { `flag?`: [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode)  } | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **readFile**(`path`, `options?`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readFile**(`path`, `options?`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously reads the entire contents of a file.
 
@@ -1161,11 +1161,11 @@ v0.0.67
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | filename or `FileHandle` |
-| `options?` | { `encoding?`: ``null`` ; `flag?`: `string`  } & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) | - |
+| `options?` | { `encoding?`: ``null`` ; `flag?`: `string`  } & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) | - |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Fulfills with the contents of the file.
 
@@ -1178,13 +1178,13 @@ Asynchronously reads the entire contents of a file.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | A path to a file. If a URL is provided, it must use the `file:` protocol. If a `FileHandle` is provided, the underlying file will _not_ be closed automatically. |
-| `options` | `BufferEncoding` \| { `encoding`: `BufferEncoding` ; `flag?`: [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode)  } & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
+| `options` | `BufferEncoding` \| { `encoding`: `BufferEncoding` ; `flag?`: [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode)  } & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
 
 #### Returns
 
 `Promise`<`string`\>
 
-▸ **readFile**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readFile**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronously reads the entire contents of a file.
 
@@ -1193,11 +1193,11 @@ Asynchronously reads the entire contents of a file.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathOrFileDescriptor` | A path to a file. If a URL is provided, it must use the `file:` protocol. If a `FileHandle` is provided, the underlying file will _not_ be closed automatically. |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & [`Abortable`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.Abortable.md) & { `flag?`: [`OpenMode`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#openmode)  } | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & [`Abortable`](https://oven-sh.github.io/bun-types/interfaces/fs_.Abortable.md) & { `flag?`: [`OpenMode`](https://oven-sh.github.io/bun-types/modules/fs_.md#openmode)  } | An object that may contain an optional flag. If a flag is not provided, it defaults to `"r"`. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ___
 
@@ -1235,7 +1235,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } |
 
 #### Returns
 
@@ -1243,7 +1243,7 @@ v0.0.67
 
 Fulfills with an array of the names of the files in the directory excluding `"."` and `".."`.
 
-▸ **readdir**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
+▸ **readdir**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
 Asynchronous readdir(3) - read a directory.
 
@@ -1256,24 +1256,9 @@ Asynchronous readdir(3) - read a directory.
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
-▸ **readdir**(`path`, `options?`): `Promise`<`string`[] \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
-
-Asynchronous readdir(3) - read a directory.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
-
-#### Returns
-
-`Promise`<`string`[] \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
-
-▸ **readdir**(`path`, `options`): `Promise`<[`Dirent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md)[]\>
+▸ **readdir**(`path`, `options?`): `Promise`<`string`[] \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
 Asynchronous readdir(3) - read a directory.
 
@@ -1282,11 +1267,26 @@ Asynchronous readdir(3) - read a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes`: ``true``  } | If called with `withFileTypes: true` the result data will be an array of Dirent. |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Dirent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md)[]\>
+`Promise`<`string`[] \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
+
+▸ **readdir**(`path`, `options`): `Promise`<[`Dirent`](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md)[]\>
+
+Asynchronous readdir(3) - read a directory.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
+| `options` | [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes`: ``true``  } | If called with `withFileTypes: true` the result data will be an array of Dirent. |
+
+#### Returns
+
+`Promise`<[`Dirent`](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md)[]\>
 
 ▸ **readdir**(`path`, `options?`): `Promise`<`string`[]\>
 
@@ -1320,7 +1320,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } |
 
 #### Returns
 
@@ -1328,7 +1328,7 @@ v0.0.67
 
 Fulfills with an array of the names of the files in the directory excluding `"."` and `".."`.
 
-▸ **readdir**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
+▸ **readdir**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
 Asynchronous readdir(3) - read a directory.
 
@@ -1341,24 +1341,9 @@ Asynchronous readdir(3) - read a directory.
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
-▸ **readdir**(`path`, `options?`): `Promise`<`string`[] \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
-
-Asynchronous readdir(3) - read a directory.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
-
-#### Returns
-
-`Promise`<`string`[] \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)[]\>
-
-▸ **readdir**(`path`, `options`): `Promise`<[`Dirent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md)[]\>
+▸ **readdir**(`path`, `options?`): `Promise`<`string`[] \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
 
 Asynchronous readdir(3) - read a directory.
 
@@ -1367,11 +1352,26 @@ Asynchronous readdir(3) - read a directory.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes`: ``true``  } | If called with `withFileTypes: true` the result data will be an array of Dirent. |
+| `options?` | `BufferEncoding` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes?`: ``false``  } | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Dirent`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Dirent.md)[]\>
+`Promise`<`string`[] \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)[]\>
+
+▸ **readdir**(`path`, `options`): `Promise`<[`Dirent`](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md)[]\>
+
+Asynchronous readdir(3) - read a directory.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
+| `options` | [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) & { `withFileTypes`: ``true``  } | If called with `withFileTypes: true` the result data will be an array of Dirent. |
+
+#### Returns
+
+`Promise`<[`Dirent`](https://oven-sh.github.io/bun-types/classes/fs_.Dirent.md)[]\>
 
 ___
 
@@ -1396,7 +1396,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | ``"buffer"`` \| ``"utf8"`` \| ``"utf-8"`` \| ``"ascii"`` \| ``"utf16le"`` \| ``"ucs2"`` \| ``"ucs-2"`` \| ``"latin1"`` \| ``"binary"`` \| ``"hex"`` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) |
+| `options?` | ``"buffer"`` \| ``"utf8"`` \| ``"utf-8"`` \| ``"ascii"`` \| ``"utf16le"`` \| ``"ucs2"`` \| ``"ucs-2"`` \| ``"latin1"`` \| ``"binary"`` \| ``"hex"`` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) |
 
 #### Returns
 
@@ -1404,7 +1404,7 @@ v0.0.67
 
 Fulfills with the `linkString` upon success.
 
-▸ **readlink**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readlink**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous readlink(2) - read value of a symbolic link.
 
@@ -1413,13 +1413,13 @@ Asynchronous readlink(2) - read value of a symbolic link.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **readlink**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readlink**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous readlink(2) - read value of a symbolic link.
 
@@ -1428,11 +1428,11 @@ Asynchronous readlink(2) - read value of a symbolic link.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | `string` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | `string` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ▸ **readlink**(`path`, `options?`): `Promise`<`string`\>
 
@@ -1453,7 +1453,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | ``"buffer"`` \| ``"utf8"`` \| ``"utf-8"`` \| ``"ascii"`` \| ``"utf16le"`` \| ``"ucs2"`` \| ``"ucs-2"`` \| ``"latin1"`` \| ``"binary"`` \| ``"hex"`` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) |
+| `options?` | ``"buffer"`` \| ``"utf8"`` \| ``"utf-8"`` \| ``"ascii"`` \| ``"utf16le"`` \| ``"ucs2"`` \| ``"ucs-2"`` \| ``"latin1"`` \| ``"binary"`` \| ``"hex"`` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) |
 
 #### Returns
 
@@ -1461,7 +1461,7 @@ v0.0.67
 
 Fulfills with the `linkString` upon success.
 
-▸ **readlink**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readlink**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous readlink(2) - read value of a symbolic link.
 
@@ -1470,13 +1470,13 @@ Asynchronous readlink(2) - read value of a symbolic link.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **readlink**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **readlink**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous readlink(2) - read value of a symbolic link.
 
@@ -1485,11 +1485,11 @@ Asynchronous readlink(2) - read value of a symbolic link.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | `string` \| [`ObjectEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.ObjectEncodingOptions.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | `string` \| [`ObjectEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.ObjectEncodingOptions.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ___
 
@@ -1519,7 +1519,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) |
 
 #### Returns
 
@@ -1527,7 +1527,7 @@ v0.0.67
 
 Fulfills with the resolved path upon success.
 
-▸ **realpath**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **realpath**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous realpath(3) - return the canonicalized absolute pathname.
 
@@ -1536,13 +1536,13 @@ Asynchronous realpath(3) - return the canonicalized absolute pathname.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **realpath**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **realpath**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous realpath(3) - return the canonicalized absolute pathname.
 
@@ -1551,11 +1551,11 @@ Asynchronous realpath(3) - return the canonicalized absolute pathname.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ▸ **realpath**(`path`, `options?`): `Promise`<`string`\>
 
@@ -1581,7 +1581,7 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) |
 
 #### Returns
 
@@ -1589,7 +1589,7 @@ v0.0.67
 
 Fulfills with the resolved path upon success.
 
-▸ **realpath**(`path`, `options`): `Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **realpath**(`path`, `options`): `Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous realpath(3) - return the canonicalized absolute pathname.
 
@@ -1598,13 +1598,13 @@ Asynchronous realpath(3) - return the canonicalized absolute pathname.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options` | [`BufferEncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options` | [`BufferEncodingOption`](https://oven-sh.github.io/bun-types/interfaces/BufferEncodingOption.md) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
-▸ **realpath**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+▸ **realpath**(`path`, `options?`): `Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 Asynchronous realpath(3) - return the canonicalized absolute pathname.
 
@@ -1613,11 +1613,11 @@ Asynchronous realpath(3) - return the canonicalized absolute pathname.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `PathLike` | A path to a file. If a URL is provided, it must use the `file:` protocol. |
-| `options?` | [`EncodingOption`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
+| `options?` | [`EncodingOption`](https://oven-sh.github.io/bun-types/modules/fs_.md#encodingoption) | The encoding (or an object specifying the encoding), used as the encoding of the result. If not provided, `"utf8"` is used. |
 
 #### Returns
 
-`Promise`<`string` \| [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)\>
+`Promise`<`string` \| [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)\>
 
 ___
 
@@ -1669,7 +1669,7 @@ ___
 
 ### stat
 
-▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 **`Since`**
 
@@ -1680,41 +1680,41 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Fulfills with the {fs.Stats} object for the given `path`.
 
-▸ **stat**(`path`, `options`): `Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **stat**(`path`, `options`): `Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
+| `options` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
 
 #### Returns
 
-`Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 **`Since`**
 
@@ -1725,39 +1725,39 @@ v0.0.67
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint?`: ``false``  } |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md)\>
 
 Fulfills with the {fs.Stats} object for the given `path`.
 
-▸ **stat**(`path`, `options`): `Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **stat**(`path`, `options`): `Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
+| `options` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) & { `bigint`: ``true``  } |
 
 #### Returns
 
-`Promise`<[`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
-▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+▸ **stat**(`path`, `options?`): `Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `options?` | [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md) |
+| `options?` | [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md) |
 
 #### Returns
 
-`Promise`<[`Stats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/fs_.Stats.md) \| [`BigIntStats`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.BigIntStats.md)\>
+`Promise`<[`Stats`](https://oven-sh.github.io/bun-types/classes/fs_.Stats.md) \| [`BigIntStats`](https://oven-sh.github.io/bun-types/interfaces/fs_.BigIntStats.md)\>
 
 ___
 
@@ -1781,7 +1781,7 @@ v0.0.67
 | :------ | :------ |
 | `target` | `PathLike` |
 | `path` | `PathLike` |
-| `type?` | [`SimlinkType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#simlinktype) |
+| `type?` | [`SimlinkType`](https://oven-sh.github.io/bun-types/modules/fs_.md#simlinktype) |
 
 #### Returns
 
@@ -1807,7 +1807,7 @@ v0.0.67
 | :------ | :------ |
 | `target` | `PathLike` |
 | `path` | `PathLike` |
-| `type?` | [`SimlinkType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#simlinktype) |
+| `type?` | [`SimlinkType`](https://oven-sh.github.io/bun-types/modules/fs_.md#simlinktype) |
 
 #### Returns
 
@@ -2031,7 +2031,7 @@ v0.0.67
 | :------ | :------ | :------ |
 | `file` | `PathOrFileDescriptor` | filename or `FileHandle` |
 | `data` | `string` \| `ArrayBufferLike` \| `ArrayBufferView` | - |
-| `options?` | [`WriteFileOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#writefileoptions) | - |
+| `options?` | [`WriteFileOptions`](https://oven-sh.github.io/bun-types/modules/fs_.md#writefileoptions) | - |
 
 #### Returns
 
@@ -2097,7 +2097,7 @@ v0.0.67
 | :------ | :------ | :------ |
 | `file` | `PathOrFileDescriptor` | filename or `FileHandle` |
 | `data` | `string` \| `ArrayBufferLike` \| `ArrayBufferView` | - |
-| `options?` | [`WriteFileOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/fs_.md#writefileoptions) | - |
+| `options?` | [`WriteFileOptions`](https://oven-sh.github.io/bun-types/modules/fs_.md#writefileoptions) | - |
 
 #### Returns
 

@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["buffer"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md) / BlobOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["buffer"](https://oven-sh.github.io/bun-types/modules/buffer_.md) / BlobOptions
 
 # Interface: BlobOptions
 
-["buffer"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md).BlobOptions
+["buffer"](https://oven-sh.github.io/bun-types/modules/buffer_.md).BlobOptions
 
 ## Table of contents
 
 ### Properties
 
-- [encoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/buffer_.BlobOptions.md#encoding)
-- [type](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/buffer_.BlobOptions.md#type)
+- [encoding](https://oven-sh.github.io/bun-types/interfaces/buffer_.BlobOptions.md#encoding)
+- [type](https://oven-sh.github.io/bun-types/interfaces/buffer_.BlobOptions.md#type)
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ReadableWritablePair
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ReadableWritablePair
 
 # Interface: ReadableWritablePair<R, W\>
 
@@ -13,20 +13,20 @@
 
 ### Properties
 
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md#readable)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md#writable)
+- [readable](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md#readable)
+- [writable](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md#writable)
 
 ## Properties
 
 ### readable
 
-• **readable**: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`R`\>
+• **readable**: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`R`\>
 
 ___
 
 ### writable
 
-• **writable**: [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`W`\>
+• **writable**: [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`W`\>
 
 Provides a convenient, chainable way of piping this readable stream through a transform stream (or any other { writable, readable } pair). It simply pipes the stream into the writable side of the supplied pair, and returns the readable side for further use.
 

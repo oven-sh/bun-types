@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / URLSearchParams
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / URLSearchParams
 
 # Interface: URLSearchParams
 
@@ -6,18 +6,18 @@
 
 ### Methods
 
-- [append](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#append)
-- [delete](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#delete)
-- [entries](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#entries)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#foreach)
-- [get](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#get)
-- [getAll](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#getall)
-- [has](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#has)
-- [keys](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#keys)
-- [set](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#set)
-- [sort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#sort)
-- [toString](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#tostring)
-- [values](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URLSearchParams.md#values)
+- [append](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#append)
+- [delete](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#delete)
+- [entries](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#entries)
+- [forEach](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#foreach)
+- [get](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#get)
+- [getAll](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#getall)
+- [has](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#has)
+- [keys](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#keys)
+- [set](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#set)
+- [sort](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#sort)
+- [toString](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#tostring)
+- [values](https://oven-sh.github.io/bun-types/interfaces/URLSearchParams.md#values)
 
 ## Methods
 
@@ -111,7 +111,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`URLSearchParams`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#urlsearchparams)) => `void` |
+| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`URLSearchParams`](https://oven-sh.github.io/bun-types/modules.md#urlsearchparams)) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -124,7 +124,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`URLSearchParams`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#urlsearchparams)) => `void` |
+| `callbackfn` | (`value`: `string`, `key`: `string`, `parent`: [`URLSearchParams`](https://oven-sh.github.io/bun-types/modules.md#urlsearchparams)) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns

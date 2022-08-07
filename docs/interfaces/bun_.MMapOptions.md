@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / MMapOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / MMapOptions
 
 # Interface: MMapOptions
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).MMapOptions
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).MMapOptions
 
 ## Table of contents
 
 ### Properties
 
-- [shared](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.MMapOptions.md#shared)
-- [sync](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.MMapOptions.md#sync)
+- [shared](https://oven-sh.github.io/bun-types/interfaces/bun_.MMapOptions.md#shared)
+- [sync](https://oven-sh.github.io/bun-types/interfaces/bun_.MMapOptions.md#sync)
 
 ## Properties
 

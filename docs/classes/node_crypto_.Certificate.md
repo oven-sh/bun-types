@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / Certificate
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / Certificate
 
 # Class: Certificate
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).Certificate
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).Certificate
 
 SPKAC is a Certificate Signing Request mechanism originally implemented by
 Netscape and was specified formally as part of [HTML5's `keygen` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen).
@@ -18,16 +18,16 @@ implementation](https://www.openssl.org/docs/man1.1.0/apps/openssl-spkac.html) i
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#constructor)
 
 ### Methods
 
-- [exportChallenge](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#exportchallenge)
-- [exportPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#exportpublickey)
-- [verifySpkac](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#verifyspkac)
-- [exportChallenge](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#exportchallenge-1)
-- [exportPublicKey](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#exportpublickey-1)
-- [verifySpkac](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_crypto_.Certificate.md#verifyspkac-1)
+- [exportChallenge](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#exportchallenge)
+- [exportPublicKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#exportpublickey)
+- [verifySpkac](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#verifyspkac)
+- [exportChallenge](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#exportchallenge-1)
+- [exportPublicKey](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#exportpublickey-1)
+- [verifySpkac](https://oven-sh.github.io/bun-types/classes/node_crypto_.Certificate.md#verifyspkac-1)
 
 ## Constructors
 
@@ -39,7 +39,7 @@ implementation](https://www.openssl.org/docs/man1.1.0/apps/openssl-spkac.html) i
 
 ### exportChallenge
 
-▸ **exportChallenge**(`spkac`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **exportChallenge**(`spkac`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 **`Deprecated`**
 
@@ -47,11 +47,11 @@ implementation](https://www.openssl.org/docs/man1.1.0/apps/openssl-spkac.html) i
 
 | Name | Type |
 | :------ | :------ |
-| `spkac` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `spkac` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The challenge component of the `spkac` data structure,
 which includes a public key and a challenge.
@@ -60,7 +60,7 @@ ___
 
 ### exportPublicKey
 
-▸ **exportPublicKey**(`spkac`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **exportPublicKey**(`spkac`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 **`Deprecated`**
 
@@ -68,12 +68,12 @@ ___
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `spkac` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |  |
+| `spkac` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |  |
 | `encoding?` | `string` | The encoding of the spkac string. |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The public key component of the `spkac` data structure,
 which includes a public key and a challenge.
@@ -103,7 +103,7 @@ ___
 
 ### exportChallenge
 
-▸ `Static` **exportChallenge**(`spkac`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ `Static` **exportChallenge**(`spkac`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ```js
 const { Certificate } = await import('crypto');
@@ -117,11 +117,11 @@ console.log(challenge.toString('utf8'));
 
 | Name | Type |
 | :------ | :------ |
-| `spkac` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) |
+| `spkac` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The challenge component of the `spkac` data structure, which includes a public key and a challenge.
 
@@ -129,7 +129,7 @@ ___
 
 ### exportPublicKey
 
-▸ `Static` **exportPublicKey**(`spkac`, `encoding?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ `Static` **exportPublicKey**(`spkac`, `encoding?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ```js
 const { Certificate } = await import('crypto');
@@ -143,12 +143,12 @@ console.log(publicKey);
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `spkac` | [`BinaryLike`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#binarylike) | - |
+| `spkac` | [`BinaryLike`](https://oven-sh.github.io/bun-types/modules/crypto_.md#binarylike) | - |
 | `encoding?` | `string` | The `encoding` of the `spkac` string. |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 The public key component of the `spkac` data structure, which includes a public key and a challenge.
 

@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / CheckPrimeOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / CheckPrimeOptions
 
 # Interface: CheckPrimeOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).CheckPrimeOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).CheckPrimeOptions
 
 ## Table of contents
 
 ### Properties
 
-- [checks](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CheckPrimeOptions.md#checks)
+- [checks](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CheckPrimeOptions.md#checks)
 
 ## Properties
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "bun:sqlite"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "bun:sqlite"
 
 # Namespace: "bun:sqlite"
 
@@ -34,27 +34,27 @@ The following types can be used when binding parameters:
 
 ### References
 
-- [default](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#default)
+- [default](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#default)
 
 ### Classes
 
-- [Database](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md)
-- [Statement](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Statement.md)
+- [Database](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md)
+- [Statement](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Statement.md)
 
 ### Type Aliases
 
-- [SQLQueryBindings](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#sqlquerybindings)
+- [SQLQueryBindings](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#sqlquerybindings)
 
 ### Variables
 
-- [constants](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#constants)
-- [native](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_sqlite_.md#native)
+- [constants](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#constants)
+- [native](https://oven-sh.github.io/bun-types/modules/bun_sqlite_.md#native)
 
 ## References
 
 ### default
 
-Renames and re-exports [Database](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_sqlite_.Database.md)
+Renames and re-exports [Database](https://oven-sh.github.io/bun-types/classes/bun_sqlite_.Database.md)
 
 ## Type Aliases
 

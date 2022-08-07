@@ -1,19 +1,19 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:string\_decoder"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_string_decoder_.md) / StringDecoder
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:string\_decoder"](https://oven-sh.github.io/bun-types/modules/node_string_decoder_.md) / StringDecoder
 
 # Class: StringDecoder
 
-["node:string_decoder"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_string_decoder_.md).StringDecoder
+["node:string_decoder"](https://oven-sh.github.io/bun-types/modules/node_string_decoder_.md).StringDecoder
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_string_decoder_.StringDecoder.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/node_string_decoder_.StringDecoder.md#constructor)
 
 ### Methods
 
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_string_decoder_.StringDecoder.md#end)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/node_string_decoder_.StringDecoder.md#write)
+- [end](https://oven-sh.github.io/bun-types/classes/node_string_decoder_.StringDecoder.md#end)
+- [write](https://oven-sh.github.io/bun-types/classes/node_string_decoder_.StringDecoder.md#write)
 
 ## Constructors
 
@@ -44,7 +44,7 @@ After `end()` is called, the `stringDecoder` object can be reused for new input.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `buffer?` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | A `Buffer`, or `TypedArray`, or `DataView` containing the bytes to decode. |
+| `buffer?` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | A `Buffer`, or `TypedArray`, or `DataView` containing the bytes to decode. |
 
 #### Returns
 
@@ -64,7 +64,7 @@ returned string and stored in an internal buffer for the next call to`stringDeco
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `buffer` | [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer) | A `Buffer`, or `TypedArray`, or `DataView` containing the bytes to decode. |
+| `buffer` | [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer) | A `Buffer`, or `TypedArray`, or `DataView` containing the bytes to decode. |
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "bun:ffi"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "bun:ffi"
 
 # Namespace: "bun:ffi"
 
@@ -21,47 +21,47 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 
 ### Enumerations
 
-- [FFIType](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md)
+- [FFIType](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md)
 
 ### Classes
 
-- [CString](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_ffi_.CString.md)
+- [CString](https://oven-sh.github.io/bun-types/classes/bun_ffi_.CString.md)
 
 ### Interfaces
 
-- [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md)
-- [Library](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+- [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md)
+- [Library](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 ### Type Aliases
 
-- [FFITypeOrString](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ffitypeorstring)
-- [Symbols](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols)
+- [FFITypeOrString](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ffitypeorstring)
+- [Symbols](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols)
 
 ### Variables
 
-- [suffix](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#suffix)
+- [suffix](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#suffix)
 
 ### Functions
 
-- [CFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#cfunction)
-- [dlopen](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#dlopen)
-- [linkSymbols](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#linksymbols)
-- [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ptr)
-- [toArrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#toarraybuffer)
-- [toBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#tobuffer)
-- [viewSource](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#viewsource)
+- [CFunction](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#cfunction)
+- [dlopen](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#dlopen)
+- [linkSymbols](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#linksymbols)
+- [ptr](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ptr)
+- [toArrayBuffer](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#toarraybuffer)
+- [toBuffer](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#tobuffer)
+- [viewSource](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#viewsource)
 
 ## Type Aliases
 
 ### FFITypeOrString
 
-Ƭ **FFITypeOrString**: [`FFIType`](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md) \| ``"char"`` \| ``"int8_t"`` \| ``"i8"`` \| ``"uint8_t"`` \| ``"u8"`` \| ``"int16_t"`` \| ``"i16"`` \| ``"uint16_t"`` \| ``"u16"`` \| ``"int32_t"`` \| ``"i32"`` \| ``"int"`` \| ``"uint32_t"`` \| ``"u32"`` \| ``"int64_t"`` \| ``"i64"`` \| ``"uint64_t"`` \| ``"u64"`` \| ``"double"`` \| ``"f64"`` \| ``"float"`` \| ``"f32"`` \| ``"bool"`` \| ``"ptr"`` \| ``"pointer"`` \| ``"void"`` \| ``"cstring"``
+Ƭ **FFITypeOrString**: [`FFIType`](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md) \| ``"char"`` \| ``"int8_t"`` \| ``"i8"`` \| ``"uint8_t"`` \| ``"u8"`` \| ``"int16_t"`` \| ``"i16"`` \| ``"uint16_t"`` \| ``"u16"`` \| ``"int32_t"`` \| ``"i32"`` \| ``"int"`` \| ``"uint32_t"`` \| ``"u32"`` \| ``"int64_t"`` \| ``"i64"`` \| ``"uint64_t"`` \| ``"u64"`` \| ``"double"`` \| ``"f64"`` \| ``"float"`` \| ``"f32"`` \| ``"bool"`` \| ``"ptr"`` \| ``"pointer"`` \| ``"void"`` \| ``"cstring"``
 
 ___
 
 ### Symbols
 
-Ƭ **Symbols**: `Record`<`string`, [`FFIFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md)\>
+Ƭ **Symbols**: `Record`<`string`, [`FFIFunction`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md)\>
 
 ## Variables
 
@@ -118,7 +118,7 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `fn` | [`FFIFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) & { `ptr`: `number` \| `bigint`  } | [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) declaration. `ptr` is required |
+| `fn` | [`FFIFunction`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) & { `ptr`: `number` \| `bigint`  } | [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) declaration. `ptr` is required |
 
 #### Returns
 
@@ -153,7 +153,7 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `fn` | [`FFIFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) & { `ptr`: `number` \| `bigint`  } | [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) declaration. `ptr` is required |
+| `fn` | [`FFIFunction`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) & { `ptr`: `number` \| `bigint`  } | [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) declaration. `ptr` is required |
 
 #### Returns
 
@@ -163,7 +163,7 @@ ___
 
 ### dlopen
 
-▸ **dlopen**(`name`, `symbols`): [`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+▸ **dlopen**(`name`, `symbols`): [`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 Open a library using `"bun:ffi"`
 
@@ -192,13 +192,13 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `name` | `string` | The name of the library or file path. This will be passed to `dlopen()` |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 
 #### Returns
 
-[`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+[`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
-▸ **dlopen**(`name`, `symbols`): [`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+▸ **dlopen**(`name`, `symbols`): [`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 Open a library using `"bun:ffi"`
 
@@ -227,21 +227,21 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `name` | `string` | The name of the library or file path. This will be passed to `dlopen()` |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 
 #### Returns
 
-[`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+[`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 ___
 
 ### linkSymbols
 
-▸ **linkSymbols**(`symbols`): [`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+▸ **linkSymbols**(`symbols`): [`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 Link a map of symbols to JavaScript functions
 
-This lets you use native libraries that were already loaded somehow. You usually will want [dlopen](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#dlopen) instead.
+This lets you use native libraries that were already loaded somehow. You usually will want [dlopen](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#dlopen) instead.
 
 You could use this with Node-API to skip loading a second time.
 
@@ -291,17 +291,17 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 
 #### Returns
 
-[`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+[`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
-▸ **linkSymbols**(`symbols`): [`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+▸ **linkSymbols**(`symbols`): [`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 Link a map of symbols to JavaScript functions
 
-This lets you use native libraries that were already loaded somehow. You usually will want [dlopen](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#dlopen) instead.
+This lets you use native libraries that were already loaded somehow. You usually will want [dlopen](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#dlopen) instead.
 
 You could use this with Node-API to skip loading a second time.
 
@@ -351,11 +351,11 @@ goes to Fabrice Bellard and TinyCC maintainers for making this possible.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) | Map of symbols to load where the key is the symbol name and the value is the [FFIFunction](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 
 #### Returns
 
-[`Library`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.Library.md)
+[`Library`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.Library.md)
 
 ___
 
@@ -475,27 +475,9 @@ ___
 
 ### toBuffer
 
-▸ **toBuffer**(`ptr`, `byteOffset?`, `byteLength?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **toBuffer**(`ptr`, `byteOffset?`, `byteLength?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-Read a pointer as a [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md)
-
-If `byteLength` is not provided, the pointer is assumed to be 0-terminated.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `ptr` | `number` | The memory address to read |
-| `byteOffset?` | `number` | bytes to skip before reading |
-| `byteLength?` | `number` | bytes to read  While there are some checks to catch invalid pointers, this is a difficult thing to do safely. Passing an invalid pointer can crash the program and reading beyond the bounds of the pointer will crash the program or cause undefined behavior. Use with care! |
-
-#### Returns
-
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
-
-▸ **toBuffer**(`ptr`, `byteOffset?`, `byteLength?`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
-
-Read a pointer as a [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md)
+Read a pointer as a [Buffer](https://oven-sh.github.io/bun-types/interfaces/Buffer.md)
 
 If `byteLength` is not provided, the pointer is assumed to be 0-terminated.
 
@@ -509,7 +491,25 @@ If `byteLength` is not provided, the pointer is assumed to be 0-terminated.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
+
+▸ **toBuffer**(`ptr`, `byteOffset?`, `byteLength?`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
+
+Read a pointer as a [Buffer](https://oven-sh.github.io/bun-types/interfaces/Buffer.md)
+
+If `byteLength` is not provided, the pointer is assumed to be 0-terminated.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `ptr` | `number` | The memory address to read |
+| `byteOffset?` | `number` | bytes to skip before reading |
+| `byteLength?` | `number` | bytes to read  While there are some checks to catch invalid pointers, this is a difficult thing to do safely. Passing an invalid pointer can crash the program and reading beyond the bounds of the pointer will crash the program or cause undefined behavior. Use with care! |
+
+#### Returns
+
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 ___
 
@@ -526,7 +526,7 @@ generator or you're just curious.
 
 | Name | Type |
 | :------ | :------ |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) |
 | `is_callback?` | ``false`` |
 
 #### Returns
@@ -539,7 +539,7 @@ generator or you're just curious.
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`FFIFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `callback` | [`FFIFunction`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 | `is_callback` | ``true`` |
 
 #### Returns
@@ -557,7 +557,7 @@ generator or you're just curious.
 
 | Name | Type |
 | :------ | :------ |
-| `symbols` | [`Symbols`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#symbols) |
+| `symbols` | [`Symbols`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#symbols) |
 | `is_callback?` | ``false`` |
 
 #### Returns
@@ -570,7 +570,7 @@ generator or you're just curious.
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`FFIFunction`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md) |
+| `callback` | [`FFIFunction`](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md) |
 | `is_callback` | ``true`` |
 
 #### Returns

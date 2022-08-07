@@ -1,28 +1,28 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md) / FFIFunction
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md) / FFIFunction
 
 # Interface: FFIFunction
 
-["bun:ffi"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md).FFIFunction
+["bun:ffi"](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md).FFIFunction
 
 ## Table of contents
 
 ### Properties
 
-- [args](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md#args)
-- [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md#ptr)
-- [returns](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_ffi_.FFIFunction.md#returns)
+- [args](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md#args)
+- [ptr](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md#ptr)
+- [returns](https://oven-sh.github.io/bun-types/interfaces/bun_ffi_.FFIFunction.md#returns)
 
 ## Properties
 
 ### args
 
-• `Optional` **args**: [`FFITypeOrString`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ffitypeorstring)[]
+• `Optional` **args**: [`FFITypeOrString`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ffitypeorstring)[]
 
 Arguments to a FFI function (C ABI)
 
 Defaults to an empty array, which means no arguments.
 
-To pass a pointer, use "ptr" or "pointer" as the type name. To get a pointer, see [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ptr).
+To pass a pointer, use "ptr" or "pointer" as the type name. To get a pointer, see [ptr](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ptr).
 
 **`Example`**
 
@@ -60,13 +60,13 @@ ___
 
 ### returns
 
-• `Optional` **returns**: [`FFITypeOrString`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ffitypeorstring)
+• `Optional` **returns**: [`FFITypeOrString`](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ffitypeorstring)
 
 Return type to a FFI function (C ABI)
 
-Defaults to [void](https://github.com/oven-sh/bun-types/blob/master/api-docs/enums/bun_ffi_.FFIType.md#void)
+Defaults to [void](https://oven-sh.github.io/bun-types/enums/bun_ffi_.FFIType.md#void)
 
-To pass a pointer, use "ptr" or "pointer" as the type name. To get a pointer, see [ptr](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_ffi_.md#ptr).
+To pass a pointer, use "ptr" or "pointer" as the type name. To get a pointer, see [ptr](https://oven-sh.github.io/bun-types/modules/bun_ffi_.md#ptr).
 
 **`Example`**
 

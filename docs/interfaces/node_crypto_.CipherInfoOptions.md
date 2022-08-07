@@ -1,15 +1,15 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / CipherInfoOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / CipherInfoOptions
 
 # Interface: CipherInfoOptions
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).CipherInfoOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).CipherInfoOptions
 
 ## Table of contents
 
 ### Properties
 
-- [ivLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfoOptions.md#ivlength)
-- [keyLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.CipherInfoOptions.md#keylength)
+- [ivLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfoOptions.md#ivlength)
+- [keyLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.CipherInfoOptions.md#keylength)
 
 ## Properties
 

@@ -1,8 +1,8 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / DecipherCCM
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / DecipherCCM
 
 # Interface: DecipherCCM
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).DecipherCCM
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).DecipherCCM
 
 Instances of the `Decipher` class are used to decrypt data. The class can be
 used in one of two ways:
@@ -12,7 +12,7 @@ data is written to produce unencrypted data on the readable side, or
 * Using the `decipher.update()` and `decipher.final()` methods to
 produce the unencrypted data.
 
-The [createDecipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md#createdecipher) or [createDecipheriv](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md#createdecipheriv) methods are
+The [createDecipher](https://oven-sh.github.io/bun-types/modules/node_crypto_.md#createdecipher) or [createDecipheriv](https://oven-sh.github.io/bun-types/modules/node_crypto_.md#createdecipheriv) methods are
 used to create `Decipher` instances. `Decipher` objects are not to be created
 directly using the `new` keyword.
 
@@ -111,7 +111,7 @@ console.log(decrypted);
 
 ## Hierarchy
 
-- [`Decipher`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md)
+- [`Decipher`](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md)
 
   ↳ **`DecipherCCM`**
 
@@ -119,81 +119,81 @@ console.log(decrypted);
 
 ### Properties
 
-- [allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#allowhalfopen)
-- [destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#destroyed)
-- [locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#locked)
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readable)
-- [readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readableaborted)
-- [readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readableencoding)
-- [readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readableended)
-- [readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readableflowing)
-- [readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readablehighwatermark)
-- [readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readablelength)
-- [readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#readableobjectmode)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writable)
-- [writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writablecorked)
-- [writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writableended)
-- [writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writablefinished)
-- [writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writablehighwatermark)
-- [writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writablelength)
-- [writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#writableobjectmode)
+- [allowHalfOpen](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#allowhalfopen)
+- [destroyed](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#destroyed)
+- [locked](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#locked)
+- [readable](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readable)
+- [readableAborted](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readableaborted)
+- [readableEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readableencoding)
+- [readableEnded](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readableended)
+- [readableFlowing](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readableflowing)
+- [readableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readablehighwatermark)
+- [readableLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readablelength)
+- [readableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#readableobjectmode)
+- [writable](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writable)
+- [writableCorked](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writablecorked)
+- [writableEnded](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writableended)
+- [writableFinished](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writablefinished)
+- [writableHighWaterMark](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writablehighwatermark)
+- [writableLength](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writablelength)
+- [writableObjectMode](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#writableobjectmode)
 
 ### Methods
 
-- [[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#[asynciterator])
-- [\_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_construct)
-- [\_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_destroy)
-- [\_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_final)
-- [\_flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_flush)
-- [\_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_read)
-- [\_transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_transform)
-- [\_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_write)
-- [\_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_writev)
-- [abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#abort)
-- [addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#addlistener)
-- [cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#cancel)
-- [close](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#close)
-- [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#cork)
-- [destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#destroy)
-- [emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#emit)
-- [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#end)
-- [eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#eventnames)
-- [final](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#final)
-- [forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#foreach)
-- [getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#getmaxlisteners)
-- [getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#getreader)
-- [getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#getwriter)
-- [isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#ispaused)
-- [listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#listenercount)
-- [listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#listeners)
-- [off](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#off)
-- [on](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#on)
-- [once](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#once)
-- [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pause)
-- [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pipe)
-- [pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pipethrough)
-- [pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pipeto)
-- [prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#prependlistener)
-- [prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#prependoncelistener)
-- [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#push)
-- [rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#rawlisteners)
-- [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#read)
-- [removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#removealllisteners)
-- [removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#removelistener)
-- [resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#resume)
-- [setAAD](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setaad)
-- [setAuthTag](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setauthtag)
-- [setAutoPadding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setautopadding)
-- [setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setdefaultencoding)
-- [setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setencoding)
-- [setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#setmaxlisteners)
-- [tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#tee)
-- [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#uncork)
-- [unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#unpipe)
-- [unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#unshift)
-- [update](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#update)
-- [wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#wrap)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#write)
+- [[asyncIterator]](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#[asynciterator])
+- [\_construct](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_construct)
+- [\_destroy](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_destroy)
+- [\_final](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_final)
+- [\_flush](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_flush)
+- [\_read](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_read)
+- [\_transform](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_transform)
+- [\_write](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_write)
+- [\_writev](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_writev)
+- [abort](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#abort)
+- [addListener](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#addlistener)
+- [cancel](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#cancel)
+- [close](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#close)
+- [cork](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#cork)
+- [destroy](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#destroy)
+- [emit](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#emit)
+- [end](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#end)
+- [eventNames](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#eventnames)
+- [final](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#final)
+- [forEach](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#foreach)
+- [getMaxListeners](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#getmaxlisteners)
+- [getReader](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#getreader)
+- [getWriter](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#getwriter)
+- [isPaused](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#ispaused)
+- [listenerCount](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#listenercount)
+- [listeners](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#listeners)
+- [off](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#off)
+- [on](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#on)
+- [once](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#once)
+- [pause](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pause)
+- [pipe](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pipe)
+- [pipeThrough](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pipethrough)
+- [pipeTo](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pipeto)
+- [prependListener](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#prependlistener)
+- [prependOnceListener](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#prependoncelistener)
+- [push](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#push)
+- [rawListeners](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#rawlisteners)
+- [read](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#read)
+- [removeAllListeners](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#removealllisteners)
+- [removeListener](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#removelistener)
+- [resume](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#resume)
+- [setAAD](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setaad)
+- [setAuthTag](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setauthtag)
+- [setAutoPadding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setautopadding)
+- [setDefaultEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setdefaultencoding)
+- [setEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setencoding)
+- [setMaxListeners](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#setmaxlisteners)
+- [tee](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#tee)
+- [uncork](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#uncork)
+- [unpipe](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#unpipe)
+- [unshift](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#unshift)
+- [update](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#update)
+- [wrap](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#wrap)
+- [write](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#write)
 
 ## Properties
 
@@ -214,7 +214,7 @@ v0.9.4
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[allowHalfOpen](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#allowhalfopen)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[allowHalfOpen](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#allowhalfopen)
 
 ___
 
@@ -226,7 +226,7 @@ Is `true` after `readable.destroy()` has been called.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[destroyed](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#destroyed)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[destroyed](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#destroyed)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[locked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#locked)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[locked](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#locked)
 
 ___
 
@@ -249,7 +249,7 @@ the stream has not been destroyed or emitted `'error'` or `'end'`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readable)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readable](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readable)
 
 ___
 
@@ -261,7 +261,7 @@ Returns whether the stream was destroyed or errored before emitting `'end'`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableAborted](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readableaborted)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableAborted](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readableaborted)
 
 ___
 
@@ -273,7 +273,7 @@ Getter for the property `encoding` of a given `Readable` stream. The `encoding`p
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readableencoding)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableEncoding](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readableencoding)
 
 ___
 
@@ -285,7 +285,7 @@ Becomes `true` when `'end'` event is emitted.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readableended)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableEnded](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readableended)
 
 ___
 
@@ -298,7 +298,7 @@ in the `Three states` section.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableFlowing](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readableflowing)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableFlowing](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readableflowing)
 
 ___
 
@@ -310,7 +310,7 @@ Returns the value of `highWaterMark` passed when creating this `Readable`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readablehighwatermark)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableHighWaterMark](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readablehighwatermark)
 
 ___
 
@@ -324,7 +324,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readablelength)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableLength](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readablelength)
 
 ___
 
@@ -336,7 +336,7 @@ Getter for the property `objectMode` of a given `Readable` stream.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[readableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#readableobjectmode)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[readableObjectMode](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#readableobjectmode)
 
 ___
 
@@ -349,7 +349,7 @@ the stream has not been destroyed, errored or ended.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writable)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writable](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writable)
 
 ___
 
@@ -362,7 +362,7 @@ called in order to fully uncork the stream.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableCorked](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writablecorked)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableCorked](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writablecorked)
 
 ___
 
@@ -375,7 +375,7 @@ does not indicate whether the data has been flushed, for this use `writable.writ
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableEnded](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writableended)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableEnded](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writableended)
 
 ___
 
@@ -387,7 +387,7 @@ Is set to `true` immediately before the `'finish'` event is emitted.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableFinished](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writablefinished)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableFinished](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writablefinished)
 
 ___
 
@@ -399,7 +399,7 @@ Return the value of `highWaterMark` passed when creating this `Writable`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableHighWaterMark](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writablehighwatermark)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableHighWaterMark](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writablehighwatermark)
 
 ___
 
@@ -413,7 +413,7 @@ the status of the `highWaterMark`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writablelength)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableLength](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writablelength)
 
 ___
 
@@ -425,7 +425,7 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[writableObjectMode](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#writableobjectmode)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[writableObjectMode](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#writableobjectmode)
 
 ## Methods
 
@@ -439,7 +439,7 @@ Getter for the property `objectMode` of a given `Writable` stream.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[[asyncIterator]](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#[asynciterator])
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[[asyncIterator]](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#[asynciterator])
 
 ___
 
@@ -459,7 +459,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_construct](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_construct)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_construct](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_construct)
 
 ___
 
@@ -480,7 +480,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_destroy)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_destroy](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_destroy)
 
 ___
 
@@ -500,7 +500,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_final)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_final](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_final)
 
 ___
 
@@ -512,7 +512,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -520,7 +520,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_flush](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_flush)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_flush](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_flush)
 
 ___
 
@@ -540,7 +540,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_read)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_read](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_read)
 
 ___
 
@@ -554,7 +554,7 @@ ___
 | :------ | :------ |
 | `chunk` | `any` |
 | `encoding` | `BufferEncoding` |
-| `callback` | [`TransformCallback`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/stream_.md#transformcallback) |
+| `callback` | [`TransformCallback`](https://oven-sh.github.io/bun-types/modules/stream_.md#transformcallback) |
 
 #### Returns
 
@@ -562,7 +562,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_transform](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_transform)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_transform](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_transform)
 
 ___
 
@@ -584,7 +584,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_write)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_write](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_write)
 
 ___
 
@@ -605,7 +605,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[_writev](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#_writev)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[_writev](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#_writev)
 
 ___
 
@@ -625,13 +625,13 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[abort](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#abort)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[abort](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#abort)
 
 ___
 
 ### addListener
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Event emitter
 The defined events on documents including:
@@ -652,13 +652,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -669,13 +669,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -686,13 +686,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -703,13 +703,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -720,13 +720,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -737,13 +737,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -754,13 +754,13 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
-▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **addListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -771,11 +771,11 @@ The defined events on documents including:
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[addListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#addlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[addListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#addlistener)
 
 ___
 
@@ -795,7 +795,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[cancel](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#cancel)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[cancel](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#cancel)
 
 ___
 
@@ -809,7 +809,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[close](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#close)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[close](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#close)
 
 ___
 
@@ -818,7 +818,7 @@ ___
 ▸ **cork**(): `void`
 
 The `writable.cork()` method forces all written data to be buffered in memory.
-The buffered data will be flushed when either the [uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#uncork) or [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#end) methods are called.
+The buffered data will be flushed when either the [uncork](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#uncork) or [end](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#end) methods are called.
 
 The primary intent of `writable.cork()` is to accommodate a situation in which
 several small chunks are written to the stream in rapid succession. Instead of
@@ -835,13 +835,13 @@ See also: `writable.uncork()`, `writable._writev()`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#cork)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[cork](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#cork)
 
 ___
 
 ### destroy
 
-▸ **destroy**(`error?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **destroy**(`error?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Destroy the stream. Optionally emit an `'error'` event, and emit a `'close'`event (unless `emitClose` is set to `false`). After this call, the readable
 stream will release any internal resources and subsequent calls to `push()`will be ignored.
@@ -859,11 +859,11 @@ Implementors should not override this method, but instead implement `readable._d
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[destroy](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#destroy)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[destroy](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#destroy)
 
 ___
 
@@ -921,7 +921,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`, `chunk`): `boolean`
 
@@ -938,7 +938,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -954,7 +954,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`, `err`): `boolean`
 
@@ -971,7 +971,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -987,7 +987,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1003,7 +1003,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`): `boolean`
 
@@ -1019,7 +1019,7 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ▸ **emit**(`event`, ...`args`): `boolean`
 
@@ -1036,20 +1036,20 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[emit](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#emit)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[emit](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#emit)
 
 ___
 
 ### end
 
-▸ **end**(`cb?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **end**(`cb?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Calling the `writable.end()` method signals that no more data will be written
 to the `Writable`. The optional `chunk` and `encoding` arguments allow one
 final additional chunk of data to be written immediately before closing the
 stream.
 
-Calling the [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#write) method after calling [end](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#end) will raise an error.
+Calling the [write](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#write) method after calling [end](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#end) will raise an error.
 
 ```js
 // Write 'hello, ' and then end with 'world!'.
@@ -1068,13 +1068,13 @@ file.end('world!');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#end)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[end](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#end)
 
-▸ **end**(`chunk`, `cb?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **end**(`chunk`, `cb?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1085,13 +1085,13 @@ file.end('world!');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#end)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[end](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#end)
 
-▸ **end**(`chunk`, `encoding?`, `cb?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **end**(`chunk`, `encoding?`, `cb?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1103,11 +1103,11 @@ file.end('world!');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[end](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#end)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[end](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#end)
 
 ___
 
@@ -1137,13 +1137,13 @@ console.log(myEE.eventNames());
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[eventNames](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#eventnames)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[eventNames](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#eventnames)
 
 ___
 
 ### final
 
-▸ **final**(): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **final**(): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Once the `decipher.final()` method has been called, the `Decipher` object can
 no longer be used to decrypt data. Attempts to call `decipher.final()` more
@@ -1151,13 +1151,13 @@ than once will result in an error being thrown.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
-Any remaining deciphered contents. If `outputEncoding` is specified, a string is returned. If an `outputEncoding` is not provided, a [Buffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/Buffer.md) is returned.
+Any remaining deciphered contents. If `outputEncoding` is specified, a string is returned. If an `outputEncoding` is not provided, a [Buffer](https://oven-sh.github.io/bun-types/interfaces/Buffer.md) is returned.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#final)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[final](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#final)
 
 ▸ **final**(`outputEncoding`): `string`
 
@@ -1173,7 +1173,7 @@ Any remaining deciphered contents. If `outputEncoding` is specified, a string is
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[final](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#final)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[final](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#final)
 
 ___
 
@@ -1185,7 +1185,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>) => `void` |
+| `callbackfn` | (`value`: `any`, `key`: `number`, `parent`: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>) => `void` |
 | `thisArg?` | `any` |
 
 #### Returns
@@ -1194,7 +1194,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[forEach](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#foreach)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[forEach](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#foreach)
 
 ___
 
@@ -1211,35 +1211,35 @@ set by `emitter.setMaxListeners(n)` or defaults to defaultMaxListeners.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[getMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#getmaxlisteners)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[getMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#getmaxlisteners)
 
 ___
 
 ### getReader
 
-▸ **getReader**(): [`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+▸ **getReader**(): [`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Returns
 
-[`ReadableStreamDefaultReader`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestreamdefaultreader)<`any`\>
+[`ReadableStreamDefaultReader`](https://oven-sh.github.io/bun-types/modules.md#readablestreamdefaultreader)<`any`\>
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[getReader](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#getreader)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[getReader](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#getreader)
 
 ___
 
 ### getWriter
 
-▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+▸ **getWriter**(): [`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Returns
 
-[`WritableStreamDefaultWriter`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestreamdefaultwriter)<`any`\>
+[`WritableStreamDefaultWriter`](https://oven-sh.github.io/bun-types/modules.md#writablestreamdefaultwriter)<`any`\>
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[getWriter](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#getwriter)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[getWriter](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#getwriter)
 
 ___
 
@@ -1267,7 +1267,7 @@ readable.isPaused(); // === false
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[isPaused](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#ispaused)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[isPaused](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#ispaused)
 
 ___
 
@@ -1289,7 +1289,7 @@ Returns the number of listeners listening to the event named `eventName`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[listenerCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#listenercount)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[listenerCount](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#listenercount)
 
 ___
 
@@ -1319,13 +1319,13 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[listeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#listeners)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[listeners](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#listeners)
 
 ___
 
 ### off
 
-▸ **off**(`eventName`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **off**(`eventName`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Alias for `emitter.removeListener()`.
 
@@ -1338,17 +1338,17 @@ Alias for `emitter.removeListener()`.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[off](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#off)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[off](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#off)
 
 ___
 
 ### on
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Adds the `listener` function to the end of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1385,13 +1385,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1402,13 +1402,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1419,13 +1419,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1436,13 +1436,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1453,13 +1453,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1470,13 +1470,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1487,13 +1487,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
-▸ **on**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **on**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1504,17 +1504,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[on](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#on)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[on](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#on)
 
 ___
 
 ### once
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -1549,13 +1549,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1566,13 +1566,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1583,13 +1583,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1600,13 +1600,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1617,13 +1617,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1634,13 +1634,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1651,13 +1651,13 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
-▸ **once**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **once**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1668,17 +1668,17 @@ myEE.emit('foo');
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[once](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#once)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[once](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#once)
 
 ___
 
 ### pause
 
-▸ **pause**(): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **pause**(): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 The `readable.pause()` method will cause a stream in flowing mode to stop
 emitting `'data'` events, switching out of flowing mode. Any data that
@@ -1701,11 +1701,11 @@ The `readable.pause()` method has no effect if there is a `'readable'`event list
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#pause)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[pause](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#pause)
 
 ___
 
@@ -1717,7 +1717,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`, `T`\> |
+| `T` | extends [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`, `T`\> |
 
 #### Parameters
 
@@ -1733,13 +1733,13 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#pipe)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[pipe](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#pipe)
 
 ___
 
 ### pipeThrough
 
-▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+▸ **pipeThrough**<`T`\>(`transform`, `options?`): [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Type parameters
 
@@ -1751,16 +1751,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `transform` | [`ReadableWritablePair`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `transform` | [`ReadableWritablePair`](https://oven-sh.github.io/bun-types/interfaces/ReadableWritablePair.md)<`T`, `any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
-[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`T`\>
+[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`T`\>
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[pipeThrough](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#pipethrough)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[pipeThrough](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#pipethrough)
 
 ___
 
@@ -1772,8 +1772,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `destination` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> |
-| `options?` | [`StreamPipeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/StreamPipeOptions.md) |
+| `destination` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> |
+| `options?` | [`StreamPipeOptions`](https://oven-sh.github.io/bun-types/interfaces/StreamPipeOptions.md) |
 
 #### Returns
 
@@ -1781,13 +1781,13 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[pipeTo](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#pipeto)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[pipeTo](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#pipeto)
 
 ___
 
 ### prependListener
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -1811,13 +1811,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1828,13 +1828,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1845,13 +1845,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1862,13 +1862,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1879,13 +1879,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1896,13 +1896,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1913,13 +1913,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
-▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1930,17 +1930,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependlistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependlistener)
 
 ___
 
 ### prependOnceListener
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -1962,13 +1962,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1979,13 +1979,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -1996,13 +1996,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2013,13 +2013,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2030,13 +2030,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2047,13 +2047,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2064,13 +2064,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
-▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **prependOnceListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2081,11 +2081,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[prependOnceListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#prependoncelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[prependOnceListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#prependoncelistener)
 
 ___
 
@@ -2106,7 +2106,7 @@ ___
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[push](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#push)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[push](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#push)
 
 ___
 
@@ -2153,7 +2153,7 @@ emitter.emit('log');
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[rawListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#rawlisteners)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[rawListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#rawlisteners)
 
 ___
 
@@ -2231,7 +2231,7 @@ a call to `readable.read(size)`, regardless of the value of the`size` argument.
 If the `readable.read()` method returns a chunk of data, a `'data'` event will
 also be emitted.
 
-Calling [read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#read) after the `'end'` event has
+Calling [read](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#read) after the `'end'` event has
 been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
@@ -2246,13 +2246,13 @@ been emitted will return `null`. No runtime error will be raised.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[read](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#read)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[read](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#read)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(`event?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeAllListeners**(`event?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -2270,17 +2270,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeAllListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removealllisteners)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeAllListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removealllisteners)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Removes the specified `listener` from the listener array for the event named`eventName`.
 
@@ -2368,13 +2368,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2385,13 +2385,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2402,13 +2402,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2419,13 +2419,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2436,13 +2436,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2453,13 +2453,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2470,13 +2470,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
-▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **removeListener**(`event`, `listener`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2487,17 +2487,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[removeListener](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#removelistener)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[removeListener](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#removelistener)
 
 ___
 
 ### resume
 
-▸ **resume**(): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **resume**(): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 The `readable.resume()` method causes an explicitly paused `Readable` stream to
 resume emitting `'data'` events, switching the stream into flowing mode.
@@ -2517,17 +2517,17 @@ The `readable.resume()` method has no effect if there is a `'readable'`event lis
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[resume](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#resume)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[resume](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#resume)
 
 ___
 
 ### setAAD
 
-▸ **setAAD**(`buffer`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setAAD**(`buffer`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2539,9 +2539,9 @@ ___
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **setAAD**(`buffer`, `options`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setAAD**(`buffer`, `options`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2553,13 +2553,13 @@ ___
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 ___
 
 ### setAuthTag
 
-▸ **setAuthTag**(`buffer`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setAuthTag**(`buffer`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2569,9 +2569,9 @@ ___
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
-▸ **setAuthTag**(`buffer`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setAuthTag**(`buffer`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Parameters
 
@@ -2581,13 +2581,13 @@ ___
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 ___
 
 ### setAutoPadding
 
-▸ **setAutoPadding**(`auto_padding?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setAutoPadding**(`auto_padding?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 When data has been encrypted without standard block padding, calling`decipher.setAutoPadding(false)` will disable automatic padding to prevent `decipher.final()` from checking for and
 removing padding.
@@ -2605,19 +2605,19 @@ The `decipher.setAutoPadding()` method must be called before `decipher.final()`.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 for method chaining.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[setAutoPadding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#setautopadding)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[setAutoPadding](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#setautopadding)
 
 ___
 
 ### setDefaultEncoding
 
-▸ **setDefaultEncoding**(`encoding`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setDefaultEncoding**(`encoding`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Writable` stream.
 
@@ -2629,17 +2629,17 @@ The `writable.setDefaultEncoding()` method sets the default `encoding` for a `Wr
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[setDefaultEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#setdefaultencoding)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[setDefaultEncoding](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#setdefaultencoding)
 
 ___
 
 ### setEncoding
 
-▸ **setEncoding**(`encoding`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setEncoding**(`encoding`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 The `readable.setEncoding()` method sets the character encoding for
 data read from the `Readable` stream.
@@ -2670,17 +2670,17 @@ readable.on('data', (chunk) => {
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[setEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#setencoding)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[setEncoding](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#setencoding)
 
 ___
 
 ### setMaxListeners
 
-▸ **setMaxListeners**(`n`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **setMaxListeners**(`n`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -2697,25 +2697,25 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[setMaxListeners](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#setmaxlisteners)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[setMaxListeners](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#setmaxlisteners)
 
 ___
 
 ### tee
 
-▸ **tee**(): [[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+▸ **tee**(): [[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Returns
 
-[[`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\>]
+[[`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>, [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\>]
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[tee](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#tee)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[tee](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#tee)
 
 ___
 
@@ -2723,7 +2723,7 @@ ___
 
 ▸ **uncork**(): `void`
 
-The `writable.uncork()` method flushes all data buffered since [cork](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#cork) was called.
+The `writable.uncork()` method flushes all data buffered since [cork](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#cork) was called.
 
 When using `writable.cork()` and `writable.uncork()` to manage the buffering
 of writes to a stream, defer calls to `writable.uncork()` using`process.nextTick()`. Doing so allows batching of all`writable.write()` calls that occur within a given Node.js event
@@ -2760,16 +2760,16 @@ See also: `writable.cork()`.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[uncork](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#uncork)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[uncork](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#uncork)
 
 ___
 
 ### unpipe
 
-▸ **unpipe**(`destination?`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **unpipe**(`destination?`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 The `readable.unpipe()` method detaches a `Writable` stream previously attached
-using the [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pipe) method.
+using the [pipe](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pipe) method.
 
 If the `destination` is not specified, then _all_ pipes are detached.
 
@@ -2795,15 +2795,15 @@ setTimeout(() => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination?` | [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
+| `destination?` | [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`any`\> | Optional specific stream to unpipe |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[unpipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#unpipe)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[unpipe](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#unpipe)
 
 ___
 
@@ -2863,11 +2863,11 @@ function parseHeader(stream, callback) {
 }
 ```
 
-Unlike [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#push), `stream.unshift(chunk)` will not
+Unlike [push](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#push), `stream.unshift(chunk)` will not
 end the reading process by resetting the internal reading state of the stream.
 This can cause unexpected results if `readable.unshift()` is called during a
-read (i.e. from within a [_read](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#_read) implementation on a
-custom stream). Following the call to `readable.unshift()` with an immediate [push](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#push) will reset the reading state appropriately,
+read (i.e. from within a [_read](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#_read) implementation on a
+custom stream). Following the call to `readable.unshift()` with an immediate [push](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#push) will reset the reading state appropriately,
 however it is best to simply avoid calling `readable.unshift()` while in the
 process of performing a read.
 
@@ -2884,13 +2884,13 @@ process of performing a read.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[unshift](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#unshift)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[unshift](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#unshift)
 
 ___
 
 ### update
 
-▸ **update**(`data`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **update**(`data`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 Updates the decipher with `data`. If the `inputEncoding` argument is given,
 the `data`argument is a string using the specified encoding. If the `inputEncoding`argument is not given, `data` must be a `Buffer`. If `data` is a `Buffer` then `inputEncoding` is
@@ -2910,28 +2910,28 @@ being thrown.
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#update)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[update](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#update)
 
-▸ **update**(`data`, `inputEncoding`): [`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+▸ **update**(`data`, `inputEncoding`): [`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | `string` |
-| `inputEncoding` | [`Encoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding) |
+| `inputEncoding` | [`Encoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding) |
 
 #### Returns
 
-[`Buffer`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/buffer_.md#buffer)
+[`Buffer`](https://oven-sh.github.io/bun-types/modules/buffer_.md#buffer)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#update)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[update](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#update)
 
 ▸ **update**(`data`, `inputEncoding`, `outputEncoding`): `string`
 
@@ -2941,7 +2941,7 @@ being thrown.
 | :------ | :------ |
 | `data` | `ArrayBufferView` |
 | `inputEncoding` | `undefined` |
-| `outputEncoding` | [`Encoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding) |
+| `outputEncoding` | [`Encoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding) |
 
 #### Returns
 
@@ -2949,7 +2949,7 @@ being thrown.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#update)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[update](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#update)
 
 ▸ **update**(`data`, `inputEncoding`, `outputEncoding`): `string`
 
@@ -2958,8 +2958,8 @@ being thrown.
 | Name | Type |
 | :------ | :------ |
 | `data` | `string` |
-| `inputEncoding` | [`Encoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding) |
-| `outputEncoding` | [`Encoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#encoding) |
+| `inputEncoding` | [`Encoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding) |
+| `outputEncoding` | [`Encoding`](https://oven-sh.github.io/bun-types/modules/crypto_.md#encoding) |
 
 #### Returns
 
@@ -2967,18 +2967,18 @@ being thrown.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#update)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[update](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#update)
 
 ___
 
 ### wrap
 
-▸ **wrap**(`stream`): [`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+▸ **wrap**(`stream`): [`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 Prior to Node.js 0.10, streams did not implement the entire `stream` module API
 as it is currently defined. (See `Compatibility` for more information.)
 
-When using an older Node.js library that emits `'data'` events and has a [pause](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
+When using an older Node.js library that emits `'data'` events and has a [pause](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pause) method that is advisory only, the`readable.wrap()` method can be used to create a `Readable`
 stream that uses
 the old stream as its data source.
 
@@ -3001,15 +3001,15 @@ myReader.on('readable', () => {
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | An "old style" readable stream |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | An "old style" readable stream |
 
 #### Returns
 
-[`DecipherCCM`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.DecipherCCM.md)
+[`DecipherCCM`](https://oven-sh.github.io/bun-types/interfaces/crypto_.DecipherCCM.md)
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[wrap](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#wrap)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[wrap](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#wrap)
 
 ___
 
@@ -3046,7 +3046,7 @@ by default until they are piped or a `'data'` or `'readable'` event handler
 is added.
 
 If the data to be written can be generated or fetched on demand, it is
-recommended to encapsulate the logic into a `Readable` and use [pipe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.DecipherCCM.md#pipe). However, if calling `write()` is preferred, it is
+recommended to encapsulate the logic into a `Readable` and use [pipe](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.DecipherCCM.md#pipe). However, if calling `write()` is preferred, it is
 possible to respect backpressure and avoid memory issues using the `'drain'` event:
 
 ```js
@@ -3082,7 +3082,7 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#write)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[write](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#write)
 
 ▸ **write**(`chunk`, `cb?`): `boolean`
 
@@ -3099,4 +3099,4 @@ A `Writable` stream in object mode will always ignore the `encoding` argument.
 
 #### Inherited from
 
-[Decipher](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md).[write](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/crypto_.Decipher.md#write)
+[Decipher](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md).[write](https://oven-sh.github.io/bun-types/classes/crypto_.Decipher.md#write)

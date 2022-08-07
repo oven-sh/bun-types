@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "bun"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "bun"
 
 # Namespace: "bun"
 
@@ -20,84 +20,84 @@ This module aliases `globalThis.Bun`.
 
 ### Classes
 
-- [ArrayBufferSink](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.ArrayBufferSink.md)
-- [CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md)
-- [MD4](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.MD4.md)
-- [MD5](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.MD5.md)
-- [SHA1](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA1.md)
-- [SHA224](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA224.md)
-- [SHA256](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA256.md)
-- [SHA384](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md)
-- [SHA512](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA512.md)
-- [SHA512\_256](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA512_256.md)
-- [Transpiler](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.Transpiler.md)
+- [ArrayBufferSink](https://oven-sh.github.io/bun-types/classes/bun_.ArrayBufferSink.md)
+- [CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md)
+- [MD4](https://oven-sh.github.io/bun-types/classes/bun_.MD4.md)
+- [MD5](https://oven-sh.github.io/bun-types/classes/bun_.MD5.md)
+- [SHA1](https://oven-sh.github.io/bun-types/classes/bun_.SHA1.md)
+- [SHA224](https://oven-sh.github.io/bun-types/classes/bun_.SHA224.md)
+- [SHA256](https://oven-sh.github.io/bun-types/classes/bun_.SHA256.md)
+- [SHA384](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md)
+- [SHA512](https://oven-sh.github.io/bun-types/classes/bun_.SHA512.md)
+- [SHA512\_256](https://oven-sh.github.io/bun-types/classes/bun_.SHA512_256.md)
+- [Transpiler](https://oven-sh.github.io/bun-types/classes/bun_.Transpiler.md)
 
 ### Interfaces
 
-- [EditorOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.EditorOptions.md)
-- [Errorlike](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Errorlike.md)
-- [FileBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
-- [Hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Hash.md)
-- [HeapSnapshot](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md)
-- [Import](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Import.md)
-- [MMapOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.MMapOptions.md)
-- [SSLAdvancedOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md)
-- [SSLOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLOptions.md)
-- [ServeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md)
-- [Server](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md)
-- [SystemError](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SystemError.md)
-- [TranspilerOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.TranspilerOptions.md)
-- [unsafe](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.unsafe.md)
+- [EditorOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.EditorOptions.md)
+- [Errorlike](https://oven-sh.github.io/bun-types/interfaces/bun_.Errorlike.md)
+- [FileBlob](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
+- [Hash](https://oven-sh.github.io/bun-types/interfaces/bun_.Hash.md)
+- [HeapSnapshot](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md)
+- [Import](https://oven-sh.github.io/bun-types/interfaces/bun_.Import.md)
+- [MMapOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.MMapOptions.md)
+- [SSLAdvancedOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md)
+- [SSLOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLOptions.md)
+- [ServeOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md)
+- [Server](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md)
+- [SystemError](https://oven-sh.github.io/bun-types/interfaces/bun_.SystemError.md)
+- [TranspilerOptions](https://oven-sh.github.io/bun-types/interfaces/bun_.TranspilerOptions.md)
+- [unsafe](https://oven-sh.github.io/bun-types/interfaces/bun_.unsafe.md)
 
 ### Type Aliases
 
-- [DigestEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding)
-- [JavaScriptLoader](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#javascriptloader)
-- [MacroMap](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#macromap)
-- [Platform](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#platform)
-- [SSLServeOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#sslserveoptions)
-- [Serve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#serve)
-- [ZlibCompressionOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#zlibcompressionoptions)
+- [DigestEncoding](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding)
+- [JavaScriptLoader](https://oven-sh.github.io/bun-types/modules/bun_.md#javascriptloader)
+- [MacroMap](https://oven-sh.github.io/bun-types/modules/bun_.md#macromap)
+- [Platform](https://oven-sh.github.io/bun-types/modules/bun_.md#platform)
+- [SSLServeOptions](https://oven-sh.github.io/bun-types/modules/bun_.md#sslserveoptions)
+- [Serve](https://oven-sh.github.io/bun-types/modules/bun_.md#serve)
+- [ZlibCompressionOptions](https://oven-sh.github.io/bun-types/modules/bun_.md#zlibcompressionoptions)
 
 ### Variables
 
-- [enableANSIColors](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#enableansicolors)
-- [main](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#main)
-- [stderr](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#stderr)
-- [stdin](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#stdin)
-- [stdout](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#stdout)
-- [unsafe](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#unsafe)
+- [enableANSIColors](https://oven-sh.github.io/bun-types/modules/bun_.md#enableansicolors)
+- [main](https://oven-sh.github.io/bun-types/modules/bun_.md#main)
+- [stderr](https://oven-sh.github.io/bun-types/modules/bun_.md#stderr)
+- [stdin](https://oven-sh.github.io/bun-types/modules/bun_.md#stdin)
+- [stdout](https://oven-sh.github.io/bun-types/modules/bun_.md#stdout)
+- [unsafe](https://oven-sh.github.io/bun-types/modules/bun_.md#unsafe)
 
 ### Functions
 
-- [allocUnsafe](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#allocunsafe)
-- [concatArrayBuffers](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#concatarraybuffers)
-- [deflateSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#deflatesync)
-- [escapeHTML](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#escapehtml)
-- [file](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#file)
-- [fileURLToPath](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#fileurltopath)
-- [gc](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#gc)
-- [generateHeapSnapshot](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#generateheapsnapshot)
-- [gunzipSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#gunzipsync)
-- [gzipSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#gzipsync)
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#hash)
-- [inflateSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#inflatesync)
-- [inspect](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#inspect)
-- [mmap](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#mmap)
-- [nanoseconds](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#nanoseconds)
-- [openInEditor](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#openineditor)
-- [pathToFileURL](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#pathtofileurl)
-- [readableStreamToArray](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoarray)
-- [readableStreamToArrayBuffer](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoarraybuffer)
-- [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob)
-- [readableStreamToJSON](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtojson)
-- [readableStreamToText](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtotext)
-- [resolve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#resolve)
-- [resolveSync](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#resolvesync)
-- [serve](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#serve-1)
-- [sha](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#sha)
-- [shrink](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#shrink)
-- [write](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#write)
+- [allocUnsafe](https://oven-sh.github.io/bun-types/modules/bun_.md#allocunsafe)
+- [concatArrayBuffers](https://oven-sh.github.io/bun-types/modules/bun_.md#concatarraybuffers)
+- [deflateSync](https://oven-sh.github.io/bun-types/modules/bun_.md#deflatesync)
+- [escapeHTML](https://oven-sh.github.io/bun-types/modules/bun_.md#escapehtml)
+- [file](https://oven-sh.github.io/bun-types/modules/bun_.md#file)
+- [fileURLToPath](https://oven-sh.github.io/bun-types/modules/bun_.md#fileurltopath)
+- [gc](https://oven-sh.github.io/bun-types/modules/bun_.md#gc)
+- [generateHeapSnapshot](https://oven-sh.github.io/bun-types/modules/bun_.md#generateheapsnapshot)
+- [gunzipSync](https://oven-sh.github.io/bun-types/modules/bun_.md#gunzipsync)
+- [gzipSync](https://oven-sh.github.io/bun-types/modules/bun_.md#gzipsync)
+- [hash](https://oven-sh.github.io/bun-types/modules/bun_.md#hash)
+- [inflateSync](https://oven-sh.github.io/bun-types/modules/bun_.md#inflatesync)
+- [inspect](https://oven-sh.github.io/bun-types/modules/bun_.md#inspect)
+- [mmap](https://oven-sh.github.io/bun-types/modules/bun_.md#mmap)
+- [nanoseconds](https://oven-sh.github.io/bun-types/modules/bun_.md#nanoseconds)
+- [openInEditor](https://oven-sh.github.io/bun-types/modules/bun_.md#openineditor)
+- [pathToFileURL](https://oven-sh.github.io/bun-types/modules/bun_.md#pathtofileurl)
+- [readableStreamToArray](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoarray)
+- [readableStreamToArrayBuffer](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoarraybuffer)
+- [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob)
+- [readableStreamToJSON](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtojson)
+- [readableStreamToText](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtotext)
+- [resolve](https://oven-sh.github.io/bun-types/modules/bun_.md#resolve)
+- [resolveSync](https://oven-sh.github.io/bun-types/modules/bun_.md#resolvesync)
+- [serve](https://oven-sh.github.io/bun-types/modules/bun_.md#serve-1)
+- [sha](https://oven-sh.github.io/bun-types/modules/bun_.md#sha)
+- [shrink](https://oven-sh.github.io/bun-types/modules/bun_.md#shrink)
+- [write](https://oven-sh.github.io/bun-types/modules/bun_.md#write)
 
 ## Type Aliases
 
@@ -139,13 +139,13 @@ ___
 
 ### SSLServeOptions
 
-Ƭ **SSLServeOptions**: [`ServeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md) & [`SSLOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLOptions.md) & [`SSLAdvancedOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md) & { `serverNames`: `Record`<`string`, [`SSLOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLOptions.md) & [`SSLAdvancedOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.SSLAdvancedOptions.md)\>  }
+Ƭ **SSLServeOptions**: [`ServeOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md) & [`SSLOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLOptions.md) & [`SSLAdvancedOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md) & { `serverNames`: `Record`<`string`, [`SSLOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLOptions.md) & [`SSLAdvancedOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.SSLAdvancedOptions.md)\>  }
 
 ___
 
 ### Serve
 
-Ƭ **Serve**: [`SSLServeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#sslserveoptions) \| [`ServeOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.ServeOptions.md)
+Ƭ **Serve**: [`SSLServeOptions`](https://oven-sh.github.io/bun-types/modules/bun_.md#sslserveoptions) \| [`ServeOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.ServeOptions.md)
 
 ___
 
@@ -172,7 +172,7 @@ Compression options for `Bun.deflateSync` and `Bun.gzipSync`
 
 Are ANSI colors enabled for stdin and stdout?
 
-Used for [log](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#log)
+Used for [log](https://oven-sh.github.io/bun-types/interfaces/console.md#log)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 ### stderr
 
-• `Const` **stderr**: [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+• `Const` **stderr**: [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 Write to stderr
 
@@ -202,7 +202,7 @@ ___
 
 ### stdin
 
-• `Const` **stdin**: [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+• `Const` **stdin**: [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 Read from stdin
 
@@ -212,7 +212,7 @@ ___
 
 ### stdout
 
-• `Const` **stdout**: [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+• `Const` **stdout**: [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 Write to stdout
 
@@ -220,7 +220,7 @@ ___
 
 ### unsafe
 
-• **unsafe**: [`unsafe`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#unsafe)
+• **unsafe**: [`unsafe`](https://oven-sh.github.io/bun-types/modules/bun_.md#unsafe)
 
 ## Functions
 
@@ -357,7 +357,7 @@ Compresses a chunk of data with `zlib` DEFLATE algorithm.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `data` | `Uint8Array` | The buffer of data to compress |
-| `options?` | [`ZlibCompressionOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
+| `options?` | [`ZlibCompressionOptions`](https://oven-sh.github.io/bun-types/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
 
 #### Returns
 
@@ -374,7 +374,7 @@ Compresses a chunk of data with `zlib` DEFLATE algorithm.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `data` | `Uint8Array` | The buffer of data to compress |
-| `options?` | [`ZlibCompressionOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
+| `options?` | [`ZlibCompressionOptions`](https://oven-sh.github.io/bun-types/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
 
 #### Returns
 
@@ -442,7 +442,7 @@ ___
 
 ### file
 
-▸ **file**(`path`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`path`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
 
@@ -473,13 +473,13 @@ await Bun.write(
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `string` | The path to the file (lazily loaded) |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
-▸ **file**(`path`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`path`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 `Blob` that leverages the fastest system calls available to operate on files.
 
@@ -500,13 +500,13 @@ console.log(file.type); // "application/json"
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `Uint8Array` \| `ArrayBufferLike` | The path to the file as a byte buffer (the buffer is copied) |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
-▸ **file**(`fileDescriptor`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`fileDescriptor`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
 
@@ -525,13 +525,13 @@ const file = Bun.file(fd);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `fileDescriptor` | `number` | The file descriptor of the file |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
-▸ **file**(`path`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`path`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
 
@@ -562,13 +562,13 @@ await Bun.write(
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `string` | The path to the file (lazily loaded) |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
-▸ **file**(`path`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`path`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 `Blob` that leverages the fastest system calls available to operate on files.
 
@@ -589,13 +589,13 @@ console.log(file.type); // "application/json"
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `Uint8Array` \| `ArrayBufferLike` | The path to the file as a byte buffer (the buffer is copied) |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
-▸ **file**(`fileDescriptor`, `options?`): [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+▸ **file**(`fileDescriptor`, `options?`): [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
 
@@ -614,11 +614,11 @@ const file = Bun.file(fd);
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `fileDescriptor` | `number` | The file descriptor of the file |
-| `options?` | [`BlobPropertyBag`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/BlobPropertyBag.md) | - |
+| `options?` | [`BlobPropertyBag`](https://oven-sh.github.io/bun-types/interfaces/BlobPropertyBag.md) | - |
 
 #### Returns
 
-[`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md)
+[`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md)
 
 ___
 
@@ -626,7 +626,7 @@ ___
 
 ▸ **fileURLToPath**(`url`): `string`
 
-Convert a [URL](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URL.md) to a filesystem path.
+Convert a [URL](https://oven-sh.github.io/bun-types/interfaces/URL.md) to a filesystem path.
 
 **`Throws`**
 
@@ -643,7 +643,7 @@ console.log(path); // "/foo/bar.txt"
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `url` | [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) | The URL to convert. |
+| `url` | [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) | The URL to convert. |
 
 #### Returns
 
@@ -653,7 +653,7 @@ A filesystem path.
 
 ▸ **fileURLToPath**(`url`): `string`
 
-Convert a [URL](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URL.md) to a filesystem path.
+Convert a [URL](https://oven-sh.github.io/bun-types/interfaces/URL.md) to a filesystem path.
 
 **`Throws`**
 
@@ -670,7 +670,7 @@ console.log(path); // "/foo/bar.txt"
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `url` | [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url) | The URL to convert. |
+| `url` | [`URL`](https://oven-sh.github.io/bun-types/modules.md#url) | The URL to convert. |
 
 #### Returns
 
@@ -722,21 +722,21 @@ ___
 
 ### generateHeapSnapshot
 
-▸ **generateHeapSnapshot**(): [`HeapSnapshot`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md)
+▸ **generateHeapSnapshot**(): [`HeapSnapshot`](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md)
 
 Generate a heap snapshot for seeing where the heap is being used
 
 #### Returns
 
-[`HeapSnapshot`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md)
+[`HeapSnapshot`](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md)
 
-▸ **generateHeapSnapshot**(): [`HeapSnapshot`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md)
+▸ **generateHeapSnapshot**(): [`HeapSnapshot`](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md)
 
 Generate a heap snapshot for seeing where the heap is being used
 
 #### Returns
 
-[`HeapSnapshot`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.HeapSnapshot.md)
+[`HeapSnapshot`](https://oven-sh.github.io/bun-types/interfaces/bun_.HeapSnapshot.md)
 
 ___
 
@@ -787,7 +787,7 @@ Compresses a chunk of data with `zlib` GZIP algorithm.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `data` | `Uint8Array` | The buffer of data to compress |
-| `options?` | [`ZlibCompressionOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
+| `options?` | [`ZlibCompressionOptions`](https://oven-sh.github.io/bun-types/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
 
 #### Returns
 
@@ -804,7 +804,7 @@ Compresses a chunk of data with `zlib` GZIP algorithm.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `data` | `Uint8Array` | The buffer of data to compress |
-| `options?` | [`ZlibCompressionOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
+| `options?` | [`ZlibCompressionOptions`](https://oven-sh.github.io/bun-types/modules/bun_.md#zlibcompressionoptions) | Compression options to use |
 
 #### Returns
 
@@ -875,7 +875,7 @@ ___
 
 ▸ **inspect**(...`args`): `string`
 
-Pretty-print an object the same as [log](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#log) to a `string`
+Pretty-print an object the same as [log](https://oven-sh.github.io/bun-types/interfaces/console.md#log) to a `string`
 
 Supports JSX
 
@@ -891,7 +891,7 @@ Supports JSX
 
 ▸ **inspect**(...`args`): `string`
 
-Pretty-print an object the same as [log](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/console.md#log) to a `string`
+Pretty-print an object the same as [log](https://oven-sh.github.io/bun-types/interfaces/console.md#log) to a `string`
 
 Supports JSX
 
@@ -933,7 +933,7 @@ To close the file, set the array to `null` and it will be garbage collected even
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `opts?` | [`MMapOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.MMapOptions.md) |
+| `opts?` | [`MMapOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.MMapOptions.md) |
 
 #### Returns
 
@@ -963,7 +963,7 @@ To close the file, set the array to `null` and it will be garbage collected even
 | Name | Type |
 | :------ | :------ |
 | `path` | `PathLike` |
-| `opts?` | [`MMapOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.MMapOptions.md) |
+| `opts?` | [`MMapOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.MMapOptions.md) |
 
 #### Returns
 
@@ -1012,7 +1012,7 @@ Open a file in your local editor. Auto-detects via `$VISUAL` || `$EDITOR`
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `string` | path to open |
-| `options?` | [`EditorOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.EditorOptions.md) | - |
+| `options?` | [`EditorOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.EditorOptions.md) | - |
 
 #### Returns
 
@@ -1027,7 +1027,7 @@ Open a file in your local editor. Auto-detects via `$VISUAL` || `$EDITOR`
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `path` | `string` | path to open |
-| `options?` | [`EditorOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.EditorOptions.md) | - |
+| `options?` | [`EditorOptions`](https://oven-sh.github.io/bun-types/interfaces/bun_.EditorOptions.md) | - |
 
 #### Returns
 
@@ -1037,7 +1037,7 @@ ___
 
 ### pathToFileURL
 
-▸ **pathToFileURL**(`path`): [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url)
+▸ **pathToFileURL**(`path`): [`URL`](https://oven-sh.github.io/bun-types/modules.md#url)
 
 Convert a filesystem path to a file:// URL.
 
@@ -1059,11 +1059,11 @@ convert the path to a file:// URL.
 
 #### Returns
 
-[`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url)
+[`URL`](https://oven-sh.github.io/bun-types/modules.md#url)
 
-A [URL](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URL.md) with the file:// scheme.
+A [URL](https://oven-sh.github.io/bun-types/interfaces/URL.md) with the file:// scheme.
 
-▸ **pathToFileURL**(`path`): [`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url)
+▸ **pathToFileURL**(`path`): [`URL`](https://oven-sh.github.io/bun-types/modules.md#url)
 
 Convert a filesystem path to a file:// URL.
 
@@ -1085,9 +1085,9 @@ convert the path to a file:// URL.
 
 #### Returns
 
-[`URL`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#url)
+[`URL`](https://oven-sh.github.io/bun-types/modules.md#url)
 
-A [URL](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/URL.md) with the file:// scheme.
+A [URL](https://oven-sh.github.io/bun-types/interfaces/URL.md) with the file:// scheme.
 
 ___
 
@@ -1095,7 +1095,7 @@ ___
 
 ▸ **readableStreamToArray**<`T`\>(`stream`): `Promise`<`T`[]\> \| `T`[]
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 #### Type parameters
 
@@ -1107,7 +1107,7 @@ Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/bl
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume |
 
 #### Returns
 
@@ -1117,7 +1117,7 @@ A promise that resolves with the chunks as an array
 
 ▸ **readableStreamToArray**<`T`\>(`stream`): `Promise`<`T`[]\> \| `T`[]
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 #### Type parameters
 
@@ -1129,7 +1129,7 @@ Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/bl
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume |
 
 #### Returns
 
@@ -1143,18 +1143,18 @@ ___
 
 ▸ **readableStreamToArrayBuffer**(`stream`): `Promise`<`ArrayBuffer`\> \| `ArrayBuffer`
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 Concatenate the chunks into a single ArrayBuffer.
 
 Each chunk must be a TypedArray or an ArrayBuffer. If you need to support
-chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob)
+chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob)
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1164,18 +1164,18 @@ A promise that resolves with the concatenated chunks or the concatenated chunks 
 
 ▸ **readableStreamToArrayBuffer**(`stream`): `Promise`<`ArrayBuffer`\> \| `ArrayBuffer`
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 Concatenate the chunks into a single ArrayBuffer.
 
 Each chunk must be a TypedArray or an ArrayBuffer. If you need to support
-chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob)
+chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob)
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1189,7 +1189,7 @@ ___
 
 ▸ **readableStreamToBlob**(`stream`): `Promise`<`Blob`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 Concatenate the chunks into a single Blob.
 
@@ -1197,7 +1197,7 @@ Concatenate the chunks into a single Blob.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1207,7 +1207,7 @@ A promise that resolves with the concatenated chunks as a Blob.
 
 ▸ **readableStreamToBlob**(`stream`): `Promise`<`Blob`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
 Concatenate the chunks into a single Blob.
 
@@ -1215,7 +1215,7 @@ Concatenate the chunks into a single Blob.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1229,15 +1229,15 @@ ___
 
 ▸ **readableStreamToJSON**(`stream`): `Promise`<`any`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
-Concatenate the chunks into a single string and parse as JSON. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob).
+Concatenate the chunks into a single string and parse as JSON. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob).
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1247,15 +1247,15 @@ A promise that resolves with the concatenated chunks as a String.
 
 ▸ **readableStreamToJSON**(`stream`): `Promise`<`any`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
-Concatenate the chunks into a single string and parse as JSON. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob).
+Concatenate the chunks into a single string and parse as JSON. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob).
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1269,15 +1269,15 @@ ___
 
 ▸ **readableStreamToText**(`stream`): `Promise`<`string`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
-Concatenate the chunks into a single string. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob).
+Concatenate the chunks into a single string. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob).
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1287,15 +1287,15 @@ A promise that resolves with the concatenated chunks as a String.
 
 ▸ **readableStreamToText**(`stream`): `Promise`<`string`\>
 
-Consume all data from a [ReadableStream](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/ReadableStream.md) until it closes or errors.
+Consume all data from a [ReadableStream](https://oven-sh.github.io/bun-types/interfaces/ReadableStream.md) until it closes or errors.
 
-Concatenate the chunks into a single string. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#readablestreamtoblob).
+Concatenate the chunks into a single string. Chunks must be a TypedArray or an ArrayBuffer. If you need to support chunks of different types, consider [readableStreamToBlob](https://oven-sh.github.io/bun-types/modules/bun_.md#readablestreamtoblob).
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `stream` | [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`any`\> | The stream to consume. |
+| `stream` | [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`any`\> | The stream to consume. |
 
 #### Returns
 
@@ -1387,7 +1387,7 @@ ___
 
 ### serve
 
-▸ **serve**(`options`): [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md)
+▸ **serve**(`options`): [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md)
 
 Start a fast HTTP server.
 
@@ -1424,13 +1424,13 @@ Bun.serve({
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | [`Serve`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#serve) | Server options (port defaults to $PORT \|\| 8080)  ----- |
+| `options` | [`Serve`](https://oven-sh.github.io/bun-types/modules/bun_.md#serve) | Server options (port defaults to $PORT \|\| 8080)  ----- |
 
 #### Returns
 
-[`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md)
+[`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md)
 
-▸ **serve**(`options`): [`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md)
+▸ **serve**(`options`): [`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md)
 
 Start a fast HTTP server.
 
@@ -1467,11 +1467,11 @@ Bun.serve({
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `options` | [`Serve`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#serve) | Server options (port defaults to $PORT \|\| 8080)  ----- |
+| `options` | [`Serve`](https://oven-sh.github.io/bun-types/modules/bun_.md#serve) | Server options (port defaults to $PORT \|\| 8080)  ----- |
 
 #### Returns
 
-[`Server`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.Server.md)
+[`Server`](https://oven-sh.github.io/bun-types/interfaces/bun_.Server.md)
 
 ___
 
@@ -1501,7 +1501,7 @@ Hash `input` using [SHA-2 512/256](https://en.wikipedia.org/wiki/SHA-2#Compariso
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `input` | `StringOrBuffer` | `string`, `Uint8Array`, or `ArrayBuffer` to hash. `Uint8Array` or `ArrayBuffer` will be faster |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in  This hashing function balances speed with cryptographic strength. This does not encrypt or decrypt data.  The implementation uses [BoringSSL](https://boringssl.googlesource.com/boringssl) (used in Chromium & Go)  The equivalent `openssl` command is:  ```bash # You will need OpenSSL 3 or later openssl sha512-256 /path/to/file ``` |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in  This hashing function balances speed with cryptographic strength. This does not encrypt or decrypt data.  The implementation uses [BoringSSL](https://boringssl.googlesource.com/boringssl) (used in Chromium & Go)  The equivalent `openssl` command is:  ```bash # You will need OpenSSL 3 or later openssl sha512-256 /path/to/file ``` |
 
 #### Returns
 
@@ -1531,7 +1531,7 @@ Hash `input` using [SHA-2 512/256](https://en.wikipedia.org/wiki/SHA-2#Compariso
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `input` | `StringOrBuffer` | `string`, `Uint8Array`, or `ArrayBuffer` to hash. `Uint8Array` or `ArrayBuffer` will be faster |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in  This hashing function balances speed with cryptographic strength. This does not encrypt or decrypt data.  The implementation uses [BoringSSL](https://boringssl.googlesource.com/boringssl) (used in Chromium & Go)  The equivalent `openssl` command is:  ```bash # You will need OpenSSL 3 or later openssl sha512-256 /path/to/file ``` |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in  This hashing function balances speed with cryptographic strength. This does not encrypt or decrypt data.  The implementation uses [BoringSSL](https://boringssl.googlesource.com/boringssl) (used in Chromium & Go)  The equivalent `openssl` command is:  ```bash # You will need OpenSSL 3 or later openssl sha512-256 /path/to/file ``` |
 
 #### Returns
 
@@ -1571,7 +1571,7 @@ If `destination` exists, it must be a regular file or symlink to a file.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) \| `PathLike` | The file or file path to write to |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) \| `PathLike` | The file or file path to write to |
 | `input` | `string` \| `Blob` \| `TypedArray` \| `ArrayBufferLike` \| `BlobPart`[] | The data to copy into `destination`. |
 
 #### Returns
@@ -1588,7 +1588,7 @@ Persist a Response body to disk.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
 | `input` | `Response` | `Response` object |
 
 #### Returns
@@ -1630,8 +1630,8 @@ back to [`fcopyfile()`](https://www.manpagez.com/man/2/fcopyfile/)
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
-| `input` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to copy from. |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
+| `input` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to copy from. |
 
 #### Returns
 
@@ -1656,7 +1656,7 @@ back to [`fcopyfile()`](https://www.manpagez.com/man/2/fcopyfile/)
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `destinationPath` | `PathLike` | The file path to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
-| `input` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to copy from. |
+| `input` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to copy from. |
 
 #### Returns
 
@@ -1674,7 +1674,7 @@ If `destination` exists, it must be a regular file or symlink to a file.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) \| `PathLike` | The file or file path to write to |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) \| `PathLike` | The file or file path to write to |
 | `input` | `string` \| `Blob` \| `TypedArray` \| `ArrayBufferLike` \| `BlobPart`[] | The data to copy into `destination`. |
 
 #### Returns
@@ -1691,7 +1691,7 @@ Persist a Response body to disk.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
 | `input` | `Response` | `Response` object |
 
 #### Returns
@@ -1733,8 +1733,8 @@ back to [`fcopyfile()`](https://www.manpagez.com/man/2/fcopyfile/)
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `destination` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
-| `input` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to copy from. |
+| `destination` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
+| `input` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to copy from. |
 
 #### Returns
 
@@ -1759,7 +1759,7 @@ back to [`fcopyfile()`](https://www.manpagez.com/man/2/fcopyfile/)
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `destinationPath` | `PathLike` | The file path to write to. If the file doesn't exist, it will be created and if the file does exist, it will be overwritten. If `input`'s size is less than `destination`'s size, `destination` will be truncated. |
-| `input` | [`FileBlob`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/bun_.FileBlob.md) | The file to copy from. |
+| `input` | [`FileBlob`](https://oven-sh.github.io/bun-types/interfaces/bun_.FileBlob.md) | The file to copy from. |
 
 #### Returns
 

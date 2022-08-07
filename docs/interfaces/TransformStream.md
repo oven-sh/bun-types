@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / TransformStream
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / TransformStream
 
 # Interface: TransformStream<I, O\>
 
@@ -13,17 +13,17 @@
 
 ### Properties
 
-- [readable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStream.md#readable)
-- [writable](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/TransformStream.md#writable)
+- [readable](https://oven-sh.github.io/bun-types/interfaces/TransformStream.md#readable)
+- [writable](https://oven-sh.github.io/bun-types/interfaces/TransformStream.md#writable)
 
 ## Properties
 
 ### readable
 
-• `Readonly` **readable**: [`ReadableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#readablestream)<`O`\>
+• `Readonly` **readable**: [`ReadableStream`](https://oven-sh.github.io/bun-types/modules.md#readablestream)<`O`\>
 
 ___
 
 ### writable
 
-• `Readonly` **writable**: [`WritableStream`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md#writablestream)<`I`\>
+• `Readonly` **writable**: [`WritableStream`](https://oven-sh.github.io/bun-types/modules.md#writablestream)<`I`\>

@@ -1,16 +1,16 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md) / CpuInfo
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["os"](https://oven-sh.github.io/bun-types/modules/os_.md) / CpuInfo
 
 # Interface: CpuInfo
 
-["os"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/os_.md).CpuInfo
+["os"](https://oven-sh.github.io/bun-types/modules/os_.md).CpuInfo
 
 ## Table of contents
 
 ### Properties
 
-- [model](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md#model)
-- [speed](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md#speed)
-- [times](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/os_.CpuInfo.md#times)
+- [model](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md#model)
+- [speed](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md#speed)
+- [times](https://oven-sh.github.io/bun-types/interfaces/os_.CpuInfo.md#times)
 
 ## Properties
 

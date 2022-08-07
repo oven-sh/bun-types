@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["supports-color"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/supports_color_.md) / Options
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["supports-color"](https://oven-sh.github.io/bun-types/modules/supports_color_.md) / Options
 
 # Interface: Options
 
-["supports-color"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/supports_color_.md).Options
+["supports-color"](https://oven-sh.github.io/bun-types/modules/supports_color_.md).Options
 
 ## Table of contents
 
 ### Properties
 
-- [sniffFlags](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/supports_color_.Options.md#sniffflags)
+- [sniffFlags](https://oven-sh.github.io/bun-types/interfaces/supports_color_.Options.md#sniffflags)
 
 ## Properties
 

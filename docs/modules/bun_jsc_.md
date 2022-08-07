@@ -1,4 +1,4 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / "bun:jsc"
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / "bun:jsc"
 
 # Namespace: "bun:jsc"
 
@@ -6,28 +6,28 @@
 
 ### Functions
 
-- [callerSourceOrigin](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#callersourceorigin)
-- [describe](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#describe)
-- [describeArray](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#describearray)
-- [drainMicrotasks](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#drainmicrotasks)
-- [edenGC](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#edengc)
-- [fullGC](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#fullgc)
-- [gcAndSweep](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#gcandsweep)
-- [getProtectedObjects](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#getprotectedobjects)
-- [getRandomSeed](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#getrandomseed)
-- [heapSize](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#heapsize)
-- [heapStats](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#heapstats)
-- [isRope](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#isrope)
-- [memoryUsage](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#memoryusage)
-- [noFTL](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#noftl)
-- [noOSRExitFuzzing](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#noosrexitfuzzing)
-- [numberOfDFGCompiles](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#numberofdfgcompiles)
-- [optimizeNextInvocation](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#optimizenextinvocation)
-- [releaseWeakRefs](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#releaseweakrefs)
-- [reoptimizationRetryCount](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#reoptimizationretrycount)
-- [setRandomSeed](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#setrandomseed)
-- [startRemoteDebugger](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#startremotedebugger)
-- [totalCompileTime](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_jsc_.md#totalcompiletime)
+- [callerSourceOrigin](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#callersourceorigin)
+- [describe](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#describe)
+- [describeArray](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#describearray)
+- [drainMicrotasks](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#drainmicrotasks)
+- [edenGC](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#edengc)
+- [fullGC](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#fullgc)
+- [gcAndSweep](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#gcandsweep)
+- [getProtectedObjects](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#getprotectedobjects)
+- [getRandomSeed](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#getrandomseed)
+- [heapSize](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#heapsize)
+- [heapStats](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#heapstats)
+- [isRope](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#isrope)
+- [memoryUsage](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#memoryusage)
+- [noFTL](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#noftl)
+- [noOSRExitFuzzing](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#noosrexitfuzzing)
+- [numberOfDFGCompiles](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#numberofdfgcompiles)
+- [optimizeNextInvocation](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#optimizenextinvocation)
+- [releaseWeakRefs](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#releaseweakrefs)
+- [reoptimizationRetryCount](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#reoptimizationretrycount)
+- [setRandomSeed](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#setrandomseed)
+- [startRemoteDebugger](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#startremotedebugger)
+- [totalCompileTime](https://oven-sh.github.io/bun-types/modules/bun_jsc_.md#totalcompiletime)
 
 ## Functions
 

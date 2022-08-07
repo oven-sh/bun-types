@@ -1,12 +1,12 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md) / StatSyncOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md) / StatSyncOptions
 
 # Interface: StatSyncOptions
 
-["node:fs"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_fs_.md).StatSyncOptions
+["node:fs"](https://oven-sh.github.io/bun-types/modules/node_fs_.md).StatSyncOptions
 
 ## Hierarchy
 
-- [`StatOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md)
+- [`StatOptions`](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md)
 
   ↳ **`StatSyncOptions`**
 
@@ -14,8 +14,8 @@
 
 ### Properties
 
-- [bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.StatSyncOptions.md#bigint)
-- [throwIfNoEntry](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_fs_.StatSyncOptions.md#throwifnoentry)
+- [bigint](https://oven-sh.github.io/bun-types/interfaces/node_fs_.StatSyncOptions.md#bigint)
+- [throwIfNoEntry](https://oven-sh.github.io/bun-types/interfaces/node_fs_.StatSyncOptions.md#throwifnoentry)
 
 ## Properties
 
@@ -25,7 +25,7 @@
 
 #### Inherited from
 
-[StatOptions](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md).[bigint](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/fs_.StatOptions.md#bigint)
+[StatOptions](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md).[bigint](https://oven-sh.github.io/bun-types/interfaces/fs_.StatOptions.md#bigint)
 
 ___
 

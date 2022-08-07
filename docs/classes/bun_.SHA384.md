@@ -1,14 +1,14 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md) / SHA384
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md) / SHA384
 
 # Class: SHA384
 
-["bun"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md).SHA384
+["bun"](https://oven-sh.github.io/bun-types/modules/bun_.md).SHA384
 
 This class only exists in types
 
 ## Hierarchy
 
-- [`CryptoHashInterface`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md)<[`SHA384`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md)\>
+- [`CryptoHashInterface`](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md)<[`SHA384`](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md)\>
 
   ↳ **`SHA384`**
 
@@ -16,17 +16,17 @@ This class only exists in types
 
 ### Constructors
 
-- [constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md#constructor)
+- [constructor](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md#constructor)
 
 ### Properties
 
-- [byteLength](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md#bytelength)
+- [byteLength](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md#bytelength)
 
 ### Methods
 
-- [digest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md#digest)
-- [update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md#update)
-- [hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md#hash)
+- [digest](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md#digest)
+- [update](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md#update)
+- [hash](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md#hash)
 
 ## Constructors
 
@@ -36,7 +36,7 @@ This class only exists in types
 
 #### Overrides
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[constructor](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#constructor)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[constructor](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#constructor)
 
 ## Properties
 
@@ -58,7 +58,7 @@ Finalize the hash
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in. If none is provided, it will return a `Uint8Array`. |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in. If none is provided, it will return a `Uint8Array`. |
 
 #### Returns
 
@@ -66,7 +66,7 @@ Finalize the hash
 
 #### Inherited from
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[digest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#digest)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[digest](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#digest)
 
 ▸ **digest**(`hashInto?`): `TypedArray`
 
@@ -84,13 +84,13 @@ Finalize the hash
 
 #### Inherited from
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[digest](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#digest)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[digest](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#digest)
 
 ___
 
 ### update
 
-▸ **update**(`data`): [`SHA384`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md)
+▸ **update**(`data`): [`SHA384`](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md)
 
 Update the hash with data
 
@@ -102,11 +102,11 @@ Update the hash with data
 
 #### Returns
 
-[`SHA384`](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.SHA384.md)
+[`SHA384`](https://oven-sh.github.io/bun-types/classes/bun_.SHA384.md)
 
 #### Inherited from
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[update](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#update)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[update](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#update)
 
 ___
 
@@ -129,7 +129,7 @@ Run the hash over the given data
 
 #### Inherited from
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#hash)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[hash](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#hash)
 
 ▸ `Static` **hash**(`input`, `encoding`): `string`
 
@@ -140,7 +140,7 @@ Run the hash over the given data
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `input` | `StringOrBuffer` | `string`, `Uint8Array`, or `ArrayBuffer` to hash. `Uint8Array` or `ArrayBuffer` is faster. |
-| `encoding` | [`DigestEncoding`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in |
+| `encoding` | [`DigestEncoding`](https://oven-sh.github.io/bun-types/modules/bun_.md#digestencoding) | `DigestEncoding` to return the hash in |
 
 #### Returns
 
@@ -148,4 +148,4 @@ Run the hash over the given data
 
 #### Inherited from
 
-[CryptoHashInterface](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md).[hash](https://github.com/oven-sh/bun-types/blob/master/api-docs/classes/bun_.CryptoHashInterface.md#hash)
+[CryptoHashInterface](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md).[hash](https://oven-sh.github.io/bun-types/classes/bun_.CryptoHashInterface.md#hash)

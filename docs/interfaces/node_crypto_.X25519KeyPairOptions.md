@@ -1,28 +1,28 @@
-[bun-types](https://github.com/oven-sh/bun-types/blob/master/api-docs/README.md) / [Exports](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules.md) / ["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md) / X25519KeyPairOptions
+[bun-types](https://oven-sh.github.io/bun-types/README.md) / [Exports](https://oven-sh.github.io/bun-types/modules.md) / ["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md) / X25519KeyPairOptions
 
 # Interface: X25519KeyPairOptions<PubF, PrivF\>
 
-["node:crypto"](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/node_crypto_.md).X25519KeyPairOptions
+["node:crypto"](https://oven-sh.github.io/bun-types/modules/node_crypto_.md).X25519KeyPairOptions
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `PubF` | extends [`KeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat) |
-| `PrivF` | extends [`KeyFormat`](https://github.com/oven-sh/bun-types/blob/master/api-docs/modules/crypto_.md#keyformat) |
+| `PubF` | extends [`KeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat) |
+| `PrivF` | extends [`KeyFormat`](https://oven-sh.github.io/bun-types/modules/crypto_.md#keyformat) |
 
 ## Table of contents
 
 ### Properties
 
-- [privateKeyEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.X25519KeyPairOptions.md#privatekeyencoding)
-- [publicKeyEncoding](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/node_crypto_.X25519KeyPairOptions.md#publickeyencoding)
+- [privateKeyEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.X25519KeyPairOptions.md#privatekeyencoding)
+- [publicKeyEncoding](https://oven-sh.github.io/bun-types/interfaces/node_crypto_.X25519KeyPairOptions.md#publickeyencoding)
 
 ## Properties
 
 ### privateKeyEncoding
 
-• **privateKeyEncoding**: [`BasePrivateKeyEncodingOptions`](https://github.com/oven-sh/bun-types/blob/master/api-docs/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)<`PrivF`\> & { `type`: ``"pkcs8"``  }
+• **privateKeyEncoding**: [`BasePrivateKeyEncodingOptions`](https://oven-sh.github.io/bun-types/interfaces/crypto_.BasePrivateKeyEncodingOptions.md)<`PrivF`\> & { `type`: ``"pkcs8"``  }
 
 ___
 
