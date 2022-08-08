@@ -51,4 +51,4 @@ bun generate:package
 
 # Generated docs
 
-**[📚 See here for docs](./docs/modules.md#bun-types)**
+**[📚 See here for docs](https://oven-sh.github.io/bun-types/)**
