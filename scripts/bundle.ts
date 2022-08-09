@@ -58,6 +58,11 @@ await write(
   JSON.stringify(packageJSON, null, 2) + "\n"
 );
 
+await write(
+  resolve(folder, "README.md"),
+  await file(resolve(import.meta.dir, "..", "README.md")).text()
+)
+
 export {};
 
 import "../index";
