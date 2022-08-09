@@ -1329,7 +1329,8 @@ type BufferEncoding =
   | "latin1"
   | "binary"
   | "hex"
-  | "base64";
+  | "base64"
+  | "base64url";
 
 interface BufferEncodingOption {
   encoding?: BufferEncoding;
