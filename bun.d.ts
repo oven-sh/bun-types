@@ -1087,6 +1087,15 @@ declare module "bun" {
   }
 
   /**
+   * Sleep the thread for a given number of milliseconds
+   *
+   * This is a blocking function.
+   *
+   * Internally, it calls [nanosleep(2)](https://man7.org/linux/man-pages/man2/nanosleep.2.html)
+   */
+  export function sleepSync(ms: number): void;
+
+  /**
    *
    * Hash `input` using [SHA-2 512/256](https://en.wikipedia.org/wiki/SHA-2#Comparison_of_SHA_functions)
    *
