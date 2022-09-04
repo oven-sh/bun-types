@@ -23,6 +23,11 @@ declare module "bun:test" {
   export function test(label: string, test: () => void | Promise<any>): any;
 
   export function expect(value: any): Expect;
+  export function afterAll(fn: () => void): void;
+  export function beforeAll(fn: () => void): void;
+
+  export function afterEach(fn: () => void): void;
+  export function beforeEach(fn: () => void): void;
 
   interface Expect {
     toBe(value: any): void;

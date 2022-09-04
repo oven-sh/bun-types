@@ -1310,6 +1310,252 @@ declare module "bun" {
    * @returns The output buffer with the decompressed data
    */
   export function gunzipSync(data: Uint8Array): Uint8Array;
+
+  export type PluginTarget =
+    /**
+     * The default environment when using `bun run` or `bun` to load a script
+     */
+    | "bun"
+    /**
+     * The plugin will be applied to Node.js builds
+     */
+    | "node"
+    /**
+     * The plugin will be applied to browser builds
+     */
+    | "browser";
+
+  interface PluginConstraints {
+    /**
+     * Only apply the plugin when the import specifier matches this regular expression
+     *
+     * @example
+     * ```ts
+     * // Only apply the plugin when the import specifier matches the regex
+     * Bun.plugin({
+     *  setup(builder) {
+     *     builder.onLoad({ filter: /node_modules\/underscore/ }, (args) => {
+     *      return { contents: "throw new Error('Please use lodash instead of underscore.')" };
+     *     });
+     *  }
+     * })
+     * ```
+     */
+    filter: RegExp;
+
+    /**
+     * Only apply the plugin when the import specifier has a namespace matching
+     * this string
+     *
+     * Namespaces are prefixes in import specifiers. For example, `"bun:ffi"`
+     * has the namespace `"bun"`.
+     *
+     * The default namespace is `"file"` and it can be omitted from import
+     * specifiers.
+     */
+    namespace?: string;
+  }
+
+  interface OnLoadResultSourceCode {
+    /**
+     * The source code of the module
+     */
+    contents: string | ArrayBufferView | ArrayBuffer;
+    /**
+     * The loader to use for this file
+     *
+     * "css" will be added in a future version of Bun.
+     */
+    loader: "js" | "jsx" | "ts" | "tsx";
+  }
+
+  interface OnLoadResultObject {
+    /**
+     * The object to use as the module
+     * @example
+     * ```ts
+     * // In your loader
+     * builder.onLoad({ filter: /^hello:world$/ }, (args) => {
+     *    return { exports: { foo: "bar" }, loader: "object" };
+     * });
+     *
+     * // In your script
+     * import {foo} from "hello:world";
+     * console.log(foo); // "bar"
+     * ```
+     */
+    exports: Record<string, unknown>;
+    /**
+     * The loader to use for this file
+     */
+    loader: "object";
+  }
+
+  interface OnLoadArgs {
+    /**
+     * The resolved import specifier of the module being loaded
+     * @example
+     * ```ts
+     * builder.onLoad({ filter: /^hello:world$/ }, (args) => {
+     *   console.log(args.path); // "hello:world"
+     *   return { exports: { foo: "bar" }, loader: "object" };
+     * });
+     * ```
+     */
+    path: string;
+  }
+
+  type OnLoadResult = OnLoadResultSourceCode | OnLoadResultObject;
+  type OnLoadCallback = (args: OnLoadArgs) => OnLoadResult;
+
+  interface OnResolveArgs {
+    /**
+     * The import specifier of the module being loaded
+     */
+    path: string;
+    /**
+     * The module that imported the module being resolved
+     */
+    importer: string;
+  }
+
+  interface OnResolveResult {
+    /**
+     * The destination of the import
+     */
+    path: string;
+    /**
+     * The namespace of the destination
+     * It will be concatenated with `path` to form the final import specifier
+     * @example
+     * ```ts
+     * "foo" // "foo:bar"
+     * ```
+     */
+    namespace?: string;
+  }
+
+  type OnResolveCallback = (args: OnResolveArgs) => OnResolveResult | void;
+
+  interface PluginBuilder {
+    /**
+     * Register a callback to load imports with a specific import specifier
+     * @param constraints The constraints to apply the plugin to
+     * @param callback The callback to handle the import
+     * @example
+     * ```ts
+     * Bun.plugin({
+     *   setup(builder) {
+     *     builder.onLoad({ filter: /^hello:world$/ }, (args) => {
+     *       return { exports: { foo: "bar" }, loader: "object" };
+     *     });
+     *   },
+     * });
+     * ```
+     */
+    onLoad(constraints: PluginConstraints, callback: OnLoadCallback): void;
+    /**
+     * Register a callback to resolve imports matching a filter and/or namespace
+     * @param constraints The constraints to apply the plugin to
+     * @param callback The callback to handle the import
+     * @example
+     * ```ts
+     * Bun.plugin({
+     *   setup(builder) {
+     *     builder.onResolve({ filter: /^wat$/ }, (args) => {
+     *       return { path: "/tmp/woah.js" };
+     *     });
+     *   },
+     * });
+     * ```
+     */
+    onResolve(
+      constraints: PluginConstraints,
+      callback: OnResolveCallback
+    ): void;
+    /**
+     * The current target environment
+     */
+    target: PluginTarget;
+  }
+
+  /**
+   * Extend Bun's module resolution and loading behavior
+   *
+   * Plugins are applied in the order they are defined.
+   *
+   * There are two kinds of plugins
+   * - `onLoad` plugins let you return source code or an object that will become the module's exports
+   * - `onResolve` plugins let you return a new specifier and a namespace for the module
+   *
+   * Plugin hooks must define a `filter` RegExp and will only be matched if the
+   * import specifier contains a "." or a ":".
+   *
+   * ES Module resolution semantics mean that plugins may be initialized _after_
+   * a module is resolved. You might need to load plugins at the very beginning
+   * of the application and then use a dynamic import to load the rest of the
+   * application. A future version of Bun may also support specifying plugins
+   * via `bunfig.toml`.
+   *
+   *
+   * @example
+   * A YAML loader plugin
+   *
+   * ```js
+   *Bun.plugin({
+   *  setup(builder) {
+   *   builder.onLoad({ filter: /\.yaml$/ }, ({path}) => ({
+   *     loader: "object",
+   *     exports: require("js-yaml").load(fs.readFileSync(path, "utf8"))
+   *   }));
+   *});
+   *
+   * // You can use require()
+   * const {foo} = require("./file.yaml");
+   *
+   * // Or import
+   * await import("./file.yaml");
+   *
+   * ```
+   */
+  export function plugin(options: {
+    /**
+     * Human-readable name of the plugin
+     *
+     * In a future version of Bun, this will be used in error messages.
+     */
+    name?: string;
+
+    /**
+     * The target JavaScript environment the plugin should be applied to.
+     * - `bun`: The default environment when using `bun run` or `bun` to load a script
+     * - `browser`: The plugin will be applied to browser builds
+     * - `node`: The plugin will be applied to Node.js builds
+     *
+     * If in Bun's runtime, the default target is `bun`.
+     *
+     * If unspecified, it is assumed that the plugin is compatible with the default target.
+     */
+    target?: PluginTarget;
+    /**
+     * A function that will be called when the plugin is loaded.
+     *
+     * This function may be called in the same tick that it is registered, or it may be called later. It could potentially be called multiple times for different targets.
+     */
+    setup(
+      /**
+       * A builder object that can be used to register plugin hooks
+       * @example
+       * ```ts
+       * builder.onLoad({ filter: /\.yaml$/ }, ({ path }) => ({
+       *   loader: "object",
+       *   exports: require("js-yaml").load(fs.readFileSync(path, "utf8")),
+       * }));
+       * ```
+       */
+      builder: PluginBuilder
+    ): void | Promise<void>;
+  }): ReturnType<typeof options["setup"]>;
 }
 
 type TypedArray =

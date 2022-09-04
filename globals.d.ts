@@ -132,6 +132,18 @@ interface console {
 
 declare var console: console;
 
+declare namespace NodeJS {
+  interface RequireResolve {
+    (id: string, options?: { paths?: string[] | undefined }): string;
+    paths(request: string): string[] | null;
+  }
+
+  interface Require {
+    (id: string): any;
+    resolve: RequireResolve;
+  }
+}
+
 interface ImportMeta {
   /**
    * `file://` url string for the current module.
@@ -170,7 +182,30 @@ interface ImportMeta {
    */
   // tslint:disable-next-line:unified-signatures
   resolve(moduleId: string, parent: string): Promise<string>;
+
+  /**
+   * Resolve a module ID the same as if you imported it
+   *
+   * The `parent` argument is optional, and defaults to the current module's path.
+   */
+  resolveSync(moduleId: string, parent?: string): string;
+
+  /**
+   * Resolve a module ID the same as if you imported it
+   *
+   * The `parent` argument is optional, and defaults to the current module's path.
+   */
+  require: NodeJS.Require;
 }
+
+/**
+ * NodeJS-style `require` function
+ *
+ * Internally, uses `import.meta.require`
+ *
+ * @param moduleId - The module ID to resolve
+ */
+declare var require: NodeJS.Require;
 
 /** @deprecated Please use `import.meta.path` instead. */
 declare var __filename: string;
@@ -1377,8 +1412,8 @@ interface WebSocket extends EventTarget {
   readonly url: string;
   /** Closes the WebSocket connection, optionally using code as the the WebSocket connection close code and reason as the the WebSocket connection close reason. */
   close(code?: number, reason?: string): void;
-  /** Transmits data using the WebSocket connection. data can be a string, a Blob, an ArrayBuffer, or an ArrayBufferView. */
-  send(data: string | ArrayBufferLike | Blob | ArrayBufferView): void;
+  /** Transmits data using the WebSocket connection. data can be a string, an ArrayBuffer, or an ArrayBufferView. */
+  send(data: string | ArrayBufferLike | ArrayBufferView): void;
   readonly CLOSED: number;
   readonly CLOSING: number;
   readonly CONNECTING: number;
@@ -1989,3 +2024,4 @@ interface ErrnoException extends Error {
 declare function alert(message?: string): void;
 declare function confirm(message?: string): boolean;
 declare function prompt(message?: string, _default?: string): string | null;
+declare function require(path: string): import(path);
