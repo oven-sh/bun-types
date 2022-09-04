@@ -76,5 +76,7 @@
   color: 'FBCA04'
 - name: 'types:fs/promises'
   color: 'FBCA04'
+- name: 'types:module'
+  color: 'FBCA04'
 - name: 'types:punycode'
   color: 'FBCA04'
