@@ -1484,9 +1484,9 @@ declare module "bun" {
    *
    * Plugins are applied in the order they are defined.
    *
-   * There are two kinds of plugins
-   * - `onLoad` plugins let you return source code or an object that will become the module's exports
-   * - `onResolve` plugins let you return a new specifier and a namespace for the module
+   * Today, there are two kinds of hooks:
+   * - `onLoad` lets you return source code or an object that will become the module's exports
+   * - `onResolve` lets you redirect a module specifier to another module specifier. It does not chain.
    *
    * Plugin hooks must define a `filter` RegExp and will only be matched if the
    * import specifier contains a "." or a ":".
@@ -1518,44 +1518,55 @@ declare module "bun" {
    *
    * ```
    */
-  export function plugin(options: {
-    /**
-     * Human-readable name of the plugin
-     *
-     * In a future version of Bun, this will be used in error messages.
-     */
-    name?: string;
+  interface BunPlugin {
+    (options: {
+      /**
+       * Human-readable name of the plugin
+       *
+       * In a future version of Bun, this will be used in error messages.
+       */
+      name?: string;
+
+      /**
+       * The target JavaScript environment the plugin should be applied to.
+       * - `bun`: The default environment when using `bun run` or `bun` to load a script
+       * - `browser`: The plugin will be applied to browser builds
+       * - `node`: The plugin will be applied to Node.js builds
+       *
+       * If in Bun's runtime, the default target is `bun`.
+       *
+       * If unspecified, it is assumed that the plugin is compatible with the default target.
+       */
+      target?: PluginTarget;
+      /**
+       * A function that will be called when the plugin is loaded.
+       *
+       * This function may be called in the same tick that it is registered, or it may be called later. It could potentially be called multiple times for different targets.
+       */
+      setup(
+        /**
+         * A builder object that can be used to register plugin hooks
+         * @example
+         * ```ts
+         * builder.onLoad({ filter: /\.yaml$/ }, ({ path }) => ({
+         *   loader: "object",
+         *   exports: require("js-yaml").load(fs.readFileSync(path, "utf8")),
+         * }));
+         * ```
+         */
+        builder: PluginBuilder
+      ): void | Promise<void>;
+    }): ReturnType<typeof options["setup"]>;
 
     /**
-     * The target JavaScript environment the plugin should be applied to.
-     * - `bun`: The default environment when using `bun run` or `bun` to load a script
-     * - `browser`: The plugin will be applied to browser builds
-     * - `node`: The plugin will be applied to Node.js builds
+     * Deactivate all plugins
      *
-     * If in Bun's runtime, the default target is `bun`.
-     *
-     * If unspecified, it is assumed that the plugin is compatible with the default target.
+     * This prevents registered plugins from being applied to future builds.
      */
-    target?: PluginTarget;
-    /**
-     * A function that will be called when the plugin is loaded.
-     *
-     * This function may be called in the same tick that it is registered, or it may be called later. It could potentially be called multiple times for different targets.
-     */
-    setup(
-      /**
-       * A builder object that can be used to register plugin hooks
-       * @example
-       * ```ts
-       * builder.onLoad({ filter: /\.yaml$/ }, ({ path }) => ({
-       *   loader: "object",
-       *   exports: require("js-yaml").load(fs.readFileSync(path, "utf8")),
-       * }));
-       * ```
-       */
-      builder: PluginBuilder
-    ): void | Promise<void>;
-  }): ReturnType<typeof options["setup"]>;
+    clearAll(): void;
+  }
+
+  var plugin: BunPlugin;
 }
 
 type TypedArray =
