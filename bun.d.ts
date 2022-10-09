@@ -355,6 +355,28 @@ declare module "bun" {
   }
 
   /**
+   * Fast incremental writer for files and pipes.
+   *
+   * This uses the same interface as {@link ArrayBufferSink}, but writes to a file or pipe.
+   */
+  export interface FileSink {
+    /**
+     * Write a chunk of data to the file.
+     *
+     * If the file descriptor is not writable yet, the data is buffered.
+     */
+    write(chunk: string | ArrayBufferView | ArrayBuffer): number;
+    /**
+     * Flush the internal buffer, committing the data to disk or the pipe.
+     */
+    flush(): number | Promise<number>;
+    /**
+     * Close the file descriptor. This also flushes the internal buffer.
+     */
+    end(error?: Error): number | Promise<number>;
+  }
+
+  /**
    * [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
    *
    * This Blob is lazy. That means it won't do any work until you read from it.
@@ -791,11 +813,64 @@ declare module "bun" {
     stop(): void;
 
     /**
+     * Update the `fetch` and `error` handlers without restarting the server.
+     *
+     * This is useful if you want to change the behavior of your server without
+     * restarting it or for hot reloading.
+     *
+     * @example
+     *
+     * ```js
+     * // create the server
+     * const server = Bun.serve({
+     *  fetch(request) {
+     *    return new Response("Hello World v1")
+     *  }
+     * });
+     *
+     * // Update the server to return a different response
+     * server.update({
+     *   fetch(request) {
+     *     return new Response("Hello World v2")
+     *   }
+     * });
+     * ```
+     *
+     * Passing other options such as `port` or `hostname` won't do anything.
+     */
+    reload(options: Serve): void;
+
+    /**
+     * Mock the fetch handler for a running server.
+     *
+     * This feature is not fully implemented yet. It doesn't normalize URLs
+     * consistently in all cases and it doesn't yet call the `error` handler
+     * consistently. This needs to be fixed
+     */
+    fetch(request: Request): Response | Promise<Response>;
+
+    /**
      * How many requests are in-flight right now?
      */
     readonly pendingRequests: number;
     readonly port: number;
+    /**
+     * The hostname the server is listening on. Does not include the port
+     * @example
+     * ```js
+     * "localhost"
+     * ```
+     */
     readonly hostname: string;
+    /**
+     * Is the server running in development mode?
+     *
+     * In development mode, `Bun.serve()` returns rendered error messages with
+     * stack traces instead of a generic 500 error. This makes debugging easier,
+     * but development mode shouldn't be used in production or you will risk
+     * leaking sensitive information.
+     *
+     */
     readonly development: boolean;
   }
 
@@ -1567,6 +1642,174 @@ declare module "bun" {
   }
 
   var plugin: BunPlugin;
+
+  declare namespace SpawnOptions {
+    type Readable =
+      | "inherit"
+      | "pipe"
+      | "ignore"
+      | "disable"
+      | null
+      | undefined
+      | FileBlob
+      | ArrayBufferView
+      | number;
+
+    type Writable =
+      | "inherit"
+      | "pipe"
+      | "ignore"
+      | "disable"
+      | null
+      | undefined
+      | FileBlob
+      | BlobPart
+      | number;
+  }
+
+  interface Subprocess {
+    stdin: undefined | number | FileSink;
+    stdout: undefined | number | ReadableStream;
+    stderr: undefined | number | ReadableStream;
+
+    /**
+     * The process ID of the child process
+     * @example
+     * ```ts
+     * const { pid } = Bun.spawn({ cmd: ["echo", "hello"] });
+     * console.log(pid); // 1234
+     * ```
+     */
+    readonly pid: number;
+    /**
+     * The exit code of the process
+     *
+     * The promise will resolve when the process exits
+     */
+    readonly exited: Promise<number>;
+
+    /**
+     * Has the process exited?
+     */
+    readonly killed: boolean;
+
+    /**
+     * Kill the process
+     * @param exitCode The exitCode to send to the process
+     */
+    kill(exitCode?: number): void;
+
+    /**
+     * This method will tell Bun to wait for this process to exit after you already
+     * called `unref()`.
+     *
+     * Before shutting down, Bun will wait for all subprocesses to exit by default
+     */
+    ref(): void;
+
+    /**
+     * Before shutting down, Bun will wait for all subprocesses to exit by default
+     *
+     * This method will tell Bun to not wait for this process to exit before shutting down.
+     */
+    unref(): void;
+  }
+
+  /**
+   * Spawn a new process
+   *
+   * ```js
+   * const subprocess = Bun.spawn({
+   *  cmd: ["echo", "hello"],
+   *  stdout: "pipe",
+   * });
+   * const text = await readableStreamToText(subprocess.stdout);
+   * console.log(text); // "hello\n"
+   * ```
+   *
+   * Internally, this uses [posix_spawn(2)](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/posix_spawn.2.html)
+   */
+  function spawn(options: {
+    /**
+     * The command to run
+     *
+     * The first argument will be resolved to an absolute executable path. It must be a file, not a directory.
+     *
+     * If you explicitly set `PATH` in `env`, that `PATH` will be used to resolve the executable instead of the default `PATH`.
+     *
+     * To check if the command exists before running it, use `Bun.which(bin)`.
+     *
+     */
+    cmd: [string, ...string[]];
+
+    /**
+     * The current working directory of the process
+     *
+     * Defaults to `process.cwd()`
+     */
+    cwd?: string;
+
+    /**
+     * The environment variables of the process
+     *
+     * Defaults to `process.env` as it was when the current Bun process launched.
+     *
+     * Changes to `process.env` at runtime won't automatically be reflected in the default value. For that, you can pass `process.env` explicitly.
+     *
+     */
+    env?: Record<string, string>;
+
+    /**
+     * The standard file descriptors of the process
+     * - `inherit`: The process will inherit the standard input of the current process
+     * - `pipe`: The process will have a new pipe for standard input
+     * - `null` and `ignore`: The process will have no standard input
+     * - `disable`: The process will have no standard input and will not be able to read from standard input.
+     * - `ArrayBufferView`, `Blob`: The process will read from the buffer
+     * - `number`: The process will read from the file descriptor
+     * - `undefined`: The default value
+     */
+    stdio?: [
+      SpawnOptions.Writable,
+      SpawnOptions.Readable,
+      SpawnOptions.Readable
+    ];
+    stdin?: SpawnOptions.Writable;
+    stdout?: SpawnOptions.Readable;
+    stderr?: SpawnOptions.Readable;
+
+    /**
+     * Callback that runs when the {@link Subprocess} exits
+     *
+     * You can also do `await subprocess.exited` to wait for the process to exit.
+     *
+     * @example
+     *
+     * ```ts
+     * const subprocess = spawn({
+     *  cmd: ["echo", "hello"],
+     *  onExit: (code) => {
+     *    console.log(`Process exited with code ${code}`);
+     *   },
+     * });
+     * ```
+     */
+    onExit?: (exitCode: number) => void | Promise<void>;
+  }): Subprocess;
+
+  /**
+   * The current version of Bun
+   * @example
+   * "0.2.0"
+   */
+  export const version: string;
+
+  /**
+   * The git sha at the time the currently-running version of Bun was compiled
+   * @example
+   * "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+   */
+  export const revision: string;
 }
 
 type TypedArray =
