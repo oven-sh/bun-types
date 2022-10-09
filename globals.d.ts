@@ -409,7 +409,10 @@ interface ResponseInit {
  * ```
  */
 declare class Response implements BlobInterface {
-  constructor(body: BlobPart | BlobPart[], options?: ResponseInit);
+  constructor(
+    body: ReadableStream | BlobPart | BlobPart[],
+    options?: ResponseInit
+  );
 
   /**
    * Create a new {@link Response} with a JSON body
@@ -470,6 +473,21 @@ declare class Response implements BlobInterface {
    * ```
    */
   readonly headers: Headers;
+
+  /**
+   * HTTP response body as a [ReadableStream](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream)
+   *
+   * This is part of web Streams
+   *
+   * @example
+   * ```ts
+   * const {body} = await fetch("https://remix.run");
+   * const reader = body.getReader();
+   * const {done, value} = await reader.read();
+   * console.log(value); // Uint8Array
+   * ```
+   */
+  readonly body: ReadableStream | null;
 
   /**
    * Has the body of the response already been consumed?
@@ -690,6 +708,19 @@ declare class Request implements BlobInterface {
    * When the body is valid latin1, this operation is zero copy.
    */
   text(): Promise<string>;
+
+  /**
+   * Consume the [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) body as a {@link ReadableStream}.
+   *
+   * Streaming **outgoing** HTTP request bodies via `fetch()` is not yet supported in
+   * Bun.
+   *
+   * Reading **incoming** HTTP request bodies via `ReadableStream` in `Bun.serve()` is supported
+   * as of Bun v0.2.0.
+   *
+   *
+   */
+  get body(): ReadableStream | null;
 
   /**
    * Consume the [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) body as an ArrayBuffer.
