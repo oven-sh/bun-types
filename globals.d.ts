@@ -410,7 +410,7 @@ interface ResponseInit {
  */
 declare class Response implements BlobInterface {
   constructor(
-    body: ReadableStream | BlobPart | BlobPart[],
+    body?: ReadableStream | BlobPart | BlobPart[] | null,
     options?: ResponseInit
   );
 
