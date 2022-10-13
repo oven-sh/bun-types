@@ -1647,8 +1647,6 @@ declare module "bun" {
     type Readable =
       | "inherit"
       | "pipe"
-      | "ignore"
-      | "disable"
       | null
       | undefined
       | FileBlob
@@ -1658,13 +1656,69 @@ declare module "bun" {
     type Writable =
       | "inherit"
       | "pipe"
-      | "ignore"
-      | "disable"
       | null
       | undefined
       | FileBlob
-      | BlobPart
-      | number;
+      | ArrayBufferView
+      | Blob
+      | number
+      | Response
+      | Request;
+
+    interface OptionsObject {
+      /**
+       * The current working directory of the process
+       *
+       * Defaults to `process.cwd()`
+       */
+      cwd?: string;
+
+      /**
+       * The environment variables of the process
+       *
+       * Defaults to `process.env` as it was when the current Bun process launched.
+       *
+       * Changes to `process.env` at runtime won't automatically be reflected in the default value. For that, you can pass `process.env` explicitly.
+       *
+       */
+      env?: Record<string, string>;
+
+      /**
+       * The standard file descriptors of the process
+       * - `inherit`: The process will inherit the standard input of the current process
+       * - `pipe`: The process will have a new pipe for standard input
+       * - `null`: The process will have no standard input
+       * - `ArrayBufferView`, `Blob`: The process will read from the buffer
+       * - `number`: The process will read from the file descriptor
+       * - `undefined`: The default value
+       */
+      stdio?: [
+        SpawnOptions.Writable,
+        SpawnOptions.Readable,
+        SpawnOptions.Readable
+      ];
+      stdin?: SpawnOptions.Writable;
+      stdout?: SpawnOptions.Readable;
+      stderr?: SpawnOptions.Readable;
+
+      /**
+       * Callback that runs when the {@link Subprocess} exits
+       *
+       * You can also do `await subprocess.exited` to wait for the process to exit.
+       *
+       * @example
+       *
+       * ```ts
+       * const subprocess = spawn({
+       *  cmd: ["echo", "hello"],
+       *  onExit: (code) => {
+       *    console.log(`Process exited with code ${code}`);
+       *   },
+       * });
+       * ```
+       */
+      onExit?: (exitCode: number) => void | Promise<void>;
+    }
   }
 
   interface Subprocess {
@@ -1715,6 +1769,13 @@ declare module "bun" {
     unref(): void;
   }
 
+  interface SyncSubprocess {
+    stdout?: Buffer;
+    stderr?: Buffer;
+    exitCode: number;
+    success: boolean;
+  }
+
   /**
    * Spawn a new process
    *
@@ -1729,73 +1790,102 @@ declare module "bun" {
    *
    * Internally, this uses [posix_spawn(2)](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/posix_spawn.2.html)
    */
-  function spawn(options: {
+  function spawn(
+    options: SpawnOptions.OptionsObject & {
+      /**
+       * The command to run
+       *
+       * The first argument will be resolved to an absolute executable path. It must be a file, not a directory.
+       *
+       * If you explicitly set `PATH` in `env`, that `PATH` will be used to resolve the executable instead of the default `PATH`.
+       *
+       * To check if the command exists before running it, use `Bun.which(bin)`.
+       *
+       */
+      cmd: [string, ...string[]];
+    }
+  ): Subprocess;
+
+  /**
+   * Spawn a new process
+   *
+   * ```js
+   * const {stdout} = Bun.spawn(["echo", "hello"]));
+   * const text = await readableStreamToText(stdout);
+   * console.log(text); // "hello\n"
+   * ```
+   *
+   * Internally, this uses [posix_spawn(2)](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/posix_spawn.2.html)
+   */
+  function spawn(
     /**
      * The command to run
-     *
-     * The first argument will be resolved to an absolute executable path. It must be a file, not a directory.
-     *
-     * If you explicitly set `PATH` in `env`, that `PATH` will be used to resolve the executable instead of the default `PATH`.
-     *
-     * To check if the command exists before running it, use `Bun.which(bin)`.
-     *
-     */
-    cmd: [string, ...string[]];
-
-    /**
-     * The current working directory of the process
-     *
-     * Defaults to `process.cwd()`
-     */
-    cwd?: string;
-
-    /**
-     * The environment variables of the process
-     *
-     * Defaults to `process.env` as it was when the current Bun process launched.
-     *
-     * Changes to `process.env` at runtime won't automatically be reflected in the default value. For that, you can pass `process.env` explicitly.
-     *
-     */
-    env?: Record<string, string>;
-
-    /**
-     * The standard file descriptors of the process
-     * - `inherit`: The process will inherit the standard input of the current process
-     * - `pipe`: The process will have a new pipe for standard input
-     * - `null` and `ignore`: The process will have no standard input
-     * - `disable`: The process will have no standard input and will not be able to read from standard input.
-     * - `ArrayBufferView`, `Blob`: The process will read from the buffer
-     * - `number`: The process will read from the file descriptor
-     * - `undefined`: The default value
-     */
-    stdio?: [
-      SpawnOptions.Writable,
-      SpawnOptions.Readable,
-      SpawnOptions.Readable
-    ];
-    stdin?: SpawnOptions.Writable;
-    stdout?: SpawnOptions.Readable;
-    stderr?: SpawnOptions.Readable;
-
-    /**
-     * Callback that runs when the {@link Subprocess} exits
-     *
-     * You can also do `await subprocess.exited` to wait for the process to exit.
-     *
      * @example
-     *
      * ```ts
-     * const subprocess = spawn({
-     *  cmd: ["echo", "hello"],
-     *  onExit: (code) => {
-     *    console.log(`Process exited with code ${code}`);
-     *   },
-     * });
-     * ```
+     * const subprocess = Bun.spawn(["echo", "hello"]);
      */
-    onExit?: (exitCode: number) => void | Promise<void>;
-  }): Subprocess;
+    cmds: [
+      /** One command is required */
+      string,
+      /** Additional arguments */
+      ...string[]
+    ],
+    options?: SpawnOptions.OptionsObject
+  ): Subprocess;
+
+  /**
+   * Spawn a new process
+   *
+   * ```js
+   * const {stdout} = Bun.spawnSync({
+   *  cmd: ["echo", "hello"],
+   * });
+   * console.log(stdout.toString()); // "hello\n"
+   * ```
+   *
+   * Internally, this uses [posix_spawn(2)](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/posix_spawn.2.html)
+   */
+  function spawnSync(
+    options: SpawnOptions.OptionsObject & {
+      /**
+       * The command to run
+       *
+       * The first argument will be resolved to an absolute executable path. It must be a file, not a directory.
+       *
+       * If you explicitly set `PATH` in `env`, that `PATH` will be used to resolve the executable instead of the default `PATH`.
+       *
+       * To check if the command exists before running it, use `Bun.which(bin)`.
+       *
+       */
+      cmd: [string, ...string[]];
+    }
+  ): SyncSubprocess;
+
+  /**
+   * Synchronously spawn a new process
+   *
+   * ```js
+   * const {stdout} = Bun.spawnSync(["echo", "hello"]));
+   * console.log(stdout.toString()); // "hello\n"
+   * ```
+   *
+   * Internally, this uses [posix_spawn(2)](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/posix_spawn.2.html)
+   */
+  function spawnSync(
+    /**
+     * The command to run
+     * @example
+     * ```ts
+     * const subprocess = Bun.spawn(["echo", "hello"]);
+     */
+    cmds: [
+      /** One command is required */
+      string,
+      /** Additional arguments */
+      ...string[]
+    ],
+    options?: SpawnOptions.OptionsObject
+  ): SyncSubprocess;
 
   /**
    * The current version of Bun

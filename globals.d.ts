@@ -624,7 +624,9 @@ interface RequestInit {
   /**
    * A boolean to set request's keepalive.
    *
-   * Note: as of Bun v0.0.74, this is not implemented yet.
+   * Available in Bun v0.2.0 and above.
+   *
+   * This is enabled by default
    */
   keepalive?: boolean;
   /**
@@ -659,6 +661,11 @@ interface RequestInit {
    * This does nothing in Bun
    */
   window?: any;
+
+  /**
+   * Enable or disable HTTP request timeout
+   */
+  timeout?: boolean;
 }
 
 /**
@@ -1053,7 +1060,21 @@ declare function clearTimeout(id?: number): void;
  *
  *
  */
-declare function fetch(url: string, init?: RequestInit): Promise<Response>;
+declare function fetch(
+  url: string,
+  init?: RequestInit,
+  /**
+   * This is a custom property that is not part of the Fetch API specification.
+   * It exists mostly as a debugging tool
+   */
+  bunOnlyOptions?: {
+    /**
+     * Log the raw HTTP request & response to stdout. This API may be
+     * removed in a future version of Bun without notice.
+     */
+    verbose: boolean;
+  }
+): Promise<Response>;
 
 /**
  * Send a HTTP(s) request
@@ -1066,7 +1087,21 @@ declare function fetch(url: string, init?: RequestInit): Promise<Response>;
  *
  */
 // tslint:disable-next-line:unified-signatures
-declare function fetch(request: Request, init?: RequestInit): Promise<Response>;
+declare function fetch(
+  request: Request,
+  init?: RequestInit,
+  /**
+   * This is a custom property that is not part of the Fetch API specification.
+   * It exists mostly as a debugging tool
+   */
+  bunOnlyOptions?: {
+    /**
+     * Log the raw HTTP request & response to stdout. This API may be
+     * removed in a future version of Bun without notice.
+     */
+    verbose: boolean;
+  }
+): Promise<Response>;
 
 declare function queueMicrotask(callback: () => void): void;
 /**
@@ -1725,17 +1760,9 @@ declare var Loader: {
    * instead.
    *
    * @param specifier - module specifier as it appears in transpiled source code
+   * @param referrer - module specifier that is resolving this specifier
    */
-  resolve: (specifier: string) => Promise<string>;
-  /**
-   * Synchronously resolve a module specifier
-   *
-   * This may return a path to `node_modules.server.bun`, which will be confusing.
-   *
-   * Consider {@link Bun.resolveSync}
-   * instead.
-   */
-  resolveSync: (specifier: string, from: string) => string;
+  resolve: (specifier: strin, referrer: string) => string;
 };
 
 /** This Streams API interface represents a readable stream of byte data. The Fetch API offers a concrete instance of a ReadableStream through the body property of a Response object. */
@@ -1756,6 +1783,8 @@ interface ReadableStream<R = any> {
     callbackfn: (value: any, key: number, parent: ReadableStream<R>) => void,
     thisArg?: any
   ): void;
+  [Symbol.asyncIterator](): AsyncIterableIterator<R>;
+  values(options: { preventCancel: boolean }): AsyncIterableIterator<R>;
 }
 
 declare var ReadableStream: {
