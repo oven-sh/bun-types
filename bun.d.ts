@@ -412,6 +412,15 @@ declare module "bun" {
      * @param end - absolute offset in bytes (relative to 0)
      */
     slice(begin?: number, end?: number): FileBlob;
+
+    /**
+     * Incremental writer for files and pipes.
+     */
+    writer(): FileSink;
+
+    readonly readable: ReadableStream;
+
+    // TODO: writable: WritableStream;
   }
 
   /**
@@ -1722,9 +1731,16 @@ declare module "bun" {
   }
 
   interface Subprocess {
-    stdin: undefined | number | FileSink;
-    stdout: undefined | number | ReadableStream;
-    stderr: undefined | number | ReadableStream;
+    readonly stdin: undefined | number | FileSink;
+    readonly stdout: undefined | number | ReadableStream;
+    readonly stderr: undefined | number | ReadableStream;
+
+    /**
+     * This returns the same value as {@link Subprocess.stdout}
+     *
+     * It exists for compatibility with {@link ReadableStream.pipeThrough}
+     */
+    readonly readable: undefined | number | ReadableStream;
 
     /**
      * The process ID of the child process
