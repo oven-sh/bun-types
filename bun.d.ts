@@ -676,6 +676,283 @@ declare module "bun" {
       | "entry-point";
   }
 
+  /**
+   * **0** means the message was **dropped**
+   *
+   * **-1** means **backpressure**
+   *
+   * **> 0** is the **number of bytes sent**
+   *
+   */
+  type ServerWebSocketSendStatus = 0 | -1 | number;
+
+  /**
+   * Fast WebSocket API designed for server environments.
+   *
+   * Features:
+   * - **Message compression** - Messages can be compressed
+   * - **Backpressure** - If the client is not ready to receive data, the server will tell you.
+   * - **Dropped messages** - If the client cannot receive data, the server will tell you.
+   * - **Topics** - Messages can be {@link ServerWebSocket.publish}ed to a specific topic and the client can {@link ServerWebSocket.subscribe} to topics
+   *
+   * This is slightly different than the browser {@link WebSocket} which Bun supports for clients.
+   *
+   * Powered by [uWebSockets](https://github.com/uNetworking/uWebSockets)
+   */
+  export interface ServerWebSocket<T = undefined> {
+    /**
+     *
+     * Send a message to the client.
+     *
+     * @param data The message to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     * @example
+     *
+     * ```js
+     * const status = ws.send("Hello World");
+     * if (status === 0) {
+     *   console.log("Message was dropped");
+     * } else if (status === -1) {
+     *   console.log("Backpressure was applied");
+     * } else {
+     *   console.log(`Message sent! ${status} bytes sent`);
+     * }
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.send("Feeling very compressed", true);
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.send(new Uint8Array([1, 2, 3, 4]));
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.send(new ArrayBuffer(4));
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.send(new DataView(new ArrayBuffer(4)));
+     * ```
+     *
+     */
+    send(
+      data: string | ArrayBufferView | ArrayBuffer,
+      compress?: boolean
+    ): ServerWebSocketSendStatus;
+
+    /**
+     * Gently close the connection.
+     *
+     * @param code The close code
+     *
+     * @param reason The close reason
+     *
+     * To close the connection abruptly, use `close(0, "")`
+     */
+    close(code?: number, reason?: string): void;
+
+    /**
+     * Send a message to all subscribers of a topic
+     *
+     * @param topic The topic to publish to
+     * @param data The data to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     * @example
+     *
+     * ```js
+     * ws.publish("chat", "Hello World");
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publish("chat", new Uint8Array([1, 2, 3, 4]));
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publish("chat", new ArrayBuffer(4), true);
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publish("chat", new DataView(new ArrayBuffer(4)));
+     * ```
+     */
+    publish(
+      topic: string,
+      data: string | ArrayBufferView | ArrayBuffer,
+      compress?: boolean
+    ): ServerWebSocketSendStatus;
+
+    /**
+     * Subscribe to a topic
+     * @param topic The topic to subscribe to
+     *
+     * @example
+     * ```js
+     * ws.subscribe("chat");
+     * ```
+     */
+    subscribe(topic: string): void;
+
+    /**
+     * Unsubscribe from a topic
+     * @param topic The topic to unsubscribe from
+     *
+     * @example
+     * ```js
+     * ws.unsubscribe("chat");
+     * ```
+     *
+     */
+    unsubscribe(topic: string): void;
+
+    /**
+     * Is the socket subscribed to a topic?
+     * @param topic The topic to check
+     *
+     * @returns `true` if the socket is subscribed to the topic, `false` otherwise
+     */
+    isSubscribed(topic: string): boolean;
+
+    /**
+     * The remote address of the client
+     * @example
+     * ```js
+     * console.log(socket.remoteAddress); // "127.0.0.1"
+     * ```
+     */
+    readonly remoteAddress: string;
+
+    /**
+     * Ready state of the socket
+     *
+     * @example
+     * ```js
+     * console.log(socket.readyState); // 1
+     * ```
+     */
+    readonly readyState: -1 | 0 | 1 | 2 | 3;
+
+    /**
+     * The data returned in the upgrade callback
+     */
+    data: T;
+  }
+
+  type WebSocketCompressor =
+    | "disable"
+    | "shared"
+    | "dedicated"
+    | "3KB"
+    | "4KB"
+    | "8KB"
+    | "16KB"
+    | "32KB"
+    | "64KB"
+    | "128KB"
+    | "256KB";
+
+  export interface WebSocketHandler<T = undefined> {
+    /**
+     * Do you want to allow the connection to become a {@link ServerWebSocket}?
+     *
+     * The object returned becomes {@link ServerWebSocket.data} on the {@link ServerWebSocket} object.
+     *
+     * If you return a {@link Response} object and the status code is not `101`, it will not become a {@link ServerWebSocket}.
+     *
+     * Returning `false`, `null`, or `undefined` will call the {@link fetch} handler.
+     */
+    upgrade?: (
+      req: Request
+    ) => T | Promise<T> | undefined | boolean | Response | Promise<Response>;
+
+    /**
+     * Handle an incoming message to a {@link ServerWebSocket}
+     * @param ws The {@link ServerWebSocket} that received the message
+     * @param message The message received
+     */
+    message: (
+      ws: ServerWebSocket<T>,
+      message: string | Uint8Array
+    ) => void | Promise<void>;
+
+    /**
+     * A {@link ServerWebSocket} has been opened
+     *
+     * @param ws The {@link ServerWebSocket} that was opened
+     */
+    open?: (ws: ServerWebSocket<T>) => void | Promise<void>;
+    /**
+     * Handle a {@link ServerWebSocket} ready for more data
+     *
+     * @param ws The {@link ServerWebSocket} that is ready
+     */
+    drain?: (ws: ServerWebSocket<T>) => void | Promise<void>;
+    /**
+     * Handle a {@link ServerWebSocket} being closed
+     * @param ws The {@link ServerWebSocket} that was closed
+     * @param code The close code
+     * @param message The close message
+     */
+    close?: (
+      ws: ServerWebSocket<T>,
+      code: number,
+      message: string
+    ) => void | Promise<void>;
+
+    /**
+     * Enable compression on the {@link ServerWebSocket}
+     *
+     * @default false
+     */
+    compressor?: WebSocketCompressor | false | true;
+    /**
+     * Configure decompression
+     *
+     * @default false
+     */
+    decompressor?: WebSocketCompressor | false | true;
+    /**
+     * The maximum size of a message
+     */
+    maxPayloadLength?: number;
+    /**
+     * After a connection has not received a message for this many seconds, it will be closed.
+     * @default 120 (2 minutes)
+     */
+    idleTimeout?: number;
+    /**
+     * The maximum number of bytes that can be buffered for a single connection.
+     * @default 16MB
+     */
+    backpressureLimit?: number;
+    /**
+     * Close the connection if the backpressure limit is reached.
+     * @default false
+     * @see {@link backpressureLimit}
+     * @see {@link ServerWebSocketSendStatus}
+     * @see {@link ServerWebSocket.send}
+     * @see {@link ServerWebSocket.publish}
+     */
+    closeOnBackpressureLimit?: boolean;
+  }
+
   export interface ServeOptions {
     /**
      * What port should the server listen on?
@@ -750,6 +1027,34 @@ declare module "bun" {
       this: Server,
       request: Errorlike
     ) => Response | Promise<Response> | undefined | Promise<undefined>;
+
+    /**
+     * Handle {@link ServerWebSocket} requests
+     */
+    websocket?: WebSocketHandler;
+    /**
+     * Match routes to a {@link WebSocketHandler}
+     *
+     * If you don't want all your routes to be websockets, you can use this to
+     * match routes to websocket handlers.
+     *
+     * @example
+     * ```ts
+     * {
+     *   websockets: {
+     *     "/chat": {
+     *       upgrade: (req) => {
+     *         return { user: req.headers.get("user") };
+     *       },
+     *       message: (ws, message) => {
+     *         ws.publish("/chat", message);
+     *       },
+     *     },
+     *   } as WebSocketHandler<{ user: string }>,
+     * };
+     * ```
+     */
+    websockets?: Record<string, WebSocketHandler>;
   }
 
   export interface Errorlike extends Error {
@@ -811,7 +1116,7 @@ declare module "bun" {
    * Powered by a fork of [uWebSockets](https://github.com/uNetworking/uWebSockets). Thank you @alexhultman.
    *
    */
-  interface Server {
+  export interface Server {
     /**
      * Stop listening to prevent new connections from being accepted.
      *
@@ -862,6 +1167,11 @@ declare module "bun" {
      * How many requests are in-flight right now?
      */
     readonly pendingRequests: number;
+    /**
+     * How many {@link ServerWebSocket}s are in-flight right now?
+     */
+    readonly pendingWebSockets: number;
+
     readonly port: number;
     /**
      * The hostname the server is listening on. Does not include the port
