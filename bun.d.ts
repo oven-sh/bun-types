@@ -850,9 +850,24 @@ declare module "bun" {
     readonly readyState: -1 | 0 | 1 | 2 | 3;
 
     /**
-     * The data returned in the upgrade callback
+     * The data from the {@link Server.upgrade} function
+     *
+     * Put any data you want to share between the `fetch` function and the websocket here.
+     *
+     * You can read/write to this property at any time.
      */
     data: T;
+
+    /**
+     * Batch data sent to a {@link ServerWebSocket}
+     *
+     * This makes it significantly faster to {@link ServerWebSocket.send} or {@link ServerWebSocket.publish} multiple messages
+     *
+     * The `message`, `open`, and `drain` callbacks are automatically corked, so
+     * you only need to call this if you are sending messages outside of those
+     * callbacks or in async functions
+     */
+    cork?: (callback: (ws: ServerWebSocket<T>) => any) => void | Promise<void>;
   }
 
   type WebSocketCompressor =
@@ -868,20 +883,49 @@ declare module "bun" {
     | "128KB"
     | "256KB";
 
-  export interface WebSocketHandler<T = undefined> {
-    /**
-     * Do you want to allow the connection to become a {@link ServerWebSocket}?
-     *
-     * The object returned becomes {@link ServerWebSocket.data} on the {@link ServerWebSocket} object.
-     *
-     * If you return a {@link Response} object and the status code is not `101`, it will not become a {@link ServerWebSocket}.
-     *
-     * Returning `false`, `null`, or `undefined` will call the {@link fetch} handler.
-     */
-    upgrade?: (
-      req: Request
-    ) => T | Promise<T> | undefined | boolean | Response | Promise<Response>;
+  /**
+   * Create a server-side WebSocket handler for use with {@link Bun.serve}
+   *
+   * @example
+   * ```ts
+   * import { websocket, serve } from "bun";
+   *
+   * serve({
+   *   port: 3000,
+   *   websocket: websocket<{name: string}>({
+   *     open: (ws) => {
+   *       console.log("Client connected");
+   *    },
+   *     message: (ws, message) => {
+   *       console.log(`${ws.data.name}: ${message}`);
+   *    },
+   *     close: (ws) => {
+   *       console.log("Client disconnected");
+   *    },
+   *  }),
+   *
+   *   fetch(req, server) {
+   *     if (req.url === "/chat") {
+   *       const upgraded = server.upgrade(req, {
+   *         data: {
+   *           name: req.url.searchParams.get("name"),
+   *        },
+   *      });
+   *       if (!upgraded) {
+   *         return new Response("Upgrade failed", { status: 400 });
+   *      }
+   *      return;
+   *    }
+   *     return new Response("Hello World");
+   *  },
+   * });
+   * ```
+   */
+  export function websocket<T = undefined>(
+    handler: WebSocketHandler<T>
+  ): WebSocketHandler<T>;
 
+  export interface WebSocketHandler<T = undefined> {
     /**
      * Handle an incoming message to a {@link ServerWebSocket}
      * @param ws The {@link ServerWebSocket} that received the message
@@ -917,17 +961,34 @@ declare module "bun" {
     ) => void | Promise<void>;
 
     /**
-     * Enable compression on the {@link ServerWebSocket}
+     * Enable compression for clients that support it. By default, compression is disabled.
      *
      * @default false
-     */
-    compressor?: WebSocketCompressor | false | true;
-    /**
-     * Configure decompression
      *
-     * @default false
+     * `true` is equivalent to `"shared"
      */
-    decompressor?: WebSocketCompressor | false | true;
+    perMessageDeflate?:
+      | true
+      | false
+      | {
+          /**
+           * Enable compression on the {@link ServerWebSocket}
+           *
+           * @default false
+           *
+           * `true` is equivalent to `"shared"
+           */
+          compress?: WebSocketCompressor | false | true;
+          /**
+           * Configure decompression
+           *
+           * @default false
+           *
+           * `true` is equivalent to `"shared"
+           */
+          decompress?: WebSocketCompressor | false | true;
+        };
+
     /**
      * The maximum size of a message
      */
@@ -953,7 +1014,7 @@ declare module "bun" {
     closeOnBackpressureLimit?: boolean;
   }
 
-  export interface ServeOptions {
+  interface GenericServeOptions {
     /**
      * What port should the server listen on?
      * @default process.env.PORT || "3000"
@@ -1015,46 +1076,77 @@ declare module "bun" {
      */
     development?: boolean;
 
+    error?: (
+      this: Server,
+      request: Errorlike
+    ) => Response | Promise<Response> | undefined | Promise<undefined>;
+  }
+
+  export interface ServeOptions extends GenericServeOptions {
     /**
      * Handle HTTP requests
      *
      * Respond to {@link Request} objects with a {@link Response} object.
      *
      */
-    fetch(this: Server, request: Request): Response | Promise<Response>;
-
-    error?: (
+    fetch(
       this: Server,
-      request: Errorlike
-    ) => Response | Promise<Response> | undefined | Promise<undefined>;
+      request: Request,
+      server: Server
+    ): Response | Promise<Response>;
+  }
 
+  export interface WebSocketServeOptions extends GenericServeOptions {
     /**
-     * Handle {@link ServerWebSocket} requests
-     */
-    websocket?: WebSocketHandler;
-    /**
-     * Match routes to a {@link WebSocketHandler}
+     * Enable websockets with {@link Bun.serve}
      *
-     * If you don't want all your routes to be websockets, you can use this to
-     * match routes to websocket handlers.
+     * For simpler type safety, see {@link Bun.websocket}
      *
      * @example
-     * ```ts
-     * {
-     *   websockets: {
-     *     "/chat": {
-     *       upgrade: (req) => {
-     *         return { user: req.headers.get("user") };
-     *       },
-     *       message: (ws, message) => {
-     *         ws.publish("/chat", message);
-     *       },
-     *     },
-     *   } as WebSocketHandler<{ user: string }>,
-     * };
-     * ```
+     * ```js
+     *import { serve, websocket } from "bun";
+     *serve({
+     *  websocket: websocket({
+     *    open: (ws) => {
+     *      console.log("Client connected");
+     *    },
+     *    message: (ws, message) => {
+     *      console.log("Client sent message", message);
+     *    },
+     *    close: (ws) => {
+     *      console.log("Client disconnected");
+     *    },
+     *  }),
+     *  fetch(req, server) {
+     *    if (req.url === "/chat") {
+     *      const upgraded = server.upgrade(req);
+     *      if (!upgraded) {
+     *        return new Response("Upgrade failed", { status: 400 });
+     *      }
+     *    }
+     *    return new Response("Hello World");
+     *  },
+     *});
+     *```
+     * Upgrade a {@link Request} to a {@link ServerWebSocket} via {@link Server.upgrade}
+     *
+     * Pass `data` in @{link Server.upgrade} to attach data to the {@link ServerWebSocket.data} property
+     *
+     *
      */
-    websockets?: Record<string, WebSocketHandler>;
+    websocket: WebSocketHandler;
+
+    /**
+     * Handle HTTP requests or upgrade them to a {@link ServerWebSocket}
+     *
+     * Respond to {@link Request} objects with a {@link Response} object.
+     *
+     */
+    fetch(
+      this: Server,
+      request: Request,
+      server: Server
+    ): Response | undefined | Promise<Response | undefined>;
   }
 
   export interface Errorlike extends Error {
@@ -1090,7 +1182,7 @@ declare module "bun" {
     certFile: string;
   }
 
-  export type SSLServeOptions = ServeOptions &
+  export type SSLServeOptions = (WebSocketServeOptions | ServerWebSocket) &
     SSLOptions &
     SSLAdvancedOptions & {
       /**
@@ -1164,6 +1256,57 @@ declare module "bun" {
     fetch(request: Request): Response | Promise<Response>;
 
     /**
+     * Upgrade a {@link Request} to a {@link ServerWebSocket}
+     *
+     * @param request The {@link Request} to upgrade
+     * @param options Pass headers or attach data to the {@link ServerWebSocket}
+     *
+     * @returns `true` if the upgrade was successful and `false` if it failed
+     *
+     * @example
+     * ```js
+     * import { serve, websocket } from "bun";
+     *  serve({
+     *    websocket: websocket({
+     *      open: (ws) => {
+     *        console.log("Client connected");
+     *      },
+     *      message: (ws, message) => {
+     *        console.log("Client sent message", message);
+     *      },
+     *      close: (ws) => {
+     *        console.log("Client disconnected");
+     *      },
+     *    }),
+     *    fetch(req, server) {
+     *      if (req.url === "/chat") {
+     *        const upgraded = server.upgrade(req);
+     *        if (!upgraded) {
+     *          return new Response("Upgrade failed", { status: 400 });
+     *        }
+     *      }
+     *      return new Response("Hello World");
+     *    },
+     *  });
+     * ```
+     *  What you pass to `data` is available on the {@link ServerWebSocket.data} property
+     *
+     */
+    upgrade<T = undefined>(
+      request: Request,
+      options?: {
+        /**
+         * Send any additional headers while upgrading, like cookies
+         */
+        headers?: HeadersInit;
+        /**
+         * This value is passed to the {@link ServerWebSocket.data} property
+         */
+        data?: T;
+      }
+    ): boolean;
+
+    /**
      * How many requests are in-flight right now?
      */
     readonly pendingRequests: number;
@@ -1193,7 +1336,7 @@ declare module "bun" {
     readonly development: boolean;
   }
 
-  export type Serve = SSLServeOptions | ServeOptions;
+  export type Serve = SSLServeOptions | WebSocketServeOptions | ServeOptions;
 
   /**
    * [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
