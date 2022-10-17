@@ -884,7 +884,7 @@ declare module "bun" {
     | "256KB";
 
   /**
-   * Create a server-side WebSocket handler for use with {@link Bun.serve}
+   * Create a server-side {@link ServerWebSocket} handler for use with {@link Bun.serve}
    *
    * @example
    * ```ts
@@ -919,12 +919,7 @@ declare module "bun" {
    *     return new Response("Hello World");
    *  },
    * });
-   * ```
    */
-  export function websocket<T = undefined>(
-    handler: WebSocketHandler<T>
-  ): WebSocketHandler<T>;
-
   export interface WebSocketHandler<T = undefined> {
     /**
      * Handle an incoming message to a {@link ServerWebSocket}
@@ -937,19 +932,19 @@ declare module "bun" {
     ) => void | Promise<void>;
 
     /**
-     * A {@link ServerWebSocket} has been opened
+     * The {@link ServerWebSocket} has been opened
      *
      * @param ws The {@link ServerWebSocket} that was opened
      */
     open?: (ws: ServerWebSocket<T>) => void | Promise<void>;
     /**
-     * Handle a {@link ServerWebSocket} ready for more data
+     * The {@link ServerWebSocket} is ready for more data
      *
      * @param ws The {@link ServerWebSocket} that is ready
      */
     drain?: (ws: ServerWebSocket<T>) => void | Promise<void>;
     /**
-     * Handle a {@link ServerWebSocket} being closed
+     * The {@link ServerWebSocket} is being closed
      * @param ws The {@link ServerWebSocket} that was closed
      * @param code The close code
      * @param message The close message
@@ -1096,7 +1091,8 @@ declare module "bun" {
     ): Response | Promise<Response>;
   }
 
-  export interface WebSocketServeOptions extends GenericServeOptions {
+  export interface WebSocketServeOptions<WebSocketDataType = undefined>
+    extends GenericServeOptions {
     /**
      * Enable websockets with {@link Bun.serve}
      *
@@ -1134,7 +1130,7 @@ declare module "bun" {
      *
      *
      */
-    websocket: WebSocketHandler;
+    websocket: WebSocketHandler<WebSocketDataType>;
 
     /**
      * Handle HTTP requests or upgrade them to a {@link ServerWebSocket}
@@ -1182,7 +1178,10 @@ declare module "bun" {
     certFile: string;
   }
 
-  export type SSLServeOptions = (WebSocketServeOptions | ServerWebSocket) &
+  export type SSLServeOptions<WebSocketDataType = undefined> = (
+    | WebSocketServeOptions<WebSocketDataType>
+    | ServerWebSocket
+  ) &
     SSLOptions &
     SSLAdvancedOptions & {
       /**
@@ -1306,6 +1305,7 @@ declare module "bun" {
      * How many requests are in-flight right now?
      */
     readonly pendingRequests: number;
+
     /**
      * How many {@link ServerWebSocket}s are in-flight right now?
      */
@@ -1332,7 +1332,10 @@ declare module "bun" {
     readonly development: boolean;
   }
 
-  export type Serve = SSLServeOptions | WebSocketServeOptions | ServeOptions;
+  export type Serve<WebSocketDataType = undefined> =
+    | SSLServeOptions<WebSocketDataType>
+    | WebSocketServeOptions<WebSocketDataType>
+    | ServeOptions;
 
   /**
    * [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) powered by the fastest system calls available for operating on files.
