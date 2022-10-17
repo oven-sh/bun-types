@@ -868,6 +868,13 @@ declare module "bun" {
      * callbacks or in async functions
      */
     cork?: (callback: (ws: ServerWebSocket<T>) => any) => void | Promise<void>;
+
+    /**
+     * Configure the {@link WebSocketHandler.message} callback to return a {@link ArrayBuffer} instead of a {@link Uint8Array}
+     *
+     * @default "uint8array"
+     */
+    binaryType?: "arraybuffer" | "uint8array";
   }
 
   type WebSocketCompressor =
@@ -923,8 +930,11 @@ declare module "bun" {
   export interface WebSocketHandler<T = undefined> {
     /**
      * Handle an incoming message to a {@link ServerWebSocket}
+     *
      * @param ws The {@link ServerWebSocket} that received the message
      * @param message The message received
+     *
+     * To change `message` to be an `ArrayBuffer` instead of a `Uint8Array`, set `ws.binaryType = "arraybuffer"`
      */
     message: (
       ws: ServerWebSocket<T>,
