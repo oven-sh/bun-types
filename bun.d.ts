@@ -908,7 +908,7 @@ declare module "bun" {
    *     if (req.url === "/chat") {
    *       const upgraded = server.upgrade(req, {
    *         data: {
-   *           name: req.url.searchParams.get("name"),
+   *           name: new URL(req.url).searchParams.get("name"),
    *        },
    *      });
    *       if (!upgraded) {
