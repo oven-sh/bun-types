@@ -753,6 +753,71 @@ declare module "bun" {
     ): ServerWebSocketSendStatus;
 
     /**
+     *
+     * Send a message to the client.
+     *
+     * This function is the same as {@link ServerWebSocket.send} but it only accepts a string. This function includes a fast path.
+     *
+     * @param data The message to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     * @example
+     *
+     * ```js
+     * const status = ws.send("Hello World");
+     * if (status === 0) {
+     *   console.log("Message was dropped");
+     * } else if (status === -1) {
+     *   console.log("Backpressure was applied");
+     * } else {
+     *   console.log(`Message sent! ${status} bytes sent`);
+     * }
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.send("Feeling very compressed", true);
+     * ```
+     *
+     *
+     */
+    sendText(data: string, compress?: boolean): ServerWebSocketSendStatus;
+
+    /**
+     *
+     * Send a message to the client.
+     *
+     * This function is the same as {@link ServerWebSocket.send} but it only accepts Uint8Array.
+     *
+     * @param data The message to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     *
+     * ```js
+     * ws.sendBinary(new Uint8Array([1, 2, 3, 4]));
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.sendBinary(new ArrayBuffer(4));
+     * ```
+     *
+     * @example
+     *
+     * ```js
+     * ws.sendBinary(new DataView(new ArrayBuffer(4)));
+     * ```
+     *
+     */
+    sendBinary(data: Uint8Array, compress?: boolean): ServerWebSocketSendStatus;
+
+    /**
      * Gently close the connection.
      *
      * @param code The close code
@@ -796,6 +861,68 @@ declare module "bun" {
     publish(
       topic: string,
       data: string | ArrayBufferView | ArrayBuffer,
+      compress?: boolean
+    ): ServerWebSocketSendStatus;
+
+    /**
+     * Send a message to all subscribers of a topic
+     *
+     * This function is the same as {@link publish} but only accepts string input. This function has a fast path.
+     *
+     * @param topic The topic to publish to
+     * @param data The data to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     * @example
+     *
+     * ```js
+     * ws.publishText("chat", "Hello World");
+     * ```
+     *
+     */
+    publishText(
+      topic: string,
+      data: string,
+      compress?: bool
+    ): ServerWebSocketSendStatus;
+
+    /**
+     * Send a message to all subscribers of a topic
+     *
+     * This function is the same as {@link publish} but only accepts a Uint8Array. This function has a fast path.
+     *
+     * @param topic The topic to publish to
+     * @param data The data to send
+     * @param compress Should the data be compressed? Ignored if the client does not support compression.
+     *
+     * @returns 0 if the message was dropped, -1 if backpressure was applied, or the number of bytes sent.
+     *
+     * @example
+     *
+     * ```js
+     * ws.publishBinary("chat", "Hello World");
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publishBinary("chat", new Uint8Array([1, 2, 3, 4]));
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publishBinary("chat", new ArrayBuffer(4), true);
+     * ```
+     *
+     * @example
+     * ```js
+     * ws.publishBinary("chat", new DataView(new ArrayBuffer(4)));
+     * ```
+     */
+    publishBinary(
+      topic: string,
+      data: Uint8Array,
       compress?: boolean
     ): ServerWebSocketSendStatus;
 
