@@ -339,14 +339,14 @@ declare class Blob implements BlobInterface {
   /**
    * Create a new [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
    *
-   * @param `parts` - An array of strings, numbers, TypedArray, or [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) objects
+   * @param `parts` - An array of strings, numbers, BufferSource, or [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) objects
    * @param `options` - An object containing properties to be added to the [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
    */
   constructor(parts?: BlobPart[] | Blob, options?: BlobPropertyBag);
   /**
    * Create a new view **without 🚫 copying** the underlying data.
    *
-   * Similar to [`TypedArray.subarray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray)
+   * Similar to [`BufferSource.subarray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BufferSource/subarray)
    *
    * @param begin The index that sets the beginning of the view.
    * @param end The index that sets the end of the view.
@@ -1482,8 +1482,8 @@ interface WebSocket extends EventTarget {
   readonly url: string;
   /** Closes the WebSocket connection, optionally using code as the the WebSocket connection close code and reason as the the WebSocket connection close reason. */
   close(code?: number, reason?: string): void;
-  /** Transmits data using the WebSocket connection. data can be a string, an ArrayBuffer, or an ArrayBufferView. */
-  send(data: string | ArrayBufferLike | ArrayBufferView): void;
+  /** Transmits data using the WebSocket connection. data can be a string, an ArrayBuffer, or an BufferSource. */
+  send(data: string | ArrayBufferLike | BufferSource): void;
   readonly CLOSED: number;
   readonly CLOSING: number;
   readonly CONNECTING: number;
@@ -2088,4 +2088,326 @@ interface ErrnoException extends Error {
 declare function alert(message?: string): void;
 declare function confirm(message?: string): boolean;
 declare function prompt(message?: string, _default?: string): string | null;
-declare function require(path: string): import(path);
+
+/* 
+
+ Web Crypto API
+
+*/
+
+type KeyFormat = "jwk" | "pkcs8" | "raw" | "spki";
+type KeyType = "private" | "public" | "secret";
+type KeyUsage =
+  | "decrypt"
+  | "deriveBits"
+  | "deriveKey"
+  | "encrypt"
+  | "sign"
+  | "unwrapKey"
+  | "verify"
+  | "wrapKey";
+type HashAlgorithmIdentifier = AlgorithmIdentifier;
+type NamedCurve = string;
+
+type BigInteger = Uint8Array;
+
+interface KeyAlgorithm {
+  name: string;
+}
+
+interface Algorithm {
+  name: string;
+}
+
+interface AesCbcParams extends Algorithm {
+  iv: BufferSource;
+}
+
+interface AesCtrParams extends Algorithm {
+  counter: BufferSource;
+  length: number;
+}
+
+interface AesDerivedKeyParams extends Algorithm {
+  length: number;
+}
+
+interface AesGcmParams extends Algorithm {
+  additionalData?: BufferSource;
+  iv: BufferSource;
+  tagLength?: number;
+}
+
+interface AesKeyAlgorithm extends KeyAlgorithm {
+  length: number;
+}
+
+interface AesKeyGenParams extends Algorithm {
+  length: number;
+}
+
+interface EcKeyAlgorithm extends KeyAlgorithm {
+  namedCurve: NamedCurve;
+}
+
+interface EcKeyGenParams extends Algorithm {
+  namedCurve: NamedCurve;
+}
+
+interface EcKeyImportParams extends Algorithm {
+  namedCurve: NamedCurve;
+}
+
+interface EcdhKeyDeriveParams extends Algorithm {
+  public: CryptoKey;
+}
+
+interface EcdsaParams extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+}
+
+interface JsonWebKey {
+  alg?: string;
+  crv?: string;
+  d?: string;
+  dp?: string;
+  dq?: string;
+  e?: string;
+  ext?: boolean;
+  k?: string;
+  key_ops?: string[];
+  kty?: string;
+  n?: string;
+  oth?: RsaOtherPrimesInfo[];
+  p?: string;
+  q?: string;
+  qi?: string;
+  use?: string;
+  x?: string;
+  y?: string;
+}
+
+interface HkdfParams extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+  info: BufferSource;
+  salt: BufferSource;
+}
+
+interface HmacImportParams extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+  length?: number;
+}
+
+interface HmacKeyAlgorithm extends KeyAlgorithm {
+  hash: KeyAlgorithm;
+  length: number;
+}
+
+interface HmacKeyGenParams extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+  length?: number;
+}
+
+interface Pbkdf2Params extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+  iterations: number;
+  salt: BufferSource;
+}
+
+interface RsaHashedImportParams extends Algorithm {
+  hash: HashAlgorithmIdentifier;
+}
+
+interface RsaHashedKeyAlgorithm extends RsaKeyAlgorithm {
+  hash: KeyAlgorithm;
+}
+
+interface RsaHashedKeyGenParams extends RsaKeyGenParams {
+  hash: HashAlgorithmIdentifier;
+}
+
+interface RsaKeyAlgorithm extends KeyAlgorithm {
+  modulusLength: number;
+  publicExponent: BigInteger;
+}
+
+interface RsaKeyGenParams extends Algorithm {
+  modulusLength: number;
+  publicExponent: BigInteger;
+}
+
+interface RsaOaepParams extends Algorithm {
+  label?: BufferSource;
+}
+
+interface RsaOtherPrimesInfo {
+  d?: string;
+  r?: string;
+  t?: string;
+}
+
+interface CryptoKeyPair {
+  privateKey: CryptoKey;
+  publicKey: CryptoKey;
+}
+
+type AlgorithmIdentifier = Algorithm | string;
+
+/**
+ * This Web Crypto API interface provides a number of low-level cryptographic functions. It is accessed via the Crypto.subtle properties available in a window context (via Window.crypto).
+ */
+interface SubtleCrypto {
+  decrypt(
+    algorithm:
+      | AlgorithmIdentifier
+      | RsaOaepParams
+      | AesCtrParams
+      | AesCbcParams
+      | AesGcmParams,
+    key: CryptoKey,
+    data: BufferSource
+  ): Promise<ArrayBuffer>;
+  deriveBits(
+    algorithm:
+      | AlgorithmIdentifier
+      | EcdhKeyDeriveParams
+      | HkdfParams
+      | Pbkdf2Params,
+    baseKey: CryptoKey,
+    length: number
+  ): Promise<ArrayBuffer>;
+  deriveKey(
+    algorithm:
+      | AlgorithmIdentifier
+      | EcdhKeyDeriveParams
+      | HkdfParams
+      | Pbkdf2Params,
+    baseKey: CryptoKey,
+    derivedKeyType:
+      | AlgorithmIdentifier
+      | AesDerivedKeyParams
+      | HmacImportParams
+      | HkdfParams
+      | Pbkdf2Params,
+    extractable: boolean,
+    keyUsages: KeyUsage[]
+  ): Promise<CryptoKey>;
+  digest(
+    algorithm: AlgorithmIdentifier,
+    data: BufferSource
+  ): Promise<ArrayBuffer>;
+  encrypt(
+    algorithm:
+      | AlgorithmIdentifier
+      | RsaOaepParams
+      | AesCtrParams
+      | AesCbcParams
+      | AesGcmParams,
+    key: CryptoKey,
+    data: BufferSource
+  ): Promise<ArrayBuffer>;
+  exportKey(format: "jwk", key: CryptoKey): Promise<JsonWebKey>;
+  exportKey(
+    format: Exclude<KeyFormat, "jwk">,
+    key: CryptoKey
+  ): Promise<ArrayBuffer>;
+  generateKey(
+    algorithm: RsaHashedKeyGenParams | EcKeyGenParams,
+    extractable: boolean,
+    keyUsages: ReadonlyArray<KeyUsage>
+  ): Promise<CryptoKeyPair>;
+  generateKey(
+    algorithm: AesKeyGenParams | HmacKeyGenParams | Pbkdf2Params,
+    extractable: boolean,
+    keyUsages: ReadonlyArray<KeyUsage>
+  ): Promise<CryptoKey>;
+  generateKey(
+    algorithm: AlgorithmIdentifier,
+    extractable: boolean,
+    keyUsages: KeyUsage[]
+  ): Promise<CryptoKeyPair | CryptoKey>;
+  importKey(
+    format: "jwk",
+    keyData: JsonWebKey,
+    algorithm:
+      | AlgorithmIdentifier
+      | RsaHashedImportParams
+      | EcKeyImportParams
+      | HmacImportParams
+      | AesKeyAlgorithm,
+    extractable: boolean,
+    keyUsages: ReadonlyArray<KeyUsage>
+  ): Promise<CryptoKey>;
+  importKey(
+    format: Exclude<KeyFormat, "jwk">,
+    keyData: BufferSource,
+    algorithm:
+      | AlgorithmIdentifier
+      | RsaHashedImportParams
+      | EcKeyImportParams
+      | HmacImportParams
+      | AesKeyAlgorithm,
+    extractable: boolean,
+    keyUsages: KeyUsage[]
+  ): Promise<CryptoKey>;
+  sign(
+    algorithm: AlgorithmIdentifier | RsaPssParams | EcdsaParams,
+    key: CryptoKey,
+    data: BufferSource
+  ): Promise<ArrayBuffer>;
+  unwrapKey(
+    format: KeyFormat,
+    wrappedKey: BufferSource,
+    unwrappingKey: CryptoKey,
+    unwrapAlgorithm:
+      | AlgorithmIdentifier
+      | RsaOaepParams
+      | AesCtrParams
+      | AesCbcParams
+      | AesGcmParams,
+    unwrappedKeyAlgorithm:
+      | AlgorithmIdentifier
+      | RsaHashedImportParams
+      | EcKeyImportParams
+      | HmacImportParams
+      | AesKeyAlgorithm,
+    extractable: boolean,
+    keyUsages: KeyUsage[]
+  ): Promise<CryptoKey>;
+  verify(
+    algorithm: AlgorithmIdentifier | RsaPssParams | EcdsaParams,
+    key: CryptoKey,
+    signature: BufferSource,
+    data: BufferSource
+  ): Promise<boolean>;
+  wrapKey(
+    format: KeyFormat,
+    key: CryptoKey,
+    wrappingKey: CryptoKey,
+    wrapAlgorithm:
+      | AlgorithmIdentifier
+      | RsaOaepParams
+      | AesCtrParams
+      | AesCbcParams
+      | AesGcmParams
+  ): Promise<ArrayBuffer>;
+}
+
+interface RsaPssParams extends Algorithm {
+  saltLength: number;
+}
+
+/**
+ * The CryptoKey dictionary of the Web Crypto API represents a cryptographic key.
+ */
+interface CryptoKey {
+  readonly algorithm: KeyAlgorithm;
+  readonly extractable: boolean;
+  readonly type: KeyType;
+  readonly usages: KeyUsage[];
+}
+
+declare var CryptoKey: {
+  prototype: CryptoKey;
+  new (): CryptoKey;
+};
