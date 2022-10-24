@@ -885,7 +885,7 @@ declare module "bun" {
     publishText(
       topic: string,
       data: string,
-      compress?: bool
+      compress?: boolean
     ): ServerWebSocketSendStatus;
 
     /**
@@ -2241,7 +2241,7 @@ declare module "bun" {
 
   var plugin: BunPlugin;
 
-  declare namespace SpawnOptions {
+  namespace SpawnOptions {
     type Readable =
       | "inherit"
       | "pipe"

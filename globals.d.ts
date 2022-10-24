@@ -285,7 +285,7 @@ interface BlobInterface {
   json<TJSONReturnType = unknown>(): Promise<TJSONReturnType>;
 }
 
-type BlobPart = string | Blob | ArrayBufferView | ArrayBuffer;
+type BlobPart = string | Blob | BufferSource | ArrayBuffer;
 interface BlobPropertyBag {
   /** Set a default "type" */
   type?: string;
@@ -813,7 +813,9 @@ declare class Request implements BlobInterface {
 }
 
 interface Crypto {
-  getRandomValues<T extends TypedArray = TypedArray>(array: T): T;
+  readonly subtle: SubtleCrypto;
+
+  getRandomValues<T extends BufferSource = BufferSource>(array: T): T;
   /**
    * Generate a cryptographically secure random UUID.
    *
@@ -880,7 +882,7 @@ declare class TextEncoder {
    * @param src The text to encode.
    * @param dest The array to hold the encode result.
    */
-  encodeInto(src?: string, dest?: TypedArray): EncodeIntoResult;
+  encodeInto(src?: string, dest?: BufferSource): EncodeIntoResult;
 }
 
 /**
@@ -919,9 +921,9 @@ declare class TextDecoder {
    * internally and emitted after the next call to `textDecoder.decode()`.
    *
    * If `textDecoder.fatal` is `true`, decoding errors that occur will result in a`TypeError` being thrown.
-   * @param input An `ArrayBuffer`, `DataView` or `TypedArray` instance containing the encoded data.
+   * @param input An `ArrayBuffer`, `DataView` or `BufferSource` instance containing the encoded data.
    */
-  decode(input?: TypedArray | ArrayBuffer): string;
+  decode(input?: BufferSource | ArrayBuffer): string;
 }
 
 /**
@@ -1656,7 +1658,7 @@ declare var AbortSignal: {
 
 // type AlgorithmIdentifier = Algorithm | string;
 // type BodyInit = ReadableStream | XMLHttpRequestBodyInit;
-type BufferSource = ArrayBufferView | ArrayBuffer;
+type BufferSource = ArrayBufferView | ArrayBuffer | SharedArrayBuffer;
 // type COSEAlgorithmIdentifier = number;
 // type CSSNumberish = number;
 // type CanvasImageSource =
@@ -1762,7 +1764,7 @@ declare var Loader: {
    * @param specifier - module specifier as it appears in transpiled source code
    * @param referrer - module specifier that is resolving this specifier
    */
-  resolve: (specifier: strin, referrer: string) => string;
+  resolve: (specifier: string, referrer: string) => string;
 };
 
 /** This Streams API interface represents a readable stream of byte data. The Fetch API offers a concrete instance of a ReadableStream through the body property of a Response object. */
@@ -1784,7 +1786,7 @@ interface ReadableStream<R = any> {
     thisArg?: any
   ): void;
   [Symbol.asyncIterator](): AsyncIterableIterator<R>;
-  values(options: { preventCancel: boolean }): AsyncIterableIterator<R>;
+  values(options?: { preventCancel: boolean }): AsyncIterableIterator<R>;
 }
 
 declare var ReadableStream: {
@@ -1810,9 +1812,9 @@ interface QueuingStrategyInit {
 }
 
 /** This Streams API interface provides a built-in byte length queuing strategy that can be used when constructing streams. */
-interface ByteLengthQueuingStrategy extends QueuingStrategy<ArrayBufferView> {
+interface ByteLengthQueuingStrategy extends QueuingStrategy<BufferSource> {
   readonly highWaterMark: number;
-  readonly size: QueuingStrategySize<ArrayBufferView>;
+  readonly size: QueuingStrategySize<BufferSource>;
 }
 
 declare var ByteLengthQueuingStrategy: {
@@ -1829,7 +1831,7 @@ interface ReadableStreamDefaultController<R = any> {
 
 interface ReadableStreamDirectController {
   close(error?: Error): void;
-  write(data: ArrayBufferView | ArrayBuffer | string): number | Promise<number>;
+  write(data: BufferSource | ArrayBuffer | string): number | Promise<number>;
   end(): number | Promise<number>;
   flush(): number | Promise<number>;
   start(): void;
