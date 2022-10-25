@@ -1288,7 +1288,7 @@ declare module "bun" {
     syscall?: string;
   }
 
-  export interface SSLAdvancedOptions {
+  export type SSLAdvancedOptions = {
     passphrase?: string;
     caFile?: string;
     dhParamsFile?: string;
@@ -1300,7 +1300,7 @@ declare module "bun" {
      */
     lowMemoryMode?: boolean;
   }
-  interface SSLOptions {
+  type SSLOptions = {
     /**
      * File path to a TLS key
      *
@@ -2491,6 +2491,259 @@ declare module "bun" {
     ],
     options?: SpawnOptions.OptionsObject
   ): SyncSubprocess;
+
+  type WhichOptions = {
+    /**
+     * Sets the directory to search for the binary.
+     */
+    cwd?: string | undefined;
+    /**
+     * Sets the `PATH` environment variable used to search for the binary.
+     */
+    PATH?: string | undefined;
+  };
+
+  /**
+   * Finds the absolute path to an binary.
+   *
+   * ```js
+   * const ls = Bun.which("ls");
+   * console.log(ls); // "/usr/bun/ls"
+   * ```
+   *
+   * @param binary the name of the binary
+   * @returns the path the to the binary, or null if not found
+   */
+  function which(binary: string, options?: WhichOptions): string | null;
+
+  /**
+   * Peeks at the value of a promise without using `await`.
+   * 
+   * This is an advanced API which can be used in performance-senstitive
+   * code where you want to reduce the number of extra microticks to resolve a
+   * promise.
+   * 
+   * - If the promise is resolved, it will return its resolved value.
+   * - If the promise is rejected, it will return its rejected value.
+   * - If the promise is pending, it will return the promise.
+   * 
+   * @param promise the promise to read
+   * @returns the value of the promise
+   */
+  function peek<T>(promise: T | Promise<T>): T | Promise<T>;
+
+  type TCPSocketListener<Socket = TCPSocket> = {
+    /**
+     * Invoked when the socket is opened.
+     */
+    open?: (socket: Socket) => void | Promise<void>;
+    /**
+     * Invoked when data is received.
+     */
+    data?: (socket: Socket, data: Uint8Array) => void | Promise<void>;
+    /**
+     * Invoked when the socket is ready for more data to be sent.
+     */
+    drain?: (socket: Socket) => void | Promise<void>;
+    /**
+     * Invoked when the socket has timed out.
+     */
+    timeout?: (socket: Socket) => void | Promise<void>;
+    /**
+     * Invoked when there is an error establishing the socket.
+     */
+    connectError?: (socket: Socket, error: Error) => void | Promise<void>;
+    /**
+     * Invoked when there is an error after the socket is established.
+     */
+    error?: (socket: Socket, error: Error) => void | Promise<void>;
+    /**
+     * Invoked when the socket starts to close.
+     *
+     * Data can still be received after the socket starts to close.
+     * This is because the other side must receive the close packet.
+     * 
+     * If you want to listen when there are no data is left, use `close()` instead.
+     */
+    end?: (socket: Socket) => void | Promise<void>;
+    /**
+     * Invoked when the socket is closed. No more data can be sent or received.
+     */
+    close?: (socket: Socket) => void | Promise<void>;
+  };
+
+  /**
+   * A TCP socket.
+   */
+  class TCPSocket<Data = any> {
+    constructor();
+
+    /**
+     * Custom data that is associated with this socket.
+     */
+    data: Data;
+
+    /**
+     * Sends data over the socket.
+     *
+     * For performance reasons, data is not buffered before it is sent. 
+     *
+     * @param data the data to send
+     * @returns the number of bytes sent
+     */
+    write(data: string | ArrayBuffer | ArrayBufferView | Blob): number;
+    
+    /**
+     * Forces the socket to send data that is buffered.
+     *
+     * Since buffering is not yet supported, this does nothing.
+     */
+    flush(): void;
+
+    /**
+     * Sets the timeout in milliseconds.
+     *
+     * @param ms the timeout in milliseconds
+     */
+    timeout(ms: number): void;
+
+    /**
+     * Notify the runtime to wait for this socket to close before shutting down.
+     *
+     * This is will undo a previous call of `unref()`
+     */
+    ref(): void;
+
+    /**
+     * Notify the runtime to not wait for this socket to close before shutting down.
+     */
+    unref(): void;
+
+    /**
+     * Closes the socket.
+     *
+     * Data can still be received after the socket starts to close.
+     * This is because the other side must receive the close packet.
+     *
+     * If you want to close abruptly without sending a packet, use `end()` instead.
+     */
+    end(): void;
+
+    /**
+     * Sends data, then closes the socket.
+     *
+     * Data can still be received after the socket starts to close.
+     * This is because the other side must receive the close packet.
+     * @param data the data to send
+     * @returns the number of bytes sent
+     */
+    end(data: string | ArrayBuffer | ArrayBufferView | Blob): number;
+
+    /**
+     * Abruptly closes the socket. No data can being sent or received afterwards. 
+     */
+    close(): void;
+
+    /**
+     * Reloads the socket with a new options.
+     *
+     * @param options the socket options
+     */
+    reload(options?: TCPSocketOptions<Data>): void;
+  }
+
+  /**
+   * A TLS socket.
+   */
+  class TLSSocket<Data> extends TCPSocket<Data> {
+    constructor();
+  }
+
+  type TCPSocketOptions<Data> = {
+    /**
+     * The hostname or IP address to establish the socket.
+     */
+    hostname: string;
+    /**
+     * The port to establish the socket.
+     */
+    port: number;
+    /**
+     * The listeners to attach to the socket.
+     */
+    socket: TCPSocketListener<Data>;
+    /**
+     * Custom data that is associated with the socket.
+     */
+    data?: Data;
+  };
+
+  type TLSSocketOptions<Data> = TCPSocketOptions<Data> & SSLOptions & SSLAdvancedOptions;
+
+  type UnixTCPSocketOptions<Data> = {
+    /**
+     * The UNIX socket address.
+     */
+    unix: string;
+    /**
+     * The listeners to attach to the socket.
+     */
+    socket: TCPSocketListener<Data>;
+    /**
+     * Custom data that is associated with the socket.
+     */
+    data?: Data;
+  };
+
+  type UnixTLSSocketOptions<Data> = TLSSocketOptions<Data> & SSLOptions & SSLAdvancedOptions;
+
+  /**
+   * Creates a TCP client.
+   * @param options the TCP socket options
+   */
+  function connect<Data>(options: TCPSocketOptions<Data>): TCPSocket<Data>;
+
+  /**
+   * Creates a TCP client through a UNIX socket.
+   * @param options the TCP socket options
+   */
+  function connect<Data>(options: UnixTCPSocketOptions<Data>): TCPSocket<Data>;
+
+  /**
+   * Creates a TCP client using TLS encryption.
+   * @param options the TCP/TLS socket options
+   */
+  function connect<Data>(options: TLSSocketOptions<Data>): TLSSocket<Data>;
+
+  /**
+   * Creates a TCP client using TLS encryption through a UNIX socket.
+   * @param options the TCP/TLS socket options
+   */
+  function connect<Data>(options: UnixTLSSocketOptions<Data>): TLSSocket<Data>;
+
+  /**
+   * Creates a TCP server.
+   * @param options the TCP socket options
+   */
+  function listen<Data>(options: TCPSocketOptions<Data>): TCPSocket<Data>;
+
+  /**
+   * Creates a TCP server through a UNIX socket.
+   * @param options the TCP socket options
+   */
+  function listen<Data>(options: UnixTCPSocketOptions<Data>): TCPSocket<Data>;
+
+  /**
+   * Creates a TCP server using TLS encryption.
+   * @param options the TCP/TLS socket options
+   */
+  function listen<Data>(options: TLSSocketOptions<Data>): TLSSocket<Data>;
+
+  /**
+   * Creates a TCP server using TLS encryption through a UNIX socket.
+   * @param options the TCP/TLS socket options
+   */
+  function listen<Data>(options: UnixTLSSocketOptions<Data>): TLSSocket<Data>;
 
   /**
    * The current version of Bun
