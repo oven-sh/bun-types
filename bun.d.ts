@@ -1299,7 +1299,7 @@ declare module "bun" {
      * @default false
      */
     lowMemoryMode?: boolean;
-  }
+  };
   type SSLOptions = {
     /**
      * File path to a TLS key
@@ -1313,7 +1313,7 @@ declare module "bun" {
      * To enable TLS, this option is required.
      */
     certFile: string;
-  }
+  };
 
   export type SSLServeOptions<WebSocketDataType = undefined> = (
     | WebSocketServeOptions<WebSocketDataType>
@@ -2518,15 +2518,15 @@ declare module "bun" {
 
   /**
    * Peeks at the value of a promise without using `await`.
-   * 
+   *
    * This is an advanced API which can be used in performance-senstitive
    * code where you want to reduce the number of extra microticks to resolve a
    * promise.
-   * 
+   *
    * - If the promise is resolved, it will return its resolved value.
    * - If the promise is rejected, it will return its rejected value.
    * - If the promise is pending, it will return the promise.
-   * 
+   *
    * @param promise the promise to read
    * @returns the value of the promise
    */
@@ -2562,7 +2562,7 @@ declare module "bun" {
      *
      * Data can still be received after the socket starts to close.
      * This is because the other side must receive the close packet.
-     * 
+     *
      * If you want to listen when there are no data is left, use `close()` instead.
      */
     end?: (socket: Socket) => void | Promise<void>;
@@ -2586,13 +2586,13 @@ declare module "bun" {
     /**
      * Sends data over the socket.
      *
-     * For performance reasons, data is not buffered before it is sent. 
+     * For performance reasons, data is not buffered before it is sent.
      *
      * @param data the data to send
      * @returns the number of bytes sent
      */
     write(data: string | ArrayBuffer | ArrayBufferView | Blob): number;
-    
+
     /**
      * Forces the socket to send data that is buffered.
      *
@@ -2640,7 +2640,7 @@ declare module "bun" {
     end(data: string | ArrayBuffer | ArrayBufferView | Blob): number;
 
     /**
-     * Abruptly closes the socket. No data can being sent or received afterwards. 
+     * Abruptly closes the socket. No data can being sent or received afterwards.
      */
     close(): void;
 
@@ -2678,7 +2678,9 @@ declare module "bun" {
     data?: Data;
   };
 
-  type TLSSocketOptions<Data> = TCPSocketOptions<Data> & SSLOptions & SSLAdvancedOptions;
+  type TLSSocketOptions<Data> = TCPSocketOptions<Data> &
+    SSLOptions &
+    SSLAdvancedOptions;
 
   type UnixTCPSocketOptions<Data> = {
     /**
@@ -2695,7 +2697,9 @@ declare module "bun" {
     data?: Data;
   };
 
-  type UnixTLSSocketOptions<Data> = TLSSocketOptions<Data> & SSLOptions & SSLAdvancedOptions;
+  type UnixTLSSocketOptions<Data> = TLSSocketOptions<Data> &
+    SSLOptions &
+    SSLAdvancedOptions;
 
   /**
    * Creates a TCP client.
