@@ -1288,7 +1288,7 @@ declare module "bun" {
     syscall?: string;
   }
 
-  interface SSLOptions {
+  interface TLSOptions {
     /**
      * File path to a TLS key
      *
@@ -1314,16 +1314,16 @@ declare module "bun" {
     lowMemoryMode?: boolean;
   }
 
-  export type SSLServeOptions<WebSocketDataType = undefined> = (
+  export type TLSServeOptions<WebSocketDataType = undefined> = (
     | WebSocketServeOptions<WebSocketDataType>
     | ServerWebSocket
   ) &
-    SSLOptions & {
+    TLSOptions & {
       /**
        *  The keys are [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication) hostnames.
        *  The values are SSL options objects.
        */
-      serverNames: Record<string, SSLOptions & SSLAdvancedOptions>;
+      serverNames: Record<string, TLSOptions>;
     };
 
   /**
@@ -1468,7 +1468,7 @@ declare module "bun" {
   }
 
   export type Serve<WebSocketDataType = undefined> =
-    | SSLServeOptions<WebSocketDataType>
+    | TLSServeOptions<WebSocketDataType>
     | WebSocketServeOptions<WebSocketDataType>
     | ServeOptions;
 
@@ -2330,26 +2330,27 @@ declare module "bun" {
     readonly listener?: SocketListener;
   }
 
-  interface SocketListener<Options extends SocketOptions> {
+  interface SocketListener<Options extends SocketOptions = SocketOptions> {
     stop(): void;
     ref(): void;
     unref(): void;
     reload(options: Pick<Partial<Options>, "socket">): void;
     data: Options["data"];
   }
-  interface TCPSocketListener extends SocketListener {
+  interface TCPSocketListener<Options extends TCPSocketOptions<unknown>>
+    extends SocketListener<Options> {
     readonly port: number;
     readonly hostname: string;
   }
-  interface UnixSocketListener<Options extends UnixSocketOptions>
+  interface UnixSocketListener<Options extends UnixSocketOptions<unknown>>
     extends SocketListener<Options> {
     readonly unix: string;
   }
 
-  class TCPSocket extends Socket {}
-  class TLSSocket extends Socket {}
+  interface TCPSocket extends Socket {}
+  interface TLSSocket extends Socket {}
 
-  interface SocketHandler<Data> {
+  interface SocketHandler<Data = unknown> {
     open(socket: Socket<Data>): void | Promise<void>;
     close?(socket: Socket<Data>): void | Promise<void>;
     error?(socket: Socket<Data>, error: Error): void | Promise<void>;
@@ -2357,7 +2358,7 @@ declare module "bun" {
     drain?(socket: Socket<Data>): void | Promise<void>;
   }
 
-  interface SocketOptions<Data> {
+  interface SocketOptions<Data = unknown> {
     socket: SocketHandler<Data>;
     tls?: TLSOptions;
     data: Data;
