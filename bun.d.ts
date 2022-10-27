@@ -2360,7 +2360,7 @@ declare module "bun" {
    */
   export function connect(
     options: TCPSocketOptions<TCPSocket> | TCPUnixSocketOptions<TCPSocket>
-  ): TCPSocket;
+  ): Promise<TCPSocket>;
 
   /**
    *
@@ -2377,7 +2377,7 @@ declare module "bun" {
     options:
       | (TCPSocketOptions<TLSSocket> & SSLOptions)
       | (TCPUnixSocketOptions<TLSSocket> & SSLOptions)
-  ): TLSSocket;
+  ): Promise<TLSSocket>;
 
   /**
    *
