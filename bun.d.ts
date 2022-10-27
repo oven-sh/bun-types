@@ -19,7 +19,7 @@ interface VoidFunction {
  * This module aliases `globalThis.Bun`.
  *
  */
-declare module "bun" {
+declare module 'bun' {
   /**
    * Start a fast HTTP server.
    *
@@ -484,18 +484,18 @@ declare module "bun" {
     /**
      * When building for bun.js
      */
-    | "bun"
+    | 'bun'
     /**
      * When building for the web
      */
-    | "browser"
+    | 'browser'
     /**
      * When building for node.js
      */
-    | "node"
-    | "neutral";
+    | 'node'
+    | 'neutral';
 
-  export type JavaScriptLoader = "jsx" | "js" | "ts" | "tsx";
+  export type JavaScriptLoader = 'jsx' | 'js' | 'ts' | 'tsx';
 
   export interface TranspilerOptions {
     /**
@@ -642,7 +642,7 @@ declare module "bun" {
      * console.log(exports); // ["hello"]
      * ```
      */
-    scan(code: StringOrBuffer): { exports: string[]; imports: Import[] };
+    scan(code: StringOrBuffer): {exports: string[]; imports: Import[]};
 
     /**
      *  Get a list of import paths from a TypeScript, JSX, TSX, or JavaScript file.
@@ -666,14 +666,14 @@ declare module "bun" {
     path: string;
 
     kind:
-      | "import-statement"
-      | "require-call"
-      | "require-resolve"
-      | "dynamic-import"
-      | "import-rule"
-      | "url-token"
-      | "internal"
-      | "entry-point";
+      | 'import-statement'
+      | 'require-call'
+      | 'require-resolve'
+      | 'dynamic-import'
+      | 'import-rule'
+      | 'url-token'
+      | 'internal'
+      | 'entry-point';
   }
 
   /**
@@ -1001,21 +1001,21 @@ declare module "bun" {
      *
      * @default "uint8array"
      */
-    binaryType?: "arraybuffer" | "uint8array";
+    binaryType?: 'arraybuffer' | 'uint8array';
   }
 
   type WebSocketCompressor =
-    | "disable"
-    | "shared"
-    | "dedicated"
-    | "3KB"
-    | "4KB"
-    | "8KB"
-    | "16KB"
-    | "32KB"
-    | "64KB"
-    | "128KB"
-    | "256KB";
+    | 'disable'
+    | 'shared'
+    | 'dedicated'
+    | '3KB'
+    | '4KB'
+    | '8KB'
+    | '16KB'
+    | '32KB'
+    | '64KB'
+    | '128KB'
+    | '256KB';
 
   /**
    * Create a server-side {@link ServerWebSocket} handler for use with {@link Bun.serve}
@@ -1629,7 +1629,7 @@ declare module "bun" {
   }
   export const unsafe: unsafe;
 
-  type DigestEncoding = "hex" | "base64";
+  type DigestEncoding = 'hex' | 'base64';
 
   /**
    * Are ANSI colors enabled for stdin and stdout?
@@ -1708,7 +1708,7 @@ declare module "bun" {
   export function openInEditor(path: string, options?: EditorOptions): void;
 
   interface EditorOptions {
-    editor?: "vscode" | "subl";
+    editor?: 'vscode' | 'subl';
     line?: number;
     column?: number;
   }
@@ -1986,15 +1986,15 @@ declare module "bun" {
     /**
      * The default environment when using `bun run` or `bun` to load a script
      */
-    | "bun"
+    | 'bun'
     /**
      * The plugin will be applied to Node.js builds
      */
-    | "node"
+    | 'node'
     /**
      * The plugin will be applied to browser builds
      */
-    | "browser";
+    | 'browser';
 
   interface PluginConstraints {
     /**
@@ -2037,7 +2037,7 @@ declare module "bun" {
      *
      * "css" will be added in a future version of Bun.
      */
-    loader: "js" | "jsx" | "ts" | "tsx";
+    loader: 'js' | 'jsx' | 'ts' | 'tsx';
   }
 
   interface OnLoadResultObject {
@@ -2059,7 +2059,7 @@ declare module "bun" {
     /**
      * The loader to use for this file
      */
-    loader: "object";
+    loader: 'object';
   }
 
   interface OnLoadArgs {
@@ -2227,7 +2227,7 @@ declare module "bun" {
          */
         builder: PluginBuilder
       ): void | Promise<void>;
-    }): ReturnType<typeof options["setup"]>;
+    }): ReturnType<typeof options['setup']>;
 
     /**
      * Deactivate all plugins
@@ -2239,7 +2239,7 @@ declare module "bun" {
 
   var plugin: BunPlugin;
 
-  interface Socket {
+  interface Socket<Data = undefined> {
     /**
      * Write `data` to the socket
      *
@@ -2258,6 +2258,11 @@ declare module "bun" {
       byteOffset?: number,
       byteLength?: number
     ): number;
+
+    /**
+     * The data context for the socket.
+     */
+    data: Data;
 
     /**
      * Like {@link Socket.write} except it includes a TCP FIN packet
@@ -2301,7 +2306,7 @@ declare module "bun" {
      */
     shutdown(halfClose?: boolean): void;
 
-    readonly readyState: "open" | "closing" | "closed";
+    readonly readyState: 'open' | 'closing' | 'closed';
 
     /**
      * Allow Bun's process to exit even if this socket is still open
@@ -2322,30 +2327,49 @@ declare module "bun" {
      *
      * This will return undefined if the socket was created by {@link Bun.connect} or if the listener has already closed.
      */
-    readonly listener?: TCPListener;
+    readonly listener?: SocketListener;
+  }
+
+  interface SocketListener<Options extends SocketOptions> {
+    stop(): void;
+    ref(): void;
+    unref(): void;
+    reload(options: Pick<Partial<Options>, 'socket'>): void;
+    data: Options['data'];
+  }
+  interface TCPSocketListener extends SocketListener {
+    readonly port: number;
+    readonly hostname: string;
+  }
+  interface UnixSocketListener<Options extends UnixSocketOptions>
+    extends SocketListener<Options> {
+    readonly unix: string;
   }
 
   class TCPSocket extends Socket {}
   class TLSSocket extends Socket {}
 
-  interface SocketHandler {
-    open(socket: SocketType): void | Promise<void>;
-    close?(socket: SocketType): void | Promise<void>;
-    error?(socket: SOcketType, error: Error): void | Promise<void>;
-    data?(socket: SocketType, data: BufferSource): void | Promise<void>;
-    drain?(socket: SocketType): void | Promise<void>;
+  interface SocketHandler<Data> {
+    open(socket: Socket<Data>): void | Promise<void>;
+    close?(socket: Socket<Data>): void | Promise<void>;
+    error?(socket: Socket<Data>, error: Error): void | Promise<void>;
+    data?(socket: Socket<Data>, data: BufferSource): void | Promise<void>;
+    drain?(socket: Socket<Data>): void | Promise<void>;
   }
 
-  type TCPSocketOptions<SocketType = Socket> = {
-    socket: SocketHandler;
+  interface SocketOptions<Data> {
+    socket: SocketHandler<Data>;
+    tls?: TLSOptions;
+    data: Data;
+  }
+  interface TCPSocketOptions<Data = undefined> extends SocketOptions<Data> {
     hostname: string;
     port: number;
-  };
+  }
 
-  type TCPUnixSocketOptions<SocketType = Socket> = {
-    socket: SocketHandler;
+  interface UnixSocketOptions<Data = undefined> extends SocketOptions<Data> {
     unix: string;
-  };
+  }
 
   /**
    *
@@ -2358,9 +2382,9 @@ declare module "bun" {
    * @param options.unix The unix socket to connect to
    *
    */
-  export function connect(
-    options: TCPSocketOptions<TCPSocket> | TCPUnixSocketOptions<TCPSocket>
-  ): Promise<TCPSocket>;
+  export function connect<Data = undefined>(
+    options: TCPSocketOptions<Data>
+  ): Promise<TCPSocketListener<typeof options>>;
 
   /**
    *
@@ -2373,11 +2397,9 @@ declare module "bun" {
    * @param options.unix The unix socket to connect to
    *
    */
-  export function connect(
-    options:
-      | (TCPSocketOptions<TLSSocket> & SSLOptions)
-      | (TCPUnixSocketOptions<TLSSocket> & SSLOptions)
-  ): Promise<TLSSocket>;
+  export function connect<Data = undefined>(
+    options: UnixSocketOptions<Data>
+  ): Promise<UnixSocketListener<typeof options>>;
 
   /**
    *
@@ -2387,12 +2409,13 @@ declare module "bun" {
    * @param options.socket The socket handler to use
    * @param options.hostname The hostname to connect to
    * @param options.port The port to connect to
-   * @param options.unix The unix socket to connect to
+   * @param options.data The per-instance data context
+   * @param options.tls The TLS configuration object
    *
    */
-  export function listen(
-    options: TCPSocketOptions<TCPSocket> | TCPUnixSocketOptions<TCPSocket>
-  ): TCPSocket;
+  export function listen<Data = undefined>(
+    options: TCPSocketOptions<Data>
+  ): TCPSocketListener<typeof options>;
 
   /**
    *
@@ -2405,16 +2428,14 @@ declare module "bun" {
    * @param options.unix The unix socket to connect to
    *
    */
-  export function listen(
-    options:
-      | (TCPSocketOptions<TLSSocket> & SSLOptions)
-      | (TCPUnixSocketOptions<TLSSocket> & SSLOptions)
-  ): TLSSocket;
+  export function listen<Data = undefined>(
+    options: UnixSocketOptions<Data>
+  ): UnixSocketListener<typeof options>;
 
   namespace SpawnOptions {
     type Readable =
-      | "inherit"
-      | "pipe"
+      | 'inherit'
+      | 'pipe'
       | null
       | undefined
       | FileBlob
@@ -2422,8 +2443,8 @@ declare module "bun" {
       | number;
 
     type Writable =
-      | "inherit"
-      | "pipe"
+      | 'inherit'
+      | 'pipe'
       | null
       | undefined
       | FileBlob
@@ -2693,21 +2714,21 @@ type PathLike = string | TypedArray | ArrayBufferLike;
 type PathOrFileDescriptor = PathLike | number;
 type NoParamCallback = VoidFunction;
 type BufferEncoding =
-  | "buffer"
-  | "utf8"
-  | "utf-8"
-  | "ascii"
-  | "utf16le"
-  | "ucs2"
-  | "ucs-2"
-  | "latin1"
-  | "binary"
-  | "hex"
-  | "base64"
-  | "base64url";
+  | 'buffer'
+  | 'utf8'
+  | 'utf-8'
+  | 'ascii'
+  | 'utf16le'
+  | 'ucs2'
+  | 'ucs-2'
+  | 'latin1'
+  | 'binary'
+  | 'hex'
+  | 'base64'
+  | 'base64url';
 
 interface BufferEncodingOption {
   encoding?: BufferEncoding;
 }
 
-declare var Bun: typeof import("bun");
+declare var Bun: typeof import('bun');
