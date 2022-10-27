@@ -1288,18 +1288,6 @@ declare module "bun" {
     syscall?: string;
   }
 
-  export interface SSLAdvancedOptions {
-    passphrase?: string;
-    caFile?: string;
-    dhParamsFile?: string;
-
-    /**
-     * This sets `OPENSSL_RELEASE_BUFFERS` to 1.
-     * It reduces overall performance but saves some memory.
-     * @default false
-     */
-    lowMemoryMode?: boolean;
-  }
   interface SSLOptions {
     /**
      * File path to a TLS key
@@ -1313,14 +1301,24 @@ declare module "bun" {
      * To enable TLS, this option is required.
      */
     certFile: string;
+
+    passphrase?: string;
+    caFile?: string;
+    dhParamsFile?: string;
+
+    /**
+     * This sets `OPENSSL_RELEASE_BUFFERS` to 1.
+     * It reduces overall performance but saves some memory.
+     * @default false
+     */
+    lowMemoryMode?: boolean;
   }
 
   export type SSLServeOptions<WebSocketDataType = undefined> = (
     | WebSocketServeOptions<WebSocketDataType>
     | ServerWebSocket
   ) &
-    SSLOptions &
-    SSLAdvancedOptions & {
+    SSLOptions & {
       /**
        *  The keys are [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication) hostnames.
        *  The values are SSL options objects.
@@ -2240,6 +2238,178 @@ declare module "bun" {
   }
 
   var plugin: BunPlugin;
+
+  interface Socket {
+    /**
+     * Write `data` to the socket
+     *
+     * @param data The data to write to the socket
+     * @param byteOffset The offset in the buffer to start writing from (defaults to 0)
+     * @param byteLength The number of bytes to write (defaults to the length of the buffer)
+     *
+     * When passed a string, `byteOffset` and `byteLength` refer to the UTF-8 offset, not the string character offset.
+     *
+     * This is unbuffered as of Bun v0.2.2. That means individual write() calls
+     * will be slow. In the future, Bun will buffer writes and flush them at the
+     * end of the tick, when the event loop is idle, or sooner if the buffer is full.
+     */
+    write(
+      data: string | BufferSource,
+      byteOffset?: number,
+      byteLength?: number
+    ): number;
+
+    /**
+     * Like {@link Socket.write} except it includes a TCP FIN packet
+     *
+     * Use it to send your last message and close the connection.
+     */
+    end(
+      data?: string | BufferSource,
+      byteOffset?: number,
+      byteLength?: number
+    ): number;
+
+    /**
+     * Close the socket immediately
+     */
+    end(): void;
+
+    /**
+     * Keep Bun's process alive at least until this socket is closed
+     *
+     * After the socket has closed, the socket is unref'd, the process may exit,
+     * and this becomes a no-op
+     */
+    ref(): void;
+
+    /**
+     * Set a timeout until the socket automatically closes.
+     *
+     * To reset the timeout, call this function again.
+     *
+     * When a timeout happens, the `timeout` callback is called and the socket is closed.
+     */
+    timeout(seconds: number): void;
+
+    /**
+     * Shutdown writes to a socket
+     *
+     * This makes the socket a half-closed socket. It can still receive data.
+     *
+     * This calls [shutdown(2)](https://man7.org/linux/man-pages/man2/shutdown.2.html) internally
+     */
+    shutdown(halfClose?: boolean): void;
+
+    readonly readyState: "open" | "closing" | "closed";
+
+    /**
+     * Allow Bun's process to exit even if this socket is still open
+     *
+     * After the socket has closed, this function does nothing.
+     */
+    unref(): void;
+
+    /**
+     * Reset the socket's callbacks. This is useful with `bun --hot` to facilitate hot reloading.
+     *
+     * This will apply to all sockets from the same {@link Listener}. it is per socket only for {@link Bun.connect}.
+     */
+    reload(handler: SocketHandler): void;
+
+    /**
+     * Get the server that created this socket
+     *
+     * This will return undefined if the socket was created by {@link Bun.connect} or if the listener has already closed.
+     */
+    readonly listener?: TCPListener;
+  }
+
+  class TCPSocket extends Socket {}
+  class TLSSocket extends Socket {}
+
+  interface SocketHandler {
+    open(socket: SocketType): void | Promise<void>;
+    close?(socket: SocketType): void | Promise<void>;
+    error?(socket: SOcketType, error: Error): void | Promise<void>;
+    data?(socket: SocketType, data: BufferSource): void | Promise<void>;
+    drain?(socket: SocketType): void | Promise<void>;
+  }
+
+  type TCPSocketOptions<SocketType = Socket> = {
+    socket: SocketHandler;
+    hostname: string;
+    port: number;
+  };
+
+  type TCPUnixSocketOptions<SocketType = Socket> = {
+    socket: SocketHandler;
+    unix: string;
+  };
+
+  /**
+   *
+   * Create a TCP client that connects to a server
+   *
+   * @param options The options to use when creating the client
+   * @param options.socket The socket handler to use
+   * @param options.hostname The hostname to connect to
+   * @param options.port The port to connect to
+   * @param options.unix The unix socket to connect to
+   *
+   */
+  export function connect(
+    options: TCPSocketOptions<TCPSocket> | TCPUnixSocketOptions<TCPSocket>
+  ): TCPSocket;
+
+  /**
+   *
+   * Create a TCP client that connects to a server
+   *
+   * @param options The options to use when creating the client
+   * @param options.socket The socket handler to use
+   * @param options.hostname The hostname to connect to
+   * @param options.port The port to connect to
+   * @param options.unix The unix socket to connect to
+   *
+   */
+  export function connect(
+    options:
+      | (TCPSocketOptions<TLSSocket> & SSLOptions)
+      | (TCPUnixSocketOptions<TLSSocket> & SSLOptions)
+  ): TLSSocket;
+
+  /**
+   *
+   * Create a TCP server that listens on a port
+   *
+   * @param options The options to use when creating the server
+   * @param options.socket The socket handler to use
+   * @param options.hostname The hostname to connect to
+   * @param options.port The port to connect to
+   * @param options.unix The unix socket to connect to
+   *
+   */
+  export function listen(
+    options: TCPSocketOptions<TCPSocket> | TCPUnixSocketOptions<TCPSocket>
+  ): TCPSocket;
+
+  /**
+   *
+   * Create a TCP server that connects to a server
+   *
+   * @param options The options to use when creating the server
+   * @param options.socket The socket handler to use
+   * @param options.hostname The hostname to connect to
+   * @param options.port The port to connect to
+   * @param options.unix The unix socket to connect to
+   *
+   */
+  export function listen(
+    options:
+      | (TCPSocketOptions<TLSSocket> & SSLOptions)
+      | (TCPUnixSocketOptions<TLSSocket> & SSLOptions)
+  ): TLSSocket;
 
   namespace SpawnOptions {
     type Readable =
