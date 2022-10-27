@@ -19,7 +19,7 @@ interface VoidFunction {
  * This module aliases `globalThis.Bun`.
  *
  */
-declare module 'bun' {
+declare module "bun" {
   /**
    * Start a fast HTTP server.
    *
@@ -484,18 +484,18 @@ declare module 'bun' {
     /**
      * When building for bun.js
      */
-    | 'bun'
+    | "bun"
     /**
      * When building for the web
      */
-    | 'browser'
+    | "browser"
     /**
      * When building for node.js
      */
-    | 'node'
-    | 'neutral';
+    | "node"
+    | "neutral";
 
-  export type JavaScriptLoader = 'jsx' | 'js' | 'ts' | 'tsx';
+  export type JavaScriptLoader = "jsx" | "js" | "ts" | "tsx";
 
   export interface TranspilerOptions {
     /**
@@ -642,7 +642,7 @@ declare module 'bun' {
      * console.log(exports); // ["hello"]
      * ```
      */
-    scan(code: StringOrBuffer): {exports: string[]; imports: Import[]};
+    scan(code: StringOrBuffer): { exports: string[]; imports: Import[] };
 
     /**
      *  Get a list of import paths from a TypeScript, JSX, TSX, or JavaScript file.
@@ -666,14 +666,14 @@ declare module 'bun' {
     path: string;
 
     kind:
-      | 'import-statement'
-      | 'require-call'
-      | 'require-resolve'
-      | 'dynamic-import'
-      | 'import-rule'
-      | 'url-token'
-      | 'internal'
-      | 'entry-point';
+      | "import-statement"
+      | "require-call"
+      | "require-resolve"
+      | "dynamic-import"
+      | "import-rule"
+      | "url-token"
+      | "internal"
+      | "entry-point";
   }
 
   /**
@@ -1001,21 +1001,21 @@ declare module 'bun' {
      *
      * @default "uint8array"
      */
-    binaryType?: 'arraybuffer' | 'uint8array';
+    binaryType?: "arraybuffer" | "uint8array";
   }
 
   type WebSocketCompressor =
-    | 'disable'
-    | 'shared'
-    | 'dedicated'
-    | '3KB'
-    | '4KB'
-    | '8KB'
-    | '16KB'
-    | '32KB'
-    | '64KB'
-    | '128KB'
-    | '256KB';
+    | "disable"
+    | "shared"
+    | "dedicated"
+    | "3KB"
+    | "4KB"
+    | "8KB"
+    | "16KB"
+    | "32KB"
+    | "64KB"
+    | "128KB"
+    | "256KB";
 
   /**
    * Create a server-side {@link ServerWebSocket} handler for use with {@link Bun.serve}
@@ -1629,7 +1629,7 @@ declare module 'bun' {
   }
   export const unsafe: unsafe;
 
-  type DigestEncoding = 'hex' | 'base64';
+  type DigestEncoding = "hex" | "base64";
 
   /**
    * Are ANSI colors enabled for stdin and stdout?
@@ -1708,7 +1708,7 @@ declare module 'bun' {
   export function openInEditor(path: string, options?: EditorOptions): void;
 
   interface EditorOptions {
-    editor?: 'vscode' | 'subl';
+    editor?: "vscode" | "subl";
     line?: number;
     column?: number;
   }
@@ -1986,15 +1986,15 @@ declare module 'bun' {
     /**
      * The default environment when using `bun run` or `bun` to load a script
      */
-    | 'bun'
+    | "bun"
     /**
      * The plugin will be applied to Node.js builds
      */
-    | 'node'
+    | "node"
     /**
      * The plugin will be applied to browser builds
      */
-    | 'browser';
+    | "browser";
 
   interface PluginConstraints {
     /**
@@ -2037,7 +2037,7 @@ declare module 'bun' {
      *
      * "css" will be added in a future version of Bun.
      */
-    loader: 'js' | 'jsx' | 'ts' | 'tsx';
+    loader: "js" | "jsx" | "ts" | "tsx";
   }
 
   interface OnLoadResultObject {
@@ -2059,7 +2059,7 @@ declare module 'bun' {
     /**
      * The loader to use for this file
      */
-    loader: 'object';
+    loader: "object";
   }
 
   interface OnLoadArgs {
@@ -2227,7 +2227,7 @@ declare module 'bun' {
          */
         builder: PluginBuilder
       ): void | Promise<void>;
-    }): ReturnType<typeof options['setup']>;
+    }): ReturnType<typeof options["setup"]>;
 
     /**
      * Deactivate all plugins
@@ -2306,7 +2306,7 @@ declare module 'bun' {
      */
     shutdown(halfClose?: boolean): void;
 
-    readonly readyState: 'open' | 'closing' | 'closed';
+    readonly readyState: "open" | "closing" | "closed";
 
     /**
      * Allow Bun's process to exit even if this socket is still open
@@ -2334,8 +2334,8 @@ declare module 'bun' {
     stop(): void;
     ref(): void;
     unref(): void;
-    reload(options: Pick<Partial<Options>, 'socket'>): void;
-    data: Options['data'];
+    reload(options: Pick<Partial<Options>, "socket">): void;
+    data: Options["data"];
   }
   interface TCPSocketListener extends SocketListener {
     readonly port: number;
@@ -2434,8 +2434,8 @@ declare module 'bun' {
 
   namespace SpawnOptions {
     type Readable =
-      | 'inherit'
-      | 'pipe'
+      | "inherit"
+      | "pipe"
       | null
       | undefined
       | FileBlob
@@ -2443,8 +2443,8 @@ declare module 'bun' {
       | number;
 
     type Writable =
-      | 'inherit'
-      | 'pipe'
+      | "inherit"
+      | "pipe"
       | null
       | undefined
       | FileBlob
@@ -2714,21 +2714,21 @@ type PathLike = string | TypedArray | ArrayBufferLike;
 type PathOrFileDescriptor = PathLike | number;
 type NoParamCallback = VoidFunction;
 type BufferEncoding =
-  | 'buffer'
-  | 'utf8'
-  | 'utf-8'
-  | 'ascii'
-  | 'utf16le'
-  | 'ucs2'
-  | 'ucs-2'
-  | 'latin1'
-  | 'binary'
-  | 'hex'
-  | 'base64'
-  | 'base64url';
+  | "buffer"
+  | "utf8"
+  | "utf-8"
+  | "ascii"
+  | "utf16le"
+  | "ucs2"
+  | "ucs-2"
+  | "latin1"
+  | "binary"
+  | "hex"
+  | "base64"
+  | "base64url";
 
 interface BufferEncodingOption {
   encoding?: BufferEncoding;
 }
 
-declare var Bun: typeof import('bun');
+declare var Bun: typeof import("bun");
