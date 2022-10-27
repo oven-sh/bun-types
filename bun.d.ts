@@ -2378,26 +2378,16 @@ declare module "bun" {
    *
    * @param options The options to use when creating the client
    * @param options.socket The socket handler to use
+   * @param options.data The per-instance data context
    * @param options.hostname The hostname to connect to
    * @param options.port The port to connect to
+   * @param options.tls The TLS configuration object
    * @param options.unix The unix socket to connect to
    *
    */
   export function connect<Data = undefined>(
     options: TCPSocketOptions<Data>
   ): Promise<TCPSocketListener<typeof options>>;
-
-  /**
-   *
-   * Create a TCP client that connects to a server
-   *
-   * @param options The options to use when creating the client
-   * @param options.socket The socket handler to use
-   * @param options.hostname The hostname to connect to
-   * @param options.port The port to connect to
-   * @param options.unix The unix socket to connect to
-   *
-   */
   export function connect<Data = undefined>(
     options: UnixSocketOptions<Data>
   ): Promise<UnixSocketListener<typeof options>>;
@@ -2408,27 +2398,16 @@ declare module "bun" {
    *
    * @param options The options to use when creating the server
    * @param options.socket The socket handler to use
+   * @param options.data The per-instance data context
    * @param options.hostname The hostname to connect to
    * @param options.port The port to connect to
-   * @param options.data The per-instance data context
    * @param options.tls The TLS configuration object
+   * @param options.unix The unix socket to connect to
    *
    */
   export function listen<Data = undefined>(
     options: TCPSocketOptions<Data>
   ): TCPSocketListener<typeof options>;
-
-  /**
-   *
-   * Create a TCP server that connects to a server
-   *
-   * @param options The options to use when creating the server
-   * @param options.socket The socket handler to use
-   * @param options.hostname The hostname to connect to
-   * @param options.port The port to connect to
-   * @param options.unix The unix socket to connect to
-   *
-   */
   export function listen<Data = undefined>(
     options: UnixSocketOptions<Data>
   ): UnixSocketListener<typeof options>;
