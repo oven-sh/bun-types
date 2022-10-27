@@ -307,6 +307,17 @@ declare module "bun" {
    */
   export function pathToFileURL(path: string): URL;
 
+  export interface Peek {
+    <T = undefined>(promise: T | Promise<T>): Promise<T> | T;
+    status<T = undefined>(
+      promise: T | Promise<T>
+    ): "pending" | "fulfilled" | "rejected";
+  }
+  /**
+   * Extract the value from the Promise in the same tick of the event loop
+   */
+  export const peek: Peek;
+
   /**
    * Convert a {@link URL} to a filesystem path.
    * @param url The URL to convert.
