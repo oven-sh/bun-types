@@ -47,6 +47,9 @@ declare module "stream" {
       read?(this: Readable, size: number): void;
     }
     class Readable<R = any> extends Stream implements ReadableStream {
+      // TODO: improve type later
+      values: any;
+
       readonly locked: boolean;
       cancel(reason?: any): Promise<void>;
       getReader(): ReadableStreamDefaultReader<R>;
