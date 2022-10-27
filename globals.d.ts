@@ -2411,3 +2411,49 @@ declare var CryptoKey: {
   prototype: CryptoKey;
   new (): CryptoKey;
 };
+
+interface Position {
+  lineText: string;
+  file: string;
+  namespace: string;
+  line: number;
+  column: number;
+  length: number;
+  offset: number;
+}
+
+interface ResolveError {
+  readonly position: Position | null;
+  readonly code: string;
+  readonly message: string;
+  readonly referrer: string;
+  readonly name: string;
+  readonly specifier: string;
+  readonly importKind:
+    | "entry_point"
+    | "stmt"
+    | "require"
+    | "import"
+    | "dynamic"
+    | "require_resolve"
+    | "at"
+    | "at_conditional"
+    | "url"
+    | "internal";
+
+  toString(): string;
+}
+
+declare var ResolveError: {
+  readonly protoype: ResolveError;
+};
+
+interface BuildError {
+  readonly position: Position | null;
+  readonly message: string;
+  readonly name: string;
+}
+
+declare var BuildError: {
+  readonly protoype: BuildError;
+};
