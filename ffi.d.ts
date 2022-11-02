@@ -439,6 +439,23 @@ declare module "bun:ffi" {
      * or if the module is also using Node-API.
      */
     ptr?: number | bigint;
+
+    /**
+     * Can C/FFI code call this function from a separate thread?
+     *
+     * Only supported with {@link JSCallback}.
+     *
+     * This does not make the function run in a separate thread. It is still up to the application/library
+     * to run their code in a separate thread.
+     *
+     * By default, {@link JSCallback} calls are not thread-safe. Turning this on
+     * incurs a small performance penalty for every function call. That small
+     * performance penalty needs to be less than the performance gain from
+     * running the function in a separate thread. 
+     *
+     * @default false
+     */
+    threadsafe?: boolean;
   }
 
   type Symbols = Record<string, FFIFunction>;
@@ -754,6 +771,11 @@ declare module "bun:ffi" {
      * Becomes `null` once {@link JSCallback.prototype.close} is called
      */
     readonly ptr: number | null;
+
+    /**
+     * Can the callback be called from a different thread?
+     */
+    readonly threadsafe: boolean;
 
     /**
      * Free the memory allocated for the callback
