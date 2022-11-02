@@ -373,7 +373,8 @@ declare module "bun:ffi" {
     | "ptr"
     | "pointer"
     | "void"
-    | "cstring";
+    | "cstring"
+    | "function";
 
   interface FFIFunction {
     /**
