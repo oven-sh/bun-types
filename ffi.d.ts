@@ -736,6 +736,33 @@ declare module "bun:ffi" {
   }
 
   /**
+   * Pass a JavaScript function to FFI (Foreign Function Interface)
+   */
+  export class JSCallback {
+    /**
+     * Enable a JavaScript callback function to be passed to C with bun:ffi
+     *
+     * @param callback The JavaScript function to be called
+     * @param definition The C function definition
+     */
+    constructor(callback: (...args: any[]) => any, definition: FFIFunction);
+
+    /**
+     * The pointer to the C function
+     *
+     * Becomes `null` once {@link JSCallback.prototype.close} is called
+     */
+    readonly ptr: number | null;
+
+    /**
+     * Free the memory allocated for the callback
+     *
+     * If called multiple times, does nothing after the first call.
+     */
+    close(): void;
+  }
+
+  /**
    * View the generated C code for FFI bindings
    *
    * You probably won't need this unless there's a bug in the FFI bindings
