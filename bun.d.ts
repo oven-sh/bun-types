@@ -1613,6 +1613,9 @@ declare module "bun" {
    */
   const stdin: FileBlob;
 
+  /** An array containing the command-line arguments passed when the Bun process was launched */
+  const argv: string[];
+
   interface unsafe {
     /**
      * Cast bytes to a `String` without copying. This is the fastest way to get a `String` from a `Uint8Array` or `ArrayBuffer`.
