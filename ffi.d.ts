@@ -451,7 +451,7 @@ declare module "bun:ffi" {
      * By default, {@link JSCallback} calls are not thread-safe. Turning this on
      * incurs a small performance penalty for every function call. That small
      * performance penalty needs to be less than the performance gain from
-     * running the function in a separate thread. 
+     * running the function in a separate thread.
      *
      * @default false
      */
