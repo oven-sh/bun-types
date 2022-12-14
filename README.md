@@ -1,8 +1,6 @@
-# Bun TypeScript type definitions
+### 🚧 Moved to [`packages/bun-types`](https://github.com/oven-sh/bun/tree/main/packages/bun-types) 🚧
 
-<p align="center">
-  <a href="https://bun.sh"><img src="https://bun.sh/logo@2x.png" alt="Logo"></a>
-</p>
+---
 
 These are the type definitions for Bun's JavaScript runtime APIs.
 
